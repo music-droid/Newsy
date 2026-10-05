@@ -1,0 +1,283 @@
+/* Newsy — calm briefings, not a news portal */
+:root {
+  --bg: #f7f3ec;
+  --bg-soft: #f0eae0;
+  --ink: #2c2925;
+  --ink-muted: #5c564e;
+  --ink-faint: #8a8278;
+  --accent: #6b4f3a;
+  --accent-soft: #c4a882;
+  --rule: #e0d6c8;
+  --chip: #fffdf9;
+  --chip-active: #6b4f3a;
+  --chip-active-ink: #f7f3ec;
+  --link: #4a6b5a;
+  --link-hover: #355244;
+  --max: 38rem;
+  --font: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --font-ui: "Source Sans 3", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 112.5%; /* ~18px */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font);
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+a {
+  color: var(--link);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+.wrap {
+  width: min(100% - 2rem, var(--max));
+  margin-inline: auto;
+  padding-block: 2rem 4rem;
+}
+
+/* Header */
+.site-header {
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.brand {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 0 0 0.35rem;
+}
+
+.briefing-title {
+  font-size: clamp(1.45rem, 4vw, 1.85rem);
+  font-weight: 600;
+  line-height: 1.25;
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.01em;
+}
+
+.meta {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--ink-muted);
+  margin: 0;
+}
+
+/* Picker — chips */
+.picker {
+  margin: 0 0 2rem;
+}
+
+.picker-label {
+  font-family: var(--font-ui);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 0.6rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chip {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  appearance: none;
+  border: 1px solid var(--rule);
+  background: var(--chip);
+  color: var(--ink-muted);
+  border-radius: 999px;
+  padding: 0.35rem 0.85rem;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.chip:hover {
+  border-color: var(--accent-soft);
+  color: var(--ink);
+}
+
+.chip[aria-pressed="true"] {
+  background: var(--chip-active);
+  border-color: var(--chip-active);
+  color: var(--chip-active-ink);
+}
+
+.chip:focus-visible {
+  outline: 2px solid var(--accent-soft);
+  outline-offset: 2px;
+}
+
+/* Beats */
+.beats {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.beat {
+  padding-top: 0.25rem;
+}
+
+.beat-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 0.65rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--rule);
+  color: var(--accent);
+  letter-spacing: 0.01em;
+}
+
+.beat-body {
+  margin: 0;
+}
+
+.beat-body p {
+  margin: 0 0 0.85rem;
+}
+
+.beat-body p:last-child {
+  margin-bottom: 0;
+}
+
+.sources {
+  margin-top: 0.85rem;
+  padding-top: 0.55rem;
+  border-top: 1px dotted var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  line-height: 1.55;
+}
+
+.sources-label {
+  font-weight: 600;
+  color: var(--ink-faint);
+  margin-right: 0.35rem;
+}
+
+.sources a {
+  word-break: break-word;
+}
+
+.sources .sep {
+  color: var(--ink-faint);
+  margin: 0 0.3rem;
+}
+
+.sources .name-only {
+  color: var(--ink-muted);
+}
+
+/* Status / empty */
+.status {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  padding: 1.5rem 0;
+}
+
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  color: var(--ink-faint);
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+/* Print — quiet page, no chrome clutter */
+@media print {
+  :root {
+    --bg: #fff;
+    --ink: #111;
+    --ink-muted: #333;
+    --rule: #ccc;
+    --accent: #333;
+    --link: #000;
+  }
+
+  body {
+    background: #fff;
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+
+  .wrap {
+    width: 100%;
+    max-width: none;
+    padding: 0;
+  }
+
+  .picker,
+  .site-footer {
+    display: none;
+  }
+
+  .site-header {
+    border-bottom-color: #999;
+  }
+
+  .beat {
+    break-inside: avoid;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .sources a::after {
+    content: " (" attr(href) ")";
+    font-size: 0.75em;
+    color: #555;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 106.25%;
+  }
+
+  .wrap {
+    width: min(100% - 1.5rem, var(--max));
+    padding-block: 1.5rem 3rem;
+  }
+}

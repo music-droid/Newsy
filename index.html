@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Short, bounded news briefings — not a news portal.">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#6b4f3a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Newsy">
+  <title>Newsy</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <header class="site-header">
+      <p class="brand" id="brand">Newsy</p>
+      <h1 class="briefing-title" id="briefing-title">Briefing</h1>
+      <p class="meta" id="briefing-meta"></p>
+    </header>
+
+    <nav class="picker" aria-label="Past briefings">
+      <p class="picker-label">Briefings</p>
+      <ul class="chips" id="chips"></ul>
+    </nav>
+
+    <p class="status" id="status" hidden>Loading…</p>
+
+    <div class="beats" id="beats"></div>
+
+    <footer class="site-footer">
+      <p>A short page. Read it, then close the tab.</p>
+    </footer>
+  </main>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
