@@ -1,0 +1,44 @@
+{
+  "id": "2026-10-05-noon",
+  "label": "Monday noon",
+  "generatedAt": "2026-10-05T12:10:00-04:00",
+  "url": "https://music-droid.github.io/Newsy/",
+  "beats": [
+    {
+      "title": "World",
+      "headline": "Ethiopia retakes Mekelle; Iran oil minister resigns; Brazil runoff set."
+    },
+    {
+      "title": "MAGA / MAHA promises kept",
+      "headline": "Food-dye phase-out stays voluntary; deportation drive still short of target."
+    },
+    {
+      "title": "Musk world",
+      "headline": "Tesla Q3 deliveries beat consensus; Starship Flight 15 eyed mid-October."
+    },
+    {
+      "title": "Space",
+      "headline": "NASA pauses Blue Origin Mars orbiter after Rocket Lab protest."
+    },
+    {
+      "title": "NASA",
+      "headline": "Artemis III Earth-orbit test waits on both landers; KSC layoffs set."
+    },
+    {
+      "title": "Catholic",
+      "headline": "Pope Leo prays for Gaza victims and urges valuing women's work."
+    },
+    {
+      "title": "Signs of the times",
+      "headline": "Medjugorje September 25 message urges daily Rosary for peace."
+    },
+    {
+      "title": "Miami",
+      "headline": "Harvest festival, Arsht puppets, and Flamenco concert fill next weekend."
+    },
+    {
+      "title": "Pick-me-up",
+      "headline": "Galactic Racer launches tomorrow; Heat season opens October 21."
+    }
+  ]
+}

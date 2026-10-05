@@ -7,7 +7,10 @@ A calm, static page for Justin’s bounded news briefings. Not a news portal —
 - `index.html` — viewer
 - `styles.css` — warm, quiet typography
 - `app.js` — loads and renders briefings
-- `data/briefings.json` — array of briefing objects, **newest first**
+- `data/briefings.json` — array of briefing objects, **newest first** (each beat has a short `headline`)
+- `data/latest.json` — newest briefing only (id, label, generatedAt, url, beat titles + headlines); for the Scriptable widget
+- `build-latest.py` — regenerates `data/latest.json` from `briefings.json`
+- `widget/` — Scriptable iPhone Home Screen widget (`newsy-widget.js` + setup notes)
 
 ## View locally
 
@@ -39,6 +42,7 @@ On GitHub Pages, publish from this folder (or the repo root if this *is* the roo
     {
       "id": "world",
       "title": "World",
+      "headline": "Short factual line, 12 words max.",
       "body": "<p>Prose here.</p>",
       "sources": [
         { "name": "Outlet", "url": "https://..." }
@@ -53,3 +57,13 @@ On GitHub Pages, publish from this folder (or the repo root if this *is* the roo
 Beats in order when present: **World**, **Catholic**, **Signs of the times**, **Miami**, **Pick-me-up**. Omit a beat only if truly empty; otherwise include a quiet one-liner. Put sources under that beat only. Use real URLs; if you cannot verify a URL, omit `url` and keep the outlet `name`.
 
 4. Save. Reload the page. The new chip appears first; the default view is the newest briefing.
+
+## Widget / latest.json
+
+After editing `data/briefings.json` (and adding a `headline` on each beat, 12 words max), regenerate the widget feed:
+
+```bash
+python3 build-latest.py
+```
+
+That writes `data/latest.json` for the Scriptable widget. See `widget/README.md` for iPhone setup.
