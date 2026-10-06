@@ -1,44 +1,44 @@
 {
-  "id": "2026-10-06-morning",
-  "label": "Tuesday morning",
-  "generatedAt": "2026-10-06T08:10:00-04:00",
+  "id": "2026-10-06-noon",
+  "label": "Tuesday noon",
+  "generatedAt": "2026-10-06T12:15:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Yemen retakes Mokha; Ukraine's record drone barrage; Vatican City prepares Amoris assembly."
+      "headline": "Vatican City sets Francis diary release; Spain calls snap election."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Insurer price rule finalized; ICE arrests hit records through local police."
+      "headline": "NIH opens vaccine-injury clinic; RFK's AI embrace splits MAHA allies."
     },
     {
       "title": "Musk world",
-      "headline": "Tesla extends delivery rally; analysts split ahead of October 21 earnings."
+      "headline": "Tesla edges up near $381; SpaceX military launch slips to Thursday."
     },
     {
       "title": "Space",
-      "headline": "Türkiye unveils military constellation and Somalia spaceport at IAC day two."
+      "headline": "Quiet; Artemis Accords leaders brief the space congress tomorrow."
     },
     {
       "title": "NASA",
-      "headline": "Crew-12 undocks Wednesday morning; splashdown off California Thursday."
+      "headline": "Fall balloon campaign ends with 102,000-foot flight; new Webb image."
     },
     {
       "title": "Catholic",
-      "headline": "Little Flower turns 100; Zambia's archbishop charged; new UAE nuncio named."
+      "headline": "Wenski meets Pope Leo; Amor en Acción turns 50; no new reassignments."
     },
     {
       "title": "Signs of the times",
-      "headline": "Rosary-for-peace message stands; Cape Town revival Saturday; national digital IDs spread."
+      "headline": "Countdown to the Kingdom quiet; Vietnam extends digital ID to stock accounts."
     },
     {
       "title": "Miami",
-      "headline": "$10 Heat scrimmage tonight; Bethel Music Sunday; free Saturday family festivals."
+      "headline": "Quiet; the $10 Heat scrimmage is still tonight at 6:30."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Galactic Racer launches to rave reviews; Giannis promises a show tonight."
+      "headline": "Two-time champ Norris Cole comes home to the Heat as a coach."
     }
   ]
 }
