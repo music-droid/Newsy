@@ -1,713 +1,1098 @@
 [
- {
-  "id": "2026-10-05-evening",
-  "date": "2026-10-05",
-  "slot": "evening",
-  "label": "Monday evening",
-  "generatedAt": "2026-10-05T20:09:00-04:00",
-  "beats": [
-   {
-    "id": "world",
-    "title": "World",
-    "headline": "Yemen offensive on Houthis; Spain snap election; Vatican City reshuffles St. Peter's.",
-    "body": "<p>New since noon.</p><p><strong>Vatican City.</strong> Pope Leo has moved Cardinal Mauro Gambetti, who ran St. Peter’s Basilica and served as the Pope’s Vicar General for Vatican City, to be Archbishop of Chieti-Vasto in Abruzzo. No successor at St. Peter’s has been named yet. This morning the Pope also received Slovenia’s Prime Minister Janez Janša, whose talks with Archbishop Gallagher covered the Western Balkans and EU integration. And he told Korean priests and religious in Rome to be “artisans of peace” on a divided peninsula ahead of World Youth Day in Seoul next year.</p><p><strong>Africa.</strong> Air strikes killed at least 17 people in Tigray overnight, in Adwa and Sheraro, and federal and Tigrayan forces traded artillery fire near the Tekeze River. Congo’s Ebola outbreak has now killed 4,042 people out of 8,376 cases. Guinea freed opposition leader Aliou Bah after a presidential pardon.</p><p><strong>Asia.</strong> Saudi-backed Yemeni government forces launched an offensive they call “Yemen Dawn,” retaking Dhubab near the Bab el-Mandeb Strait and Mocha city, and say they are pushing toward Sanaa. Turkey and Pakistan agreed to send forces quickly to Saudi Arabia under their joint defense pact. Iran’s President Pezeshkian called talks with the U.S. “meaningless,” Tehran says Hormuz stays closed, another tanker was struck there, and Brent topped $102. Separately, the number of Japanese companies operating in China hit a record low of 10,118, down 22% in two years.</p><p><strong>Europe.</strong> Spain’s Pedro Sánchez called a snap general election for November 29 after Parliament rejected his housing relief measures. Polls favor a People’s Party-led coalition with Vox. In Ukraine, Russian glide bombs killed at least five people in Kharkiv and injured 53, including children, and a Russian drone set a cargo ship on fire in the Black Sea off Romania, killing two. Kyiv claims its strikes have knocked out 51% of Russia’s oil refining capacity, which hasn’t been independently verified.</p><p><strong>North America.</strong> In the Supreme Court’s first case of the term, a majority seemed skeptical of Boulder County’s state-court climate damages suit against Suncor and ExxonMobil. Justice Alito is recused, and a ruling is expected by June. The U.S. and nine other countries in the hemisphere jointly condemned Iran-linked terrorism and influence operations in the region and pledged closer coordination. USTR also opened public comments and set a hearing ahead of next year’s USMCA review.</p><p><strong>South America.</strong> Baker Hughes signed deals in Caracas with PDVSA and U.S. partners to build Venezuela’s first integrated natural-gas chain, which could lead to the country’s first LNG exports. Washington told the New York court that Maduro has no immunity in his criminal case. Colombia’s President Abelardo de la Espriella launched a new military task force against the ELN in Cesar.</p><p><strong>Oceania.</strong> Australian and New Zealand police are looking into the time the Flydubai co-pilot spent in their countries. He is suspected of trying to crash a Tel Aviv-bound flight on September 30. He enrolled at RMIT in Melbourne in 2015, left in 2017 without finishing, and had his visa canceled in 2019. Nothing else new since noon.</p>",
-    "sources": [
-     {
-      "name": "Vatican News: Gambetti to Chieti-Vasto",
-      "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/pope-appoints-cardinal-gambetti-as-new-archbishop-chieti-vasto.html"
-     },
-     {
-      "name": "NCR: No successor named at St. Peter’s",
-      "url": "https://www.ncronline.org/vatican/pope-moves-st-peters-archpriest-italian-diocese-without-naming-successor"
-     },
-     {
-      "name": "Holy See Press Office: Slovenian PM audience",
-      "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/05/261005c.html"
-     },
-     {
-      "name": "Vatican News: Pope to Korean priests and religious",
-      "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-korean-priests-religious-wyd-martyrs-reconciliation.html"
-     },
-     {
-      "name": "TimesLIVE (AFP): Tigray air strikes",
-      "url": "https://www.timeslive.co.za/news/africa/2026-10-05-at-least-17-killed-as-ethiopia-tigray-conflict-reignites/"
-     },
-     {
-      "name": "Africa Center: Media Review Oct. 5",
-      "url": "https://africacenter.org/daily-media-review/africa-media-review-for-october-5-2026/"
-     },
-     {
-      "name": "Rio Times: African Pulse",
-      "url": "https://www.riotimesonline.com/african-pulse-for-monday-october-5-2026/"
-     },
-     {
-      "name": "PBS (AP): Yemen offensive",
-      "url": "https://www.pbs.org/newshour/world/saudi-backed-coalition-forces-houthis-from-several-areas-around-key-strait-yemeni-officials-say"
-     },
-     {
-      "name": "Al Jazeera: Iran war live",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war"
-     },
-     {
-      "name": "Gulf News: Hormuz and Pezeshkian",
-      "url": "https://gulfnews.com/world/mena/us-iran-war-tehran-rejects-military-solution-saudi-led-coalition-backs-yemen-offensive-against-houthis-1.500698388"
-     },
-     {
-      "name": "CNBC: Japanese firms leave China",
-      "url": "https://www.cnbc.com/2026/10/05/japanese-companies-leaving-china-takaichi-comment-taiwan.html"
-     },
-     {
-      "name": "Al Jazeera: Spain snap election",
-      "url": "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election"
-     },
-     {
-      "name": "La Moncloa: Election call",
-      "url": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2026/051026-sanchez-convocatoria-elecciones.aspx"
-     },
-     {
-      "name": "Kyiv Independent: Oct. 5 latest",
-      "url": "https://kyivindependent.com/ukraine-war-latest-kharkiv-devastated-by-russian-glide-bombs-children-among-victims-2/"
-     },
-     {
-      "name": "PBS (AP): Russian refining claim",
-      "url": "https://www.pbs.org/newshour/world/ukraine-claims-its-strikes-have-taken-out-more-than-half-of-russias-oil-refining-capacity"
-     },
-     {
-      "name": "Roll Call: Climate suits face skeptical court",
-      "url": "https://rollcall.com/2026/10/05/state-climate-suits-face-skeptical-supreme-court/"
-     },
-     {
-      "name": "Iran International: Hemisphere statement",
-      "url": "https://www.iranintl.com/en/202610055029"
-     },
-     {
-      "name": "Federal Register: USMCA comments and hearing",
-      "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20341/request-for-public-comments-and-notice-of-public-hearing-relating-to-the-operation-of-the-agreement"
-     },
-     {
-      "name": "Latin Times: Baker Hughes Venezuela gas",
-      "url": "https://www.latintimes.com/baker-hughes-venezuela-gas-deal-could-unlock-countrys-first-ever-lng-exports-what-know-599856"
-     },
-     {
-      "name": "El Diario: Venezuela day summary",
-      "url": "https://eldiario.com/2026/10/05/resumen-noticias-venezuela-5-octubre/"
-     },
-     {
-      "name": "Infobae: Colombia Task Force Urano",
-      "url": "https://www.infobae.com/colombia/2026/10/05/presidente-abelardo-de-la-espriella-lidera-la-activacion-de-la-fuerza-de-tarea-urano-en-valledupar-este-el-objetivo-militar/"
-     },
-     {
-      "name": "DW: Australia, NZ probe Flydubai co-pilot",
-      "url": "https://www.dw.com/en/australia-new-zealand-probe-flydubai-pilots-time-there/a-79551423"
-     }
+  {
+    "id": "2026-10-06-morning",
+    "date": "2026-10-06",
+    "slot": "morning",
+    "label": "Tuesday morning",
+    "generatedAt": "2026-10-06T08:10:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Yemen retakes Mokha; Ukraine's record drone barrage; Vatican City prepares Amoris assembly.",
+        "body": "<p><strong>Vatican City.</strong> The Vatican’s assembly marking ten years of <em>Amoris Laetitia</em> opens tomorrow and runs through October 14, with USCCB leaders and three U.S. cardinals taking part. Pope Leo met the Vatican’s two lay workers’ associations and urged “the path of dialogue,” but he didn’t answer their recent demands for back pay after years of wage restraint. Today he also published a foreword to <em>YOUCAT: Love Forever</em>, calling married love a faithful “yes” for a lifetime. St. Peter’s Basilica still has no archpriest named since Cardinal Gambetti was moved to Chieti-Vasto.</p><p><strong>Africa.</strong> Kenya confirmed its first Ebola death: a Kenyan who had lived in Congo, where more than 4,000 have died this year, flew into Nairobi Saturday and died days later. In Nigeria, all 32 people aboard an Air Force ATR-42 that crashed Monday in Ondo State were killed, and President Tinubu declared three days of mourning. In Ethiopia’s widening Tigray war, witnesses tell the Guardian that the new rebel alliance is forcibly recruiting men and boys as young as 15. Egypt’s objection also pushed the African Union to walk back a statement on the crisis.</p><p><strong>Asia.</strong> Saudi-backed Yemeni government forces say they’ve retaken the Red Sea port of Mokha and positions around the Bab el-Mandeb Strait. The Houthis answered with missile and drone strikes on Riyadh’s airport, Abha airport, and the Rabigh refinery, and Pakistan and Turkey agreed to send troops to Saudi Arabia. Iran has attacked ships in the Strait of Hormuz nearly every day since September 29, and Brent is holding near $100. Separately, Japan said a Chinese survey ship left its economic waters after repeated demands.</p><p><strong>Europe.</strong> Russia says it shot down 1,750 Ukrainian drones and 17 Flamingo cruise missiles in 24 hours, the largest Ukrainian barrage of the war by Moscow’s count. Strikes near Moscow killed two men, hurt nine, set a fuel depot on fire, and snarled more than 200 flights. A Russian strike also hit a medical facility in Kramatorsk. European officials tell the Washington Post that Putin is counting on sabotage, cyberattacks, and nuclear threats to break Europe’s support for Kyiv this winter.</p><p><strong>North America.</strong> With four weeks until the November 3 midterms, NPR and the Guardian both report that Democrats hold a clear polling edge, driven by costs, tariffs, and the Iran war. The 30-year Treasury yield is near 5.67% and the 10-year near 5.30%, the highest since 2002. The Pentagon has raised combat pay for the first time since 2002: hostile fire pay doubled to $450 a month, and imminent danger pay rose to $275.</p><p><strong>South America.</strong> Final counts in Brazil show Flávio Bolsonaro with 47.03% to President Lula’s 45.16%, setting up an October 25 runoff. Since democracy returned in 1985, no first-round runner-up has gone on to win. U.S. prosecutors say Venezuela itself has never claimed immunity for Maduro and Cilia Flores, and the immunity hearing is November 17.</p><p><strong>Oceania.</strong> At a pre-COP31 meeting in Tuvalu with Prime Minister Albanese, Fiji’s Sitiveni Rabuka said the 2023 deal to move away from fossil fuels is “not open for renegotiation.” A Tuvalu government adviser said Australia “overstepped” during the visit. In New Zealand, National’s plan to pay for health spending by cutting Pacific aid drew fire from coalition partner NZ First.</p>",
+        "sources": [
+          {
+            "name": "Catholic News Agency: Pope meets USCCB leaders",
+            "url": "https://catholics.news/pope-leo-xiv-meets-usccb-leadership-and-other-prominent-american-bishops"
+          },
+          {
+            "name": "InfoVaticana: Pope and Vatican employees",
+            "url": "https://infovaticana.com/en/2026/10/06/leo-xiv-receives-vatican-employees-after-their-wage-claims-and-calls-for-dialogue-in-the-face-of-conflict/"
+          },
+          {
+            "name": "Vatican News: YOUCAT foreword",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-foreword-youcat-love-forever-marriage.html"
+          },
+          {
+            "name": "NCR: No successor at St. Peter’s",
+            "url": "https://www.ncronline.org/vatican/pope-moves-st-peters-archpriest-italian-diocese-without-naming-successor"
+          },
+          {
+            "name": "BBC: Kenya’s first Ebola death",
+            "url": "https://www.bbc.co.uk/news/articles/cqzrd7v1j163o"
+          },
+          {
+            "name": "TBI Africa: Nigerian Air Force crash",
+            "url": "https://tbiafrica.com/2026/10/06/all-32-officers-aboard-crashed-naf-aircraft-confirmed-dead/"
+          },
+          {
+            "name": "Guardian: Tigray forced recruitment",
+            "url": "https://www.theguardian.com/global-development/2026/oct/06/ethiopia-tigray-conflict-tplf-rebels-forcibly-recruit-boys-war-crimes"
+          },
+          {
+            "name": "The EastAfrican: Egypt and the AU",
+            "url": "https://www.theeastafrican.co.ke/tea/news/eastern-africa/horn-of-africa-crisis-deepens-african-union-ethiopia-stance-5621124"
+          },
+          {
+            "name": "CNBC: Yemen retakes Mokha",
+            "url": "https://www.cnbc.com/2026/10/06/iran-war-yemen-saudi-arabia-mokha-oil.html"
+          },
+          {
+            "name": "Euronews: Bab el-Mandeb offensive",
+            "url": "https://www.euronews.com/2026/10/06/yemen-government-forces-advance-on-bab-el-mandeb-in-offensive-against-houthis"
+          },
+          {
+            "name": "ISW: Iran Update, Oct. 5",
+            "url": "https://understandingwar.org/research/middle-east/iran-update-october-5-2026/"
+          },
+          {
+            "name": "CNA: Japan and Chinese survey ship",
+            "url": "https://www.channelnewsasia.com/east-asia/japan-china-survey-ship-leave-tokyo-economic-waters-6435681"
+          },
+          {
+            "name": "Kyiv Post: Record barrage",
+            "url": "https://www.kyivpost.com/post/86239"
+          },
+          {
+            "name": "France 24: Moscow drone attack",
+            "url": "https://www.france24.com/en/europe/20261006-massive-ukrainian-drone-attack-targets-moscow-russian-officials-say"
+          },
+          {
+            "name": "Washington Post (AP): Drones and Kramatorsk",
+            "url": "https://www.washingtonpost.com/world/2026/10/06/russia-ukraine-war-drones-missiles/d116d372-c172-11f1-8170-681419af1cc9_story.html"
+          },
+          {
+            "name": "Washington Post: Putin’s hybrid war",
+            "url": "https://www.washingtonpost.com/world/2026/10/06/with-hybrid-attacks-nuclear-bluster-putin-aims-end-europes-support-ukraine/"
+          },
+          {
+            "name": "NPR: Midterm outlook",
+            "url": "https://www.npr.org/2026/10/06/nx-s1-5989694/midterm-elections-control-congress"
+          },
+          {
+            "name": "Guardian: Midterms",
+            "url": "https://www.theguardian.com/us-news/2026/oct/06/us-midterms-trump-republicans-democrats"
+          },
+          {
+            "name": "CNBC: Treasury yields",
+            "url": "https://www.cnbc.com/2026/10/06/treasury-yields-fed-fomc-minutes.html"
+          },
+          {
+            "name": "Stars and Stripes: Combat pay raised",
+            "url": "https://www.stripes.com/theaters/us/2026-10-01/pentagon-raises-combat-pay-23027389.html"
+          },
+          {
+            "name": "Zero Hedge",
+            "url": "https://www.zerohedge.com/"
+          },
+          {
+            "name": "TASS: Brazil final count",
+            "url": "https://tass.com/world/2197895"
+          },
+          {
+            "name": "El País: Lula’s runoff odds",
+            "url": "https://english.elpais.com/international/2026-10-06/lula-aims-to-pull-off-a-miracle-by-mobilizing-abstainers-to-defeat-bolsonaro.html"
+          },
+          {
+            "name": "El País: Maduro immunity filing",
+            "url": "https://english.elpais.com/international/2026-10-06/venezuela-confirms-it-did-not-seek-nicolas-maduros-release-or-request-immunity-to-prevent-us-trial.html"
+          },
+          {
+            "name": "Guardian: Pacific leaders at pre-COP",
+            "url": "https://www.theguardian.com/australia-news/2026/oct/06/agreement-to-transition-away-from-fossil-fuels-not-open-for-renegotiation-pacific-leader-tells-pre-cop"
+          },
+          {
+            "name": "France 24: Tuvalu adviser on Australia",
+            "url": "https://www.france24.com/en/live-news/20261006-tuvalu-govt-adviser-says-australia-overstepped-in-pre-cop-visit"
+          },
+          {
+            "name": "The Spinoff: NZ aid cut",
+            "url": "https://thespinoff.co.nz/politics/06-10-2026/nz-first-calls-nationals-foreign-aid-cut-promise-desperate-act-hails-it-as-win"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Insurer price rule finalized; ICE arrests hit records through local police.",
+        "body": "<p><strong>“Patients should know the price before they get care.”</strong> <em>What was done:</em> On Monday, HHS, Labor, and Treasury finalized an overhaul of the insurer price-disclosure rules. Insurers must post real dollar amounts instead of vague percentages, drop “ghost” rates for services a provider would never perform, report more out-of-network prices, and name an executive who vouches that the files are accurate. <em>Impact:</em> nothing yet. The changes take effect 5 to 11 months after publication, and drug-price disclosure is still waiting until spring. Employer groups say the data will finally be usable for bargaining. Healthcare Dive notes that price transparency hasn’t yet moved overall U.S. health spending. Promise partly kept, with the payoff still ahead.</p><p><strong>“The largest deportation operation in history.”</strong> <em>What was done:</em> The Marshall Project finds that after the big city operations ended, arrests climbed through a quieter, nationwide approach that relies on about 2,000 local police and sheriff partnerships. DHS reported nearly 51,000 ICE arrests in August, a monthly record. In Florida, July arrests topped 7,000, triple the year before. <em>Impact:</em> arrests are not the same as removals, and in July half of the people arrested had no prior criminal record. That share keeps rising. Enforcement is clearly up, but the deportation total is still not the promised scale.</p>",
+        "sources": [
+          {
+            "name": "Healthcare Dive: Insurer price transparency rule",
+            "url": "https://www.healthcaredive.com/news/hhs-health-insurer-price-transparency-overhaul-final-rule/832105/"
+          },
+          {
+            "name": "AHA News: Final transparency updates",
+            "url": "https://www.aha.org/news/headline/2026-10-05-agencies-finalize-updates-insurer-transparency-requirements"
+          },
+          {
+            "name": "The Marshall Project via KION: The ‘shadow surge’",
+            "url": "https://kioncentralcoast.com/stacker-government-politics/2026/10/05/inside-the-shadow-surge-driving-ice-arrests-to-new-heights/"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Tesla extends delivery rally; analysts split ahead of October 21 earnings.",
+        "body": "<p><strong>Tesla.</strong> Shares closed Monday up 2.2% at $378.73 and edged higher before the open today, still riding the Q3 delivery beat (486,532 cars). Wall Street is split: Baird is bullish at $475, Goldman reiterated Neutral at $360, and HSBC sits at $157. Fund manager Gary Black now says he expects SpaceX to make an all-stock offer for Tesla. That’s his own speculation, and no deal has been announced. For stockholders, the real event is Q3 earnings on October 21, where margins, robotaxi, and Optimus matter more than delivery numbers.</p><p><strong>SpaceX.</strong> Nothing new since last night. Starship Flight 15 is still penciled in for no earlier than October 19, and public comments on the 76-launch Florida Starship plan close October 14.</p>",
+        "sources": [
+          {
+            "name": "Benzinga: Analysts after the delivery beat",
+            "url": "https://www.benzinga.com/markets/tech/26/10/62183302/teslas-delivery-beat-is-just-the-appetizer-analyst-says-2027-could-be-the-main-event"
+          },
+          {
+            "name": "Investing.com: Goldman on Tesla",
+            "url": "https://ca.investing.com/news/stock-market-news/goldman-sachs-reiterates-tesla-stock-rating-ahead-of-earnings-93CH-4867390"
+          },
+          {
+            "name": "Stocktwits: Gary Black on a SpaceX–Tesla deal",
+            "url": "https://stocktwits.com/news-articles/markets/equity/from-math-won-t-pass-muster-to-full-expectation-fund-manager-s-dramatic-pivot-on-tsla-spcx-deal/cZoto78RJ0N"
+          },
+          {
+            "name": "Yahoo Finance: TSLA overnight",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-rises-overnight-analyst-054216802.html"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Türkiye unveils military constellation and Somalia spaceport at IAC day two.",
+        "body": "<p>Türkiye used day two of the International Astronautical Congress in Antalya to show off its homegrown space program. Aselsan is building a 198-satellite military constellation in low Earth orbit, and Baykar’s Fergani is building a navigation network at 1,200 km. A Turkish-run spaceport in Somalia will open to foreign customers, and the national space institute TÜBİTAK UZAY is working toward the Moon. Sessions also focused on Artemis II results and on safety as satellite constellations crowd orbit.</p>",
+        "sources": [
+          {
+            "name": "SpaceWatch.GLOBAL: IAC day two",
+            "url": "https://spacewatch.global/2026/10/spacewatchgl-recap-iac-2026-day-two-turkiye-shows-its-sovereign-space-stack/"
+          },
+          {
+            "name": "Hürriyet Daily News: Congress enters day two",
+            "url": "https://www.hurriyetdailynews.com/artemis-ii-space-geopolitics-in-focus-as-global-space-congress-in-antalya-enters-2nd-day-227779"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Crew-12 undocks Wednesday morning; splashdown off California Thursday.",
+        "body": "<p>Crew-13 is aboard the space station. Crew-12, with Jessica Meir, Jack Hathaway, ESA’s Sophie Adenot, and Andrey Fedyaev, is set to undock tomorrow at 8:05 a.m. ET and splash down off California around 11:34 a.m. ET Thursday, weather permitting. NASA will stream it live. An Artemis astronaut told Reuters that Artemis III is still on track for 2027, “but anything can happen.” NASA’s October skywatching guide includes today’s Moon and Jupiter meeting, the Draconid meteors, and the Hunter’s Moon.</p>",
+        "sources": [
+          {
+            "name": "NASA: Crew-12 return coverage",
+            "url": "https://www.nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live/"
+          },
+          {
+            "name": "NASA: Expedition 75 welcomes Crew-13",
+            "url": "https://www.nasa.gov/blogs/spacestation/2026/10/05/expedition-75-welcomes-crew-13-and-preps-for-crew-12-departure/"
+          },
+          {
+            "name": "Reuters: Artemis on track for 2027",
+            "url": "https://www.reuters.com/business/media-telecom/next-artemis-mission-track-2027-anything-can-happen-astronaut-says-2026-10-05/"
+          },
+          {
+            "name": "NASA: October’s skies",
+            "url": "https://www.nasa.gov/blogs/watch-the-skies/2026/10/05/disappearing-planets-dragon-fireballs-hunters-moon-fill-octobers-spooky-skies/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Little Flower turns 100; Zambia's archbishop charged; new UAE nuncio named.",
+        "body": "<p><strong>Miami.</strong> Archbishop Wenski celebrated the 100th anniversary of St. Theresa, the Church of the Little Flower in Coral Gables. The St. Carlo Acutis Eucharistic Miracles Exposition comes to the archdiocese October 12 to 16. No new Miami clergy assignments have been posted.</p><p><strong>United States.</strong> The Vatican’s ten-years-after <em>Amoris Laetitia</em> meeting on families opens tomorrow. USCCB president Archbishop Coakley and vice president Bishop Flores represent the U.S. bishops, after their audiences with Pope Leo this week.</p><p><strong>Latin America.</strong> Peru is preparing for Pope Leo’s November 11 to 16 visit to Lima, Chiclayo, Cusco, and Pucallpa. The bishops have launched a “Friends of Leo” volunteer corps for crowds expected to reach up to a million.</p><p><strong>Europe.</strong> In Germany, impatience is building as the bishops’ proposed permanent Synodal Conference still waits for Vatican approval, and its November meeting has been postponed.</p><p><strong>Africa.</strong> Archbishop Alick Banda of Lusaka, an outspoken critic of the government, was arrested over a car he says former President Lungu gave him and that he surrendered to the state in 2023. He spent a night in prison and is out on bail, and his trial starts November 3. Cardinal Ambongo, speaking for Africa’s bishops, has called for fair and transparent due process.</p><p><strong>Asia.</strong> The Philippine bishops are backing “Dapat Isa Lang,” a nationwide signature drive for a law that would actually bar political dynasties.</p><p><strong>Middle East.</strong> Two Christian women, Maysa Abu Dawoud and Mary al-Najjar, were killed in an Israeli strike on a Gaza City apartment on October 3. Gaza’s Christians will hold a Rosary, Mass, and procession for peace tomorrow.</p><p><strong>Oceania.</strong> Parramatta’s diocese is hosting a Eucharistic miracles exhibit from October 11 to 25, and Sydney is set to host the 2028 International Eucharistic Congress from September 24 to October 1.</p><p><strong>Reassignments.</strong></p><ul><li><strong>Cardinal Mauro Gambetti</strong> leaves St. Peter’s Basilica and the Vatican City vicariate to become Archbishop of Chieti-Vasto, Italy. He succeeds Archbishop Bruno Forte, whose resignation was accepted.</li><li><strong>Msgr. Grzegorz Bielaszka</strong>, a Polish Vatican diplomat, was named Apostolic Nuncio to the United Arab Emirates and made an archbishop on October 5. He succeeds Archbishop Christophe El-Kassis.</li><li><strong>Bishop Ramón Salazar Estrada</strong>, auxiliary of Guadalajara and a leading voice on life issues for Mexico’s bishops, moves to lead the Diocese of Mazatlán, his first diocese of his own.</li><li><strong>Bishop Pierre Goudreault</strong>, president of the Canadian bishops, was named Bishop of Trois-Rivières, Quebec.</li><li><strong>Bishop Bonaventure Bosco Gubazire, M.Afr.</strong> was ordained and installed as Kabale, Uganda’s fifth bishop on October 3.</li></ul>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: Little Flower centennial homily",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_god-cleared-the-ground-planted-the-seed-of-faith-and-has-meticulously-tended-to-this-community"
+          },
+          {
+            "name": "Archdiocese of Miami: Eucharistic Miracles Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "Catholic News Agency: U.S. bishops and Amoris meeting",
+            "url": "https://catholics.news/pope-leo-xiv-meets-usccb-leadership-and-other-prominent-american-bishops"
+          },
+          {
+            "name": "OMP Perú: “Los Amigos de León” volunteers",
+            "url": "https://omp-peru.org/episcopado-peruano-lanza-el-voluntariado-oficial-los-amigos-de-leon-para-la-visita-del-papa-leon-xiv/"
+          },
+          {
+            "name": "ZENIT: Peru prepares for up to 1 million",
+            "url": "https://zenit.org/2026/08/14/peruvian-government-declares-the-popes-visit-a-matter-of-national-interest-and-prepares-for-gatherings-of-up-to-1-million-people/"
+          },
+          {
+            "name": "The Pillar: German synodal conference delay",
+            "url": "https://www.pillarcatholic.com/p/german-impatience-rises-over-synodal"
+          },
+          {
+            "name": "OSV News: Archbishop Banda",
+            "url": "https://www.osvnews.com/african-bishops-express-solidarity-with-zambias-arrested-archbishop-banda-local-catholics-amid-unrest/"
+          },
+          {
+            "name": "LiCAS.news: Philippine anti-dynasty drive",
+            "url": "https://philippines.licas.news/2026/10/01/philippine-church-groups-widen-campaign-against-political-dynasties/"
+          },
+          {
+            "name": "EWTN News: Gaza strike",
+            "url": "https://www.ewtnnews.com/world/middle-east/latin-patriarchate-mourns-two-christian-women-killed-in-gaza-city-strike"
+          },
+          {
+            "name": "InfoVaticana: Gaza Rosary for peace",
+            "url": "https://infovaticana.com/en/2026/10/06/christians-in-gaza-will-pray-the-rosary-for-peace-after-a-new-deadly-attack/"
+          },
+          {
+            "name": "Diocese of Parramatta: Eucharistic Miracles Exhibit",
+            "url": "https://parracatholic.org/events/eucharistic-miracles-exhibit-11-25-october/"
+          },
+          {
+            "name": "The Catholic Leader: IEC 2028 dates",
+            "url": "https://catholicleader.com.au/news/australia/dates-announced-for-the-international-eucharistic-congress-2028/"
+          },
+          {
+            "name": "Holy See Press Office: Gambetti to Chieti-Vasto",
+            "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/03/261003b.html"
+          },
+          {
+            "name": "Holy See Press Office: Nuncio to the UAE",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/05/0788/01467.html"
+          },
+          {
+            "name": "ItalWire: Salazar Estrada to Mazatlán",
+            "url": "https://italwire.com/2026/10/ramon-salazar-estrada-appointed-bishop-of-mazatlan/"
+          },
+          {
+            "name": "The Catholic Register: Goudreault to Trois-Rivières",
+            "url": "https://www.catholicregister.org/item/4481-diocese-of-trois-rivieres-to-get-cccb-president-as-new-bishop"
+          },
+          {
+            "name": "Kabale Diocese: Bishop Bonaventure installed",
+            "url": "https://www.kabalediocese.org/bishop-bonaventure-ordained-and-installed-as-5th-bishop-of-kabale-diocese/"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Rosary-for-peace message stands; Cape Town revival Saturday; national digital IDs spread.",
+        "body": "<p><strong>Latest message.</strong> Our Lady’s September 25 Medjugorje message through Marija is still the newest: “May this time be a time of prayer for peace. I am calling you to renew in your families the prayer of the Rosary for my intentions… like never before I pray for you and with you, my little children.” It fits Pope Leo’s October call to the Rosary. The next monthly message is due October 25.</p><p><strong>Countdown to the Kingdom.</strong> Nothing new since the October 3 posts: that Medjugorje message, a Flame of Love passage from Elizabeth Kindelmann (“the Spirit of Pentecost will flood the earth”), and Pedro Regis’s October 2 message (“healing will come, only by the mercy of Jesus”).</p><p><strong>Eucharistic miracles.</strong> No new reports. The Host in Cuilapa, Guatemala, that reportedly didn’t dissolve and developed red stains is still under formal Church discernment, and the Church is asking for “prudence and restraint.”</p><p><strong>Revival and returns.</strong> Saturday’s free “Revival Fire” gathering at Athlone Stadium in Cape Town is pitched as the start of a revival movement “from Cape Town to Cairo.” Pastors are running about 50 buses, and bus bookings are already full. In the U.S., dioceses this year reported an average of about 38% more adults entering the Church than last year. A survey of new Catholics found most came for a deeper relationship with God and for the liturgy and tradition, not for marriage.</p><p><strong>Digital ID watch.</strong> The Philippines approved ₱2.5 billion to upgrade the biometric and digital side of its national ID. Vietnam set rules for its VNeID app, which combines electronic ID, digital documents, payments, and public services. The EU keeps promoting its digital identity wallet. No implantable-chip news this morning.</p>",
+        "sources": [
+          {
+            "name": "Medjugorje.ws: September 25 message",
+            "url": "https://text.medjugorje.ws/en/messages/260925m/"
+          },
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "EWTN News: Possible Eucharistic miracle in Guatemala",
+            "url": "https://www.ewtnnews.com/world/americas/possible-eucharistic-miracle-in-guatemala-church-urges-prudence-and-restraint"
+          },
+          {
+            "name": "UIC Africa: Revival Fire, Cape Town",
+            "url": "https://www.uicafrica.com/capetocairo"
+          },
+          {
+            "name": "National Catholic Register: Elevated Easter numbers",
+            "url": "https://www.ncregister.com/cna/us-dioceses-report-elevated-numbers-for-2026-new-catholics"
+          },
+          {
+            "name": "National Catholic Register: Why adults convert",
+            "url": "https://www.ncregister.com/cna/spiritual-hunger-church-s-tradition-cited-as-top-drivers-of-u-s-adult-conversions-survey-finds"
+          },
+          {
+            "name": "Manila Times: Philippine ID upgrade",
+            "url": "https://manilatimes.com/philippines-approves-2-5-billion-peso-upgrade-for-national-identification-system"
+          },
+          {
+            "name": "Vietnam.vn: VNeID rules",
+            "url": "https://www.vietnam.vn/en/bo-cong-an-ban-hanh-quy-dinh-ve-pham-vi-nghiep-vu-dich-vu-chuc-nang-tinh-nang-cua-nen-tang-vneid"
+          },
+          {
+            "name": "Euronews: EU digital identity wallet",
+            "url": "https://www.euronews.com/2026/10/06/the-eudi-wallet-building-trust-unlocking-growth-in-europe"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "$10 Heat scrimmage tonight; Bethel Music Sunday; free Saturday family festivals.",
+        "body": "<p><strong>Tonight:</strong> the Heat’s Red, White &amp; Pink intrasquad scrimmage at Kaseya Center starts at 6:30 (doors at 5:30). Tickets are $10 and benefit Baptist Health’s cancer institute, an easy family outing.</p><p><strong>Thursday, October 9:</strong> Move and Groove Family Storytime runs 11 a.m. to noon at the Main Library downtown.</p><p><strong>Saturday, October 10:</strong> the free Harvest &amp; Wellness Family Festival at Tropical Park runs 10 a.m. to 3 p.m., with rides, crafts, and a pumpkin patch. Adventure-Leggers, a free kids’ book festival, runs 11 to 3, and you need to RSVP.</p><p><strong>Sunday, October 11:</strong> Bethel Music plays the Fillmore Miami Beach at 7 p.m.</p>",
+        "sources": [
+          {
+            "name": "Kaseya Center: Red, White & Pink Game",
+            "url": "https://www.kaseyacenter.com/events/detail/red-white-pink-game-3"
+          },
+          {
+            "name": "South Florida on the Cheap: $10 scrimmage tickets",
+            "url": "https://miamionthecheap.com/10-tickets-to-miami-heat-red-white-pink-scrimmage-game/"
+          },
+          {
+            "name": "Miami-Dade Public Library: Move and Groove Storytime",
+            "url": "https://mdpls.org/event/16133228"
+          },
+          {
+            "name": "Miami-Dade County: Harvest & Wellness Festival",
+            "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1790687627744145"
+          },
+          {
+            "name": "Miami New Times: Family things to do in October",
+            "url": "https://www.miaminewtimes.com/arts-culture/best-things-to-do-with-family-in-miami-in-october-40588701/"
+          },
+          {
+            "name": "Live Nation: Bethel Music at the Fillmore",
+            "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Galactic Racer launches to rave reviews; Giannis promises a show tonight.",
+        "body": "<p><em>Star Wars: Galactic Racer</em> is out today on PS5, Xbox, and PC, and the reviews are glowing, with about an 88 average on Metacritic. Polygon calls it “the best arcade racing game in a generation,” and The Verge says it’s a “childhood podracing dream come true.” The common complaints are a steep difficulty curve and too few planets. Prime members can play the single-player campaign free through Luna. And tonight Giannis says the Heat want to “put on a show” at the Red, White &amp; Pink scrimmage.</p>",
+        "sources": [
+          {
+            "name": "Polygon: Galactic Racer review",
+            "url": "https://www.polygon.com/star-wars-galactic-racer-review-best-arcade-racing-game-in-a-generation/"
+          },
+          {
+            "name": "The Verge: Galactic Racer review",
+            "url": "https://www.theverge.com/entertainment/1002887/star-wars-galactic-racer-review"
+          },
+          {
+            "name": "GameSpot: Free with Prime via Luna",
+            "url": "https://www.gamespot.com/articles/star-wars-galactic-racer-is-free-to-play-now-if-you-know-where-to-look/"
+          },
+          {
+            "name": "Miami Herald: Giannis on his preseason debut",
+            "url": "https://www.miamiherald.com/sports/nba/miami-heat/article317491598.html"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "promises",
-    "title": "MAGA / MAHA promises kept",
-    "headline": "Kennedy's vaccine schedule overhaul sued by 16 states; data plan unveiled.",
-    "body": "<p><strong>MAHA: “Find out what’s driving chronic disease, vaccines included.”</strong> <em>What was done:</em> Kennedy replaced all 17 voting members of the CDC’s vaccine advisory committee in June 2025. That panel ended the universal hepatitis B birth-dose recommendation in December. In January the CDC dropped seven vaccines, including flu, RSV, hepatitis A and B, rotavirus, meningococcal, and COVID-19, from the list recommended for every child, moving most of them to “shared clinical decision-making.” Today, at a MAHA Institute event, Kennedy laid out a plan to link Medicare, Medicaid, FDA, and commercial health data for AI-driven studies, with the hepatitis B shot’s timing and aluminum adjuvants high on the list. “We will have answers soon,” he said.</p><p><em>Impact:</em> the policy change is real, but its health effect can’t be measured yet. Today New York joined 15 other states, plus Pennsylvania’s governor, in suing to overturn the schedule and the committee appointments, arguing that the process broke federal law. Some states, New York among them, have already rewritten their school, insurance, and Medicaid rules so they no longer depend on the federal committee. So what a child is offered now depends more on which state they live in. Courts will decide whether the change stands.</p>",
-    "sources": [
-     {
-      "name": "NY Attorney General: 16-state lawsuit",
-      "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-secretary-kennedy-protect-children-dangerous-vaccine"
-     },
-     {
-      "name": "NY Independent: States sue over schedule",
-      "url": "https://www.thenyindependent.com/politics/1710151/rfk-jr-faces-legal-challenge-from-16-states-over-altered-childhood-vaccine-schedule/"
-     },
-     {
-      "name": "Genetic Literacy Project (The Guardian): Kennedy’s data plan",
-      "url": "https://geneticliteracyproject.org/2026/10/05/at-anti-vaccine-maha-conference-rfk-jr-pledges-to-unify-federal-health-information-and-combat-vaccine-safety-misinformation/"
-     }
+  },
+  {
+    "id": "2026-10-05-evening",
+    "date": "2026-10-05",
+    "slot": "evening",
+    "label": "Monday evening",
+    "generatedAt": "2026-10-05T20:09:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Yemen offensive on Houthis; Spain snap election; Vatican City reshuffles St. Peter's.",
+        "body": "<p>New since noon.</p><p><strong>Vatican City.</strong> Pope Leo has moved Cardinal Mauro Gambetti, who ran St. Peter’s Basilica and served as the Pope’s Vicar General for Vatican City, to be Archbishop of Chieti-Vasto in Abruzzo. No successor at St. Peter’s has been named yet. This morning the Pope also received Slovenia’s Prime Minister Janez Janša, whose talks with Archbishop Gallagher covered the Western Balkans and EU integration. And he told Korean priests and religious in Rome to be “artisans of peace” on a divided peninsula ahead of World Youth Day in Seoul next year.</p><p><strong>Africa.</strong> Air strikes killed at least 17 people in Tigray overnight, in Adwa and Sheraro, and federal and Tigrayan forces traded artillery fire near the Tekeze River. Congo’s Ebola outbreak has now killed 4,042 people out of 8,376 cases. Guinea freed opposition leader Aliou Bah after a presidential pardon.</p><p><strong>Asia.</strong> Saudi-backed Yemeni government forces launched an offensive they call “Yemen Dawn,” retaking Dhubab near the Bab el-Mandeb Strait and Mocha city, and say they are pushing toward Sanaa. Turkey and Pakistan agreed to send forces quickly to Saudi Arabia under their joint defense pact. Iran’s President Pezeshkian called talks with the U.S. “meaningless,” Tehran says Hormuz stays closed, another tanker was struck there, and Brent topped $102. Separately, the number of Japanese companies operating in China hit a record low of 10,118, down 22% in two years.</p><p><strong>Europe.</strong> Spain’s Pedro Sánchez called a snap general election for November 29 after Parliament rejected his housing relief measures. Polls favor a People’s Party-led coalition with Vox. In Ukraine, Russian glide bombs killed at least five people in Kharkiv and injured 53, including children, and a Russian drone set a cargo ship on fire in the Black Sea off Romania, killing two. Kyiv claims its strikes have knocked out 51% of Russia’s oil refining capacity, which hasn’t been independently verified.</p><p><strong>North America.</strong> In the Supreme Court’s first case of the term, a majority seemed skeptical of Boulder County’s state-court climate damages suit against Suncor and ExxonMobil. Justice Alito is recused, and a ruling is expected by June. The U.S. and nine other countries in the hemisphere jointly condemned Iran-linked terrorism and influence operations in the region and pledged closer coordination. USTR also opened public comments and set a hearing ahead of next year’s USMCA review.</p><p><strong>South America.</strong> Baker Hughes signed deals in Caracas with PDVSA and U.S. partners to build Venezuela’s first integrated natural-gas chain, which could lead to the country’s first LNG exports. Washington told the New York court that Maduro has no immunity in his criminal case. Colombia’s President Abelardo de la Espriella launched a new military task force against the ELN in Cesar.</p><p><strong>Oceania.</strong> Australian and New Zealand police are looking into the time the Flydubai co-pilot spent in their countries. He is suspected of trying to crash a Tel Aviv-bound flight on September 30. He enrolled at RMIT in Melbourne in 2015, left in 2017 without finishing, and had his visa canceled in 2019. Nothing else new since noon.</p>",
+        "sources": [
+          {
+            "name": "Vatican News: Gambetti to Chieti-Vasto",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/pope-appoints-cardinal-gambetti-as-new-archbishop-chieti-vasto.html"
+          },
+          {
+            "name": "NCR: No successor named at St. Peter’s",
+            "url": "https://www.ncronline.org/vatican/pope-moves-st-peters-archpriest-italian-diocese-without-naming-successor"
+          },
+          {
+            "name": "Holy See Press Office: Slovenian PM audience",
+            "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/05/261005c.html"
+          },
+          {
+            "name": "Vatican News: Pope to Korean priests and religious",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-korean-priests-religious-wyd-martyrs-reconciliation.html"
+          },
+          {
+            "name": "TimesLIVE (AFP): Tigray air strikes",
+            "url": "https://www.timeslive.co.za/news/africa/2026-10-05-at-least-17-killed-as-ethiopia-tigray-conflict-reignites/"
+          },
+          {
+            "name": "Africa Center: Media Review Oct. 5",
+            "url": "https://africacenter.org/daily-media-review/africa-media-review-for-october-5-2026/"
+          },
+          {
+            "name": "Rio Times: African Pulse",
+            "url": "https://www.riotimesonline.com/african-pulse-for-monday-october-5-2026/"
+          },
+          {
+            "name": "PBS (AP): Yemen offensive",
+            "url": "https://www.pbs.org/newshour/world/saudi-backed-coalition-forces-houthis-from-several-areas-around-key-strait-yemeni-officials-say"
+          },
+          {
+            "name": "Al Jazeera: Iran war live",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/10/5/iran-war-live-fighting-in-yemen-intensifies-tehran-says-ready-for-us-war"
+          },
+          {
+            "name": "Gulf News: Hormuz and Pezeshkian",
+            "url": "https://gulfnews.com/world/mena/us-iran-war-tehran-rejects-military-solution-saudi-led-coalition-backs-yemen-offensive-against-houthis-1.500698388"
+          },
+          {
+            "name": "CNBC: Japanese firms leave China",
+            "url": "https://www.cnbc.com/2026/10/05/japanese-companies-leaving-china-takaichi-comment-taiwan.html"
+          },
+          {
+            "name": "Al Jazeera: Spain snap election",
+            "url": "https://www.aljazeera.com/news/2026/10/5/spanish-prime-minister-pedro-sanchez-announces-snap-election"
+          },
+          {
+            "name": "La Moncloa: Election call",
+            "url": "https://www.lamoncloa.gob.es/presidente/actividades/paginas/2026/051026-sanchez-convocatoria-elecciones.aspx"
+          },
+          {
+            "name": "Kyiv Independent: Oct. 5 latest",
+            "url": "https://kyivindependent.com/ukraine-war-latest-kharkiv-devastated-by-russian-glide-bombs-children-among-victims-2/"
+          },
+          {
+            "name": "PBS (AP): Russian refining claim",
+            "url": "https://www.pbs.org/newshour/world/ukraine-claims-its-strikes-have-taken-out-more-than-half-of-russias-oil-refining-capacity"
+          },
+          {
+            "name": "Roll Call: Climate suits face skeptical court",
+            "url": "https://rollcall.com/2026/10/05/state-climate-suits-face-skeptical-supreme-court/"
+          },
+          {
+            "name": "Iran International: Hemisphere statement",
+            "url": "https://www.iranintl.com/en/202610055029"
+          },
+          {
+            "name": "Federal Register: USMCA comments and hearing",
+            "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20341/request-for-public-comments-and-notice-of-public-hearing-relating-to-the-operation-of-the-agreement"
+          },
+          {
+            "name": "Latin Times: Baker Hughes Venezuela gas",
+            "url": "https://www.latintimes.com/baker-hughes-venezuela-gas-deal-could-unlock-countrys-first-ever-lng-exports-what-know-599856"
+          },
+          {
+            "name": "El Diario: Venezuela day summary",
+            "url": "https://eldiario.com/2026/10/05/resumen-noticias-venezuela-5-octubre/"
+          },
+          {
+            "name": "Infobae: Colombia Task Force Urano",
+            "url": "https://www.infobae.com/colombia/2026/10/05/presidente-abelardo-de-la-espriella-lidera-la-activacion-de-la-fuerza-de-tarea-urano-en-valledupar-este-el-objetivo-militar/"
+          },
+          {
+            "name": "DW: Australia, NZ probe Flydubai co-pilot",
+            "url": "https://www.dw.com/en/australia-new-zealand-probe-flydubai-pilots-time-there/a-79551423"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Kennedy's vaccine schedule overhaul sued by 16 states; data plan unveiled.",
+        "body": "<p><strong>MAHA: “Find out what’s driving chronic disease, vaccines included.”</strong> <em>What was done:</em> Kennedy replaced all 17 voting members of the CDC’s vaccine advisory committee in June 2025. That panel ended the universal hepatitis B birth-dose recommendation in December. In January the CDC dropped seven vaccines, including flu, RSV, hepatitis A and B, rotavirus, meningococcal, and COVID-19, from the list recommended for every child, moving most of them to “shared clinical decision-making.” Today, at a MAHA Institute event, Kennedy laid out a plan to link Medicare, Medicaid, FDA, and commercial health data for AI-driven studies, with the hepatitis B shot’s timing and aluminum adjuvants high on the list. “We will have answers soon,” he said.</p><p><em>Impact:</em> the policy change is real, but its health effect can’t be measured yet. Today New York joined 15 other states, plus Pennsylvania’s governor, in suing to overturn the schedule and the committee appointments, arguing that the process broke federal law. Some states, New York among them, have already rewritten their school, insurance, and Medicaid rules so they no longer depend on the federal committee. So what a child is offered now depends more on which state they live in. Courts will decide whether the change stands.</p>",
+        "sources": [
+          {
+            "name": "NY Attorney General: 16-state lawsuit",
+            "url": "https://ag.ny.gov/press-release/2026/attorney-general-james-sues-secretary-kennedy-protect-children-dangerous-vaccine"
+          },
+          {
+            "name": "NY Independent: States sue over schedule",
+            "url": "https://www.thenyindependent.com/politics/1710151/rfk-jr-faces-legal-challenge-from-16-states-over-altered-childhood-vaccine-schedule/"
+          },
+          {
+            "name": "Genetic Literacy Project (The Guardian): Kennedy’s data plan",
+            "url": "https://geneticliteracyproject.org/2026/10/05/at-anti-vaccine-maha-conference-rfk-jr-pledges-to-unify-federal-health-information-and-combat-vaccine-safety-misinformation/"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Musk confirms early TSMC Terafab talks; SpaceX seeks 76 Florida Starship launches.",
+        "body": "<p><strong>Tesla.</strong> Shares closed up about 1.9% at roughly $377.70, a second straight gain after the delivery beat. Musk confirmed that TSMC and his Terafab chip venture are in early talks about a Texas fab that would make chips for Tesla, SpaceX, and xAI. He stressed it’s only discussions so far, with no deal, site, ownership structure, or timeline agreed.</p><p><strong>SpaceX.</strong> SpaceX’s FAA license application asks for up to 76 Starship launches and 152 landings a year from Launch Complex 37 at Cape Canaveral. The FAA is doing a supplemental environmental review covering noise, flight paths, and airspace closures, and public comments are open through October 14.</p>",
+        "sources": [
+          {
+            "name": "StockScan: TSLA price history",
+            "url": "https://stockscan.io/stocks/TSLA/price-history"
+          },
+          {
+            "name": "Times of India: Musk confirms TSMC talks",
+            "url": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-confirms-talks-with-tsmc-for-terafab-chipmaking-collaboration-says-just-discussions-but-/articleshow/134713831.cms"
+          },
+          {
+            "name": "DigiTimes: Terafab reality check",
+            "url": "https://www.digitimes.com/news/a20261005PD219/elon-musk-fab-ic-manufacturing-intel-tsmc.html"
+          },
+          {
+            "name": "FOX 35 Orlando: 76 Starship launches a year",
+            "url": "https://www.fox35orlando.com/news/proposal-spacex-aiming-up-76-starship-launches-year-florida"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Quiet since noon; IAC continues in Antalya through Friday.",
+        "body": "<p>Nothing new since noon. The International Astronautical Congress continues in Antalya through Friday. The Florida Starship launch filing is under Musk world.</p>",
+        "sources": [
+          {
+            "name": "TRT World: IAC 2026 in Antalya",
+            "url": "https://www.trtworld.com/article/341c90cd9875"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Quiet; NASA's teased “exciting news” hasn't been announced yet.",
+        "body": "<p>Nothing new since noon. Deputy Administrator Matt Anderson is leading NASA’s delegation at the congress. The “exciting news” he hinted at hasn’t been announced yet.</p>",
+        "sources": [
+          {
+            "name": "NASA: Agency at the International Astronautical Congress",
+            "url": "https://www.nasa.gov/news-release/nasa-features-exploration-science-at-international-space-conference/"
+          },
+          {
+            "name": "Anadolu: NASA deputy chief interview",
+            "url": "https://www.aa.com.tr/en/turkiye/interview-civilian-space-race-20-with-china-closer-than-us-would-like-right-now-nasa-deputy-chief/4078426"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Wenski meets Pope Leo; St. Louis sues over detainees' sacraments.",
+        "body": "<p><strong>Miami.</strong> Archbishop Wenski was among the U.S. bishops Pope Leo received in private audiences from October 1 to 5. As canon law requires, Wenski submitted his resignation when he turned 75 last October. No successor has been announced.</p><p><strong>United States.</strong> On Monday the Pope also met USCCB president Archbishop Paul Coakley and vice president Bishop Daniel Flores, ahead of the Amoris Laetitia meeting October 7 to 14. The Archdiocese of St. Louis sued federal officials and the local sheriff, saying immigrant detainees at the Ste. Genevieve County Jail, most of them Hispanic Catholics, can see priests only by phone through glass. Archbishop Rozanski said that means no confession, Mass, or anointing. The jail’s offer to have a guard pass consecrated hosts in a container was, in his word, “sacrilegious.”</p><p><strong>Latin America.</strong> Peru is preparing for Pope Leo’s visit November 11 to 16. The Señor de los Milagros image will be at his Lima Mass on November 16.</p><p><strong>Africa.</strong> The continent’s bishops, through SECAM and Cardinal Ambongo, expressed solidarity with Lusaka’s Archbishop Alick Banda. He was arrested September 28 over a vehicle he says he received as a gift and has since surrendered, and was released on bail. His trial is set for November 3. Zambia’s bishops are also warning about arbitrary arrests since the August election.</p><p><strong>Europe, Asia, Middle East, Oceania.</strong> Nothing bigger than what noon covered. The Korea and Gaza items are under World and noon’s Catholic beat.</p><p><strong>Reassignments.</strong> <em>Cardinal Mauro Gambetti</em>, 60, a Conventual Franciscan, moves from St. Peter’s Basilica to Archbishop of Chieti-Vasto. He succeeds Archbishop Bruno Forte, 77, who retired at the age limit. <em>Bishop Peter J. Byrne</em>’s resignation as auxiliary bishop of New York was accepted. <em>Msgr. Grzegorz Bielaszka</em>, 52, a Polish Vatican diplomat who has served in Panama, Iraq, Hungary, Peru, and Gabon, was named nuncio to the United Arab Emirates and made an archbishop. Nothing new for Miami or Florida.</p>",
+        "sources": [
+          {
+            "name": "National Catholic Register: Pope meets U.S. bishops",
+            "url": "https://www.ncregister.com/cna/pope-leo-xiv-meets-usccb-leadership-and-other-prominent-american-bishops"
+          },
+          {
+            "name": "SRN News (Reuters): St. Louis lawsuit",
+            "url": "https://srnnews.com/catholic-diocese-sues-us-government-seeking-clergy-access-to-detainees/"
+          },
+          {
+            "name": "ACI Prensa: Peru awaits Pope Leo",
+            "url": "https://www.aciprensa.com/noticias/129035/corazon-senor-milagros-papa-leon"
+          },
+          {
+            "name": "Catholic Review (OSV News): Archbishop Banda",
+            "url": "https://catholicreview.org/african-bishops-express-solidarity-with-zambias-arrested-archbishop-banda-local-catholics-amid-unrest/"
+          },
+          {
+            "name": "Vatican News: Gambetti appointment",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/pope-appoints-cardinal-gambetti-as-new-archbishop-chieti-vasto.html"
+          },
+          {
+            "name": "Holy See Press Office: Resignations and appointments, Oct. 5",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/05/0788/01467.html"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown quiet; Franklin Graham draws 10,000 in Manchester; more digital IDs.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> No new posts since noon. Our Lady’s September 25 Medjugorje message, asking families to pray the daily Rosary for peace, is still the latest, and the next monthly message is due October 25. No new Eucharistic miracle reports. The Carlo Acutis Eucharistic miracles exhibition is still set for October 12 to 16 at St. Mark the Evangelist.</p><p><strong>Revival and mission.</strong> More than 10,000 people filled Co-op Live in Manchester, the UK’s largest indoor arena, for Franklin Graham’s God Loves You Tour on Saturday. The Billy Graham Evangelistic Association counts more than 800 decisions for Christ. In Harare, Zimbabwe, local press reported about 50,000 at the Daughters of Virtue Mega 9 gathering.</p><p><strong>Digital ID.</strong> Google Wallet added Oklahoma, its 12th state ID on Android. West Africa’s ECOWAS is pushing for its biometric ID card to be accepted at borders across the region by December.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom: Marija, Time of Prayer for Peace",
+            "url": "https://www.countdowntothekingdom.com/marija-time-of-prayer-for-peace/"
+          },
+          {
+            "name": "BGEA Decision: Manchester",
+            "url": "https://billygraham.org/decision-magazine/articles/god-loves-you-tour-with-franklin-graham-reaches-manchester-england-hundreds-respond-to-gospel-message"
+          },
+          {
+            "name": "The Blast: Daughters of Virtue Mega 9",
+            "url": "https://theblast.co.zw/2026/10/05/daughters-of-virtue-mega-9-draws-an-impressive-crowd-of-approximately-50-000-congregants/"
+          },
+          {
+            "name": "9to5Google: Oklahoma ID in Google Wallet",
+            "url": "https://9to5google.com/2026/10/05/google-wallet-id-oklahoma/"
+          },
+          {
+            "name": "Biometric Update: ECOWAS ID",
+            "url": "https://www.biometricupdate.com/202610/ecowas-pushes-biometric-id-toward-region-wide-border-acceptance-by-december"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "One more free Saturday pick: Adventure-Leggers kids' book festival.",
+        "body": "<p>One addition for Saturday, October 10. Adventure-Leggers at Bookleggers Library (561 NW 32nd St.) runs 11 a.m. to 3 p.m. and is free with an RSVP, for kids 18 and under with a family member. This year’s theme is Unsolved Mysteries, with free books, a free lunch for kids, a magic show, and storytime. It pairs easily with the Tropical Park harvest festival that same morning.</p>",
+        "sources": [
+          {
+            "name": "Bookleggers: Adventure-Leggers 2026",
+            "url": "https://www.bookleggerslibrary.com/adventure-leggers-2026"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Savi's Workshop gets High Republic hilts and color-flipping lightsaber blades.",
+        "body": "<p>Savi’s Workshop at Galaxy’s Edge is getting an updated High Republic “Protection &amp; Defense” hilt theme in white and gold. The blades are getting upgrades too: a thermal-cutting effect, deflection sounds, and, with a rare cracked kyber crystal, a flick of the wrist that switches the blade from blue to red. It’s coming soon to Hollywood Studios and Disneyland. <em>Galactic Racer</em> still launches tomorrow, and the Heat host New Orleans Thursday.</p>",
+        "sources": [
+          {
+            "name": "WDW News Today: Savi’s Workshop update",
+            "url": "https://wdwnt.com/2026/10/updated-hilt-theme-and-more-lightsaber-effects-coming-to-savis-workshop-in-star-wars-galaxys-edge/"
+          },
+          {
+            "name": "FAU University Press: Heat camp and schedule",
+            "url": "https://www.upressonline.com/2026/10/miami-heat-wrap-up-2026-training-camp-at-florida-atlantic/"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "musk",
-    "title": "Musk world",
-    "headline": "Musk confirms early TSMC Terafab talks; SpaceX seeks 76 Florida Starship launches.",
-    "body": "<p><strong>Tesla.</strong> Shares closed up about 1.9% at roughly $377.70, a second straight gain after the delivery beat. Musk confirmed that TSMC and his Terafab chip venture are in early talks about a Texas fab that would make chips for Tesla, SpaceX, and xAI. He stressed it’s only discussions so far, with no deal, site, ownership structure, or timeline agreed.</p><p><strong>SpaceX.</strong> SpaceX’s FAA license application asks for up to 76 Starship launches and 152 landings a year from Launch Complex 37 at Cape Canaveral. The FAA is doing a supplemental environmental review covering noise, flight paths, and airspace closures, and public comments are open through October 14.</p>",
-    "sources": [
-     {
-      "name": "StockScan: TSLA price history",
-      "url": "https://stockscan.io/stocks/TSLA/price-history"
-     },
-     {
-      "name": "Times of India: Musk confirms TSMC talks",
-      "url": "https://timesofindia.indiatimes.com/technology/tech-news/elon-musk-confirms-talks-with-tsmc-for-terafab-chipmaking-collaboration-says-just-discussions-but-/articleshow/134713831.cms"
-     },
-     {
-      "name": "DigiTimes: Terafab reality check",
-      "url": "https://www.digitimes.com/news/a20261005PD219/elon-musk-fab-ic-manufacturing-intel-tsmc.html"
-     },
-     {
-      "name": "FOX 35 Orlando: 76 Starship launches a year",
-      "url": "https://www.fox35orlando.com/news/proposal-spacex-aiming-up-76-starship-launches-year-florida"
-     }
+  },
+  {
+    "id": "2026-10-05-noon",
+    "date": "2026-10-05",
+    "slot": "noon",
+    "label": "Monday noon",
+    "generatedAt": "2026-10-05T12:10:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Ethiopia retakes Mekelle; Iran oil minister resigns; Brazil runoff set.",
+        "body": "<p><strong>Africa.</strong> Ethiopian federal forces and an allied militia retook Mekelle, Tigray’s capital, after the TPLF pulled out; it’s the worst fighting since the 2020–22 war and has spread into Afar. Egypt, Eritrea, Somalia and Sudan put out a joint call for peaceful solutions, while all deny Ethiopia’s charge that they’re backing the rebels.</p><p><strong>Antarctica.</strong> New research says the continent will keep losing ice this century even if emissions are cut, though lower emissions shrink the loss. No acute event.</p><p><strong>Asia.</strong> Iran’s oil minister resigned as the economy buckles under the blockade, with inflation around 85% and a 10% contraction early this year. Separately, the ICC unveiled arrest warrants for Taliban supreme leader Haibatullah Akhundzada and chief justice Abdul Hakim Haqqani.</p><p><strong>Europe.</strong> Russia’s jet-powered drones are now going after bridges in Kyiv, an escalation after more than a month of round-the-clock strikes on the capital.</p><p><strong>North America.</strong> The Supreme Court opened its new term today. The first case argued asks whether federal law blocks state climate-damage suits against energy companies (Suncor v. Boulder County).</p><p><strong>South America.</strong> Brazil heads to an October 25 runoff. Flávio Bolsonaro won the first round with 47.0% to Lula’s 45.2%, which was better than polls expected for the right.</p><p><strong>Oceania.</strong> Fiji is hosting the Pacific pre-COP climate meeting with Australia and Tuvalu ahead of COP31. Fiji also set a possible December 9 referendum on a new constitution.</p>",
+        "sources": [
+          {
+            "name": "Al Jazeera: Ethiopia retakes Mekelle",
+            "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting"
+          },
+          {
+            "name": "Al Jazeera: Four leaders' joint declaration",
+            "url": "https://www.aljazeera.com/news/2026/10/5/four-african-leaders-issue-joint-declaration-as-ethiopia-war-escalates"
+          },
+          {
+            "name": "CNBC Africa (Reuters)",
+            "url": "https://www.cnbcafrica.com/2026/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels"
+          },
+          {
+            "name": "Earth.com: Antarctic ice loss",
+            "url": "https://www.earth.com/environment/antarctica-will-keep-losing-ice-throughout-this-century-even-if-emissions-are-cut/"
+          },
+          {
+            "name": "The Guardian: Iran oil minister resigns",
+            "url": "https://www.theguardian.com/world/2026/oct/05/iran-oil-minister-resigns-economic-crisis"
+          },
+          {
+            "name": "Reuters: ICC Taliban warrants",
+            "url": "https://www.reuters.com/world/asia-pacific/icc-issues-arrest-warrants-two-taliban-leaders-2026-10-05/"
+          },
+          {
+            "name": "NPR: Drones target Kyiv bridges",
+            "url": "https://www.npr.org/2026/10/05/nx-s1-5989637/russias-attacks-on-ukraine-escalate-as-its-drones-target-bridges-in-kyiv"
+          },
+          {
+            "name": "NBC News: New Supreme Court term",
+            "url": "https://www.nbcnews.com/politics/supreme-court/new-supreme-court-term-begins-cases-climate-change-gun-rights-rcna601561"
+          },
+          {
+            "name": "BBC: Brazil runoff",
+            "url": "https://www.bbc.com/news/articles/ck1l34ed592no"
+          },
+          {
+            "name": "Agência Brasil",
+            "url": "https://agenciabrasil.ebc.com.br/en/politica/noticia/2026-10/flavio-bolsonaro-lula-head-runoff-brazils-presidential-race"
+          },
+          {
+            "name": "Sydney Morning Herald: Pre-COP in Fiji",
+            "url": "https://www.smh.com.au/environment/climate-change/only-two-leaders-from-outside-the-pacific-attending-crucial-pre-cop-meeting-in-fiji-20261005-p612u2.html"
+          },
+          {
+            "name": "RNZ: Fiji referendum date",
+            "url": "https://www.rnz.co.nz/news/pacific/1745980/fiji-schedules-potential-referendum-date-on-new-constitution-ahead-of-final-parliament-vote"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Food-dye phase-out stays voluntary; deportation drive still short of target.",
+        "body": "<p><strong>MAHA: “Get synthetic dyes out of our food.”</strong> <em>The promise:</em> phase out petroleum-based dyes. <em>What was done:</em> voluntary industry pledges and an FDA list of companies that signed on, but no new rule more than a year later; only the already-scheduled Red No. 3 ban (effective January 2027) carries legal force. <em>Impact:</em> some reformulation by brands that pledged, but nothing binding, and AP reports a future administration could easily undo it.</p><p><strong>MAHA: “Define and rein in ultra-processed food; fix school meals.”</strong> <em>What was done:</em> per the Wall Street Journal, as summarized today by the Food Institute, the White House has repeatedly held back Kennedy’s ultra-processed food definition and the USDA school-meal overhaul over lawsuit and trade worries. <em>Impact:</em> none yet. This one is stalled inside the administration, not kept.</p><p><strong>MAGA: “Largest deportation operation in history.”</strong> <em>What was done:</em> about $70 billion for ICE and CBP, a much bigger ICE workforce, local-police arrest authority, and the end of several TPS designations. <em>Impact:</em> record ICE arrests, but ICE’s own count was about 356,000 removals through July, well short of a million a year. At least 51% of July arrestees had no criminal conviction or charge. PolitiFact rates it “In the Works.”</p>",
+        "sources": [
+          {
+            "name": "AP: FDA announcements vs. rulemaking",
+            "url": "https://apnews.com/article/robert-kennedy-fda-food-dyes-lawsuits-vaccines-962a54a018adf6e936f7aee212597b5a"
+          },
+          {
+            "name": "The Food Institute: MAHA food campaign stalled",
+            "url": "https://foodinstitute.com/healthwellness/maha-healthier-food-campaign-stalled-white-house/"
+          },
+          {
+            "name": "PolitiFact MAGA-Meter: deportations",
+            "url": "https://politifact.com/truth-o-meter/promises/maga-meter-tracking-donald-trumps-2024-promises/promise/387364/carry-out-the-largest-domestic-deportation-operati/article/397479/"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Tesla Q3 deliveries beat consensus; Starship Flight 15 eyed mid-October.",
+        "body": "<p><strong>Tesla.</strong> Shares rose for a second day, to about $377–378 this morning, after Q3 deliveries of 486,532 beat the roughly 462,000 consensus. That’s still down 2.1% from last year, and Tesla sold about 22,000 more cars than it built, so some of the beat came from clearing inventory. Energy storage deployments were 13.7 GWh. The real test is Q3 earnings after the close on October 21. Watch margins excluding regulatory credits and how much was discounted.</p><p><strong>SpaceX.</strong> Following Starship’s first orbital flight on September 28 (26 Starlink V3 satellites deployed), Flight 15 is penciled in for no earlier than October 19 and may try the first tower catch of a Ship. Flight 16, a possible first Starship launch from Kennedy’s pad 39A, is provisionally no earlier than October 30. Neither date is official yet.</p>",
+        "sources": [
+          {
+            "name": "Tesla Q3 2026 report (SEC)",
+            "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/exhibit991111111.htm"
+          },
+          {
+            "name": "Electrek: Q3 deliveries",
+            "url": "https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/"
+          },
+          {
+            "name": "IBTimes: Tesla extends rally",
+            "url": "https://www.ibtimes.com.au/tesla-shares-rise-after-deliveries-beat-forecasts-1876287"
+          },
+          {
+            "name": "SpacePolicyOnline: Starship reaches orbit",
+            "url": "https://spacepolicyonline.com/news/starship-achieves-orbit-for-the-first-time/"
+          },
+          {
+            "name": "Flight 15 timing",
+            "url": "https://spiketoday.com/starship-flight-15-launch-date/"
+          },
+          {
+            "name": "Ship 43 / Flight 16 from Florida",
+            "url": "https://www.basenor.com/blogs/news/starship-ship-43-preps-for-flight-16-launch-from-florida"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "NASA pauses Blue Origin Mars orbiter after Rocket Lab protest.",
+        "body": "<p>NASA has reportedly paused Blue Origin’s Mars Telecommunications Orbiter contract after Rocket Lab filed a protest with the Government Accountability Office over the award. Meanwhile, Rocket Lab’s Neutron rocket looks increasingly likely to slip its first flight to 2027. The International Astronautical Congress opened today in Antalya, Türkiye, and runs through Friday, with ESA’s chief and China’s space agency at the leaders’ sessions.</p>",
+        "sources": [
+          {
+            "name": "Advanced Television: Blue Origin Mars deal paused",
+            "url": "https://www.advanced-television.com/2026/10/05/nasa-blue-origin-mars-rocket-deal-in-doubt/"
+          },
+          {
+            "name": "Spaceflight Now: Neutron window narrowing",
+            "url": "https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/"
+          },
+          {
+            "name": "ESA at IAC 2026",
+            "url": "https://www.esa.int/Newsroom/Press_Releases/Media_Advisory_ESA_at_the_International_Astronautical_Congress_IAC_in_Antalya_Tuerkiye"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Artemis III Earth-orbit test waits on both landers; KSC layoffs set.",
+        "body": "<p>Administrator Jared Isaacman says next year’s Artemis III Earth-orbit test won’t fly unless both landers, SpaceX’s Starship and Blue Origin’s, are ready. A crewed landing is still targeted for 2028, with China aiming for 2029–30. His deputy, Matt Anderson, told reporters at the congress that NASA has “exciting news to announce very soon.” Closer to home, contractor Amentum will lay off 70 Kennedy Space Center workers on November 30 as NASA brings core technical jobs in-house.</p>",
+        "sources": [
+          {
+            "name": "NewsNation: Isaacman interview",
+            "url": "https://www.newsnationnow.com/space/exclusive-nasa-administrator-how-us-win-space-race/"
+          },
+          {
+            "name": "Anadolu: NASA deputy chief",
+            "url": "https://www.aa.com.tr/en/turkiye/interview-civilian-space-race-20-with-china-closer-than-us-would-like-right-now-nasa-deputy-chief/4078426"
+          },
+          {
+            "name": "Florida Today: KSC contractor layoffs",
+            "url": "https://www.floridatoday.com/story/tech/science/space/2026/10/05/artemis-contractor-cuts-kennedy-space-center-jobs-amid-nasa-insourcing-drive-brevard-county-florida/92102511007/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Pope Leo prays for Gaza victims and urges valuing women's work.",
+        "body": "<p>Pope Leo sent a personal message to Gaza’s Catholic parish priest after an Israeli strike killed five civilians, praying, “How long, O Lord?” Meeting Vatican lay employees today, he said women’s contributions must be increasingly recognized and that AI cannot replace human work. No new Miami or Florida clergy assignments have been posted since the summer appointments.</p>",
+        "sources": [
+          {
+            "name": "Vatican News: Pope prays for Gaza victims",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-message-gaza-parish-priest-romanelli.html"
+          },
+          {
+            "name": "Vatican News: Women’s contributions",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-women-s-contributions-to-vatican-must-be-valued.html"
+          },
+          {
+            "name": "EWTN News: AI and human work",
+            "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-to-vatican-labor-associations-ai-cannot-replace-human-work"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Medjugorje September 25 message urges daily Rosary for peace.",
+        "body": "<p>Countdown to the Kingdom posted three new items over the weekend that this morning missed. The headline post is Our Lady’s September 25 Medjugorje message through Marija, still the latest monthly message and now distributed with ecclesiastical approval. In it she asks families to renew the daily Rosary for her intentions, so that she can intercede for peace, adding, “like never before I pray for you and with you.”</p><p>That lines up closely with Pope Leo’s October Rosary call. The other two posts are a Flame of Love passage from Elizabeth Kindelmann (“the Spirit of Pentecost will flood the earth”) and an October 2 message to Pedro Regis (“healing will come, only by the mercy of Jesus”). No new verified Eucharistic miracle reports turned up.</p>",
+        "sources": [
+          {
+            "name": "Countdown: Marija, Time of Prayer for Peace",
+            "url": "https://www.countdowntothekingdom.com/marija-time-of-prayer-for-peace/"
+          },
+          {
+            "name": "Countdown: Elizabeth, Satan Will be Blinded",
+            "url": "https://www.countdowntothekingdom.com/elizabeth-satan-will-be-blinded/"
+          },
+          {
+            "name": "Countdown: Pedro, Humanity is Sick",
+            "url": "https://www.countdowntothekingdom.com/pedro-humanity-is-sick-6/"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Harvest festival, Arsht puppets, and Flamenco concert fill next weekend.",
+        "body": "<p>Saturday, October 10 brings a free Harvest &amp; Wellness Family Festival at Tropical Park (10 a.m. to 3 p.m.) with rides, crafts, and food. The same day, the Arsht has a family puppet show, <em>Marionetas de la Esquina: Superheroínas</em>, at 11 a.m. in English and 3 p.m. in Spanish. On Sunday, October 11 at 3 p.m., Orchestra Miami plays a family-friendly <em>Flamenco y Folklórico</em> concert at Pinecrest Gardens, with kids’ tickets from $10.</p>",
+        "sources": [
+          {
+            "name": "Miami-Dade Parks: Harvest & Wellness Festival",
+            "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1790687627744145"
+          },
+          {
+            "name": "Arsht Center: Marionetas",
+            "url": "https://www.arshtcenter.org/tickets/2026-2027/family-fun-live/marionetas-de-la-esquina-superheroinas/"
+          },
+          {
+            "name": "Orchestra Miami: Flamenco y Folklórico",
+            "url": "https://events.humanitix.com/flamenco-y-folklorico"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Galactic Racer launches tomorrow; Heat season opens October 21.",
+        "body": "<p><em>Star Wars: Galactic Racer</em> launches tomorrow, October 6, on PS5, Xbox, and PC. It’s a run-based racer with speeders and swoop bikes through Jakku’s Star Destroyer graveyard, and yes, Sebulba shows up. On the Heat side, Spoelstra compared Giannis’s passing to Magic Johnson after Saturday’s preseason win. There’s an intrasquad scrimmage Tuesday, and the season opens October 21 against Minnesota.</p>",
+        "sources": [
+          {
+            "name": "StarWars.com: Galactic Racer",
+            "url": "https://www.starwars.com/news/star-wars-galactic-racer-reveal-trailer"
+          },
+          {
+            "name": "Polygon: Galactic Racer",
+            "url": "https://www.polygon.com/star-wars-galactic-racer-roguelike-interview/"
+          },
+          {
+            "name": "Miami Herald: Heat preseason opener",
+            "url": "https://www.miamiherald.com/sports/nba/miami-heat/article317482992.html"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "space",
-    "title": "Space",
-    "headline": "Quiet since noon; IAC continues in Antalya through Friday.",
-    "body": "<p>Nothing new since noon. The International Astronautical Congress continues in Antalya through Friday. The Florida Starship launch filing is under Musk world.</p>",
-    "sources": [
-     {
-      "name": "TRT World: IAC 2026 in Antalya",
-      "url": "https://www.trtworld.com/article/341c90cd9875"
-     }
+  },
+  {
+    "id": "2026-10-05-morning",
+    "date": "2026-10-05",
+    "slot": "morning",
+    "label": "Monday morning",
+    "generatedAt": "2026-10-05T07:55:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Iran war in eighth month; Hormuz closed; G7 releases oil stocks.",
+        "body": "<p>The Iran war is in its eighth month. The Strait of Hormuz remains dangerous: another tanker was hit over the weekend, and Tehran says the strait stays closed until U.S. conditions are met. Oil eased after the G7 agreed to release 100 million barrels of crude and diesel over four months—Brent around $101–102, U.S. crude near $90—though diesel and shipping costs stay high.</p><p>An Iranian security official admitted the economy is in one of its worst stretches under the U.S. blockade. In Ukraine, Russia launched more than 1,900 drones last week; Kyiv says it is open to U.S.-backed talks late this month but remains short on funding. U.S. futures opened slightly lower ahead of Fed minutes on Wednesday.</p>",
+        "sources": [
+          {
+            "name": "Gulf News",
+            "url": "https://gulfnews.com/world/mena/us-iran-war-tehran-rejects-military-solution-saudi-led-coalition-backs-yemen-offensive-against-houthis-1.500698388"
+          },
+          {
+            "name": "Business Standard",
+            "url": "https://www.business-standard.com/world-news/iran-s-top-security-official-warns-of-dire-economic-crisis-as-war-drags-on-126100500065_1.html"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html"
+          },
+          {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy"
+          },
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/05/ukraine-war-russia-kyiv-putin-zelenskyy-trump.html"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Pope Leo asks daily October Rosary for peace, especially Holy Land.",
+        "body": "<p>Pope Leo has asked the faithful to pray the Rosary every day in October for an end to wars, especially in the Holy Land. At the Vatican, a gathering of families and young people runs October 7–14 marking ten years of <em>Amoris Laetitia</em>. Closer to home, Archbishop Wenski marked Little Flower’s 100th anniversary and Amor en Acción’s 50th.</p>",
+        "sources": [
+          {
+            "name": "Vatican News",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-may-we-pray-for-intercession-virgin-mary-for-world-peace.html"
+          },
+          {
+            "name": "Vatican News",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/amoris-laetitia-for-a-new-proclamation-of-the-gospel-with-famil.html"
+          },
+          {
+            "name": "Archdiocese of Miami",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_god-cleared-the-ground-planted-the-seed-of-faith-and-has-meticulously-tended-to-this-community"
+          },
+          {
+            "name": "Archdiocese of Miami",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_to-be-an-effective-missionary-one-must-first-be-a-committed-disciple"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "No fresh Medjugorje word; Acutis exhibition runs October 12–16 locally.",
+        "body": "<p>No fresh verified word this morning. The latest Medjugorje message remains September 25. Locally, a St. Carlo Acutis Eucharistic Miracles exhibition with a relic runs October 12–16 at St. Mark the Evangelist in Southwest Ranches.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Bethel Music at Fillmore October 11; Acutis statue blessing October 12.",
+        "body": "<p>Bethel Music at the Fillmore Miami Beach, October 11 at 7 p.m. Let Praise Rise at ChristWay Baptist in Miramar, October 9 at 6:30 p.m. (childcare for under 6). Corpus Christi blesses its Carlo Acutis statue October 12 at 8 p.m.</p>",
+        "sources": [
+          {
+            "name": "Live Nation",
+            "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
+          },
+          {
+            "name": "ChristWay Baptist",
+            "url": "https://www.cbcmiramar.com/event-details/gospel-concert-2026"
+          },
+          {
+            "name": "Archdiocese of Miami",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178242162428188"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Giannis's first Heat appearance: nine points, seven assists versus Toronto.",
+        "body": "<p>Giannis made his first Heat appearance Saturday: Miami beat Toronto 129–105. He had 9 points and 7 assists in about 14 minutes, then rested the second half. Next up: New Orleans on Thursday.</p>",
+        "sources": [
+          {
+            "name": "Yahoo Sports",
+            "url": "https://sports.yahoo.com/nba/article/giannis-antetokounmpo-posts-9-points-7-assists-in-first-heat-appearance-rests-second-half-013713856.html"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "nasa",
-    "title": "NASA",
-    "headline": "Quiet; NASA's teased “exciting news” hasn't been announced yet.",
-    "body": "<p>Nothing new since noon. Deputy Administrator Matt Anderson is leading NASA’s delegation at the congress. The “exciting news” he hinted at hasn’t been announced yet.</p>",
-    "sources": [
-     {
-      "name": "NASA: Agency at the International Astronautical Congress",
-      "url": "https://www.nasa.gov/news-release/nasa-features-exploration-science-at-international-space-conference/"
-     },
-     {
-      "name": "Anadolu: NASA deputy chief interview",
-      "url": "https://www.aa.com.tr/en/turkiye/interview-civilian-space-race-20-with-china-closer-than-us-would-like-right-now-nasa-deputy-chief/4078426"
-     }
+  },
+  {
+    "id": "2026-10-04-evening",
+    "date": "2026-10-04",
+    "slot": "evening",
+    "label": "Sunday evening",
+    "generatedAt": "2026-10-04T19:30:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Russia to intensify Ukraine strikes; Houthis claim Aramco hit near Riyadh.",
+        "body": "<p>Russia said it would intensify strikes on Ukraine after a Zelenskiy interview outlining further attacks on Russian oil infrastructure. Separately, the U.S. told France and Germany to release diesel stocks or face a U.S. export ban—pressure that Zero Hedge also covered as Europe’s emergency supplies came into focus.</p><p>In the Gulf, Houthis claimed a strike on an Aramco facility near Riyadh; Saudi forces hit Sanaa in response. Hormuz and Red Sea routes remain the quiet pressure behind every oil headline.</p>",
+        "sources": [
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/europe/russia-intensify-strikes-ukraine-after-zelenskiy-interview-2026-10-04/"
+          },
+          {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
+          },
+          {
+            "name": "Zero Hedge",
+            "url": "https://www.zerohedge.com/commodities/us-warns-europe-release-emergency-diesel-supplies-or-face-export-ban"
+          },
+          {
+            "name": "AFP",
+            "url": "https://www.afp.com/en/houthis-say-struck-oil-facility-near-riyadh-saudis-hit-sanaa"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Wenski marks Little Flower centennial; Pope Leo points to Saint Francis.",
+        "body": "<p>Archbishop Wenski marked Little Flower’s centennial and Amor en Acción’s fiftieth—local roots and missionary discipleship side by side. From Rome, Pope Leo’s Angelus pointed to Saint Francis as a path to build peace, and the Vatican previewed a gathering for a new proclamation of the Gospel with families on the tenth anniversary of <em>Amoris Laetitia</em>.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_god-cleared-the-ground-planted-the-seed-of-faith-and-has-meticulously-tended-to-this-community"
+          },
+          {
+            "name": "Archdiocese of Miami",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_to-be-an-effective-missionary-one-must-first-be-a-committed-disciple"
+          },
+          {
+            "name": "Vatican News",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-at-angelus-saint-francis-shows-us-how-to-build-peace.html"
+          },
+          {
+            "name": "Vatican News",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/amoris-laetitia-for-a-new-proclamation-of-the-gospel-with-famil.html"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Quiet evening; latest Medjugorje message remains September 25.",
+        "body": "<p>Quiet this evening. The latest Medjugorje message remains September 25.</p>",
+        "sources": []
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Harvest festival, gospel concert, Bethel Music, and Acutis blessing ahead.",
+        "body": "<p>Miami-Dade’s harvest festival is on the calendar. Let Praise Rise brings a gospel concert to Miramar; Bethel Music stops at the Fillmore. On October 12, a Carlo Acutis statue blessing joins the local feast calendar.</p>",
+        "sources": [
+          {
+            "name": "Miami-Dade County",
+            "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1790687627744145"
+          },
+          {
+            "name": "ChristWay Baptist",
+            "url": "https://www.cbcmiramar.com/event-details/gospel-concert-2026"
+          },
+          {
+            "name": "Live Nation",
+            "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
+          },
+          {
+            "name": "Archdiocese of Miami",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Events_date_2026-10-12"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Giannis Heat debut: nine points, seven assists, then rested second half.",
+        "body": "<p>Giannis made his Heat debut: 9 points, 7 assists, then a quiet second half on the bench. A small, clean win for a city learning a new jersey.</p>",
+        "sources": [
+          {
+            "name": "Yahoo Sports",
+            "url": "https://sports.yahoo.com/nba/article/giannis-antetokounmpo-posts-9-points-7-assists-in-first-heat-appearance-rests-second-half-013713856.html"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "catholic",
-    "title": "Catholic",
-    "headline": "Wenski meets Pope Leo; St. Louis sues over detainees' sacraments.",
-    "body": "<p><strong>Miami.</strong> Archbishop Wenski was among the U.S. bishops Pope Leo received in private audiences from October 1 to 5. As canon law requires, Wenski submitted his resignation when he turned 75 last October. No successor has been announced.</p><p><strong>United States.</strong> On Monday the Pope also met USCCB president Archbishop Paul Coakley and vice president Bishop Daniel Flores, ahead of the Amoris Laetitia meeting October 7 to 14. The Archdiocese of St. Louis sued federal officials and the local sheriff, saying immigrant detainees at the Ste. Genevieve County Jail, most of them Hispanic Catholics, can see priests only by phone through glass. Archbishop Rozanski said that means no confession, Mass, or anointing. The jail’s offer to have a guard pass consecrated hosts in a container was, in his word, “sacrilegious.”</p><p><strong>Latin America.</strong> Peru is preparing for Pope Leo’s visit November 11 to 16. The Señor de los Milagros image will be at his Lima Mass on November 16.</p><p><strong>Africa.</strong> The continent’s bishops, through SECAM and Cardinal Ambongo, expressed solidarity with Lusaka’s Archbishop Alick Banda. He was arrested September 28 over a vehicle he says he received as a gift and has since surrendered, and was released on bail. His trial is set for November 3. Zambia’s bishops are also warning about arbitrary arrests since the August election.</p><p><strong>Europe, Asia, Middle East, Oceania.</strong> Nothing bigger than what noon covered. The Korea and Gaza items are under World and noon’s Catholic beat.</p><p><strong>Reassignments.</strong> <em>Cardinal Mauro Gambetti</em>, 60, a Conventual Franciscan, moves from St. Peter’s Basilica to Archbishop of Chieti-Vasto. He succeeds Archbishop Bruno Forte, 77, who retired at the age limit. <em>Bishop Peter J. Byrne</em>’s resignation as auxiliary bishop of New York was accepted. <em>Msgr. Grzegorz Bielaszka</em>, 52, a Polish Vatican diplomat who has served in Panama, Iraq, Hungary, Peru, and Gabon, was named nuncio to the United Arab Emirates and made an archbishop. Nothing new for Miami or Florida.</p>",
-    "sources": [
-     {
-      "name": "National Catholic Register: Pope meets U.S. bishops",
-      "url": "https://www.ncregister.com/cna/pope-leo-xiv-meets-usccb-leadership-and-other-prominent-american-bishops"
-     },
-     {
-      "name": "SRN News (Reuters): St. Louis lawsuit",
-      "url": "https://srnnews.com/catholic-diocese-sues-us-government-seeking-clergy-access-to-detainees/"
-     },
-     {
-      "name": "ACI Prensa: Peru awaits Pope Leo",
-      "url": "https://www.aciprensa.com/noticias/129035/corazon-senor-milagros-papa-leon"
-     },
-     {
-      "name": "Catholic Review (OSV News): Archbishop Banda",
-      "url": "https://catholicreview.org/african-bishops-express-solidarity-with-zambias-arrested-archbishop-banda-local-catholics-amid-unrest/"
-     },
-     {
-      "name": "Vatican News: Gambetti appointment",
-      "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/pope-appoints-cardinal-gambetti-as-new-archbishop-chieti-vasto.html"
-     },
-     {
-      "name": "Holy See Press Office: Resignations and appointments, Oct. 5",
-      "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/05/0788/01467.html"
-     }
-    ]
-   },
-   {
-    "id": "signs",
-    "title": "Signs of the times",
-    "headline": "Countdown quiet; Franklin Graham draws 10,000 in Manchester; more digital IDs.",
-    "body": "<p><strong>Countdown to the Kingdom.</strong> No new posts since noon. Our Lady’s September 25 Medjugorje message, asking families to pray the daily Rosary for peace, is still the latest, and the next monthly message is due October 25. No new Eucharistic miracle reports. The Carlo Acutis Eucharistic miracles exhibition is still set for October 12 to 16 at St. Mark the Evangelist.</p><p><strong>Revival and mission.</strong> More than 10,000 people filled Co-op Live in Manchester, the UK’s largest indoor arena, for Franklin Graham’s God Loves You Tour on Saturday. The Billy Graham Evangelistic Association counts more than 800 decisions for Christ. In Harare, Zimbabwe, local press reported about 50,000 at the Daughters of Virtue Mega 9 gathering.</p><p><strong>Digital ID.</strong> Google Wallet added Oklahoma, its 12th state ID on Android. West Africa’s ECOWAS is pushing for its biometric ID card to be accepted at borders across the region by December.</p>",
-    "sources": [
-     {
-      "name": "Countdown to the Kingdom: Marija, Time of Prayer for Peace",
-      "url": "https://www.countdowntothekingdom.com/marija-time-of-prayer-for-peace/"
-     },
-     {
-      "name": "BGEA Decision: Manchester",
-      "url": "https://billygraham.org/decision-magazine/articles/god-loves-you-tour-with-franklin-graham-reaches-manchester-england-hundreds-respond-to-gospel-message"
-     },
-     {
-      "name": "The Blast: Daughters of Virtue Mega 9",
-      "url": "https://theblast.co.zw/2026/10/05/daughters-of-virtue-mega-9-draws-an-impressive-crowd-of-approximately-50-000-congregants/"
-     },
-     {
-      "name": "9to5Google: Oklahoma ID in Google Wallet",
-      "url": "https://9to5google.com/2026/10/05/google-wallet-id-oklahoma/"
-     },
-     {
-      "name": "Biometric Update: ECOWAS ID",
-      "url": "https://www.biometricupdate.com/202610/ecowas-pushes-biometric-id-toward-region-wide-border-acceptance-by-december"
-     }
-    ]
-   },
-   {
-    "id": "miami",
-    "title": "Miami",
-    "headline": "One more free Saturday pick: Adventure-Leggers kids' book festival.",
-    "body": "<p>One addition for Saturday, October 10. Adventure-Leggers at Bookleggers Library (561 NW 32nd St.) runs 11 a.m. to 3 p.m. and is free with an RSVP, for kids 18 and under with a family member. This year’s theme is Unsolved Mysteries, with free books, a free lunch for kids, a magic show, and storytime. It pairs easily with the Tropical Park harvest festival that same morning.</p>",
-    "sources": [
-     {
-      "name": "Bookleggers: Adventure-Leggers 2026",
-      "url": "https://www.bookleggerslibrary.com/adventure-leggers-2026"
-     }
-    ]
-   },
-   {
-    "id": "pick-me-up",
-    "title": "Pick-me-up",
-    "headline": "Savi's Workshop gets High Republic hilts and color-flipping lightsaber blades.",
-    "body": "<p>Savi’s Workshop at Galaxy’s Edge is getting an updated High Republic “Protection &amp; Defense” hilt theme in white and gold. The blades are getting upgrades too: a thermal-cutting effect, deflection sounds, and, with a rare cracked kyber crystal, a flick of the wrist that switches the blade from blue to red. It’s coming soon to Hollywood Studios and Disneyland. <em>Galactic Racer</em> still launches tomorrow, and the Heat host New Orleans Thursday.</p>",
-    "sources": [
-     {
-      "name": "WDW News Today: Savi’s Workshop update",
-      "url": "https://wdwnt.com/2026/10/updated-hilt-theme-and-more-lightsaber-effects-coming-to-savis-workshop-in-star-wars-galaxys-edge/"
-     },
-     {
-      "name": "FAU University Press: Heat camp and schedule",
-      "url": "https://www.upressonline.com/2026/10/miami-heat-wrap-up-2026-training-camp-at-florida-atlantic/"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "2026-10-05-noon",
-  "date": "2026-10-05",
-  "slot": "noon",
-  "label": "Monday noon",
-  "generatedAt": "2026-10-05T12:10:00-04:00",
-  "beats": [
-   {
-    "id": "world",
-    "title": "World",
-    "headline": "Ethiopia retakes Mekelle; Iran oil minister resigns; Brazil runoff set.",
-    "body": "<p><strong>Africa.</strong> Ethiopian federal forces and an allied militia retook Mekelle, Tigray’s capital, after the TPLF pulled out; it’s the worst fighting since the 2020–22 war and has spread into Afar. Egypt, Eritrea, Somalia and Sudan put out a joint call for peaceful solutions, while all deny Ethiopia’s charge that they’re backing the rebels.</p><p><strong>Antarctica.</strong> New research says the continent will keep losing ice this century even if emissions are cut, though lower emissions shrink the loss. No acute event.</p><p><strong>Asia.</strong> Iran’s oil minister resigned as the economy buckles under the blockade, with inflation around 85% and a 10% contraction early this year. Separately, the ICC unveiled arrest warrants for Taliban supreme leader Haibatullah Akhundzada and chief justice Abdul Hakim Haqqani.</p><p><strong>Europe.</strong> Russia’s jet-powered drones are now going after bridges in Kyiv, an escalation after more than a month of round-the-clock strikes on the capital.</p><p><strong>North America.</strong> The Supreme Court opened its new term today. The first case argued asks whether federal law blocks state climate-damage suits against energy companies (Suncor v. Boulder County).</p><p><strong>South America.</strong> Brazil heads to an October 25 runoff. Flávio Bolsonaro won the first round with 47.0% to Lula’s 45.2%, which was better than polls expected for the right.</p><p><strong>Oceania.</strong> Fiji is hosting the Pacific pre-COP climate meeting with Australia and Tuvalu ahead of COP31. Fiji also set a possible December 9 referendum on a new constitution.</p>",
-    "sources": [
-     {
-      "name": "Al Jazeera: Ethiopia retakes Mekelle",
-      "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-forces-retake-mekelle-amid-renewed-tigray-fighting"
-     },
-     {
-      "name": "Al Jazeera: Four leaders' joint declaration",
-      "url": "https://www.aljazeera.com/news/2026/10/5/four-african-leaders-issue-joint-declaration-as-ethiopia-war-escalates"
-     },
-     {
-      "name": "CNBC Africa (Reuters)",
-      "url": "https://www.cnbcafrica.com/2026/government-forces-seize-capital-of-ethiopias-tigray-region-from-rebels"
-     },
-     {
-      "name": "Earth.com: Antarctic ice loss",
-      "url": "https://www.earth.com/environment/antarctica-will-keep-losing-ice-throughout-this-century-even-if-emissions-are-cut/"
-     },
-     {
-      "name": "The Guardian: Iran oil minister resigns",
-      "url": "https://www.theguardian.com/world/2026/oct/05/iran-oil-minister-resigns-economic-crisis"
-     },
-     {
-      "name": "Reuters: ICC Taliban warrants",
-      "url": "https://www.reuters.com/world/asia-pacific/icc-issues-arrest-warrants-two-taliban-leaders-2026-10-05/"
-     },
-     {
-      "name": "NPR: Drones target Kyiv bridges",
-      "url": "https://www.npr.org/2026/10/05/nx-s1-5989637/russias-attacks-on-ukraine-escalate-as-its-drones-target-bridges-in-kyiv"
-     },
-     {
-      "name": "NBC News: New Supreme Court term",
-      "url": "https://www.nbcnews.com/politics/supreme-court/new-supreme-court-term-begins-cases-climate-change-gun-rights-rcna601561"
-     },
-     {
-      "name": "BBC: Brazil runoff",
-      "url": "https://www.bbc.com/news/articles/ck1l34ed592no"
-     },
-     {
-      "name": "Agência Brasil",
-      "url": "https://agenciabrasil.ebc.com.br/en/politica/noticia/2026-10/flavio-bolsonaro-lula-head-runoff-brazils-presidential-race"
-     },
-     {
-      "name": "Sydney Morning Herald: Pre-COP in Fiji",
-      "url": "https://www.smh.com.au/environment/climate-change/only-two-leaders-from-outside-the-pacific-attending-crucial-pre-cop-meeting-in-fiji-20261005-p612u2.html"
-     },
-     {
-      "name": "RNZ: Fiji referendum date",
-      "url": "https://www.rnz.co.nz/news/pacific/1745980/fiji-schedules-potential-referendum-date-on-new-constitution-ahead-of-final-parliament-vote"
-     }
-    ]
-   },
-   {
-    "id": "promises",
-    "title": "MAGA / MAHA promises kept",
-    "headline": "Food-dye phase-out stays voluntary; deportation drive still short of target.",
-    "body": "<p><strong>MAHA: “Get synthetic dyes out of our food.”</strong> <em>The promise:</em> phase out petroleum-based dyes. <em>What was done:</em> voluntary industry pledges and an FDA list of companies that signed on, but no new rule more than a year later; only the already-scheduled Red No. 3 ban (effective January 2027) carries legal force. <em>Impact:</em> some reformulation by brands that pledged, but nothing binding, and AP reports a future administration could easily undo it.</p><p><strong>MAHA: “Define and rein in ultra-processed food; fix school meals.”</strong> <em>What was done:</em> per the Wall Street Journal, as summarized today by the Food Institute, the White House has repeatedly held back Kennedy’s ultra-processed food definition and the USDA school-meal overhaul over lawsuit and trade worries. <em>Impact:</em> none yet. This one is stalled inside the administration, not kept.</p><p><strong>MAGA: “Largest deportation operation in history.”</strong> <em>What was done:</em> about $70 billion for ICE and CBP, a much bigger ICE workforce, local-police arrest authority, and the end of several TPS designations. <em>Impact:</em> record ICE arrests, but ICE’s own count was about 356,000 removals through July, well short of a million a year. At least 51% of July arrestees had no criminal conviction or charge. PolitiFact rates it “In the Works.”</p>",
-    "sources": [
-     {
-      "name": "AP: FDA announcements vs. rulemaking",
-      "url": "https://apnews.com/article/robert-kennedy-fda-food-dyes-lawsuits-vaccines-962a54a018adf6e936f7aee212597b5a"
-     },
-     {
-      "name": "The Food Institute: MAHA food campaign stalled",
-      "url": "https://foodinstitute.com/healthwellness/maha-healthier-food-campaign-stalled-white-house/"
-     },
-     {
-      "name": "PolitiFact MAGA-Meter: deportations",
-      "url": "https://politifact.com/truth-o-meter/promises/maga-meter-tracking-donald-trumps-2024-promises/promise/387364/carry-out-the-largest-domestic-deportation-operati/article/397479/"
-     }
-    ]
-   },
-   {
-    "id": "musk",
-    "title": "Musk world",
-    "headline": "Tesla Q3 deliveries beat consensus; Starship Flight 15 eyed mid-October.",
-    "body": "<p><strong>Tesla.</strong> Shares rose for a second day, to about $377–378 this morning, after Q3 deliveries of 486,532 beat the roughly 462,000 consensus. That’s still down 2.1% from last year, and Tesla sold about 22,000 more cars than it built, so some of the beat came from clearing inventory. Energy storage deployments were 13.7 GWh. The real test is Q3 earnings after the close on October 21. Watch margins excluding regulatory credits and how much was discounted.</p><p><strong>SpaceX.</strong> Following Starship’s first orbital flight on September 28 (26 Starlink V3 satellites deployed), Flight 15 is penciled in for no earlier than October 19 and may try the first tower catch of a Ship. Flight 16, a possible first Starship launch from Kennedy’s pad 39A, is provisionally no earlier than October 30. Neither date is official yet.</p>",
-    "sources": [
-     {
-      "name": "Tesla Q3 2026 report (SEC)",
-      "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026064366/exhibit991111111.htm"
-     },
-     {
-      "name": "Electrek: Q3 deliveries",
-      "url": "https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/"
-     },
-     {
-      "name": "IBTimes: Tesla extends rally",
-      "url": "https://www.ibtimes.com.au/tesla-shares-rise-after-deliveries-beat-forecasts-1876287"
-     },
-     {
-      "name": "SpacePolicyOnline: Starship reaches orbit",
-      "url": "https://spacepolicyonline.com/news/starship-achieves-orbit-for-the-first-time/"
-     },
-     {
-      "name": "Flight 15 timing",
-      "url": "https://spiketoday.com/starship-flight-15-launch-date/"
-     },
-     {
-      "name": "Ship 43 / Flight 16 from Florida",
-      "url": "https://www.basenor.com/blogs/news/starship-ship-43-preps-for-flight-16-launch-from-florida"
-     }
-    ]
-   },
-   {
-    "id": "space",
-    "title": "Space",
-    "headline": "NASA pauses Blue Origin Mars orbiter after Rocket Lab protest.",
-    "body": "<p>NASA has reportedly paused Blue Origin’s Mars Telecommunications Orbiter contract after Rocket Lab filed a protest with the Government Accountability Office over the award. Meanwhile, Rocket Lab’s Neutron rocket looks increasingly likely to slip its first flight to 2027. The International Astronautical Congress opened today in Antalya, Türkiye, and runs through Friday, with ESA’s chief and China’s space agency at the leaders’ sessions.</p>",
-    "sources": [
-     {
-      "name": "Advanced Television: Blue Origin Mars deal paused",
-      "url": "https://www.advanced-television.com/2026/10/05/nasa-blue-origin-mars-rocket-deal-in-doubt/"
-     },
-     {
-      "name": "Spaceflight Now: Neutron window narrowing",
-      "url": "https://spaceflightnow.com/2026/08/10/window-for-2026-launch-debut-of-rocket-labs-neutron-rocket-is-narrowing-as-development-continues/"
-     },
-     {
-      "name": "ESA at IAC 2026",
-      "url": "https://www.esa.int/Newsroom/Press_Releases/Media_Advisory_ESA_at_the_International_Astronautical_Congress_IAC_in_Antalya_Tuerkiye"
-     }
-    ]
-   },
-   {
-    "id": "nasa",
-    "title": "NASA",
-    "headline": "Artemis III Earth-orbit test waits on both landers; KSC layoffs set.",
-    "body": "<p>Administrator Jared Isaacman says next year’s Artemis III Earth-orbit test won’t fly unless both landers, SpaceX’s Starship and Blue Origin’s, are ready. A crewed landing is still targeted for 2028, with China aiming for 2029–30. His deputy, Matt Anderson, told reporters at the congress that NASA has “exciting news to announce very soon.” Closer to home, contractor Amentum will lay off 70 Kennedy Space Center workers on November 30 as NASA brings core technical jobs in-house.</p>",
-    "sources": [
-     {
-      "name": "NewsNation: Isaacman interview",
-      "url": "https://www.newsnationnow.com/space/exclusive-nasa-administrator-how-us-win-space-race/"
-     },
-     {
-      "name": "Anadolu: NASA deputy chief",
-      "url": "https://www.aa.com.tr/en/turkiye/interview-civilian-space-race-20-with-china-closer-than-us-would-like-right-now-nasa-deputy-chief/4078426"
-     },
-     {
-      "name": "Florida Today: KSC contractor layoffs",
-      "url": "https://www.floridatoday.com/story/tech/science/space/2026/10/05/artemis-contractor-cuts-kennedy-space-center-jobs-amid-nasa-insourcing-drive-brevard-county-florida/92102511007/"
-     }
-    ]
-   },
-   {
-    "id": "catholic",
-    "title": "Catholic",
-    "headline": "Pope Leo prays for Gaza victims and urges valuing women's work.",
-    "body": "<p>Pope Leo sent a personal message to Gaza’s Catholic parish priest after an Israeli strike killed five civilians, praying, “How long, O Lord?” Meeting Vatican lay employees today, he said women’s contributions must be increasingly recognized and that AI cannot replace human work. No new Miami or Florida clergy assignments have been posted since the summer appointments.</p>",
-    "sources": [
-     {
-      "name": "Vatican News: Pope prays for Gaza victims",
-      "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-message-gaza-parish-priest-romanelli.html"
-     },
-     {
-      "name": "Vatican News: Women’s contributions",
-      "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-women-s-contributions-to-vatican-must-be-valued.html"
-     },
-     {
-      "name": "EWTN News: AI and human work",
-      "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-to-vatican-labor-associations-ai-cannot-replace-human-work"
-     }
-    ]
-   },
-   {
-    "id": "signs",
-    "title": "Signs of the times",
-    "headline": "Medjugorje September 25 message urges daily Rosary for peace.",
-    "body": "<p>Countdown to the Kingdom posted three new items over the weekend that this morning missed. The headline post is Our Lady’s September 25 Medjugorje message through Marija, still the latest monthly message and now distributed with ecclesiastical approval. In it she asks families to renew the daily Rosary for her intentions, so that she can intercede for peace, adding, “like never before I pray for you and with you.”</p><p>That lines up closely with Pope Leo’s October Rosary call. The other two posts are a Flame of Love passage from Elizabeth Kindelmann (“the Spirit of Pentecost will flood the earth”) and an October 2 message to Pedro Regis (“healing will come, only by the mercy of Jesus”). No new verified Eucharistic miracle reports turned up.</p>",
-    "sources": [
-     {
-      "name": "Countdown: Marija, Time of Prayer for Peace",
-      "url": "https://www.countdowntothekingdom.com/marija-time-of-prayer-for-peace/"
-     },
-     {
-      "name": "Countdown: Elizabeth, Satan Will be Blinded",
-      "url": "https://www.countdowntothekingdom.com/elizabeth-satan-will-be-blinded/"
-     },
-     {
-      "name": "Countdown: Pedro, Humanity is Sick",
-      "url": "https://www.countdowntothekingdom.com/pedro-humanity-is-sick-6/"
-     }
-    ]
-   },
-   {
-    "id": "miami",
-    "title": "Miami",
-    "headline": "Harvest festival, Arsht puppets, and Flamenco concert fill next weekend.",
-    "body": "<p>Saturday, October 10 brings a free Harvest &amp; Wellness Family Festival at Tropical Park (10 a.m. to 3 p.m.) with rides, crafts, and food. The same day, the Arsht has a family puppet show, <em>Marionetas de la Esquina: Superheroínas</em>, at 11 a.m. in English and 3 p.m. in Spanish. On Sunday, October 11 at 3 p.m., Orchestra Miami plays a family-friendly <em>Flamenco y Folklórico</em> concert at Pinecrest Gardens, with kids’ tickets from $10.</p>",
-    "sources": [
-     {
-      "name": "Miami-Dade Parks: Harvest & Wellness Festival",
-      "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1790687627744145"
-     },
-     {
-      "name": "Arsht Center: Marionetas",
-      "url": "https://www.arshtcenter.org/tickets/2026-2027/family-fun-live/marionetas-de-la-esquina-superheroinas/"
-     },
-     {
-      "name": "Orchestra Miami: Flamenco y Folklórico",
-      "url": "https://events.humanitix.com/flamenco-y-folklorico"
-     }
-    ]
-   },
-   {
-    "id": "pick-me-up",
-    "title": "Pick-me-up",
-    "headline": "Galactic Racer launches tomorrow; Heat season opens October 21.",
-    "body": "<p><em>Star Wars: Galactic Racer</em> launches tomorrow, October 6, on PS5, Xbox, and PC. It’s a run-based racer with speeders and swoop bikes through Jakku’s Star Destroyer graveyard, and yes, Sebulba shows up. On the Heat side, Spoelstra compared Giannis’s passing to Magic Johnson after Saturday’s preseason win. There’s an intrasquad scrimmage Tuesday, and the season opens October 21 against Minnesota.</p>",
-    "sources": [
-     {
-      "name": "StarWars.com: Galactic Racer",
-      "url": "https://www.starwars.com/news/star-wars-galactic-racer-reveal-trailer"
-     },
-     {
-      "name": "Polygon: Galactic Racer",
-      "url": "https://www.polygon.com/star-wars-galactic-racer-roguelike-interview/"
-     },
-     {
-      "name": "Miami Herald: Heat preseason opener",
-      "url": "https://www.miamiherald.com/sports/nba/miami-heat/article317482992.html"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "2026-10-05-morning",
-  "date": "2026-10-05",
-  "slot": "morning",
-  "label": "Monday morning",
-  "generatedAt": "2026-10-05T07:55:00-04:00",
-  "beats": [
-   {
-    "id": "world",
-    "title": "World",
-    "headline": "Iran war in eighth month; Hormuz closed; G7 releases oil stocks.",
-    "body": "<p>The Iran war is in its eighth month. The Strait of Hormuz remains dangerous: another tanker was hit over the weekend, and Tehran says the strait stays closed until U.S. conditions are met. Oil eased after the G7 agreed to release 100 million barrels of crude and diesel over four months—Brent around $101–102, U.S. crude near $90—though diesel and shipping costs stay high.</p><p>An Iranian security official admitted the economy is in one of its worst stretches under the U.S. blockade. In Ukraine, Russia launched more than 1,900 drones last week; Kyiv says it is open to U.S.-backed talks late this month but remains short on funding. U.S. futures opened slightly lower ahead of Fed minutes on Wednesday.</p>",
-    "sources": [
-     {
-      "name": "Gulf News",
-      "url": "https://gulfnews.com/world/mena/us-iran-war-tehran-rejects-military-solution-saudi-led-coalition-backs-yemen-offensive-against-houthis-1.500698388"
-     },
-     {
-      "name": "Business Standard",
-      "url": "https://www.business-standard.com/world-news/iran-s-top-security-official-warns-of-dire-economic-crisis-as-war-drags-on-126100500065_1.html"
-     },
-     {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/04/more-tankers-struck-in-gulf-waters-as-iran-reiterates-conditions.html"
-     },
-     {
-      "name": "Kyiv Independent",
-      "url": "https://kyivindependent.com/us-proposes-trilateral-talks-with-russia-ukraine-by-end-of-october-zelensky-says/"
-     },
-     {
-      "name": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/4/ukraine-ready-for-us-backed-talks-with-russia-zelenskyy"
-     },
-     {
-      "name": "CNBC",
-      "url": "https://www.cnbc.com/2026/10/05/ukraine-war-russia-kyiv-putin-zelenskyy-trump.html"
-     }
-    ]
-   },
-   {
-    "id": "catholic",
-    "title": "Catholic",
-    "headline": "Pope Leo asks daily October Rosary for peace, especially Holy Land.",
-    "body": "<p>Pope Leo has asked the faithful to pray the Rosary every day in October for an end to wars, especially in the Holy Land. At the Vatican, a gathering of families and young people runs October 7–14 marking ten years of <em>Amoris Laetitia</em>. Closer to home, Archbishop Wenski marked Little Flower’s 100th anniversary and Amor en Acción’s 50th.</p>",
-    "sources": [
-     {
-      "name": "Vatican News",
-      "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-may-we-pray-for-intercession-virgin-mary-for-world-peace.html"
-     },
-     {
-      "name": "Vatican News",
-      "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/amoris-laetitia-for-a-new-proclamation-of-the-gospel-with-famil.html"
-     },
-     {
-      "name": "Archdiocese of Miami",
-      "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_god-cleared-the-ground-planted-the-seed-of-faith-and-has-meticulously-tended-to-this-community"
-     },
-     {
-      "name": "Archdiocese of Miami",
-      "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_to-be-an-effective-missionary-one-must-first-be-a-committed-disciple"
-     }
-    ]
-   },
-   {
-    "id": "signs",
-    "title": "Signs of the times",
-    "headline": "No fresh Medjugorje word; Acutis exhibition runs October 12–16 locally.",
-    "body": "<p>No fresh verified word this morning. The latest Medjugorje message remains September 25. Locally, a St. Carlo Acutis Eucharistic Miracles exhibition with a relic runs October 12–16 at St. Mark the Evangelist in Southwest Ranches.</p>",
-    "sources": [
-     {
-      "name": "Archdiocese of Miami",
-      "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
-     }
-    ]
-   },
-   {
-    "id": "miami",
-    "title": "Miami",
-    "headline": "Bethel Music at Fillmore October 11; Acutis statue blessing October 12.",
-    "body": "<p>Bethel Music at the Fillmore Miami Beach, October 11 at 7 p.m. Let Praise Rise at ChristWay Baptist in Miramar, October 9 at 6:30 p.m. (childcare for under 6). Corpus Christi blesses its Carlo Acutis statue October 12 at 8 p.m.</p>",
-    "sources": [
-     {
-      "name": "Live Nation",
-      "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
-     },
-     {
-      "name": "ChristWay Baptist",
-      "url": "https://www.cbcmiramar.com/event-details/gospel-concert-2026"
-     },
-     {
-      "name": "Archdiocese of Miami",
-      "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178242162428188"
-     }
-    ]
-   },
-   {
-    "id": "pick-me-up",
-    "title": "Pick-me-up",
-    "headline": "Giannis's first Heat appearance: nine points, seven assists versus Toronto.",
-    "body": "<p>Giannis made his first Heat appearance Saturday: Miami beat Toronto 129–105. He had 9 points and 7 assists in about 14 minutes, then rested the second half. Next up: New Orleans on Thursday.</p>",
-    "sources": [
-     {
-      "name": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/nba/article/giannis-antetokounmpo-posts-9-points-7-assists-in-first-heat-appearance-rests-second-half-013713856.html"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "2026-10-04-evening",
-  "date": "2026-10-04",
-  "slot": "evening",
-  "label": "Sunday evening",
-  "generatedAt": "2026-10-04T19:30:00-04:00",
-  "beats": [
-   {
-    "id": "world",
-    "title": "World",
-    "headline": "Russia to intensify Ukraine strikes; Houthis claim Aramco hit near Riyadh.",
-    "body": "<p>Russia said it would intensify strikes on Ukraine after a Zelenskiy interview outlining further attacks on Russian oil infrastructure. Separately, the U.S. told France and Germany to release diesel stocks or face a U.S. export ban—pressure that Zero Hedge also covered as Europe’s emergency supplies came into focus.</p><p>In the Gulf, Houthis claimed a strike on an Aramco facility near Riyadh; Saudi forces hit Sanaa in response. Hormuz and Red Sea routes remain the quiet pressure behind every oil headline.</p>",
-    "sources": [
-     {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/world/europe/russia-intensify-strikes-ukraine-after-zelenskiy-interview-2026-10-04/"
-     },
-     {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/business/energy/us-tells-france-germany-release-diesel-stocks-or-face-us-export-ban-sources-say-2026-10-01/"
-     },
-     {
-      "name": "Zero Hedge",
-      "url": "https://www.zerohedge.com/commodities/us-warns-europe-release-emergency-diesel-supplies-or-face-export-ban"
-     },
-     {
-      "name": "AFP",
-      "url": "https://www.afp.com/en/houthis-say-struck-oil-facility-near-riyadh-saudis-hit-sanaa"
-     }
-    ]
-   },
-   {
-    "id": "catholic",
-    "title": "Catholic",
-    "headline": "Wenski marks Little Flower centennial; Pope Leo points to Saint Francis.",
-    "body": "<p>Archbishop Wenski marked Little Flower’s centennial and Amor en Acción’s fiftieth—local roots and missionary discipleship side by side. From Rome, Pope Leo’s Angelus pointed to Saint Francis as a path to build peace, and the Vatican previewed a gathering for a new proclamation of the Gospel with families on the tenth anniversary of <em>Amoris Laetitia</em>.</p>",
-    "sources": [
-     {
-      "name": "Archdiocese of Miami",
-      "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_god-cleared-the-ground-planted-the-seed-of-faith-and-has-meticulously-tended-to-this-community"
-     },
-     {
-      "name": "Archdiocese of Miami",
-      "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_to-be-an-effective-missionary-one-must-first-be-a-committed-disciple"
-     },
-     {
-      "name": "Vatican News",
-      "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-at-angelus-saint-francis-shows-us-how-to-build-peace.html"
-     },
-     {
-      "name": "Vatican News",
-      "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/amoris-laetitia-for-a-new-proclamation-of-the-gospel-with-famil.html"
-     }
-    ]
-   },
-   {
-    "id": "signs",
-    "title": "Signs of the times",
-    "headline": "Quiet evening; latest Medjugorje message remains September 25.",
-    "body": "<p>Quiet this evening. The latest Medjugorje message remains September 25.</p>",
-    "sources": []
-   },
-   {
-    "id": "miami",
-    "title": "Miami",
-    "headline": "Harvest festival, gospel concert, Bethel Music, and Acutis blessing ahead.",
-    "body": "<p>Miami-Dade’s harvest festival is on the calendar. Let Praise Rise brings a gospel concert to Miramar; Bethel Music stops at the Fillmore. On October 12, a Carlo Acutis statue blessing joins the local feast calendar.</p>",
-    "sources": [
-     {
-      "name": "Miami-Dade County",
-      "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1790687627744145"
-     },
-     {
-      "name": "ChristWay Baptist",
-      "url": "https://www.cbcmiramar.com/event-details/gospel-concert-2026"
-     },
-     {
-      "name": "Live Nation",
-      "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
-     },
-     {
-      "name": "Archdiocese of Miami",
-      "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Events_date_2026-10-12"
-     }
-    ]
-   },
-   {
-    "id": "pick-me-up",
-    "title": "Pick-me-up",
-    "headline": "Giannis Heat debut: nine points, seven assists, then rested second half.",
-    "body": "<p>Giannis made his Heat debut: 9 points, 7 assists, then a quiet second half on the bench. A small, clean win for a city learning a new jersey.</p>",
-    "sources": [
-     {
-      "name": "Yahoo Sports",
-      "url": "https://sports.yahoo.com/nba/article/giannis-antetokounmpo-posts-9-points-7-assists-in-first-heat-appearance-rests-second-half-013713856.html"
-     }
-    ]
-   }
-  ]
- }
+  }
 ]

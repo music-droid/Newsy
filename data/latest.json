@@ -1,44 +1,44 @@
 {
-  "id": "2026-10-05-evening",
-  "label": "Monday evening",
-  "generatedAt": "2026-10-05T20:09:00-04:00",
+  "id": "2026-10-06-morning",
+  "label": "Tuesday morning",
+  "generatedAt": "2026-10-06T08:10:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Yemen offensive on Houthis; Spain snap election; Vatican City reshuffles St. Peter's."
+      "headline": "Yemen retakes Mokha; Ukraine's record drone barrage; Vatican City prepares Amoris assembly."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Kennedy's vaccine schedule overhaul sued by 16 states; data plan unveiled."
+      "headline": "Insurer price rule finalized; ICE arrests hit records through local police."
     },
     {
       "title": "Musk world",
-      "headline": "Musk confirms early TSMC Terafab talks; SpaceX seeks 76 Florida Starship launches."
+      "headline": "Tesla extends delivery rally; analysts split ahead of October 21 earnings."
     },
     {
       "title": "Space",
-      "headline": "Quiet since noon; IAC continues in Antalya through Friday."
+      "headline": "Türkiye unveils military constellation and Somalia spaceport at IAC day two."
     },
     {
       "title": "NASA",
-      "headline": "Quiet; NASA's teased “exciting news” hasn't been announced yet."
+      "headline": "Crew-12 undocks Wednesday morning; splashdown off California Thursday."
     },
     {
       "title": "Catholic",
-      "headline": "Wenski meets Pope Leo; St. Louis sues over detainees' sacraments."
+      "headline": "Little Flower turns 100; Zambia's archbishop charged; new UAE nuncio named."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown quiet; Franklin Graham draws 10,000 in Manchester; more digital IDs."
+      "headline": "Rosary-for-peace message stands; Cape Town revival Saturday; national digital IDs spread."
     },
     {
       "title": "Miami",
-      "headline": "One more free Saturday pick: Adventure-Leggers kids' book festival."
+      "headline": "$10 Heat scrimmage tonight; Bethel Music Sunday; free Saturday family festivals."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Savi's Workshop gets High Republic hilts and color-flipping lightsaber blades."
+      "headline": "Galactic Racer launches to rave reviews; Giannis promises a show tonight."
     }
   ]
 }
