@@ -1,44 +1,44 @@
 {
-  "id": "2026-10-05-noon",
-  "label": "Monday noon",
-  "generatedAt": "2026-10-05T12:10:00-04:00",
+  "id": "2026-10-05-evening",
+  "label": "Monday evening",
+  "generatedAt": "2026-10-05T20:09:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Ethiopia retakes Mekelle; Iran oil minister resigns; Brazil runoff set."
+      "headline": "Yemen offensive on Houthis; Spain snap election; Vatican City reshuffles St. Peter's."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Food-dye phase-out stays voluntary; deportation drive still short of target."
+      "headline": "Kennedy's vaccine schedule overhaul sued by 16 states; data plan unveiled."
     },
     {
       "title": "Musk world",
-      "headline": "Tesla Q3 deliveries beat consensus; Starship Flight 15 eyed mid-October."
+      "headline": "Musk confirms early TSMC Terafab talks; SpaceX seeks 76 Florida Starship launches."
     },
     {
       "title": "Space",
-      "headline": "NASA pauses Blue Origin Mars orbiter after Rocket Lab protest."
+      "headline": "Quiet since noon; IAC continues in Antalya through Friday."
     },
     {
       "title": "NASA",
-      "headline": "Artemis III Earth-orbit test waits on both landers; KSC layoffs set."
+      "headline": "Quiet; NASA's teased “exciting news” hasn't been announced yet."
     },
     {
       "title": "Catholic",
-      "headline": "Pope Leo prays for Gaza victims and urges valuing women's work."
+      "headline": "Wenski meets Pope Leo; St. Louis sues over detainees' sacraments."
     },
     {
       "title": "Signs of the times",
-      "headline": "Medjugorje September 25 message urges daily Rosary for peace."
+      "headline": "Countdown quiet; Franklin Graham draws 10,000 in Manchester; more digital IDs."
     },
     {
       "title": "Miami",
-      "headline": "Harvest festival, Arsht puppets, and Flamenco concert fill next weekend."
+      "headline": "One more free Saturday pick: Adventure-Leggers kids' book festival."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Galactic Racer launches tomorrow; Heat season opens October 21."
+      "headline": "Savi's Workshop gets High Republic hilts and color-flipping lightsaber blades."
     }
   ]
 }
