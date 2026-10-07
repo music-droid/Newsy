@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-07-morning",
-  "label": "Wednesday morning",
-  "generatedAt": "2026-10-07T08:05:49-04:00",
+  "id": "2026-10-07-noon",
+  "label": "Wednesday noon",
+  "generatedAt": "2026-10-07T12:30:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City opens Amoris meeting; Israel marks Oct. 7; Russia's huge barrage."
+      "headline": "Vatican City: Pope opens Amoris meeting; India hikes rates; Ukraine toll rises."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Diesel tax relief looks modest; MAHA summit's corporate sponsors rile allies."
+      "headline": "Kennedy's vaccine-panel overhaul goes to appeals court; ruling still pending."
     },
     {
       "title": "Musk world",
-      "headline": "SpaceX seeks $40 billion for Nvidia chips; Tesla rides record Nasdaq."
+      "headline": "FCC clears 15,000 Starlink Mobile satellites; Tesla slips near $375."
     },
     {
       "title": "Space",
-      "headline": "Korea's Nuri rocket lofts five satellites; ArianeGroup signs lunar-lander deal."
+      "headline": "Artemis Accords leaders: Russia, China welcome only if principles align."
     },
     {
       "title": "NASA",
-      "headline": "Crew-12 hatch closed; Dragon undocks this morning, splashdown Thursday."
+      "headline": "Crew-12 undocked on time; splashdown Thursday at 11:34 a.m."
     },
     {
       "title": "Catholic",
-      "headline": "Wenski presses death-penalty fight; new nuncio for Ireland; German questions."
+      "headline": "Miami weekend: mental-health day, Rosary morning; DHS disputes St. Louis suit."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown quiet; Rosary message stands; revival at UM; China IDs AI humans."
+      "headline": "Countdown quiet; Alabama crusade sees 320 commitments; Indonesia tightens digital ID."
     },
     {
       "title": "Miami",
-      "headline": "Heat home Thursday; gospel concert Friday; free festivals Saturday; Bethel Sunday."
+      "headline": "Quiet; Heat host the Pelicans Thursday at 7:30."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Messi bows out 3-0; Giannis dunks at home; retro Starfighter logo."
+      "headline": "Filoni's Ezra escape comic arrives with Ahsoka Season 2; Klay's gravity."
     }
   ],
-  "audio": "audio/2026-10-07-morning.mp3"
+  "audio": "audio/2026-10-07-noon.mp3"
 }
