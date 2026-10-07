@@ -1,44 +1,44 @@
 {
-  "id": "2026-10-06-evening",
-  "label": "Tuesday evening",
-  "generatedAt": "2026-10-06T20:08:19-04:00",
+  "id": "2026-10-07-morning",
+  "label": "Wednesday morning",
+  "generatedAt": "2026-10-07T08:05:49-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City sets Assisi peace visit; drones sink ship off Bulgaria."
+      "headline": "Vatican City opens Amoris meeting; Israel marks Oct. 7; Russia's huge barrage."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Trump launches Anduril sub shipyard; RFK vaccine overhaul argued on appeal."
+      "headline": "Diesel tax relief looks modest; MAHA summit's corporate sponsors rile allies."
     },
     {
       "title": "Musk world",
-      "headline": "Tesla closes near $381; Cybercab heads to Paris; SDA launch Thursday."
+      "headline": "SpaceX seeks $40 billion for Nvidia chips; Tesla rides record Nasdaq."
     },
     {
       "title": "Space",
-      "headline": "NASA reportedly nears moon-base rocket bulk buys; Rocket Lab rises."
+      "headline": "Korea's Nuri rocket lofts five satellites; ArianeGroup signs lunar-lander deal."
     },
     {
       "title": "NASA",
-      "headline": "Crew-12's last full day; undocking still set 8:05 a.m. Wednesday."
+      "headline": "Crew-12 hatch closed; Dragon undocks this morning, splashdown Thursday."
     },
     {
       "title": "Catholic",
-      "headline": "Córdoba auxiliary bishop removed; Pope's Gaza letter; no Bollettino appointments."
+      "headline": "Wenski presses death-penalty fight; new nuncio for Ireland; German questions."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown quiet; Sept. 25 message stands; Bulgaria plans phone digital ID."
+      "headline": "Countdown quiet; Rosary message stands; revival at UM; China IDs AI humans."
     },
     {
       "title": "Miami",
-      "headline": "Colombia-Peru at Nu Stadium tonight; gospel concert Friday in Miramar."
+      "headline": "Heat home Thursday; gospel concert Friday; free festivals Saturday; Bethel Sunday."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Messi's Argentina farewell tonight; Giannis says Heat Culture is real."
+      "headline": "Messi bows out 3-0; Giannis dunks at home; retro Starfighter logo."
     }
   ]
 }
