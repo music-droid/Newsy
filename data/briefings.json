@@ -1,5 +1,237 @@
 [
   {
+    "id": "2026-10-06-evening",
+    "date": "2026-10-06",
+    "slot": "evening",
+    "label": "Tuesday evening",
+    "generatedAt": "2026-10-06T20:08:19-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Vatican City sets Assisi peace visit; drones sink ship off Bulgaria.",
+        "body": "<p><strong>Vatican City.</strong> Pope Leo will go to Assisi on October 27 for the 40th anniversary of St. John Paul II’s 1986 World Day of Prayer for Peace. Sant’Egidio’s gathering there, “Disarmed and Disarming Peace” (a phrase of Pope Leo’s), runs October 25 to 27 with 384 religious and civic representatives from 53 countries. The Pope will pray with Christians in the Lower Basilica, where he and Patriarch Bartholomew will each offer a meditation, then give a message of peace in the piazza. The Vatican also released the full program for tomorrow’s <em>Amoris Laetitia</em> assembly: 187 participants, including 114 bishops’ conference presidents and 22 married couples. Among the Pope’s personal invitees are two bishops from mainland China, whose Party-overseen bishops’ conference the Vatican does not recognize. Pope Leo opens it tomorrow and closes it with Mass in St. Peter’s Square on October 14.</p><p><strong>Africa.</strong> President Ruto ordered a stepped-up Ebola response in Kenya. Eight family members and 21 health workers are in quarantine, 27 passengers from the flight have been contacted, and 48 people in all are being monitored. Of 267 samples tested, the only positive is still the man who died.</p><p><strong>Asia.</strong> Israel’s defense minister put the military on high alert ahead of tomorrow’s October 7 anniversary, citing intelligence that Hamas plans attacks on troops in Gaza, and warned Gazans would pay a “heavy price” if soldiers are harmed. In Yemen, Saudi Arabia acknowledged that two of its airports were hit, with three people lightly hurt. Yemeni officials told AP that coalition forces retook the town of Dhubab near the Bab el-Mandeb. The UN migration agency counts more than 184,000 people displaced since August. AP says the U.S. is giving Riyadh intelligence and planning help but isn’t resuming its own strikes.</p><p><strong>Europe.</strong> Drones hit merchant ships in the Black Sea. The Togo-flagged <em>Alfa Watan</em> sank about 70 miles off Bulgaria, the first reported attack on shipping inside Bulgaria’s economic zone, and its crew is still missing. All 18 crew from the burning Palau-flagged <em>Able</em> were rescued by a Bulgarian ferry. Zelensky says Ukraine checked with Bulgaria and concluded it was a Russian attack, and Prime Minister Radev called it a “gross violation of international law.” A separate Russian drone strike killed a crew member on a ship carrying rapeseed oil off Odesa.</p><p><strong>North America.</strong> The big story was Trump launching a new submarine shipyard in Maryland (see Promises). Otherwise quiet since noon.</p><p><strong>South America.</strong> Argentina is saying goodbye to Messi tonight (see Pick-me-up). In New York, the court hears Cilia Flores’s request for bail and home confinement on Thursday; prosecutors call her an “extreme flight risk.”</p><p><strong>Oceania.</strong> Fiji’s finance ministry laid out Australia’s 10-year, $1.5 billion package under their Vuvale Union treaty: about $1 billion in grants and $500 million in loans. That includes $284 million to fight transnational crime and drugs and $158 million for health, with the rest going to infrastructure and climate resilience.</p>",
+        "sources": [
+          {
+            "name": "Vatican News: Pope Leo to visit Assisi",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-assisi-40-years-john-paul-2-religions-peace-prayer.html"
+          },
+          {
+            "name": "Aleteia: Amoris Laetitia meeting program",
+            "url": "https://aleteia.org/2026/10/06/vatican-outlines-program-for-amoris-laetitia-followup-meeting/"
+          },
+          {
+            "name": "Ronny TV: Ruto orders enhanced Ebola response",
+            "url": "https://ronnytv.co.ke/news/ruto-orders-enhanced-ebola-response-as-48-contacts-quarantined/"
+          },
+          {
+            "name": "Asharq Al-Awsat: Israel on alert for Oct. 7 anniversary",
+            "url": "https://english.aawsat.com/arab-world/5326528-israel-puts-military-alert-oct-7-anniversary-warns-gazans"
+          },
+          {
+            "name": "ABC News (AP): Fighting in Yemen escalates",
+            "url": "https://abcnews.com/International/wireStory/fighting-yemen-escalates-us-iran-tensions-remain-high-137033030"
+          },
+          {
+            "name": "Kyiv Independent: Ships struck off Bulgaria",
+            "url": "https://kyivindependent.com/ukraine-war-latest-russia-strikes-civilian-vessels-in-black-sea-off-bulgarias-coast/"
+          },
+          {
+            "name": "El País: Venezuela did not seek Maduro immunity",
+            "url": "https://english.elpais.com/international/2026-10-06/venezuela-confirms-it-did-not-seek-nicolas-maduros-release-or-request-immunity-to-prevent-us-trial.html"
+          },
+          {
+            "name": "FBC News: Fiji’s funding deal",
+            "url": "https://www.fbcnews.com.fj/news/fijis-big-funding-deal-comes-with-loans/"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Trump launches Anduril sub shipyard; RFK vaccine overhaul argued on appeal.",
+        "body": "<p><strong>“Bring shipbuilding back to America.”</strong> <em>What was done:</em> At Sparrows Point outside Baltimore, President Trump launched Arsenal-2, a new Anduril shipyard. Anduril is putting in $3.7 billion and has a Navy contract worth up to $2.9 billion. It will build Virginia-class submarine parts, starting with torpedo tubes, for Electric Boat and Newport News to assemble. Trump said taxpayers will get a 40% stake but didn’t say how that will work. <em>Impact:</em> nothing yet. Permitting starts now, and the yard isn’t expected to open until 2030. The projection is more than 3,100 direct jobs and about 15% more submarine-industry labor capacity. Promise in motion, with the payoff in the 2030s.</p><p><strong>“Overhaul the childhood vaccine schedule.”</strong> <em>What was done:</em> Under Kennedy, the CDC dropped the universal hepatitis B birth dose and moved shots for rotavirus, hepatitis A and B, flu, Covid, RSV, and meningococcal disease to high-risk or “shared decision” status. Kennedy also remade the vaccine advisory panel. In March a federal judge put key changes and the panel’s decisions on hold. On Tuesday, the Justice Department asked the First Circuit to lift that order. <em>Impact:</em> the main changes are frozen in court, and the panel gave no timeline for a ruling. Acted on, but not yet in effect.</p>",
+        "sources": [
+          {
+            "name": "DefenseScoop: Anduril shipyard announced",
+            "url": "https://defensescoop.com/2026/10/06/white-house-anduril-announce-new-shipyard-baltimore-county/"
+          },
+          {
+            "name": "Moneycontrol: Trump launches Anduril shipyard",
+            "url": "https://www.moneycontrol.com/world/trump-launches-6-6-billion-anduril-shipyard-in-maryland-to-build-us-submarine-components-article-14046157.html"
+          },
+          {
+            "name": "Maryland Governor’s Office: Anduril investment",
+            "url": "https://governor.maryland.gov/news/press-releases/state-maryland-baltimore-county-announce-anduril-industries-invest-37b"
+          },
+          {
+            "name": "Courthouse News: First Circuit hears vaccine appeal",
+            "url": "https://www.courthousenews.com/first-circuit-urged-to-unblock-rjk-jr-maha-vaccine-policy-makeover/"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Tesla closes near $381; Cybercab heads to Paris; SDA launch Thursday.",
+        "body": "<p><strong>Tesla.</strong> Closed at about $380.68, up roughly half a percent. Tesla says the Cybercab, its two-seat robotaxi with no steering wheel or pedals, makes its European debut at the Paris Motor Show October 12 to 18, with test drives of six FSD-equipped models. GuruFocus reports the Cybercab is planned to be available by 2027. Earnings are still October 21.</p><p><strong>SpaceX.</strong> Shares closed near $172, up about half a percent after Monday’s roughly 8% jump, and back above the IPO price. Morgan Stanley’s $300 target and Goldman’s raise to $230 are behind the run. CNBC notes that options traders are pricing slower gains from here. The 21-satellite Space Development Agency launch is unchanged: no earlier than Thursday at 3:54 a.m. ET from Vandenberg, with a backup Friday.</p>",
+        "sources": [
+          {
+            "name": "Exa market data: TSLA Oct. 6",
+            "url": "https://exa.ai/library/markets/stock/TSLA?date=2026-10-06"
+          },
+          {
+            "name": "GuruFocus: Cybercab to Paris Motor Show",
+            "url": "https://www.gurufocus.com/news/9111850/tesla-unveils-cybercab-robotaxi-at-paris-motor-show-tsla-shares-rise-06"
+          },
+          {
+            "name": "Exa market data: SPCX Oct. 6",
+            "url": "https://exa.ai/library/markets/stock/SPCX?date=2026-10-06"
+          },
+          {
+            "name": "Invezz: SpaceX rally",
+            "url": "https://invezz.com/news/2026/10/06/spacex-continues-rally-on-tuesday-whats-behind-the-recent-bull-run/"
+          },
+          {
+            "name": "CNBC: SpaceX stock is taking off again",
+            "url": "https://www.cnbc.com/2026/10/06/spacex-stock-is-taking-off-again-but-with-one-key-difference-this-time.html"
+          },
+          {
+            "name": "SpaceX: SDA’s fourth Tranche 1 mission",
+            "url": "https://www.spacex.com/launches/sda-t1tl-a"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "NASA reportedly nears moon-base rocket bulk buys; Rocket Lab rises.",
+        "body": "<p>Bloomberg reports that NASA is close to buying launches in bulk for its $30 billion moon-base program, possibly four or five rocket types in one deal, each paired with a commercial lander. Program manager Carlos García-Galán says the first set will “probably” be announced soon. Rocket Lab shares rose about 4%. It’s an opening for newer rockets like Neutron, Terran R, and Nova, since SpaceX has stopped taking new dedicated Falcon 9 bookings for after 2028.</p>",
+        "sources": [
+          {
+            "name": "Blockonomi: Rocket Lab gains on Bloomberg report",
+            "url": "https://blockonomi.com/rocket-lab-rklb-gains-on-bloomberg-report-of-upcoming-nasa-bulk-launch-orders/"
+          },
+          {
+            "name": "Archyde: NASA considers bulk rocket purchases",
+            "url": "https://www.archyde.com/nasa-considers-bulk-rocket-purchases-for-30b-moon-base-plan/"
+          },
+          {
+            "name": "Bloomberg (original report)"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Crew-12's last full day; undocking still set 8:05 a.m. Wednesday.",
+        "body": "<p>Crew-12 spent its last full day on the station packing Dragon and getting ready for reentry. Hatch closing is around 6:20 a.m. tomorrow, with NASA+ coverage starting at 6, undocking at 8:05 a.m. ET, and splashdown off California Thursday at 11:34 a.m., after 237 days in space. The new Crew-13 has started health research, including studies of blood clots, sleep, and veins.</p>",
+        "sources": [
+          {
+            "name": "NASA: Crew-12 ready to depart",
+            "url": "https://www.nasa.gov/blogs/spacestation/2026/10/06/crew-12-ready-to-depart-as-new-residents-begin-advanced-health-research/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Córdoba auxiliary bishop removed; Pope's Gaza letter; no Bollettino appointments.",
+        "body": "<p><strong>Miami.</strong> Quiet since noon. Still ahead: the St. Carlo Acutis Eucharistic Miracles Exposition, October 12 to 16 at St. Mark the Evangelist.</p><p><strong>United States.</strong> Bishops in Virginia, Nevada, Idaho, and Missouri are campaigning on four abortion-related ballot measures on November 3. Las Vegas Archbishop George Leo Thomas plans a pastoral letter by mid-October urging a no vote on Nevada’s Question 6.</p><p><strong>Latin America.</strong> In Argentina, Córdoba’s Auxiliary Bishop Ricardo Seirutti was removed as auxiliary and vicar general after a canonical trial ordered by the Dicastery for the Doctrine of the Faith. Two adults had filed complaints of “conduct unbecoming to the episcopal office.” For five years he can’t receive new appointments or hear confessions, except for someone in danger of death. Pope Leo visits Córdoba on November 10.</p><p><strong>Middle East.</strong> Pope Leo wrote to Fr. Gabriel Romanelli of Holy Family parish in Gaza about Maysa and Mary, the two Orthodox Christian women killed in the October 3 strike: “How long, O Lord? … Thank you for accompanying the parish and so many people who wish to live in peace.”</p><p><strong>Other regions.</strong> Quiet since noon.</p><p><strong>Reassignments.</strong></p><ul><li>No “Rinunce e nomine” in the Vatican Bollettino for October 6 as of this evening.</li><li><strong>Bishop Ricardo Seirutti</strong>, removed as auxiliary of Córdoba, Argentina (announced by the archdiocese; not in the Bollettino as of today).</li><li>One we missed: on October 5, Pope Leo accepted the resignation of <strong>Auxiliary Bishop Peter J. Byrne</strong> of New York, who is 75.</li><li>No new Miami clergy assignments posted.</li></ul>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: Eucharistic Miracles Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "National Catholic Reporter: Bishops and ballot measures",
+            "url": "https://www.ncronline.org/news/catholic-bishops-speak-out-four-abortion-related-ballot-measures"
+          },
+          {
+            "name": "The Pillar: Córdoba auxiliary removed",
+            "url": "https://www.pillarcatholic.com/p/argentinas-episcopal-upheaval-continues"
+          },
+          {
+            "name": "EWTN News: Pope laments Gaza attacks",
+            "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-laments-new-attacks-on-gaza-victims"
+          },
+          {
+            "name": "Holy See Press Office: October 2026 Bollettino index",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10.html"
+          },
+          {
+            "name": "USCCB: Bishop Byrne resignation",
+            "url": "https://www.usccb.org/news/2026/pope-leo-xiv-accepts-resignation-auxiliary-bishop-peter-byrne"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown quiet; Sept. 25 message stands; Bulgaria plans phone digital ID.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> Checked this evening, and nothing new since the October 3 posts.</p><p><strong>Latest message.</strong> Our Lady’s September 25 Medjugorje message, calling families to renew the Rosary for peace, is still the newest. There’s no October 2 message to Mirjana, because she said in 2020 that her second-of-the-month apparitions had ended; she still has her annual one on March 18. The next monthly message is due October 25.</p><p><strong>Digital ID watch.</strong> Bulgaria’s digital minister, Ivan Vasilev, says the country’s EU Digital Identity Wallet will be built by the end of 2026, letting people deal with government offices from their phones. No implantable-chip news.</p><p><strong>Miracles and revival.</strong> Quiet since noon. Saturday’s Revival Fire gathering in Cape Town is still on.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Medjugorje.ws: Sept. 25 message",
+            "url": "https://text.medjugorje.ws/en/messages/260925m/"
+          },
+          {
+            "name": "Catholic World Report: Mirjana’s monthly apparitions end (2020)",
+            "url": "https://www.catholicworldreport.com/2020/03/18/medjugorje-visionary-says-monthly-apparitions-have-come-to-an-end/"
+          },
+          {
+            "name": "BurgasMedia: Bulgaria digital ID wallet",
+            "url": "https://burgasmedia.com/news/ministar-vasilev-cifrovata-samolichnost-v-telefona-idva-do-kraya-na-godinata?lang=en"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Colombia-Peru at Nu Stadium tonight; gospel concert Friday in Miramar.",
+        "body": "<p><strong>Tonight:</strong> Colombia plays Peru in a friendly at Nu Stadium, Inter Miami’s new home, at 1000 Stadium Drive.</p><p><strong>Friday, October 9:</strong> ChristWay Baptist Church in Miramar hosts its annual “Let Praise Rise” gospel concert from 6:30 to 10 p.m., with Jabez, Keesa Peart, and saxophonist Andre Gillespie. Presale tickets are $40, and childcare for kids under 6 is available if you register at (954) 442-7477.</p><p><strong>Still on:</strong> Bethel Music at the Fillmore Miami Beach on Sunday at 7 p.m.</p>",
+        "sources": [
+          {
+            "name": "Nu Stadium: Colombia vs. Peru",
+            "url": "https://nustadium.com/colombia-and-peru-to-face-off-at-nu-stadium-on-oct-6/"
+          },
+          {
+            "name": "ChristWay Baptist Church: Gospel Concert 2026",
+            "url": "https://www.cbcmiramar.com/event-details/gospel-concert-2026"
+          },
+          {
+            "name": "Live Nation: Bethel Music",
+            "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Messi's Argentina farewell tonight; Giannis says Heat Culture is real.",
+        "body": "<p>Inter Miami’s Lionel Messi is playing his last game for Argentina tonight, against Benin at the Monumental in Buenos Aires. He led the team out with his three sons, and in the 10th minute play stopped for a full minute of applause. It was still scoreless about half an hour in. His message before the game: “I leave in peace, I gave it my all. This jersey was my dream, my pride, and my life.” For the Heat, Giannis told The Athletic that Heat Culture is “real… It gives me goosebumps. It’s almost like being alive again.” No recap of tonight’s Red, White &amp; Pink scrimmage yet, and no new Star Wars news since noon.</p>",
+        "sources": [
+          {
+            "name": "Sportstar: Messi farewell live",
+            "url": "https://sportstar.thehindu.com/football/lionel-messi-live-score-argentina-vs-benin-updates-retirement-farewell-match-highlights/article71553182.ece"
+          },
+          {
+            "name": "El País: Messi’s last match",
+            "url": "https://elpais.com/argentina/2026-10-06/el-ultimo-partido-de-messi-con-la-seleccion-de-argentina-horario-y-donde-ver-su-despedida.html"
+          },
+          {
+            "name": "NBA.com (The Athletic): Giannis embraces Heat Culture",
+            "url": "https://www.nba.com/news/giannis-antetokounmpo-heat-culture-2026-27"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-06-noon",
     "date": "2026-10-06",
     "slot": "noon",

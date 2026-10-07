@@ -1,44 +1,44 @@
 {
-  "id": "2026-10-06-noon",
-  "label": "Tuesday noon",
-  "generatedAt": "2026-10-06T12:15:00-04:00",
+  "id": "2026-10-06-evening",
+  "label": "Tuesday evening",
+  "generatedAt": "2026-10-06T20:08:19-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City sets Francis diary release; Spain calls snap election."
+      "headline": "Vatican City sets Assisi peace visit; drones sink ship off Bulgaria."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "NIH opens vaccine-injury clinic; RFK's AI embrace splits MAHA allies."
+      "headline": "Trump launches Anduril sub shipyard; RFK vaccine overhaul argued on appeal."
     },
     {
       "title": "Musk world",
-      "headline": "Tesla edges up near $381; SpaceX military launch slips to Thursday."
+      "headline": "Tesla closes near $381; Cybercab heads to Paris; SDA launch Thursday."
     },
     {
       "title": "Space",
-      "headline": "Quiet; Artemis Accords leaders brief the space congress tomorrow."
+      "headline": "NASA reportedly nears moon-base rocket bulk buys; Rocket Lab rises."
     },
     {
       "title": "NASA",
-      "headline": "Fall balloon campaign ends with 102,000-foot flight; new Webb image."
+      "headline": "Crew-12's last full day; undocking still set 8:05 a.m. Wednesday."
     },
     {
       "title": "Catholic",
-      "headline": "Wenski meets Pope Leo; Amor en Acción turns 50; no new reassignments."
+      "headline": "Córdoba auxiliary bishop removed; Pope's Gaza letter; no Bollettino appointments."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown to the Kingdom quiet; Vietnam extends digital ID to stock accounts."
+      "headline": "Countdown quiet; Sept. 25 message stands; Bulgaria plans phone digital ID."
     },
     {
       "title": "Miami",
-      "headline": "Quiet; the $10 Heat scrimmage is still tonight at 6:30."
+      "headline": "Colombia-Peru at Nu Stadium tonight; gospel concert Friday in Miramar."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Two-time champ Norris Cole comes home to the Heat as a coach."
+      "headline": "Messi's Argentina farewell tonight; Giannis says Heat Culture is real."
     }
   ]
 }
