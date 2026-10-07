@@ -9,7 +9,10 @@ A calm, static page for Justin’s bounded news briefings. Not a news portal —
 - `app.js` — loads and renders briefings
 - `data/briefings.json` — array of briefing objects, **newest first** (each beat has a short `headline`)
 - `data/latest.json` — newest briefing only (id, label, generatedAt, url, beat titles + headlines); for the Scriptable widget
-- `build-latest.py` — regenerates `data/latest.json` from `briefings.json`
+- `build-latest.py` — regenerates `data/latest.json` from `briefings.json` (includes `audio` when set)
+- `build-podcast.py` — TTS + soft ambient bed → `audio/{id}.mp3`; sets `audio` on the briefing
+- `build-newsy.py` — rebuilds self-contained `newsy.html` with embedded briefings
+- `audio/` — MP3 podcast files for briefings that have a Listen player
 - `widget/` — Scriptable iPhone Home Screen widget (`newsy-widget.js` + setup notes)
 
 ## View locally
@@ -67,3 +70,24 @@ python3 build-latest.py
 ```
 
 That writes `data/latest.json` for the Scriptable widget. See `widget/README.md` for iPhone setup.
+
+## Podcast / Listen
+
+Each briefing can have a spoken version with a quiet ambient bed under the voice.
+
+```bash
+# one-time: venv + edge-tts (system pip is PEP 668 locked)
+python3 -m venv .venv
+.venv/bin/pip install edge-tts
+
+# newest briefing, or pass an id
+.venv/bin/python build-podcast.py
+.venv/bin/python build-podcast.py 2026-10-07-morning
+
+# refresh widget feed + offline reader after audio is written
+python3 build-latest.py
+python3 build-newsy.py
+```
+
+`build-podcast.py` reads the briefing, strips HTML to spoken prose, synthesizes with edge-tts (`en-US-AndrewNeural`), then mixes a soft sine-pad + filtered pink-noise bed about **−28 dB** under the voice (ffmpeg), with fade in/out. Output: `audio/{id}.mp3`. The site header shows a Listen control when `audio` is set on that briefing.
+

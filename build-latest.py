@@ -30,6 +30,8 @@ def main() -> None:
             for beat in newest.get("beats", [])
         ],
     }
+    if newest.get("audio"):
+        out["audio"] = newest["audio"]
     LATEST.write_text(
         json.dumps(out, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

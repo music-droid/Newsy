@@ -6,11 +6,16 @@
   <meta name="description" content="Short, bounded news briefings — not a news portal.">
   <meta name="color-scheme" content="light">
   <meta name="theme-color" content="#6b4f3a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
   <meta name="apple-mobile-web-app-title" content="Newsy">
   <title>Newsy</title>
   <!-- Self-contained offline reader. PWA install (Add to Home Screen) needs the
        multi-file HTTPS deploy (index.html + manifest + sw.js + icons). Service
        workers do not run from file://. See HOME-SCREEN.md. -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
@@ -240,6 +245,61 @@ a:hover {
   margin: 0;
 }
 
+
+/* Podcast player */
+.podcast {
+  margin-top: 0.85rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.65rem 0.85rem;
+}
+
+.listen-btn {
+  font-family: var(--font-ui);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  appearance: none;
+  border: 1px solid var(--accent);
+  background: var(--accent);
+  color: var(--chip-active-ink);
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.listen-btn:hover {
+  background: #5a3f2d;
+  border-color: #5a3f2d;
+}
+
+.listen-btn:focus-visible {
+  outline: 2px solid var(--accent-soft);
+  outline-offset: 2px;
+}
+
+.listen-btn[aria-pressed="true"] {
+  background: var(--bg-soft);
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.podcast audio {
+  flex: 1 1 12rem;
+  min-width: 11rem;
+  max-width: 100%;
+  height: 2.1rem;
+  accent-color: var(--accent);
+}
+
+@media print {
+  .podcast {
+    display: none !important;
+  }
+}
+
 /* Print — quiet page, no chrome clutter */
 @media print {
   :root {
@@ -307,6 +367,10 @@ a:hover {
       <p class="brand" id="brand">Newsy</p>
       <h1 class="briefing-title" id="briefing-title">Briefing</h1>
       <p class="meta" id="briefing-meta"></p>
+      <div class="podcast" id="podcast" hidden>
+        <button type="button" class="listen-btn" id="listen-btn" aria-label="Listen to this briefing">Listen</button>
+        <audio id="podcast-audio" controls preload="none"></audio>
+      </div>
     </header>
 
     <nav class="picker" aria-label="Past briefings">
@@ -322,15 +386,18 @@ a:hover {
       <p>A short page. Read it, then close the tab.</p>
     </footer>
   </main>
-
   <script>
 (function () {
   "use strict";
+
 
   const els = {
     brand: document.getElementById("brand"),
     title: document.getElementById("briefing-title"),
     meta: document.getElementById("briefing-meta"),
+    podcast: document.getElementById("podcast"),
+    listenBtn: document.getElementById("listen-btn"),
+    audio: document.getElementById("podcast-audio"),
     chips: document.getElementById("chips"),
     beats: document.getElementById("beats"),
     status: document.getElementById("status"),
@@ -417,11 +484,41 @@ a:hover {
     return escapeHtml(str).replace(/'/g, "&#39;");
   }
 
+
+  function setPodcast(b) {
+    if (!els.podcast || !els.audio) return;
+    const src = b && b.audio ? b.audio : "";
+    if (!src) {
+      els.audio.pause();
+      els.audio.removeAttribute("src");
+      els.audio.load();
+      els.podcast.hidden = true;
+      if (els.listenBtn) {
+        els.listenBtn.setAttribute("aria-pressed", "false");
+        els.listenBtn.textContent = "Listen";
+      }
+      return;
+    }
+    const abs = new URL(src, location.href).href;
+    const current = els.audio.currentSrc || els.audio.src || "";
+    if (current !== abs) {
+      els.audio.pause();
+      els.audio.src = src;
+      els.audio.load();
+      if (els.listenBtn) {
+        els.listenBtn.setAttribute("aria-pressed", "false");
+        els.listenBtn.textContent = "Listen";
+      }
+    }
+    els.podcast.hidden = false;
+  }
+
   function renderBriefing(b) {
     if (!b) {
       els.title.textContent = "No briefing";
       els.meta.textContent = "";
       els.beats.innerHTML = "";
+      setPodcast(null);
       els.status.hidden = false;
       els.status.textContent = "No briefing selected.";
       return;
@@ -431,6 +528,7 @@ a:hover {
     els.title.textContent = b.label || b.id;
     const when = formatGeneratedAt(b.generatedAt);
     els.meta.textContent = when ? "Prepared " + when : "";
+    setPodcast(b);
 
     document.title = (b.label || "Briefing") + " · Newsy";
 
@@ -509,7 +607,40 @@ a:hover {
     els.title.textContent = "Briefing";
     els.meta.textContent = "";
     els.beats.innerHTML = "";
+    setPodcast(null);
   }
+
+
+  if (els.listenBtn && els.audio) {
+    els.listenBtn.addEventListener("click", function () {
+      if (els.podcast.hidden || !els.audio.src) return;
+      if (els.audio.paused) {
+        els.audio.play().then(function () {
+          els.listenBtn.setAttribute("aria-pressed", "true");
+          els.listenBtn.textContent = "Pause";
+        }).catch(function () {
+          /* autoplay blocked; controls still work */
+        });
+      } else {
+        els.audio.pause();
+        els.listenBtn.setAttribute("aria-pressed", "false");
+        els.listenBtn.textContent = "Listen";
+      }
+    });
+    els.audio.addEventListener("play", function () {
+      els.listenBtn.setAttribute("aria-pressed", "true");
+      els.listenBtn.textContent = "Pause";
+    });
+    els.audio.addEventListener("pause", function () {
+      els.listenBtn.setAttribute("aria-pressed", "false");
+      els.listenBtn.textContent = "Listen";
+    });
+    els.audio.addEventListener("ended", function () {
+      els.listenBtn.setAttribute("aria-pressed", "false");
+      els.listenBtn.textContent = "Listen";
+    });
+  }
+
 
   const EMBEDDED_BRIEFINGS = [
   {
@@ -895,7 +1026,8 @@ a:hover {
           }
         ]
       }
-    ]
+    ],
+    "audio": "audio/2026-10-07-morning.mp3"
   },
   {
     "id": "2026-10-06-evening",
@@ -1127,7 +1259,8 @@ a:hover {
           }
         ]
       }
-    ]
+    ],
+    "audio": "audio/2026-10-06-evening.mp3"
   },
   {
     "id": "2026-10-06-noon",
@@ -1344,7 +1477,8 @@ a:hover {
           }
         ]
       }
-    ]
+    ],
+    "audio": "audio/2026-10-06-noon.mp3"
   },
   {
     "id": "2026-10-06-morning",
@@ -2455,6 +2589,7 @@ a:hover {
   }
 
   boot(EMBEDDED_BRIEFINGS);
+
 
   // Progressive Web App: register only on secure origins (or localhost).
   // Service workers cannot run from file://; use the multi-file HTTPS deploy to install.

@@ -7,6 +7,9 @@
     brand: document.getElementById("brand"),
     title: document.getElementById("briefing-title"),
     meta: document.getElementById("briefing-meta"),
+    podcast: document.getElementById("podcast"),
+    listenBtn: document.getElementById("listen-btn"),
+    audio: document.getElementById("podcast-audio"),
     chips: document.getElementById("chips"),
     beats: document.getElementById("beats"),
     status: document.getElementById("status"),
@@ -93,11 +96,41 @@
     return escapeHtml(str).replace(/'/g, "&#39;");
   }
 
+
+  function setPodcast(b) {
+    if (!els.podcast || !els.audio) return;
+    const src = b && b.audio ? b.audio : "";
+    if (!src) {
+      els.audio.pause();
+      els.audio.removeAttribute("src");
+      els.audio.load();
+      els.podcast.hidden = true;
+      if (els.listenBtn) {
+        els.listenBtn.setAttribute("aria-pressed", "false");
+        els.listenBtn.textContent = "Listen";
+      }
+      return;
+    }
+    const abs = new URL(src, location.href).href;
+    const current = els.audio.currentSrc || els.audio.src || "";
+    if (current !== abs) {
+      els.audio.pause();
+      els.audio.src = src;
+      els.audio.load();
+      if (els.listenBtn) {
+        els.listenBtn.setAttribute("aria-pressed", "false");
+        els.listenBtn.textContent = "Listen";
+      }
+    }
+    els.podcast.hidden = false;
+  }
+
   function renderBriefing(b) {
     if (!b) {
       els.title.textContent = "No briefing";
       els.meta.textContent = "";
       els.beats.innerHTML = "";
+      setPodcast(null);
       els.status.hidden = false;
       els.status.textContent = "No briefing selected.";
       return;
@@ -107,6 +140,7 @@
     els.title.textContent = b.label || b.id;
     const when = formatGeneratedAt(b.generatedAt);
     els.meta.textContent = when ? "Prepared " + when : "";
+    setPodcast(b);
 
     document.title = (b.label || "Briefing") + " · Newsy";
 
@@ -185,6 +219,38 @@
     els.title.textContent = "Briefing";
     els.meta.textContent = "";
     els.beats.innerHTML = "";
+    setPodcast(null);
+  }
+
+
+  if (els.listenBtn && els.audio) {
+    els.listenBtn.addEventListener("click", function () {
+      if (els.podcast.hidden || !els.audio.src) return;
+      if (els.audio.paused) {
+        els.audio.play().then(function () {
+          els.listenBtn.setAttribute("aria-pressed", "true");
+          els.listenBtn.textContent = "Pause";
+        }).catch(function () {
+          /* autoplay blocked; controls still work */
+        });
+      } else {
+        els.audio.pause();
+        els.listenBtn.setAttribute("aria-pressed", "false");
+        els.listenBtn.textContent = "Listen";
+      }
+    });
+    els.audio.addEventListener("play", function () {
+      els.listenBtn.setAttribute("aria-pressed", "true");
+      els.listenBtn.textContent = "Pause";
+    });
+    els.audio.addEventListener("pause", function () {
+      els.listenBtn.setAttribute("aria-pressed", "false");
+      els.listenBtn.textContent = "Listen";
+    });
+    els.audio.addEventListener("ended", function () {
+      els.listenBtn.setAttribute("aria-pressed", "false");
+      els.listenBtn.textContent = "Listen";
+    });
   }
 
   fetch(DATA_URL)
