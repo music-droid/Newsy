@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-07-noon",
-  "label": "Wednesday noon",
-  "generatedAt": "2026-10-07T12:30:00-04:00",
+  "id": "2026-10-07-evening",
+  "label": "Wednesday evening",
+  "generatedAt": "2026-10-07T20:15:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Pope opens Amoris meeting; India hikes rates; Ukraine toll rises."
+      "headline": "Vatican City: Amoris week underway; Lecornu taps diesel stocks; Ukraine toll 28."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Kennedy's vaccine-panel overhaul goes to appeals court; ruling still pending."
+      "headline": "Trump Accounts: 70 million kids enrolled; $1,000 seed needs claiming."
     },
     {
       "title": "Musk world",
-      "headline": "FCC clears 15,000 Starlink Mobile satellites; Tesla slips near $375."
+      "headline": "Tesla closes $377.81; SpaceX slips 2.5%; Musk keeps Terafab in-house."
     },
     {
       "title": "Space",
-      "headline": "Artemis Accords leaders: Russia, China welcome only if principles align."
+      "headline": "FCC sets October 29 vote on more satellite-to-phone spectrum."
     },
     {
       "title": "NASA",
-      "headline": "Crew-12 undocked on time; splashdown Thursday at 11:34 a.m."
+      "headline": "Artemis II Moon data released; next cargo Dragon launches October 13."
     },
     {
       "title": "Catholic",
-      "headline": "Miami weekend: mental-health day, Rosary morning; DHS disputes St. Louis suit."
+      "headline": "St. Michael School turns 75; Kosovo's first Catholic president; Broome sentencing."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown quiet; Alabama crusade sees 320 commitments; Indonesia tightens digital ID."
+      "headline": "Countdown quiet; UK airports start passport-free facial-recognition eGates."
     },
     {
       "title": "Miami",
-      "headline": "Quiet; Heat host the Pelicans Thursday at 7:30."
+      "headline": "Gettys' 'In Christ Alone' worship night October 18; Heat Thursday."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Filoni's Ezra escape comic arrives with Ahsoka Season 2; Klay's gravity."
+      "headline": "Galactic Racer brings back podracing; Heat rookie honors his mom."
     }
   ],
-  "audio": "audio/2026-10-07-noon.mp3"
+  "audio": "audio/2026-10-07-evening.mp3"
 }

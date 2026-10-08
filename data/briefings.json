@@ -1,5 +1,243 @@
 [
   {
+    "id": "2026-10-07-evening",
+    "date": "2026-10-07",
+    "slot": "evening",
+    "label": "Wednesday evening",
+    "generatedAt": "2026-10-07T20:15:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Vatican City: Amoris week underway; Lecornu taps diesel stocks; Ukraine toll 28.",
+        "body": "<p><strong>Vatican City.</strong> More detail from the first day of the <em>Amoris Laetitia</em> meeting: the 187 participants, including 22 lay people, mostly married couples, sit at 16 round tables in the Paul VI Hall with 26 experts, using the “conversations in the Spirit” method from the synod. Cardinal Farrell’s welcome recalled the Pope’s March message that <em>Familiaris Consortio</em> and <em>Amoris Laetitia</em> “have both strengthened the Church’s doctrinal and pastoral commitment” to young people, couples, and families. In her meditation, Dominican Sr. Helen Alford said <em>Amoris</em> is consistent with the teaching before it, tying both documents to the “law of gradualness,” and said “the beauty of the vocation to marriage is to be found through and with and in its fragility.” Earlier, the Pope told Louisiana’s Patrons of the Arts in the Vatican Museums that “in an age dominated by technology, in which efficiency and profit often take precedence,” we must “allow time and space for beauty.” No new curia appointments since this morning.</p><p><strong>Africa.</strong> The African Union–backed Africa Credit Rating Agency launched in Port Louis, Mauritius. It is private and self-funded, and governments cannot own shares. Only 32 of Africa’s 55 states are rated by the big three agencies, and the AU says the continent’s external debt service rose from $61 billion in 2010 to $163 billion in 2024.</p><p><strong>Asia.</strong> Iran’s army spokesman said its forces will carry out pre-emptive operations “should circumstances require it,” and a senior Revolutionary Guard adviser said the Strait of Hormuz “is closed” and will stay that way until Iran’s demands are met. Vice President Vance said it is “not totally clear how their country makes decisions.” In Singapore, smoke from fires in Sumatra and Kalimantan pushed air quality into the unhealthy range across all five regions, and fine-particle readings in the west briefly hit the “high” band for the first time this haze season.</p><p><strong>Europe.</strong> In his address tonight, French Prime Minister Lecornu said France will release 10 million barrels of diesel from its strategic stocks to distributors at cost over three months, which he expects to cut pump prices by 12 to 18 cents a liter. He said electricity prices “must not rise this winter” and asked EDF to maximize production. To students, he said police “have no instruction to confront” them, that their anger “does not come from nowhere,” and that the government’s first decisions will come at the end of October. He held to a 2027 deficit of 5% of GDP and appealed to lawmakers’ “patriotism” to pass a budget. In Ukraine, the toll from Wednesday’s barrage rose to at least 28 dead and 118 injured, including 20 in Pryluky, five of them children. The EU paid out €1.24 billion for Ukrainian-made drones, interceptors, and missiles, and Turkey’s Erdogan told Putin that Turkey is ready to help with direct talks with Ukraine.</p><p><strong>North America.</strong> Canada’s House of Commons voted down a Conservative motion to end all federal taxes on diesel until Canada Day. Only Conservatives voted for it. The Liberal government has already extended its pause on the federal fuel excise tax into 2027.</p><p><strong>South America.</strong> CBS News reports that federal prosecutors are expected to bring new charges against Venezuela’s former president Nicolás Maduro and his wife, Cilia Flores, accusing them of torturing more than a dozen Americans held in Venezuelan prisons, possibly as soon as Thursday. Maduro’s lawyer says he has had no notice. Flores has a bond hearing Thursday, and a trial is tentatively set for June 2027.</p><p><strong>Oceania.</strong> Australia’s High Court, in its first climate case, upheld a ruling that the approval of MACH Energy’s Mount Pleasant coal mine expansion was invalid, because planners never weighed the local climate effects of emissions from the exported coal. The project must be reassessed, and the ruling affects 17 other New South Wales coal proposals. The mine can keep operating until 2032 under its existing approval, and the NSW Minerals Council called the challenge “activist lawfare.”</p>",
+        "sources": [
+          {
+            "name": "America: Pope Leo welcomes bishops to Amoris meeting",
+            "url": "https://www.americamagazine.org/vatican-dispatch/2026/10/07/pope-leo-amoris-laetitia-meeting-vatican-family-fragility/"
+          },
+          {
+            "name": "National Catholic Register: Sr. Alford on Amoris Laetitia",
+            "url": "https://www.ncregister.com/cna/amoris-laetitia-is-consistent-with-church-teaching-sister-tells-pope-and-bishops"
+          },
+          {
+            "name": "Vatican News: Pope to art patrons",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-to-art-patrons-be-open-to-beauty-and-foster-contemplation.html"
+          },
+          {
+            "name": "African Union: Launch of the Africa Credit Rating Agency",
+            "url": "https://au.int/en/newsevents/20261007/launch-africa-credit-rating-agency"
+          },
+          {
+            "name": "Euronews: Iran threatens pre-emptive strikes",
+            "url": "https://www.euronews.com/2026/10/07/iran-threatens-pre-emptive-strikes-as-us-questions-who-runs-tehran"
+          },
+          {
+            "name": "CNA: Singapore air quality unhealthy",
+            "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-air-quality-oct-7-6437771"
+          },
+          {
+            "name": "franceinfo: What to know from Lecornu's address",
+            "url": "https://www.franceinfo.fr/politique/gouvernement-de-sebastien-lecornu/lycees-gazole-electricite-budget-ce-qu-il-faut-retenir-de-l-allocution-du-premier-ministre-sebastien-lecornu_8227297.html"
+          },
+          {
+            "name": "Kyiv Independent: Barrage toll rises to 28",
+            "url": "https://kyivindependent.com/russia-slams-kyiv-in-mass-missile-drone-attack-on-putins-74th-birthday/"
+          },
+          {
+            "name": "Kyiv Independent: Ukraine war latest, Oct. 7",
+            "url": "https://kyivindependent.com/ukraine-war-latest-russian-attack-on-pryluky-kills-at-least-20-including-5-children/"
+          },
+          {
+            "name": "CityNews (Canadian Press): Diesel motion defeated",
+            "url": "https://vancouver.citynews.ca/2026/10/07/conservative-motion-seeking-more-diesel-relief-defeated-in-house-of-commons/"
+          },
+          {
+            "name": "CBS News: New Maduro charges expected",
+            "url": "https://www.cbsnews.com/news/new-maduro-charges-torture-americans-venezuelan-prisons/"
+          },
+          {
+            "name": "Newcastle Herald: High Court blocks Mount Pleasant expansion",
+            "url": "https://www.newcastleherald.com.au/story/9364141/high-court-blocks-mount-pleasant-coal-mine-expansion-in-landmark-ruling/"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Trump Accounts: 70 million kids enrolled; $1,000 seed needs claiming.",
+        "body": "<p><strong>“A head start for every child” (Trump Accounts, from last year’s tax law).</strong> <em>What was done:</em> At the White House today, the President celebrated the automatic enrollment of every eligible child under 18 with a Social Security number, about 70 million accounts. The Treasury’s one-time $1,000 deposit goes only to children born from 2025 through 2028, and parents must claim the account in the Trump Account app to receive it. IRS chief Frank Bisignano said 10 million accounts are funded so far, with $4.5 billion. Michael and Susan Dell’s $6.25 billion gift will add $250 for 25 million children, and more than 70 companies, including Uber, Intel, and Nvidia, plan to contribute for employees’ children. Families can add up to $5,000 a year, and the money stays invested until 18. <em>Impact:</em> real money is now landing, but most children already born before 2025 won’t get the federal $1,000, and nothing reaches any child until a parent claims the account. A $1,000 seed growing at the market’s historical average could reach about $5,600 by 18, or roughly $3,600 after taxes and penalties. Kept on paper, and starting to flow.</p>",
+        "sources": [
+          {
+            "name": "WMTW: White House announces auto-enrollment",
+            "url": "https://www.wmtw.com/article/president-trump-announcement-oct-7-oval-office/74066379"
+          },
+          {
+            "name": "Fox Business: 70 million Trump Accounts",
+            "url": "https://www.foxbusiness.com/politics/trump-celebrates-automatic-enrollment-70-million-trump-accounts-children"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Tesla closes $377.81; SpaceX slips 2.5%; Musk keeps Terafab in-house.",
+        "body": "<p><strong>Tesla.</strong> Closed at $377.81, down $2.87 (0.75%), in a range of $374.43 to $382.35. On the Texas Terafab chip complex that Tesla and SpaceX are building, Musk shot down reports that TSMC would run it: “No, we will build and run the fab. Let there be ZERO doubt about that. Maybe TSMC subleases part of the Terafab if they want, but nothing more than that.” Intel’s CEO said Intel remains involved, with its 14A process still the planned manufacturing technology. Earnings are October 21.</p><p><strong>SpaceX.</strong> Closed at $167.60, down 2.5%, a day after the report that it wants to borrow $40 billion for Nvidia chips. Ship 40, the Starship upper stage that splashed down intact in the Indian Ocean on July 24, arrived back at Starbase today aboard the heavy-lift ship <em>Forte</em>, 75 days later. On Thursday, the White House will award Musk the National Medal of Science, along with Sergey Brin, Jensen Huang, and Lisa Su.</p>",
+        "sources": [
+          {
+            "name": "Nasdaq Monitor: TSLA close",
+            "url": "https://nasdaqmonitor.com/tsla/today"
+          },
+          {
+            "name": "Nasdaq Monitor: SPCX close",
+            "url": "https://nasdaqmonitor.com/spcx/today"
+          },
+          {
+            "name": "Tom's Hardware: Musk rejects TSMC Terafab rumors",
+            "url": "https://www.tomshardware.com/tech-industry/semiconductors/musk-rejects-rumors-of-tsmc-takeover-of-terafab-intel-reaffirms-14a-node-deal-as-musk-floats-cleanroom-sublease"
+          },
+          {
+            "name": "Aviation Week: Salvaged Starship returns to Starbase",
+            "url": "https://aviationweek.com/space/launch-vehicles-propulsion/salvaged-starship-returns-starbase"
+          },
+          {
+            "name": "TeslaNorth: Ship 40 back home",
+            "url": "https://teslanorth.com/2026/10/07/spacex-ship-40-returns-starbase/"
+          },
+          {
+            "name": "CNBC: Trump awarding medals to Musk and others",
+            "url": "https://www.cnbc.com/2026/10/07/trump-awarding-medals-to-musk-dell-nadella-at-science-summit.html"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "FCC sets October 29 vote on more satellite-to-phone spectrum.",
+        "body": "<p>A day after approving SpaceX’s 15,000-satellite Starlink Mobile system, the FCC said it will vote October 29 on auctioning 25 MHz of “prime spectrum” for direct-to-device service, and on seeking comment about making another 482 MHz available for satellite coverage. Chairman Brendan Carr said the goal is to “end cell phone dead zones.” CNBC notes the moves could help both SpaceX and Amazon, which asked in July to launch up to 5,105 direct-to-device satellites. Also at the space congress in Antalya, Axiom Space said it expects NASA’s direction within weeks on a simpler “sortie suit” for the Artemis IV and V Moon landings.</p>",
+        "sources": [
+          {
+            "name": "CNBC: FCC to vote on spectrum auction",
+            "url": "https://www.cnbc.com/2026/10/07/fcc-spectrum-auction-spacex-amazon.html"
+          },
+          {
+            "name": "Aviation Week: Axiom expects clarity on sortie suit",
+            "url": "https://aviationweek.com/space/operations-safety/axiom-expects-clarity-sortie-suit-early-artemis-missions"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Artemis II Moon data released; next cargo Dragon launches October 13.",
+        "body": "<p>NASA released the full Artemis II lunar science archive: more than 800 gigabytes, including over 11,000 full-resolution images and videos, 8.5 hours of the crew’s spoken observations, and their annotated notes, along with a preliminary science report. The crew spotted five faint impact flashes on the Moon from about 46,000 miles away, likely the faintest ever seen with the naked eye, and Christina Koch described one colorful region as “like a jaundiced cheek of the Moon.” Next, a cargo Dragon is set to launch Tuesday, October 13, at 6:33 a.m. from Cape Canaveral with more than 6,300 pounds of supplies, the station’s final pair of roll-out solar arrays, and experiments including artificial retinas and brain organoids. It docks Thursday, October 15, around 11 a.m. Crew-12’s splashdown is still set for about 11:34 a.m. Thursday, with a NASA briefing at 1:15 p.m.</p>",
+        "sources": [
+          {
+            "name": "NASA Science: Artemis II Preliminary Lunar Science Report",
+            "url": "https://science.nasa.gov/feature/artemis-ii-preliminary-lunar-science-report/"
+          },
+          {
+            "name": "Overlook Horizon (NASA release): Artemis II data",
+            "url": "https://overlookhorizon.com/nasa-releases-artemis-ii-lunar-science-data-images/"
+          },
+          {
+            "name": "NASA: Coverage set for 35th resupply launch",
+            "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "St. Michael School turns 75; Kosovo's first Catholic president; Broome sentencing.",
+        "body": "<p><strong>Miami.</strong> The <em>Florida Catholic</em> marks 75 years of St. Michael the Archangel School near Little Havana, which now has 325 students from Pre-K3 through eighth grade. Principal Lisette Reina-Naranjo is a 1980 graduate who came back as a parent, volunteer, and teacher. At the anniversary Mass, Archbishop Wenski said, “Whether a family has been a part of the St. Michael family for 60 years or 60 days, the full, transformative measure of Christ’s love, mercy, and education is given equally to all.”</p><p><strong>Europe.</strong> Kosovo, about 93% Muslim and less than 2% Catholic, elected Justina Shiroka-Pula as its first Catholic president, with 81 votes in parliament. The Kosovo Dispatch notes that her faith “never came up” in a day of hard bargaining.</p><p><strong>Oceania.</strong> Christopher Saunders, the former bishop of Broome, Australia, was sentenced to six and a half years in prison for sexually abusing two young Aboriginal men. He will be eligible for parole in 2031, and the Church’s own canonical process is expected to resume. Archbishop Timothy Costelloe, president of the Australian bishops, told the victims, “We are sorry that your trust was so directly and profoundly betrayed by a leader of the Church.”</p><p><strong>Other regions.</strong> Quiet since noon.</p><p><strong>Reassignments.</strong> No new Holy See nominations since this morning, and Thursday’s bulletin isn’t out yet. In Little Rock, Bishop Anthony Taylor announced that Fr. Salvador Márquez-Muñoz will retire as pastor of St. Mary in Siloam Springs on October 23. Fr. Emmanuel Torres becomes administrator there, and Fr. Joji Reddy Allam moves to Christ the King in Little Rock and St. Francis of Assisi in Roland. Newark’s October list is mostly pastorate renewals, plus Fr. José Helber Victoria as parochial vicar in Hoboken. Nothing new in Miami.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: St. Michael School celebrates 75 years",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_archdiocese-of-miami-st-michael-the-archangel-school-celebrates-75-years-in-miami"
+          },
+          {
+            "name": "Kosovo Dispatch: Nobody asked her religion",
+            "url": "https://www.kosovodispatch.com/en/prishtina/nobody-asked-her-religion"
+          },
+          {
+            "name": "Al Jazeera: Kosovo's new president",
+            "url": "https://www.aljazeera.com/news/2026/10/7/justina-shiroka-pula-kosovos-new-president-elected-during-a-crisis"
+          },
+          {
+            "name": "The Pillar: Australian bishop sentenced",
+            "url": "https://www.pillarcatholic.com/p/australian-bishop-sentenced-to-6"
+          },
+          {
+            "name": "Holy See Press Office: Resignations and appointments, Oct. 7",
+            "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/07/261007d.html"
+          },
+          {
+            "name": "Arkansas Catholic: New pastoral appointments",
+            "url": "https://arkansas-catholic.org/2026/10/07/siloam-springs-new-administrator/"
+          },
+          {
+            "name": "Archdiocese of Newark: Clergy appointments, October 2026",
+            "url": "https://rcan.org/clergy-appointments-october-2026/"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown quiet; UK airports start passport-free facial-recognition eGates.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> Checked again tonight, and nothing new since October 3. Our Lady’s September 25 Medjugorje message is still the latest; the next is due October 25.</p><p><strong>Eucharistic miracles, revival and mission.</strong> Quiet since noon.</p><p><strong>Digital ID watch.</strong> Starting this week, UK airport eGates are switching to contactless facial comparison, so arriving travelers are photographed and matched against passport and immigration records without scanning a passport. The rollout began at East Midlands Airport for British citizens, and every eGate is due to be upgraded by early 2027. The Home Office says it is up to 25% faster, and travelers should still carry their passports. No implantable-chip news.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Medjugorje.ws: September 25 message",
+            "url": "https://text.medjugorje.ws/en/messages/260925m/"
+          },
+          {
+            "name": "GOV.UK: Airports to go contactless",
+            "url": "https://www.gov.uk/government/news/airports-to-go-contactless-in-major-boost-for-uk-passengers"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Gettys' 'In Christ Alone' worship night October 18; Heat Thursday.",
+        "body": "<p>Keith and Kristyn Getty bring “An Evening with Keith and Kristyn Getty,” celebrating 25 years of “In Christ Alone,” to Coral Ridge Presbyterian Church in Fort Lauderdale on Sunday, October 18, from 4 to 6 p.m. It’s for all ages, doors open at 3, parking is free, and tickets are non-refundable. Otherwise quiet. The Heat host the Pelicans Thursday at 7:30 p.m. at Kaseya Center, on WPLG Local 10.</p>",
+        "sources": [
+          {
+            "name": "Eventbrite: An Evening with Keith and Kristyn Getty",
+            "url": "https://www.eventbrite.com/e/an-evening-with-keith-and-kristyn-getty-tickets-1995972302888"
+          },
+          {
+            "name": "Miami Herald: Heat vs. Pelicans Thursday",
+            "url": "https://www.miamiherald.com/sports/nba/miami-heat/article317517394.html"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Galactic Racer brings back podracing; Heat rookie honors his mom.",
+        "body": "<p><em>Star Wars: Galactic Racer</em> is out worldwide. It’s from Fuse Games, whose founders worked on Burnout and Need for Speed, and it follows a racer named Shade through an underground circuit in the New Republic era, with podracers, landspeeders, speeder bikes, and Sebulba back to make trouble. Collider gave it a 9.5 out of 10, and Prime members can play it at no extra cost on Amazon Luna. On the Heat side, rookie Ryan Conwell walked out at Tuesday’s Red, White &amp; Pink scrimmage with his mother, Daune, who was diagnosed with breast cancer in 2011 and is now cancer-free. “That was one of the most special moments of my life,” he said. “She’s just the strongest woman that I’ve ever seen.”</p>",
+        "sources": [
+          {
+            "name": "Collider: Galactic Racer free on Luna",
+            "url": "https://collider.com/star-wars-galactic-racer-free-amazon-prime-luna/"
+          },
+          {
+            "name": "Miami Herald: Ryan Conwell honors his mother",
+            "url": "https://www.miamiherald.com/sports/nba/miami-heat/article317517394.html"
+          }
+        ]
+      }
+    ],
+    "audio": "audio/2026-10-07-evening.mp3"
+  },
+  {
     "id": "2026-10-07-noon",
     "date": "2026-10-07",
     "slot": "noon",
