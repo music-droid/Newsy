@@ -1,5 +1,5 @@
 /* Newsy service worker — cache the shell; keep briefings fresh. */
-const SHELL_CACHE = "newsy-shell-v1";
+const SHELL_CACHE = "newsy-shell-v2";
 const DATA_CACHE = "newsy-data-v1";
 
 const SHELL_URLS = [

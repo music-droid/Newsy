@@ -68,7 +68,7 @@ def main() -> None:
       return;
     }}
     briefings = data;
-    renderChips();
+    renderPicker();
     renderBriefing(pickInitial());
   }}
 

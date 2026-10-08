@@ -109,9 +109,12 @@ a:hover {
   margin: 0;
 }
 
-/* Picker — chips */
+/* Picker — compact "Briefings" select (native wheel on iPhone) */
 .picker {
-  margin: 0 0 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0 0 1.75rem;
 }
 
 .picker-label {
@@ -121,45 +124,53 @@ a:hover {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--ink-faint);
-  margin: 0 0 0.6rem;
-}
-
-.chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
-  list-style: none;
   margin: 0;
-  padding: 0;
+  flex: 0 0 auto;
 }
 
-.chip {
-  font-family: var(--font-ui);
-  font-size: 0.8rem;
+.select-wrap {
+  position: relative;
+  flex: 1 1 auto;
+  max-width: 16rem;
+}
+
+.select-wrap::after {
+  content: "";
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-right: 2px solid var(--accent, #6b4f3a);
+  border-bottom: 2px solid var(--accent, #6b4f3a);
+  transform: translateY(-70%) rotate(45deg);
+  pointer-events: none;
+}
+
+.briefing-select {
+  -webkit-appearance: none;
   appearance: none;
-  border: 1px solid var(--rule);
+  width: 100%;
+  min-height: 44px;
+  font-family: var(--font-ui);
+  font-size: 1rem; /* 16px+ keeps iOS Safari from zooming on focus */
+  font-weight: 600;
+  color: var(--accent, #6b4f3a);
   background: var(--chip);
-  color: var(--ink-muted);
+  border: 1.5px solid var(--accent, #6b4f3a);
   border-radius: 999px;
-  padding: 0.35rem 0.85rem;
+  padding: 0.5rem 2.5rem 0.5rem 1.1rem;
   cursor: pointer;
-  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+  transition: background 0.15s ease, box-shadow 0.15s ease;
 }
 
-.chip:hover {
-  border-color: var(--accent-soft);
-  color: var(--ink);
+.briefing-select:hover {
+  background: #f7f1e8;
 }
 
-.chip[aria-pressed="true"] {
-  background: var(--chip-active);
-  border-color: var(--chip-active);
-  color: var(--chip-active-ink);
-}
-
-.chip:focus-visible {
-  outline: 2px solid var(--accent-soft);
-  outline-offset: 2px;
+.briefing-select:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(107, 79, 58, 0.25);
 }
 
 /* Beats */
@@ -373,9 +384,11 @@ a:hover {
       </div>
     </header>
 
-    <nav class="picker" aria-label="Past briefings">
-      <p class="picker-label">Briefings</p>
-      <ul class="chips" id="chips"></ul>
+    <nav class="picker" aria-label="Briefings">
+      <label class="picker-label" for="briefing-select">Briefings</label>
+      <div class="select-wrap">
+        <select id="briefing-select" class="briefing-select"></select>
+      </div>
     </nav>
 
     <p class="status" id="status" hidden>Loading…</p>
@@ -398,7 +411,7 @@ a:hover {
     podcast: document.getElementById("podcast"),
     listenBtn: document.getElementById("listen-btn"),
     audio: document.getElementById("podcast-audio"),
-    chips: document.getElementById("chips"),
+    select: document.getElementById("briefing-select"),
     beats: document.getElementById("beats"),
     status: document.getElementById("status"),
   };
@@ -424,16 +437,26 @@ a:hover {
     }
   }
 
-  function chipLabel(b) {
-    // Prefer short date + slot for the chip row
-    const d = b.date || "";
-    const parts = d.split("-");
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const SLOT_NAMES = { morning: "Morning", noon: "Noon", evening: "Night" };
+
+  function slotOf(b) {
+    const m = /-(morning|noon|evening)$/.exec(b.id || "");
+    return m ? m[1] : (b.slot || "").toLowerCase();
+  }
+
+  function optionLabel(b) {
+    // e.g. "Wed, Oct 7 · Night"
+    const src = b.date || (b.id || "").slice(0, 10);
+    const parts = src.split("-");
+    const slot = SLOT_NAMES[slotOf(b)] || (b.slot ? b.slot.charAt(0).toUpperCase() + b.slot.slice(1) : "");
     if (parts.length === 3) {
-      const month = Number(parts[1]);
+      const y = Number(parts[0]);
+      const mo = Number(parts[1]);
       const day = Number(parts[2]);
-      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      const slot = (b.slot || "").charAt(0).toUpperCase() + (b.slot || "").slice(1);
-      return months[month - 1] + " " + day + " · " + slot;
+      const wd = WEEKDAYS[new Date(Date.UTC(y, mo - 1, day)).getUTCDay()];
+      return wd + ", " + MONTHS[mo - 1] + " " + day + (slot ? " · " + slot : "");
     }
     return b.label || b.id;
   }
@@ -551,10 +574,8 @@ a:hover {
       })
       .join("");
 
-    // Update chip pressed state
-    Array.prototype.forEach.call(els.chips.querySelectorAll(".chip"), function (btn) {
-      btn.setAttribute("aria-pressed", btn.dataset.id === b.id ? "true" : "false");
-    });
+    // Keep the picker in sync
+    if (els.select && els.select.value !== b.id) els.select.value = b.id;
 
     // Reflect selection in the URL hash without scrolling noise
     if (history.replaceState) {
@@ -564,28 +585,40 @@ a:hover {
     }
   }
 
-  function renderChips() {
-    els.chips.innerHTML = briefings
+  function findBriefing(id) {
+    return briefings.find(function (b) {
+      return b.id === id;
+    });
+  }
+
+  function renderPicker() {
+    if (!els.select) return;
+    // Newest first (briefings.json is already newest-first; sort defensively by id)
+    const ordered = briefings.slice().sort(function (a, b) {
+      const ka = (a.date || a.id || "") + " " + ({ morning: 1, noon: 2, evening: 3 }[slotOf(a)] || 0);
+      const kb = (b.date || b.id || "") + " " + ({ morning: 1, noon: 2, evening: 3 }[slotOf(b)] || 0);
+      return ka < kb ? 1 : ka > kb ? -1 : 0;
+    });
+    els.select.innerHTML = ordered
       .map(function (b) {
-        return (
-          "<li>" +
-          '<button type="button" class="chip" data-id="' +
-          escapeAttr(b.id) +
-          '" aria-pressed="false">' +
-          escapeHtml(chipLabel(b)) +
-          "</button>" +
-          "</li>"
-        );
+        return '<option value="' + escapeAttr(b.id) + '">' + escapeHtml(optionLabel(b)) + "</option>";
       })
       .join("");
 
-    els.chips.addEventListener("click", function (e) {
-      const btn = e.target.closest(".chip");
-      if (!btn) return;
-      const found = briefings.find(function (b) {
-        return b.id === btn.dataset.id;
-      });
-      if (found) renderBriefing(found);
+    els.select.addEventListener("change", function () {
+      const found = findBriefing(els.select.value);
+      if (found) {
+        renderBriefing(found);
+        window.scrollTo(0, 0);
+      }
+    });
+
+    window.addEventListener("hashchange", function () {
+      const id = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+      const found = findBriefing(id);
+      if (found && (!els.select || els.select.value !== id || els.title.textContent !== (found.label || found.id))) {
+        renderBriefing(found);
+      }
     });
   }
 
@@ -3036,7 +3069,7 @@ a:hover {
       return;
     }
     briefings = data;
-    renderChips();
+    renderPicker();
     renderBriefing(pickInitial());
   }
 

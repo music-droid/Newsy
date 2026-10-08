@@ -10,7 +10,7 @@
     podcast: document.getElementById("podcast"),
     listenBtn: document.getElementById("listen-btn"),
     audio: document.getElementById("podcast-audio"),
-    chips: document.getElementById("chips"),
+    select: document.getElementById("briefing-select"),
     beats: document.getElementById("beats"),
     status: document.getElementById("status"),
   };
@@ -36,16 +36,26 @@
     }
   }
 
-  function chipLabel(b) {
-    // Prefer short date + slot for the chip row
-    const d = b.date || "";
-    const parts = d.split("-");
+  const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const SLOT_NAMES = { morning: "Morning", noon: "Noon", evening: "Night" };
+
+  function slotOf(b) {
+    const m = /-(morning|noon|evening)$/.exec(b.id || "");
+    return m ? m[1] : (b.slot || "").toLowerCase();
+  }
+
+  function optionLabel(b) {
+    // e.g. "Wed, Oct 7 · Night"
+    const src = b.date || (b.id || "").slice(0, 10);
+    const parts = src.split("-");
+    const slot = SLOT_NAMES[slotOf(b)] || (b.slot ? b.slot.charAt(0).toUpperCase() + b.slot.slice(1) : "");
     if (parts.length === 3) {
-      const month = Number(parts[1]);
+      const y = Number(parts[0]);
+      const mo = Number(parts[1]);
       const day = Number(parts[2]);
-      const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-      const slot = (b.slot || "").charAt(0).toUpperCase() + (b.slot || "").slice(1);
-      return months[month - 1] + " " + day + " · " + slot;
+      const wd = WEEKDAYS[new Date(Date.UTC(y, mo - 1, day)).getUTCDay()];
+      return wd + ", " + MONTHS[mo - 1] + " " + day + (slot ? " · " + slot : "");
     }
     return b.label || b.id;
   }
@@ -163,10 +173,8 @@
       })
       .join("");
 
-    // Update chip pressed state
-    Array.prototype.forEach.call(els.chips.querySelectorAll(".chip"), function (btn) {
-      btn.setAttribute("aria-pressed", btn.dataset.id === b.id ? "true" : "false");
-    });
+    // Keep the picker in sync
+    if (els.select && els.select.value !== b.id) els.select.value = b.id;
 
     // Reflect selection in the URL hash without scrolling noise
     if (history.replaceState) {
@@ -176,28 +184,40 @@
     }
   }
 
-  function renderChips() {
-    els.chips.innerHTML = briefings
+  function findBriefing(id) {
+    return briefings.find(function (b) {
+      return b.id === id;
+    });
+  }
+
+  function renderPicker() {
+    if (!els.select) return;
+    // Newest first (briefings.json is already newest-first; sort defensively by id)
+    const ordered = briefings.slice().sort(function (a, b) {
+      const ka = (a.date || a.id || "") + " " + ({ morning: 1, noon: 2, evening: 3 }[slotOf(a)] || 0);
+      const kb = (b.date || b.id || "") + " " + ({ morning: 1, noon: 2, evening: 3 }[slotOf(b)] || 0);
+      return ka < kb ? 1 : ka > kb ? -1 : 0;
+    });
+    els.select.innerHTML = ordered
       .map(function (b) {
-        return (
-          "<li>" +
-          '<button type="button" class="chip" data-id="' +
-          escapeAttr(b.id) +
-          '" aria-pressed="false">' +
-          escapeHtml(chipLabel(b)) +
-          "</button>" +
-          "</li>"
-        );
+        return '<option value="' + escapeAttr(b.id) + '">' + escapeHtml(optionLabel(b)) + "</option>";
       })
       .join("");
 
-    els.chips.addEventListener("click", function (e) {
-      const btn = e.target.closest(".chip");
-      if (!btn) return;
-      const found = briefings.find(function (b) {
-        return b.id === btn.dataset.id;
-      });
-      if (found) renderBriefing(found);
+    els.select.addEventListener("change", function () {
+      const found = findBriefing(els.select.value);
+      if (found) {
+        renderBriefing(found);
+        window.scrollTo(0, 0);
+      }
+    });
+
+    window.addEventListener("hashchange", function () {
+      const id = decodeURIComponent((location.hash || "").replace(/^#/, ""));
+      const found = findBriefing(id);
+      if (found && (!els.select || els.select.value !== id || els.title.textContent !== (found.label || found.id))) {
+        renderBriefing(found);
+      }
     });
   }
 
@@ -264,7 +284,7 @@
         return;
       }
       briefings = data;
-      renderChips();
+      renderPicker();
       renderBriefing(pickInitial());
     })
     .catch(function (err) {
