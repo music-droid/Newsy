@@ -1,5 +1,387 @@
 [
   {
+    "id": "2026-10-08-morning",
+    "date": "2026-10-08",
+    "slot": "morning",
+    "label": "Thursday morning",
+    "generatedAt": "2026-10-08T08:18:04-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Vatican City names Sr. Barron; Kramatorsk bus strike; Isaias nears Gulf.",
+        "body": "<p><strong>Vatican City.</strong> Pope Leo named Sr. Mary Teresa Barron, N.S.A., an Irish missionary sister from Donegal who leads the Missionary Sisters of Our Lady of Apostles, as adjunct secretary of the Dicastery for Evangelization’s section for first evangelization and president of the Pontifical Mission Societies, starting January 4, 2027. She led the International Union of Superiors General from 2023 to 2025. This morning he received Sierra Leone’s President Julius Maada Bio, who then met Cardinal Parolin; the talks covered migration-linked environmental and food emergencies, young people, peace, and education. He also received Sydney’s Archbishop Anthony Fisher and Sr. Simona Brambilla, prefect for consecrated life. At 6 p.m. Rome time (noon ET) he celebrates Mass in St. Peter’s to open the pontifical universities’ academic year. A press briefing on the <em>Amoris Laetitia</em> meeting is set for Friday. Archbishop Gallagher is in Pakistan (see Catholic).</p><p><strong>Africa.</strong> Ethiopian drones hit Eritrean troops around Adigrat in northern Tigray overnight, according to the conflict monitor ACLED and witnesses who spoke to AFP. The two countries cut diplomatic ties last week. Kenya says it still has no Ebola outbreak: one imported case, 57 contacts, 10 in quarantine, and about 17 more traced. Congo’s Bundibugyo outbreak has now killed at least 4,148 people out of 8,300 reported cases. An African Union delegation met M23 rebel leaders and urged them to respect the eastern Congo ceasefire.</p><p><strong>Asia.</strong> Houthi attacks on the Riyadh and Abha airports killed three civilians, a Moroccan, an Algerian, and a Sudanese, and injured 36. Tanker attacks around the Strait of Hormuz hit their highest weekly level of the war, at least 12 from September 28 to October 5. Iran and Oman agreed on coordinates for “safe” transit routes, but that is not a full reopening. A Revolutionary Guards commander threatened to block “illegal” southern routes, and Tehran says it will answer U.S. proposals through mediators. In Israel, a Channel 13 poll for the October 27 election puts Netanyahu’s bloc at 55 seats and the opposition at 50, so neither reaches 61. Likud and Eisenkot’s party are tied at 20.</p><p><strong>Europe.</strong> A Russian glide bomb hit two civilian buses in Kramatorsk, killing 33 and wounding 18, regional officials say, and the Donetsk region has stopped all public transport. The toll from the Pryluky strike rose to 22, including five children, and three more people were killed in Kyiv today. In France, school blockades resumed despite the prime minister’s promise to act. About 375 schools are closed or disrupted, more than 6,600 people, mostly minors, have been arrested since the protests began, and a large Paris rally is set for today. In Spain, Maricarmen Abascal, the 87-year-old whose eviction became the symbol of the housing crisis, died in hospital Wednesday. Hundreds marched to parliament, the tenants’ union has called a general strike for November 11, and the snap election is November 29.</p><p><strong>North America.</strong> Hurricane Isaias, the Atlantic season’s first hurricane, has 80 mph winds about 385 miles south-southwest of the mouth of the Mississippi. It is expected to strengthen and make landfall late Friday or early Saturday between Ocean Springs, Mississippi, and the Florida Panhandle, with storm surge of up to 5 to 7 feet. Florida has declared an emergency in 25 counties and is sending a Miami-based search-and-rescue team, and about a quarter of Gulf oil output is shut in. South Florida is not in the warning area. Off Mexico’s Pacific coast, Tropical Storm Simon could become a major hurricane by the weekend. Minutes from the Fed’s September meeting show the rate hike to 3.75–4% was unanimous and that most officials see another increase as likely by year-end, with several pointing to the AI buildout as a new driver of prices. And Canadian poet Anne Carson, 76, won the Nobel Prize in Literature this morning for her “bold and inventive oeuvre.”</p><p><strong>South America.</strong> In Brazil, Flávio Bolsonaro says that if elected he will seek sweeping constitutional changes, including judicial reform, a lower age of criminal responsibility, and an end to presidential reelection. Amendments need 308 House votes and 49 in the Senate. Argentina’s President Milei reposted an image of Lula with the words “Lula ladrón” (“Lula thief”), renewing a diplomatic row. In Chile, the Mapocho River burst its banks in Talagante, police airlifted trapped residents, and one person was found dead. Santiago is having its rainiest October in 76 years, blamed on a strong El Niño. Peru’s lower house gave President Keiko Fujimori 90 days of decree powers on security and El Niño, 66–34 with 24 abstaining. The Senate must still ratify.</p><p><strong>Oceania.</strong> In New Zealand’s election campaign, National’s plan to drug-test unemployed beneficiaries drew fire. Labour and the Greens called it cruel, and Winston Peters warned it “borders on fascist,” while ACT’s David Seymour backed it. In Australia, ministers are sending mixed signals as business groups push back on the tax office’s plan to stop taking credit cards for tax bills from December 1. Near Queenstown, the 1,350-hectare Walter Peak scrub fire is fully contained.</p>",
+        "sources": [
+          {
+            "name": "Holy See Press Office: Rinunce e nomine, Oct. 8",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/08/0796/01488.html"
+          },
+          {
+            "name": "Vatican News: Sr. Barron appointed",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-appoints-sr-mary-barron-dicastery-evangelization.html"
+          },
+          {
+            "name": "Holy See Press Office: Sierra Leone audience",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/08/0797/01489.html"
+          },
+          {
+            "name": "Holy See Press Office: Today's audiences",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/08/0796/01487.html"
+          },
+          {
+            "name": "Vatican.va: Mass for the pontifical universities",
+            "url": "https://www.vatican.va/content/leo-xiv/en/events/event.dir.html/content/vaticanevents/en/2026/10/8/messa-univ-pontificie.html"
+          },
+          {
+            "name": "Holy See Press Office: Amoris briefing notice",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/08/0796/01482.html"
+          },
+          {
+            "name": "Al Arabiya (AFP): Ethiopian drones hit Eritrean troops",
+            "url": "https://english.alarabiya.net/News/world/2026/10/08/ethiopia-drones-hit-eritrean-troops-in-tigray"
+          },
+          {
+            "name": "Anadolu: Kenya traces Ebola contacts",
+            "url": "https://aa.com.tr/en/africa/kenya-conducts-first-ebola-burial-as-number-of-contacts-linked-to-patient-rises-to-57/4081605"
+          },
+          {
+            "name": "Al Jazeera: Why one Ebola death worries Africa",
+            "url": "https://www.aljazeera.com/news/2026/10/8/why-single-ebola-death-in-kenya-has-sparked-fears-of-wider-african-spread"
+          },
+          {
+            "name": "BusinessDay: AU urges M23 to respect ceasefire",
+            "url": "https://businessday.ng/world/article/world-in-brief-saudi-airport-attacks-kill-three-kenya-quarantines-ebola-contacts-au-urges-congo-rebels-to-respect-ceasefire-and-other-stories/"
+          },
+          {
+            "name": "Al Jazeera: Yemen war live",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/10/8/yemen-war-live-yemeni-forces-claim-key-heights-as-houthi-attacks-go-on"
+          },
+          {
+            "name": "10 Things: Hormuz tanker attacks, Israel election",
+            "url": "https://www.10things.news/p/10-things-global-news-8th-october-3bf"
+          },
+          {
+            "name": "Gulf News: Iran–Oman Hormuz corridors",
+            "url": "https://gulfnews.com/world/mena/iran-oman-deal-reached-on-navigational-corridors-through-hormuz-amid-ongoing-tensions-baghaei-1.500702429"
+          },
+          {
+            "name": "JFeed: Channel 13 poll",
+            "url": "https://www.jfeed.com/news-israel/tmkxki"
+          },
+          {
+            "name": "BBC: Kramatorsk bus strike",
+            "url": "https://www.bbc.co.uk/news/articles/c875pwq134l3o"
+          },
+          {
+            "name": "AP: Pryluky toll rises to 22",
+            "url": "https://apnews.com/article/russia-ukraine-war-drones-missiles-zelenskyy-putin-7f395d215bb67082da29f9c4467ef776"
+          },
+          {
+            "name": "Al Jazeera: French school protests resume",
+            "url": "https://www.aljazeera.com/news/2026/10/8/school-protests-blockades-resume-in-france-despite-pms-promise-to-act"
+          },
+          {
+            "name": "BBC Mundo: Maricarmen Abascal dies",
+            "url": "https://www.bbc.com/mundo/articles/c5djvg3nvj7yo"
+          },
+          {
+            "name": "National Hurricane Center: Isaias advisory",
+            "url": "https://www.nhc.noaa.gov/text/MIATCPAT4.shtml"
+          },
+          {
+            "name": "Alabama Public Radio (AP): Isaias gaining punch",
+            "url": "https://www.apr.org/news/2026-10-08/isaias-gaining-punch-as-it-heads-toward-mobile-and-the-eastern-shore"
+          },
+          {
+            "name": "National Hurricane Center: Tropical Storm Simon",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP5+html/080855.shtml"
+          },
+          {
+            "name": "Kitco: Fed minutes",
+            "url": "https://www.kitco.com/news/article/2026-10-07/fomc-minutes-show-fed-ready-hike-again-2026-ai-buildout-replaces-tariffs"
+          },
+          {
+            "name": "Federal Reserve: September minutes",
+            "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm"
+          },
+          {
+            "name": "CBC: Anne Carson wins Nobel",
+            "url": "https://www.cbc.ca/news/entertainment/nobel-literature-prize-9.7372580"
+          },
+          {
+            "name": "Valor International: Bolsonaro's constitutional plan",
+            "url": "https://valorinternational.globo.com/politics/news/2026/10/08/bolsonaro-proposes-constitutional-overhaul-if-elected-president.ghtml"
+          },
+          {
+            "name": "Particle: Milei's 'Lula ladrón' repost",
+            "url": "https://particle.news/story/milei-reposts-ladrn-image-of-lula-reigniting-argentinabrazil-strain-ahead-of-brazil-runoff"
+          },
+          {
+            "name": "BBC: Chile flooding",
+            "url": "https://www.bbc.co.uk/news/articles/ck5yn8jn677vo"
+          },
+          {
+            "name": "Latin Times: Peru's special powers vote",
+            "url": "https://www.latintimes.com/peru-grants-government-90-days-special-powers-tackle-el-nino-security-crisis-599944"
+          },
+          {
+            "name": "RNZ: Drug-testing plan criticized",
+            "url": "https://www.rnz.co.nz/news/politics_election-2026/1794026/labour-greens-slam-national-s-to-promise-to-drug-test-unemployed-beneficiaries"
+          },
+          {
+            "name": "ABC Australia: ATO credit card ban",
+            "url": "https://www.abc.net.au/news/2026-10-08/business-political-leadership-ato-credit-card-ban-labor/107242634"
+          },
+          {
+            "name": "RNZ: Queenstown fire contained",
+            "url": "https://www.rnz.co.nz/news/emergencies_local/1794571/fenz-crews-secure-perimeter-around-vast-lake-whakatipu-fire"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Canada drug imports face Oct. 22 cutoff; $90 Medicare rebates land.",
+        "body": "<p><strong>“Lower prescription drug prices.”</strong> <em>What was done:</em> The President has signed most-favored-nation pricing deals with drugmakers, and U.S. prescription prices fell 3.1% from a year earlier this summer, though experts credit other factors too. Now a Customs and Border Protection rule takes effect October 22 that indefinitely suspends the $800 “de minimis” exemption for low-value packages. <em>Impact:</em> about 2.3 million Americans buy their drugs abroad, and their orders could be delayed or refused. AP’s example: a three-month supply of the blood thinner Eliquis costs $565 from Canada versus about $1,017 from Amazon. Three Florida Republicans, Reps. Bean, Bilirakis, and Franklin, along with more than 70 Democrats, have asked for protection for personal-use prescriptions. The White House points to its pricing deals. Overall prices are moving the right way, but the Americans already paying the least, many of them Floridians, could end up paying more.</p><p><strong>“Bring down health care costs.”</strong> <em>What was done:</em> One-time $90 rebates toward Medicare Part B premiums are going out this week, most by direct deposit around Friday, to 20.8 million people in original Medicare. The roughly $2 billion comes from the Medicare Improvement Fund. <em>Impact:</em> it’s real money for millions of seniors, but the roughly 35 million in Medicare Advantage and 12 million low-income beneficiaries are left out, and critics call it a pre-election move. KFF says it “might not go very far.” This is kept as a one-time payment, not a lasting change in costs.</p>",
+        "sources": [
+          {
+            "name": "The Independent (AP): Drugs from Canada set to soar",
+            "url": "https://www.independent.co.uk/news/donald-trump-americans-democrats-canada-washington-b3063440.html"
+          },
+          {
+            "name": "WTOP (AP): $90 Medicare rebate rolls out",
+            "url": "https://wtop.com/national/2026/10/trumps-90-medicare-rebate-rolls-out-but-millions-are-left-out-critics-say-its-a-political-stunt/"
+          },
+          {
+            "name": "KFF: The $90 payment",
+            "url": "https://www.kff.org/quick-insights/the-trump-administrations-90-payment-to-medicare-beneficiaries-reminiscent-of-a-similar-proposal-six-years-ago-may-not-offset-rising-costs/"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Ives sets $500 Tesla target; SpaceX credit risk hits record.",
+        "body": "<p><strong>Tesla.</strong> Still up about 2% for the week after Wednesday’s 0.8% dip to $377.81. Dan Ives started coverage at his new firm, Yorkville Ives, with an Outperform rating and a $500 target, about 32% upside. UBS nudged its target to $391. Musk also says of the planned chip plant, “we will build and run the fab.” Reuters reports Tesla has been lobbying European regulators hard on Full Self-Driving. The Netherlands and seven other EU countries have granted national approvals, and an EU-wide vote is expected, but safety researchers question Tesla’s safety claims. Earnings are October 21.</p><p><strong>SpaceX.</strong> Flat premarket near $167.50. The Financial Times reports that the cost of insuring SpaceX debt hit a record after the $40 billion Nvidia-chip borrowing plan. The five-year credit-default-swap spread is 194 basis points, up from about 110 in June. Debt was $38.4 billion at the end of June, though SpaceX still holds an investment-grade BBB rating. The Space Development Agency launch slipped again, to no earlier than Saturday at 3:29 a.m. ET. Musk receives the National Medal of Science at the White House today.</p>",
+        "sources": [
+          {
+            "name": "Yahoo Finance (Stocktwits): Ives, UBS on Tesla",
+            "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-stock-heads-weekly-win-061349033.html"
+          },
+          {
+            "name": "Automotive News (Reuters): Tesla's EU FSD push",
+            "url": "https://www.autonews.com/tesla/ane-tesla-eu-fsd-approval-1008/"
+          },
+          {
+            "name": "Benzinga: SpaceX credit swaps hit record",
+            "url": "https://www.benzinga.com/markets/tech/26/10/62240386/elon-musk-is-betting-40-billion-on-nvidia-chips-spacex-investors-arent-so-sure-as-spcx-credit-default-swaps-hit-record-high-report"
+          },
+          {
+            "name": "Space Launch Schedule: SDA Tranche 1 launch",
+            "url": "https://www.spacelaunchschedule.com/launch/falcon-9-block-5-sda-tranche-1-transport-layer-a/"
+          },
+          {
+            "name": "CNBC: Medals for Musk and others",
+            "url": "https://www.cnbc.com/2026/10/07/trump-awarding-medals-to-musk-dell-nadella-at-science-summit.html"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Blue Origin raises $10 billion; Bezos eyes an eventual IPO.",
+        "body": "<p>Jeff Bezos told Fox News’ <em>Special Report</em> that Blue Origin has raised $10 billion from outside investors for the first time, in a round reported to value it at $140 billion. He has put in about $28 billion of his own money, said an IPO “probably makes sense” someday, and said New Glenn flies again in December. Separately, HawkEye 360 says an 18-month Space Force experiment showed its commercial radio-monitoring satellites can detect and identify transmissions from other spacecraft in low, medium, and geostationary orbits.</p>",
+        "sources": [
+          {
+            "name": "Benzinga: Bezos on Blue Origin IPO",
+            "url": "https://www.benzinga.com/markets/tech/26/10/62236128/jeff-bezos-blue-origin-ipo-funding"
+          },
+          {
+            "name": "SpaceNews: HawkEye 360 experiment",
+            "url": "https://spacenews.com/space-force-experiment-uses-hawkeye-360-satellites-to-listen-for-signals-in-orbit/"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Crew-12 splashes down off California at 11:34 a.m. today.",
+        "body": "<p>Crew-12’s Dragon <em>Freedom</em> fires its deorbit burn around 10:46 a.m. ET and is due to splash down in the Pacific off California at about 11:34 a.m. NASA coverage starts at 10:20, and a 1:15 p.m. news conference will also preview Tuesday’s CRS-35 cargo launch. Jessica Meir, Jack Hathaway, ESA’s Sophie Adenot, and Roscosmos’s Andrey Fedyaev launched February 13. Adenot became the first French woman to walk in space on August 18, and Meir did four spacewalks on this mission.</p>",
+        "sources": [
+          {
+            "name": "Space.com: Crew-12 returns today",
+            "url": "https://www.space.com/space-exploration/international-space-station/spacex-crew-12-iss-astronaut-mission-return-to-earth"
+          },
+          {
+            "name": "NASA: Splashdown coverage",
+            "url": "https://www.nasa.gov/news-release/nasa-to-stream-spacex-crew-12-return-splashdown-live/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Bishop Dewane dies; Sr. Barron to lead Mission Societies; Gallagher in Pakistan.",
+        "body": "<p><strong>Miami.</strong> The <em>Florida Catholic</em> looks back at the Feast of Our Lady of Mercy Mass, held September 24 at Mercy Hospital with students from six archdiocesan schools. The Eucharistic Miracles Exposition opens Monday at St. Mark the Evangelist and runs through Friday. No new clergy assignments posted.</p><p><strong>United States.</strong> Close to home, Bishop Emeritus Frank J. Dewane of Venice in Florida died Wednesday, the feast of Our Lady of the Rosary, at 76. He led the diocese from 2006 until this May. Funeral arrangements are pending. The USCCB also released its November ballot: Bishop Earl Fernandes of Columbus and Bishop Kevin Rhoades of Fort Wayne–South Bend are the nominees for conference secretary.</p><p><strong>Latin America.</strong> Ahead of Pope Leo’s November trip, Montevideo’s Cardinal Daniel Sturla says the Pope was “impactado,” deeply struck, by youth suicide in Uruguay, which he said needs “an injection of hope.” Uruguay’s visit runs November 6 to 8, and on November 15 in Cusco, Peru, the Pope will celebrate at Sacsayhuamán, give a Golden Rose to the “Mamacha de Belén,” present a pontifical shroud for the “Taytacha de los Temblores,” and meet Quechua-speaking communities.</p><p><strong>Europe.</strong> French bishops are urging prayer and dialogue as student unrest spreads. “Violence is a failure,” said Bishop Gosselin, and Bishop Olivier de Cagny of Évreux said “violence is unnecessary.”</p><p><strong>Africa.</strong> Kenya’s Subukia Shrine hosted the bishops’ National Prayer Day for peace ahead of the 2027 election. “Kenya is greater than our differences,” said Archbishop Maurice Muhatia. The day was marked by grief: 17 pilgrims from Mombasa died in a road accident on the way.</p><p><strong>Asia.</strong> Archbishop Paul Gallagher, the Vatican’s foreign minister, is in Islamabad through Saturday to mark 75 years of Holy See–Pakistan relations. He meets Prime Minister Shehbaz Sharif, celebrates Mass at Our Lady of Fatima, and visits the Faisal Mosque.</p><p><strong>Middle East.</strong> In Taybeh, the West Bank’s last entirely Christian village, residents can’t reach their olive trees for the fourth harvest in a row. The village is a closed military zone, which also keeps pilgrims out. Of about 1,200 remaining residents, some 200 are considering leaving, a local activist told Vatican News.</p><p><strong>Oceania.</strong> Sydney’s Archbishop Anthony Fisher and Auxiliary Bishop Richard Umbers met Pope Leo this morning.</p><p><strong>Reassignments.</strong></p><ul><li><strong>Sr. Mary Teresa Barron, N.S.A.</strong>, superior general of the Missionary Sisters of Our Lady of the Apostles, becomes adjunct secretary of the Dicastery for Evangelization and president of the Pontifical Mission Societies on January 4, 2027. Born in Donegal in 1968, she led the International Union of Superiors General from 2023 to 2025.</li><li><strong>Diocese of Venice in Florida</strong> (effective October 19): <strong>Fr. David M. Vidal</strong> leaves Ave Maria Parish to become vicar general, living at Epiphany Cathedral, and <strong>Fr. Shawn Roser</strong> takes over Ave Maria as administrator. <strong>Fr. Daniel Scanlan</strong> becomes administrator of Ss. Peter and Paul in Bradenton while pastor Fr. Gordon Zanetti takes medical leave. <strong>Fr. Alexander Pince</strong> stays vocations director, now living at Resurrection in Fort Myers, and <strong>Fr. Jiobani Batista</strong> and <strong>Fr. Benjamin Casimir</strong> become the diocese’s delegates for Hispanic and Haitian ministry (Batista on October 26).</li><li><strong>Archdiocese of New York:</strong> <strong>Fr. Christopher Monturo</strong> is the new pastor of the Church of the Resurrection in Rye.</li><li>No other Holy See nominations today, and nothing new in Miami.</li></ul>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: An outpouring of mercy",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_archdiocese-of-miami-an-outpouring-of-mercy-in-south-florida"
+          },
+          {
+            "name": "Archdiocese of Miami: Eucharistic Miracles Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "Florida Catholic: Bishop Emeritus Frank J. Dewane",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_archdiocese-of-miami-bishop-emeritus-frank-j-dewane-76"
+          },
+          {
+            "name": "USCCB: November elections",
+            "url": "https://www.usccb.org/news/2026/us-bishops-vote-conference-secretary-and-chairmen-six-standing-committees-plenary"
+          },
+          {
+            "name": "Infobae: Cardinal Sturla on the Pope's visit",
+            "url": "https://www.infobae.com/america/america-latina/2026/10/07/leon-xiv-quedo-impactado-por-los-suicidios-juveniles-en-uruguay-se-espera-un-mensaje-de-esperanza-y-vida/"
+          },
+          {
+            "name": "La República: Pope Leo in Cusco",
+            "url": "https://larepublica.pe/sociedad/2026/10/07/papa-leon-xiv-en-peru-se-reunira-con-las-comunidades-quechuahablantes-durante-visita-a-cusco-155645"
+          },
+          {
+            "name": "America (OSV News): French bishops on riots",
+            "url": "https://www.americamagazine.org/news/2026/10/07/riots-france-catholic-church/"
+          },
+          {
+            "name": "Vatican News: Subukia National Prayer Day",
+            "url": "https://www.vaticannews.va/en/africa/news/2026-10/subukia-shrine-national-prayer-day-calls-kenyans-to-peace-and-r.html"
+          },
+          {
+            "name": "Vatican News: Gallagher in Pakistan",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/archbishop-gallagher-holy-see-diplomacy-pakistan-anniversary.html"
+          },
+          {
+            "name": "Vatican News: Taybeh 'living in fear'",
+            "url": "https://www.vaticannews.va/en/world/news/2026-10/taybeh-west-bank-christian-closed-military-zone-ihab-hassan.html"
+          },
+          {
+            "name": "Holy See Press Office: Today's audiences",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/08/0796/01487.html"
+          },
+          {
+            "name": "Holy See Press Office: Rinunce e nomine, Oct. 8",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/08/0796/01488.html"
+          },
+          {
+            "name": "Diocese of Venice: Clergy appointments",
+            "url": "https://dioceseofvenice.org/clergy-appointments-for-oct-10-2026/"
+          },
+          {
+            "name": "Yonkers Times: Fr. Monturo named pastor",
+            "url": "https://yonkerstimes.com/rev-christopher-monturo-named-pastor-of-resurrection-parish-in-rye/"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown quiet; Rosary message stands; Ghana crusade; Denmark ID breach.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> Checked this morning, and nothing new since October 3. The newest posts are still Marija’s Medjugorje message, an Elizabeth Kindelmann Flame of Love passage (“Satan Will be Blinded”), and a Pedro Regis message (“Humanity is Sick”).</p><p><strong>Latest message.</strong> Our Lady’s September 25 Medjugorje message through Marija is still the newest, and it fits this month of the Rosary: “May this time be a time of prayer for peace. I am calling you to renew in your families the prayer of the Rosary for my intentions, so that I may be able to multiply your prayers and intercede for you before the Most High… I am with you and like never before I pray for you and with you, my little children.” The next monthly message is due October 25.</p><p><strong>Eucharistic miracles.</strong> No new reports. The Host in Cuilapa, Guatemala, is still under Church investigation, with the bishops urging prudence, and the Eucharistic Miracles Exposition opens in Miami Monday.</p><p><strong>Revival and mission.</strong> Ghana’s Church of Pentecost reports that its September “Unleashed for Christ” crusade in the Bia area drew a cumulative 23,493 attendees and recorded 1,733 people coming to Christ and 613 water baptisms. In small-town Whitmire, South Carolina, organizers of a late-September crusade describe “a sea of children and youth” crying out to God. In Australia, the Catholic Ignite Conference drew more than 1,300 to Brisbane and will expand to four sites in 2027, including New Zealand for the first time.</p><p><strong>Digital ID watch.</strong> Denmark is investigating a breach of its Central Person Register. Attackers used a private company’s legitimate access to pull names, addresses, and CPR numbers for about 8.8 million people. It was detected October 2, and a security review has been ordered. It’s a reminder of what’s at stake when a whole nation’s identity sits in one register. No implantable-chip news.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Medjugorje.ws: September 25, 2026 message",
+            "url": "https://text.medjugorje.ws/en/messages/260925m/"
+          },
+          {
+            "name": "EWTN News: Guatemala investigation",
+            "url": "https://www.ewtnnews.com/world/americas/possible-eucharistic-miracle-in-guatemala-church-urges-prudence-and-restraint"
+          },
+          {
+            "name": "The Church of Pentecost: Crusade wins 1,733 souls",
+            "url": "https://thecophq.org/bia-unleashed-for-christ-crusade-wins-1733-souls/"
+          },
+          {
+            "name": "CBN News: Whitmire revival",
+            "url": "https://cbn.com/news/us/sea-children-and-youth-crying-out-god-years-prayers-answered-weekend-revival"
+          },
+          {
+            "name": "CathNews: Ignite expands to four sites",
+            "url": "https://cathnews.com/2026/10/06/ignite-conference-expands-to-four-sites-in-2027/"
+          },
+          {
+            "name": "The Record: Denmark population register breach",
+            "url": "https://therecord.media/denmark-breach-register-cyberattack"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Outpour worship Friday; free Boo-tanical Garden Sunday; Heat host Pelicans tonight.",
+        "body": "<p><strong>Tonight, Thursday, October 8:</strong> the Heat host the Pelicans in a 7:30 p.m. preseason game at Kaseya Center.</p><p><strong>Friday, October 9:</strong> Outpour Worship Night runs 7 to 10 p.m. at 5460 N. State Road 7 in Fort Lauderdale.</p><p><strong>Saturday, October 10:</strong> the free Harvest &amp; Wellness Family Festival is at Tropical Park from 10 a.m. to 3 p.m., with rides, crafts, and a pumpkin patch.</p><p><strong>Sunday, October 11:</strong> “Boo-tanical Garden,” a free gnome-and-fairy morning, runs 10 to noon at the Miami Beach Botanical Garden, and costumes are welcome. At 3 p.m., Orchestra Miami’s family show <em>Flamenco y Folklórico</em> comes to Pinecrest Gardens, with advance tickets $10 for kids, $18 for adults, or $46 for a family pack. Bethel Music plays the Fillmore at 7.</p><p><strong>Next weekend:</strong> Hallelujah Night, an all-ages worship night with free parking, is Saturday, October 17, at 7 p.m. in Fort Lauderdale, and the Gettys are at Coral Ridge on the 18th.</p>",
+        "sources": [
+          {
+            "name": "Kaseya Center: Pelicans vs. Heat",
+            "url": "https://www.kaseyacenter.com/events/detail/new-orleans-pelicans-vs-miami-heat-14"
+          },
+          {
+            "name": "Eventbrite: Outpour Worship Night",
+            "url": "https://www.eventbrite.com/e/outpour-worship-night-tickets-2001243781021"
+          },
+          {
+            "name": "Miami-Dade County: Harvest & Wellness Festival",
+            "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1790687627744145"
+          },
+          {
+            "name": "Miami & the Beaches: Boo-tanical Garden",
+            "url": "https://www.miamiandbeaches.com/event/boo-tanical-garden-a-gnome-and-fairy-garden-adventure/42832"
+          },
+          {
+            "name": "Orchestra Miami: Flamenco y Folklórico",
+            "url": "https://events.humanitix.com/flamenco-y-folklorico"
+          },
+          {
+            "name": "Live Nation: Bethel Music",
+            "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
+          },
+          {
+            "name": "Eventbrite: Hallelujah Night",
+            "url": "https://www.eventbrite.com/e/hallelujah-night-tickets-1991929339275"
+          },
+          {
+            "name": "Eventbrite: An Evening with Keith and Kristyn Getty",
+            "url": "https://www.eventbrite.com/e/an-evening-with-keith-and-kristyn-getty-tickets-1995972302888"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Bacta Tank water bottles surprise fans; Giannis eases in tonight.",
+        "body": "<p>Star Wars’ swag team has been mailing fans insulated bottles labeled “BACTA TANK WATER @STARWARS,” some with surprise notes inside, turning the healing tanks into real merch, and fans are posting photos. On the Heat side, Ira Winderman says Spoelstra keeps playing his starters this preseason but is managing Giannis’s minutes, and he eased off after a playful scrimmage that included a missed dunk and a putback slam. As for the mood, Winderman says it’s “enjoyment with purpose.” They host the Pelicans tonight. One more smile: when the Swedish Academy reached Anne Carson about her Nobel, she was in Iceland, “listening to the wind.”</p>",
+        "sources": [
+          {
+            "name": "X: Star Wars 'Bacta Tank Water' bottles",
+            "url": "https://x.com/i/trending/2107941562302832803"
+          },
+          {
+            "name": "Sun Sentinel: Ask Ira on Giannis",
+            "url": "https://www.sun-sentinel.com/2026/10/08/ask-ira-will-managing-minutes-be-a-season-long-approach-by-the-heat-with-giannis/"
+          },
+          {
+            "name": "CBC: Anne Carson wins Nobel",
+            "url": "https://www.cbc.ca/news/entertainment/nobel-literature-prize-9.7372580"
+          }
+        ]
+      }
+    ],
+    "audio": "audio/2026-10-08-morning.mp3"
+  },
+  {
     "id": "2026-10-07-evening",
     "date": "2026-10-07",
     "slot": "evening",

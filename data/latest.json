@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-07-evening",
-  "label": "Wednesday evening",
-  "generatedAt": "2026-10-07T20:15:00-04:00",
+  "id": "2026-10-08-morning",
+  "label": "Thursday morning",
+  "generatedAt": "2026-10-08T08:18:04-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Amoris week underway; Lecornu taps diesel stocks; Ukraine toll 28."
+      "headline": "Vatican City names Sr. Barron; Kramatorsk bus strike; Isaias nears Gulf."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Trump Accounts: 70 million kids enrolled; $1,000 seed needs claiming."
+      "headline": "Canada drug imports face Oct. 22 cutoff; $90 Medicare rebates land."
     },
     {
       "title": "Musk world",
-      "headline": "Tesla closes $377.81; SpaceX slips 2.5%; Musk keeps Terafab in-house."
+      "headline": "Ives sets $500 Tesla target; SpaceX credit risk hits record."
     },
     {
       "title": "Space",
-      "headline": "FCC sets October 29 vote on more satellite-to-phone spectrum."
+      "headline": "Blue Origin raises $10 billion; Bezos eyes an eventual IPO."
     },
     {
       "title": "NASA",
-      "headline": "Artemis II Moon data released; next cargo Dragon launches October 13."
+      "headline": "Crew-12 splashes down off California at 11:34 a.m. today."
     },
     {
       "title": "Catholic",
-      "headline": "St. Michael School turns 75; Kosovo's first Catholic president; Broome sentencing."
+      "headline": "Bishop Dewane dies; Sr. Barron to lead Mission Societies; Gallagher in Pakistan."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown quiet; UK airports start passport-free facial-recognition eGates."
+      "headline": "Countdown quiet; Rosary message stands; Ghana crusade; Denmark ID breach."
     },
     {
       "title": "Miami",
-      "headline": "Gettys' 'In Christ Alone' worship night October 18; Heat Thursday."
+      "headline": "Outpour worship Friday; free Boo-tanical Garden Sunday; Heat host Pelicans tonight."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Galactic Racer brings back podracing; Heat rookie honors his mom."
+      "headline": "Bacta Tank water bottles surprise fans; Giannis eases in tonight."
     }
   ],
-  "audio": "audio/2026-10-07-evening.mp3"
+  "audio": "audio/2026-10-08-morning.mp3"
 }
