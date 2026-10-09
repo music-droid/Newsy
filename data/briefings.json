@@ -1,5 +1,319 @@
 [
   {
+    "id": "2026-10-09-morning",
+    "date": "2026-10-09",
+    "slot": "morning",
+    "label": "Friday morning",
+    "generatedAt": "2026-10-09T08:20:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Vatican City: Tagle named Dean; Isaias nears Panhandle landfall.",
+        "body": "<p><strong>Vatican City.</strong> Cardinal Luis Antonio Tagle, 69, the Filipino pro-prefect for first evangelization, was elected Dean of the College of Cardinals on Thursday by the cardinal-bishops and announced today, succeeding 92-year-old Cardinal Giovanni Battista Re, who becomes Dean Emeritus after nearly seven years. Tagle keeps Albano and takes Ostia; the Dean’s main duty is to convene and, if under 80, preside at a conclave. Yesterday evening Pope Leo celebrated Mass in St. Peter’s to open the pontifical universities’ year, urging reason and critical thinking against “false teachers.” The <em>Amoris Laetitia</em> family meeting continues; today’s theme is young people and the vocation to marriage, with a 1:30 p.m. Rome briefing.</p><p><strong>Africa.</strong> Ethiopia told the UN that Eritrean forces have advanced up to 60 km into northern Tigray in what it called an “all-out invasion,” after ACLED and local reports of Eritrean troops near Adigrat and drone strikes on them. The neighbors cut diplomatic ties last week. Kenya still reports one imported Bundibugyo Ebola death and about 57 contacts; Somalia formed a six-ministry committee to prepare. Congo’s outbreak remains the largest on record, with more than 8,000 cases and over 4,000 deaths. In Durban, clashes near a refugee reception centre scattered asylum seekers and prompted a U.S. consulate safety alert.</p><p><strong>Asia.</strong> President Trump said the U.S. will not attack Iran before the November 3 midterms and claimed “productive discussions” with Tehran; oil eased. Iran’s foreign minister says Tehran is reviewing Washington’s reply to its seven-day Hormuz reopening plan. Houthi missile strikes on Riyadh’s King Khalid airport killed three Saudis, including Saudia captain Hamoud Ali Alkalthami; the Saudi-led coalition vowed a “firm” response, and flights have largely resumed. CENTCOM says Hormuz traffic continues, including about 20 million barrels of crude. China nominated Song Li, its women-and-children’s health chief, to lead the WHO.</p><p><strong>Europe.</strong> Russian strikes killed two and wounded five in Zaporizhzhia Friday, part of a three-day toll above 50 across Ukraine after the Kramatorsk bus strike. Ukrainian and European officials are flying to Miami for U.S.-led talks with envoys Steve Witkoff and Jared Kushner on a possible energy and Black Sea pause; Russia is not at the table. In France, school blockades continue. In Britain, Able Seaman Teddy Stanley Greenidge Young appeared in court on National Security Act charges alleging he prepared to spy for Russia; the case goes to the Old Bailey on October 16.</p><p><strong>North America.</strong> Hurricane Isaias is near 110 mph about 200 miles south of the Mississippi mouth and is expected to briefly become a major hurricane before landfall tonight or early Saturday as a high-end Category 2 between Mobile and Fort Walton Beach, with life-threatening surge from the Mississippi mouth to Suwannee, Florida. South Florida is not in the warning. Off Mexico’s Pacific coast, Hurricane Simon has 80-knot winds and could reach Category 4 before nearing southwestern Mexico Saturday. Anne Carson’s Nobel Literature win stands from yesterday.</p><p><strong>South America.</strong> A new Brazilian runoff poll puts Flávio Bolsonaro and Lula in a statistical tie, about 49% to 45%, ahead of the October 25 vote. Supreme Court Justice Alexandre de Moraes ordered Eduardo Bolsonaro’s prison sentence to begin and issued an arrest warrant, canceling his passports; he is abroad. Brazil recalled its ambassador to Argentina after President Milei’s “Lula ladrón” attack deepened the diplomatic row.</p><p><strong>Oceania.</strong> A Taxpayers’ Union–Curia poll shows NZ First rising to about 12%, extending the National-led coalition’s lead in New Zealand’s campaign. Australian and New Zealand police hit the Lone Wolf outlaw motorcycle gang with about 20 arrests and 69 charges. Canberra outlined plans to make AI firms prove their safety systems work. Near Queenstown, the Lake Whakatipu scrub fire remains contained.</p>",
+        "sources": [
+          {
+            "name": "Vatican News: Cardinal Tagle elected Dean",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/cardinal-tagle-elected-new-dean-of-college-of-cardinals.html"
+          },
+          {
+            "name": "Vatican News: Pontifical universities Mass",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-pontifical-universities-inaugauration-academic-year.html"
+          },
+          {
+            "name": "Synod.va: Amoris Laetitia meeting day three",
+            "url": "https://www.synod.va/en/news/the-gospel-of-the-family-pope-leo-xiv-opens-the-meeting-on-the.html"
+          },
+          {
+            "name": "Al Arabiya (Reuters): Ethiopia 'all-out invasion' letter",
+            "url": "https://english.alarabiya.net/News/world/2026/10/09/ethiopia-says-it-must-defend-itself-against-eritrea-s-allout-invasion-"
+          },
+          {
+            "name": "NBC: Eritrean troops cross into Tigray",
+            "url": "https://www.nbcnews.com/world/africa/eritrean-troops-cross-northern-ethiopia-conflict-escalates-rcna602246"
+          },
+          {
+            "name": "NBC: Kenya's first Ebola case explained",
+            "url": "https://www.nbcnews.com/health/health-news/know-kenyas-first-ebola-case-officials-are-responding-rcna602238"
+          },
+          {
+            "name": "Dawan Africa: Somalia Ebola committee",
+            "url": "https://www.dawan.africa/news/somalia-sets-up-committee-to-prepare-for-ebola-threat"
+          },
+          {
+            "name": "Al Jazeera: Trump rules out Iran strike before midterms",
+            "url": "https://www.aljazeera.com/news/2026/10/9/trump-says-us-will-not-strike-iran-before-midterm-elections"
+          },
+          {
+            "name": "CNBC: Saudi coalition vows firm response after Riyadh airport strikes",
+            "url": "https://www.cnbc.com/2026/10/09/saudi-us-iran-war-trump-hormuz.html"
+          },
+          {
+            "name": "Euronews: Houthi strikes kill Saudia captain",
+            "url": "https://www.euronews.com/2026/10/09/houthi-missile-strikes-kill-three-at-riyadh-airport-including-airline-captain"
+          },
+          {
+            "name": "India Shipping News: CENTCOM on Hormuz traffic",
+            "url": "https://indiashippingnews.com/international-shipping/us-centcom-rejects-irans-claim-of-hormuz-closure-says-20-million-barrels-of-crude-moving-through/"
+          },
+          {
+            "name": "AP: Russian strikes in Zaporizhzhia",
+            "url": "https://apnews.com/article/russia-ukraine-war-drone-missile-strikes-2c6c8b081e8e316c83af17a39bce7fe5"
+          },
+          {
+            "name": "Euronews: Ukraine and Europe fly to Miami talks",
+            "url": "https://www.euronews.com/2026/10/09/ukrainian-and-european-officials-fly-to-miami-for-us-led-peace-talks"
+          },
+          {
+            "name": "National Hurricane Center: Isaias discussion",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDAT4%2Bhtml/090858.shtml"
+          },
+          {
+            "name": "ABC News: Isaias aims at Florida Panhandle",
+            "url": "https://abcnews.com/US/hurricane-isaias-takes-aim-florida-panhandle/story?id=137122880"
+          },
+          {
+            "name": "NHC: Hurricane Simon advisory",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP5+html/090551.shtml"
+          },
+          {
+            "name": "Valor International: Bolsonaro–Lula runoff poll",
+            "url": "https://valorinternational.globo.com/politics/news/2026/10/09/bolsonaro-and-lula-in-statistical-tie-in-runoff-poll-49percent-to-45percent.ghtml"
+          },
+          {
+            "name": "Courthouse News: Eduardo Bolsonaro arrest ordered",
+            "url": "https://www.courthousenews.com/brazil-supreme-court-orders-arrest-of-eduardo-bolsonaro-presidential-candidates-brother/"
+          },
+          {
+            "name": "RNZ: NZ First surge in Curia poll",
+            "url": "https://www.rnz.co.nz/news/politics_election-2026/1795546/nz-first-surge-extends-coalition-lead-latest-taxpayers-union-curia-poll-shows"
+          },
+          {
+            "name": "ABC Australia: Lone Wolf gang raids",
+            "url": "https://www.abc.net.au/news/2026-10-09/qld-lone-wolf-outlaw-motorbike-gang-targeted/107249476"
+          },
+          {
+            "name": "ABC Australia: AI safety proof plans",
+            "url": "https://www.abc.net.au/news/2026-10-08/federal-politics-ai-regulation-andrew-charlton-speech/107241674"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "MAHA scorecard: 85% broken; White House cites diet wins.",
+        "body": "<p><strong>“Make America Healthy Again.”</strong> <em>What was done:</em> A scorecard from MAHA activists, including former Kennedy campaign aides, says the administration has broken more than 85% of its food, agriculture, and environmental-health promises—citing new pesticide approvals, a glyphosate supply order, and EPA rollbacks on mercury and some PFAS limits. FDA steps they call only partial include voluntary dye phase-outs and a proposed GRAS-notification rule. The White House points to overhauled dietary guidelines, cutting artificial ingredients, and regenerative-farming investments; HHS says Kennedy is still delivering “lasting reforms.” <em>Impact:</em> the coalition that helped elect the ticket is publicly splitting ahead of the midterms, with some activists saying they may sit out November rather than celebrate unfinished business.</p><p><strong>“Lower prescription drug prices.”</strong> <em>What was done:</em> The October 22 Customs rule suspending the $800 de minimis exemption for low-value packages still stands, threatening personal Canada and overseas drug orders for about 2.3 million Americans even as most-favored-nation deals and TrumpRx discounts move some list prices. <em>Impact:</em> seniors getting this week’s one-time $90 Part B rebate still see real cash, but MAHA’s own scorekeepers say the bigger chemical-and-food agenda is lagging, and patients who already shop abroad could pay more after the 22nd.</p>",
+        "sources": [
+          {
+            "name": "NBC: MAHA scorecard on broken promises",
+            "url": "https://www.nbcnews.com/health/health-news/trump-rfk-jr-maha-promises-scorecard-pesticides-food-safety-rcna601905"
+          },
+          {
+            "name": "The Independent (AP): Canada drug imports face cutoff",
+            "url": "https://www.independent.co.uk/news/donald-trump-americans-democrats-canada-washington-b3063440.html"
+          },
+          {
+            "name": "NBC: TrumpRx discounts a mixed bag",
+            "url": "https://www.nbcnews.com/health/health-news/trump-lowest-drug-prices-trumprx-discounts-report-rcna600716"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "SpaceX buys 800 MHz spectrum; Musk gets National Medal.",
+        "body": "<p><strong>SpaceX.</strong> SpaceX agreed Thursday to buy a nationwide portfolio of up to 14 MHz of paired 800 MHz spectrum from Grain Management, subject to FCC approval, calling it key for Starlink Mobile to become a U.S. carrier. Musk labeled it a “very big deal.” AT&amp;T, Verizon, and T-Mobile fell in after-hours trading; SpaceX shares rose about 2.5% after hours. Starlink had about 12 million subscribers as of June and is still the company’s cash engine; Deutsche Bank estimates about 13.5 million by end of September. SpaceX is valued above $2 trillion after its June IPO.</p><p><strong>Tesla &amp; honors.</strong> Tesla closed near $375 Thursday. At the White House “Science: A New Golden Age” summit, President Trump awarded Musk the National Medal of Science for engineering that pushed space exploration, intelligent systems, and manufacturing; Sergey Brin, Jensen Huang, and Lisa Su also received science medals, with Michael Dell and Satya Nadella getting technology medals. Crew-12’s Dragon return (see NASA) keeps SpaceX’s crew cadence visible to public markets.</p>",
+        "sources": [
+          {
+            "name": "CNBC: SpaceX spectrum deal hits telecom shares",
+            "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+          },
+          {
+            "name": "White House: National Medals of Science announcement",
+            "url": "https://www.whitehouse.gov/releases/2026/10/president-trump-presents-national-medals-of-science-and-national-medals-of-technology-and-innovation/"
+          },
+          {
+            "name": "Al Jazeera: Trump awards Musk National Medal of Science",
+            "url": "https://www.aljazeera.com/news/2026/10/8/trump-gives-top-us-science-awards-to-elon-musk-and-other-tech-executives"
+          },
+          {
+            "name": "Motley Fool: SpaceX vs Tesla valuation",
+            "url": "https://www.fool.com/investing/2026/10/09/spacex-is-worth-about-usd800-billion-more-than-tesla-on-less-than-a-quarter-of-its-sales/"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Blue Origin picks Hutto, Texas for 2,000-job campus.",
+        "body": "<p>Blue Origin announced Constellation Park, a 1.3-million-square-foot manufacturing campus in Hutto, Texas, for its TeraWave satellite network, Quartz ground stations, and satellite subsystems. CEO Dave Limp said it taps Texas talent; Governor Abbott welcomed the expansion. The company expects more than 2,000 manufacturing and related jobs over ten years on top of about 550 Texas employees already. Separately, Bezos has said an IPO “probably makes sense” after Blue Origin’s first $10 billion outside raise. Amazon’s Project Kuiper also marked a 1,000-satellite production milestone this week.</p>",
+        "sources": [
+          {
+            "name": "Blue Origin: Constellation Park announcement",
+            "url": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus"
+          },
+          {
+            "name": "Austin American-Statesman: Blue Origin selects Hutto",
+            "url": "https://www.statesman.com/business/technology/article/jeff-bezos-blue-origin-hutto-554-million-campus-22468382.php"
+          },
+          {
+            "name": "Via Satellite: Amazon 1,000-sat milestone; Blue Origin manufacturing",
+            "url": "https://www.satellitetoday.com/manufacturing/2026/10/08/amazon-hits-1000-sat-milestone-blue-origin-bolsters-sat-manufacturing/"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Crew-12 home after 237 days; CRS-35 set for Oct. 13.",
+        "body": "<p>Crew-12’s Dragon splashed down off Los Angeles at 11:34 a.m. ET Thursday, ending 237 days on the ISS for Jessica Meir, Jack Hathaway, ESA’s Sophie Adenot, and Roscosmos’s Andrey Fedyaev. Meir has now logged 440 career days in space, putting her in NASA’s top ten. The crew completed four spacewalks. Next up: CRS-35, SpaceX’s 35th cargo mission, is targeted for October 13 from Cape Canaveral with more than 6,300 pounds of supplies and the final ISS roll-out solar arrays, docking about October 15.</p>",
+        "sources": [
+          {
+            "name": "NASA: Crew-12 splashdown blog",
+            "url": "https://www.nasa.gov/blogs/spacestation/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/"
+          },
+          {
+            "name": "NASA: Crew-12 splashdown news release",
+            "url": "https://www.nasa.gov/news-release/nasas-spacex-crew-12-splashes-down-sets-briefing-to-discuss-mission/"
+          },
+          {
+            "name": "NASA: CRS-35 commercial resupply overview",
+            "url": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Tagle becomes Dean; Gallagher in Pakistan; Miami Acutis expo.",
+        "body": "<p><strong>Miami.</strong> The St. Carlo Acutis Eucharistic Miracles Exposition opens Monday at St. Mark the Evangelist in Southwest Ranches and runs through Friday, October 16, with a first-class relic and Adoration. No new clergy assignments posted this week.</p><p><strong>United States / Universal Church.</strong> Cardinal Tagle’s election as Dean of the College of Cardinals is the day’s biggest hierarchical news (see World). Pope Leo’s Mass for the pontifical universities and the ongoing <em>Amoris Laetitia</em> family meeting in Rome keep U.S. bishops’ attention on formation and family pastoral care.</p><p><strong>Latin America.</strong> Brazilian Church attention is fixed on the runoff and the Eduardo Bolsonaro arrest order; no major new episcopal nomination dominated the wires overnight.</p><p><strong>Europe.</strong> L’Osservatore Romano profiles France’s shift “from inherited to chosen Christianity,” with more than 13,000 adult baptisms at Easter—up 28% from 2025 and more than triple in a decade—as young catechumens describe finding community and peace.</p><p><strong>Africa.</strong> A Nigerian priest appealed for health care after seven children died at an Abuja IDP camp, underscoring pastoral work amid displacement.</p><p><strong>Asia.</strong> Archbishop Paul Richard Gallagher is in Islamabad for the 75th anniversary of Holy See–Pakistan ties, meeting the prime minister and bishops on his first visit as foreign minister of the Holy See. In Kazakhstan, religious leaders approved joint documents on dialogue, AI ethics, and care for the vulnerable.</p><p><strong>Middle East.</strong> Regional Catholic focus remains on Gaza’s ceasefire strains and pilgrim safety; Gallagher’s Pakistan stop is the Vatican’s sharpest diplomatic headline in the broader Asia–Middle East corridor this week.</p><p><strong>Oceania.</strong> Quiet on new bishop moves overnight; Australian and New Zealand dioceses continue ordinary autumn schedules.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: Acutis Eucharistic Miracles Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "Vatican News: Cardinal Tagle elected Dean",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/cardinal-tagle-elected-new-dean-of-college-of-cardinals.html"
+          },
+          {
+            "name": "L'Osservatore Romano: France chosen Christianity",
+            "url": "https://www.osservatoreromano.va/en/news/2026-10/ing-010/france-moving-from-inherited-to-chosen-christianity.html"
+          },
+          {
+            "name": "ACI Africa: Nigerian priest on IDP camp deaths",
+            "url": "https://www.aciafrica.org/index.php/news/24581/nigerian-catholic-priest-appeals-for-intervention-after-seven-children-die-at-idp-camp-in-abuja"
+          },
+          {
+            "name": "Vatican News: Gallagher in Pakistan",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/archbishop-gallagher-holy-see-diplomacy-pakistan-anniversary.html"
+          },
+          {
+            "name": "UCA News: Holy See–Pakistan 75 years",
+            "url": "https://www.ucanews.com/news/vatican-marks-75-years-of-holy-see-pakistan-diplomatic-ties/115714"
+          },
+          {
+            "name": "Catholic Daily: Kazakhstan religious leaders documents",
+            "url": "https://catholicdaily.com/2026/10/08/asia-kazakhstan-religious-leaders-approve-three-documents-from-dialogue-to-joint-action-for-peace-and-human-dignity/"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown still quiet; France adult baptisms soar; Rosary call stands.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> Checked this morning: nothing newer than October 3. The newest posts remain Marija’s Medjugorje note (“Time of Prayer for Peace”), Elizabeth Kindelmann’s Flame of Love passage (“Satan Will be Blinded”), and Pedro Regis (“Humanity is Sick”).</p><p><strong>Latest message.</strong> Our Lady’s September 25 Medjugorje message through Marija is still the newest monthly message—calling families to renew the Rosary for peace—and October’s 25th message has not yet been published.</p><p><strong>Returns to the faith.</strong> France’s adult-baptism surge (see Catholic) is the clearest “signs of the times” story this week: young adults choosing the Church after inherited Christianity faded. Revival gatherings on the calendar include Souffle Nouveau in Sainte-Savine, France (October 23–25), and The Great ReAwakening in Maryland (October 23).</p><p><strong>End-times adjacent.</strong> No credible October report of compulsory chip implants or a mandated digital-ID mark. Expanding digital wallets and biometrics are real policy debates; claims of forced implants remain unverified and should be weighed against primary sources, not rumor.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Medjugorje.org: monthly messages",
+            "url": "https://www.medjugorje.org/olmmsg.htm"
+          },
+          {
+            "name": "L'Osservatore Romano: France adult baptisms",
+            "url": "https://www.osservatoreromano.va/en/news/2026-10/ing-010/france-moving-from-inherited-to-chosen-christianity.html"
+          },
+          {
+            "name": "Souffle Nouveau October 2026",
+            "url": "https://my.weezevent.com/souffle-nouveau-octobre-2026"
+          },
+          {
+            "name": "The Great ReAwakening",
+            "url": "https://www.thegreatreawakening.com/"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Outpour tonight; Harvest Festival Saturday; Heat beat Pelicans.",
+        "body": "<p><strong>Tonight, Friday, October 9:</strong> Outpour Worship Night runs 7–10 p.m. at 5460 N. State Road 7 in Fort Lauderdale. ChristWay Baptist in Miramar also hosts a Gospel Concert with childcare for little ones under 6.</p><p><strong>Saturday, October 10:</strong> Miami-Dade’s free Harvest &amp; Wellness Family Festival is at Tropical Park from 10 a.m. to 3 p.m. Southern Florida Nazarene churches gather at Everglades Holiday Park around 11 a.m. for Family Mission Day (airboat, gator show, lunch, missions teaching).</p><p><strong>Sunday, October 11:</strong> Bethel Music plays The Fillmore Miami Beach.</p><p><strong>Heat:</strong> Miami beat the Pelicans 128–118 in Thursday’s preseason game at Kaseya Center (full notes in Pick-me-up). Panhandle Isaias impacts do not include South Florida’s warning area, but travelers to the Gulf Coast should watch NHC updates.</p>",
+        "sources": [
+          {
+            "name": "Eventbrite: Outpour Worship Night",
+            "url": "https://www.eventbrite.com/e/outpour-worship-night-tickets-2001243781021"
+          },
+          {
+            "name": "Miami-Dade: Harvest & Wellness Family Festival",
+            "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1790687627744145"
+          },
+          {
+            "name": "Southern Florida Nazarene: Family Mission Day",
+            "url": "https://sfnazarene.org/family-mission-day-at-everglades-holiday-park-2026/"
+          },
+          {
+            "name": "Miami & Beaches: Bethel Music at The Fillmore",
+            "url": "https://www.miamiandbeaches.com/event/bethel-music-2026-tour/37921"
+          },
+          {
+            "name": "ChristWay Miramar: Gospel Concert",
+            "url": "https://www.cbcmiramar.com/event-details/gospel-concert-2026"
+          },
+          {
+            "name": "NBA.com: Heat vs Pelicans box score",
+            "url": "https://www.nba.com/game/nop-vs-mia-0012600001/box-score"
+          },
+          {
+            "name": "NHC: Isaias discussion",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCDAT4%2Bhtml/090858.shtml"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Heat win 128–118; Ahsoka comic and Galactic Racer drop.",
+        "body": "<p>The Heat took care of the Pelicans 128–118 in preseason. Giannis Antetokounmpo needed only about 18 minutes for 18 points, four rebounds, and four assists on 8-of-13 shooting—sharp and efficient while Spoelstra still manages minutes. On the Star Wars side, Lucasfilm announced the five-issue <em>Star Wars: Ahsoka — Escape from Thrawn</em> comic (Dave Filoni and Rodney Barnes) launching January 20, 2027 beside Ahsoka Season 2, and <em>Star Wars: Galactic Racer</em> is out now on PS5, Xbox, and PC. Disney World also filed a construction permit tied to Rise of the Resistance; no closure announced.</p>",
+        "sources": [
+          {
+            "name": "NBA.com: Heat–Pelicans game",
+            "url": "https://www.nba.com/game/nop-vs-mia-0012600001"
+          },
+          {
+            "name": "NBC Sports: Giannis 18/4/4 line",
+            "url": "https://www.nbcsports.com/fantasy/basketball/player-news/2026-10-08/giannis-antetokounmpo-posts-18-4-4-1-stat-line"
+          },
+          {
+            "name": "StarWars.com: Ahsoka Escape from Thrawn comic",
+            "url": "https://www.starwars.com/news/nycc-2026-lucasfilm-publishing-reveals"
+          },
+          {
+            "name": "StarWars.com: Galactic Racer available now",
+            "url": "https://www.starwars.com/news/star-wars-galactic-racer"
+          },
+          {
+            "name": "WDW News Today: Rise of the Resistance permit",
+            "url": "https://wdwnt.com/2026/10/disney-world-files-permit-for-star-wars-rise-of-the-resistance-construction/"
+          }
+        ]
+      }
+    ],
+    "audio": "audio/2026-10-09-morning.mp3"
+  },
+  {
     "id": "2026-10-08-morning",
     "date": "2026-10-08",
     "slot": "morning",

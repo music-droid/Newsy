@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-08-morning",
-  "label": "Thursday morning",
-  "generatedAt": "2026-10-08T08:18:04-04:00",
+  "id": "2026-10-09-morning",
+  "label": "Friday morning",
+  "generatedAt": "2026-10-09T08:20:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City names Sr. Barron; Kramatorsk bus strike; Isaias nears Gulf."
+      "headline": "Vatican City: Tagle named Dean; Isaias nears Panhandle landfall."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Canada drug imports face Oct. 22 cutoff; $90 Medicare rebates land."
+      "headline": "MAHA scorecard: 85% broken; White House cites diet wins."
     },
     {
       "title": "Musk world",
-      "headline": "Ives sets $500 Tesla target; SpaceX credit risk hits record."
+      "headline": "SpaceX buys 800 MHz spectrum; Musk gets National Medal."
     },
     {
       "title": "Space",
-      "headline": "Blue Origin raises $10 billion; Bezos eyes an eventual IPO."
+      "headline": "Blue Origin picks Hutto, Texas for 2,000-job campus."
     },
     {
       "title": "NASA",
-      "headline": "Crew-12 splashes down off California at 11:34 a.m. today."
+      "headline": "Crew-12 home after 237 days; CRS-35 set for Oct. 13."
     },
     {
       "title": "Catholic",
-      "headline": "Bishop Dewane dies; Sr. Barron to lead Mission Societies; Gallagher in Pakistan."
+      "headline": "Tagle becomes Dean; Gallagher in Pakistan; Miami Acutis expo."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown quiet; Rosary message stands; Ghana crusade; Denmark ID breach."
+      "headline": "Countdown still quiet; France adult baptisms soar; Rosary call stands."
     },
     {
       "title": "Miami",
-      "headline": "Outpour worship Friday; free Boo-tanical Garden Sunday; Heat host Pelicans tonight."
+      "headline": "Outpour tonight; Harvest Festival Saturday; Heat beat Pelicans."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Bacta Tank water bottles surprise fans; Giannis eases in tonight."
+      "headline": "Heat win 128–118; Ahsoka comic and Galactic Racer drop."
     }
   ],
-  "audio": "audio/2026-10-08-morning.mp3"
+  "audio": "audio/2026-10-09-morning.mp3"
 }
