@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-09-evening",
-  "label": "Friday evening",
-  "generatedAt": "2026-10-09T20:15:00-04:00",
+  "id": "2026-10-10-morning",
+  "label": "Saturday morning",
+  "generatedAt": "2026-10-10T08:15:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City family talks; Isaias at Panhandle landfall."
+      "headline": "Vatican family talks; Isaias inland; Miami Ukraine talks."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "RFK Jr. vaccine-injury clinic; HHS kratom thresholds."
+      "headline": "MAGA-Meter scorecard; RFK clinic; kratom line."
     },
     {
       "title": "Musk world",
-      "headline": "Tesla climbs on China sales; spectrum hits telecoms."
+      "headline": "Tesla China sales lift; Starlink Mobile spectrum."
     },
     {
       "title": "Space",
-      "headline": "Quiet since morning."
+      "headline": "Blue Origin Hutto campus; Amazon Leo 1,000th sat."
     },
     {
       "title": "NASA",
-      "headline": "NASA opens private space-station RFP; CRS-35 still Oct. 13."
+      "headline": "Private space-station RFP live; CRS-35 Tuesday."
     },
     {
       "title": "Catholic",
-      "headline": "Amoris day three; Ferretti for Lucera-Troia; Champion rector."
+      "headline": "Miami Acutis Monday; Viola Archpriest; Tagle Dean."
     },
     {
       "title": "Signs of the times",
-      "headline": "Quiet since morning."
+      "headline": "Countdown quiet since Oct. 3; Medjugorje Sept. 25."
     },
     {
       "title": "Miami",
-      "headline": "Outpour tonight; Harvest Saturday; Heat host Wolves."
+      "headline": "Harvest Festival today; Bethel Sunday; Heat tonight."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat host Wolves Saturday; Galactic Racer free on Luna."
+      "headline": "Heat host Wolves at 8; Galactic Racer on Luna."
     }
   ],
-  "audio": "audio/2026-10-09-evening.mp3"
+  "audio": "audio/2026-10-10-morning.mp3"
 }

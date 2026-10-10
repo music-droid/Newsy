@@ -1,5 +1,287 @@
 [
   {
+    "id": "2026-10-10-morning",
+    "date": "2026-10-10",
+    "slot": "morning",
+    "label": "Saturday morning",
+    "generatedAt": "2026-10-10T08:15:00-04:00",
+    "audio": "audio/2026-10-10-morning.mp3",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Vatican family talks; Isaias inland; Miami Ukraine talks.",
+        "body": "<p><strong>Vatican City.</strong> Day four of the <em>Amoris Laetitia</em> anniversary meeting turns to the first years of marriage—Cardinal José Cobo Cano and Prof. María Marcela Mazzini lead inputs after Cardinal Farrell’s opening. Pope Leo XIV on Saturday also appointed Archbishop Vittorio Francesco Viola, O.F.M., Archpriest of St. Peter’s Basilica (and Vicar General for Vatican City / Fabric of St. Peter), with Bishop Aurelio García Macías succeeding him as Secretary of the Dicastery for Divine Worship. Friday’s confirmation stands: Cardinal Luis Antonio Tagle is the new Dean of the College of Cardinals (first Asian dean), succeeding Cardinal Giovanni Battista Re.</p><p><strong>Africa.</strong> Ethiopia and Eritrea still trade “war of aggression” accusations over Tigray. Addis Ababa’s UN letter called Eritrean advances an “all-out invasion” (troops said to have pushed up to ~60 km); Asmara denies backing the TPLF and says Ethiopia is hunting Red Sea access via Assab. Ethiopian forces hold Mekelle; Ethiopian Airlines plans flights there Oct. 11.</p><p><strong>Asia.</strong> Saudi aviation says Riyadh’s King Khalid airport is back to normal after this week’s Houthi-claimed missile and drone strikes that killed three and wounded dozens at Abha and Riyadh airports (a Saudia captain among the dead; a parked Saudia jet damaged Thursday). The Saudi-led coalition vowed a firm response; Houthis again warned global airlines about Saudi airspace.</p><p><strong>Europe.</strong> U.S. envoys Steve Witkoff and Jared Kushner wrapped Friday’s Miami talks with Ukraine, the E3, the European Commission, and NATO a day early—Witkoff called them “constructive” on winter energy resilience, grain, security guarantees, reconstruction, and EU accession, with no Russia at the table. Overnight, Russian glide bombs on Zaporizhzhia killed at least 15, Zelenskyy said, as Pentagon-style “stalemate” warnings linger.</p><p><strong>North America.</strong> Hurricane Isaias made landfall near Destin, Florida, about 8:30 p.m. CDT Friday as a high-end Category 2 (105 mph). By early Saturday it was post-tropical near Montgomery, Alabama (~35 mph), with NHC’s final advisory out; flash flooding, tornado risk, and 4–8 inches of rain (locally higher) still threaten Alabama, the Panhandle, Georgia, and the Southern Appalachians through Sunday. South Florida was not in the hurricane warning.</p><p><strong>South America.</strong> Cleanup continues in Santiago’s Las Condes after Thursday’s flash mudflow injured six and affected more than 2,000 homes; Chile declared a disaster zone. In Brazil, Lula’s government cut gasoline taxes and extended diesel/ethanol subsidies ahead of the Oct. 25 runoff against Flávio Bolsonaro.</p><p><strong>Oceania.</strong> Pacific leaders’ Taku Pakasoa Declaration (“strength in unity”) from the Fiji–Tuvalu Pre-COP31 push remains the week’s regional headline—urging 1.5°C ambition, climate finance, and ocean protection ahead of COP31 in Türkiye.</p>",
+        "sources": [
+          {
+            "name": "Amoris Laetitia meeting programme (day four: first years of marriage)",
+            "url": "https://www.amorislaetitia.va/en.html"
+          },
+          {
+            "name": "Vatican News: Archbishop Viola named Archpriest of St. Peter’s",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-appoints-francesco-viola-archpriest-saint-peters.html"
+          },
+          {
+            "name": "Vatican News: Cardinal Tagle elected Dean",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/cardinal-tagle-elected-new-dean-of-college-of-cardinals.html"
+          },
+          {
+            "name": "Al Jazeera: Ethiopia and Eritrea accuse one another of launching war",
+            "url": "https://www.aljazeera.com/news/2026/10/9/ethiopia-and-eritrea-accuse-one-another-of-launching-war"
+          },
+          {
+            "name": "Al Jazeera: Saudi reopens Riyadh airport after Houthi attacks",
+            "url": "https://www.aljazeera.com/news/2026/10/9/saudi-arabia-reopens-riyadh-airport-after-houthi-attack-kills-three"
+          },
+          {
+            "name": "Al Jazeera: Miami Ukraine talks; Zaporizhzhia strike kills 15",
+            "url": "https://www.aljazeera.com/news/2026/10/10/us-hosts-productive-trilateral-talks-to-end-russia-ukraine-war"
+          },
+          {
+            "name": "Interfax-Ukraine: Witkoff on constructive Miami talks",
+            "url": "https://en.interfax.com.ua/news/general/1217614.html"
+          },
+          {
+            "name": "NHC: Isaias landfall near Destin update",
+            "url": "https://www.nhc.noaa.gov/archive/2026/al09/al092026.update.10100129.shtml"
+          },
+          {
+            "name": "News4JAX: Isaias post-tropical; flash-flood risk inland",
+            "url": "https://www.news4jax.com/weather/2026/10/09/hurricane-isaias-now-a-category-3-major-hurricane-barreling-toward-northern-gulf-coast/"
+          },
+          {
+            "name": "BBC: Isaias landfall in Florida",
+            "url": "https://www.bbc.com/news/articles/c3vgx4450v2lo"
+          },
+          {
+            "name": "SMH: Chile Santiago mudslide",
+            "url": "https://www.smh.com.au/world/south-america/mudslide-carries-away-cars-bus-in-chile-s-capital-20261010-p614di.html"
+          },
+          {
+            "name": "The Hindu: Brazil fuel relief ahead of runoff",
+            "url": "https://www.thehindu.com/news/international/lulas-government-in-brazil-lowers-fuel-prices-ahead-of-runoff-vote-against-flavio-bolsonaro/article71567143.ece"
+          },
+          {
+            "name": "Australia–Pacific COP31: Taku Pakasoa Declaration",
+            "url": "https://www.cop31-pacific.com/taku-pakasoa"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "MAGA-Meter scorecard; RFK clinic; kratom line.",
+        "body": "<p><strong>“Secure the border / deliver the agenda” — midterm scorecard.</strong> <em>What was done:</em> PolitiFact’s MAGA-Meter (tracking ~75 second-term 2024 pledges) still shows roughly one-fifth marked Kept, with a large share In the Works or Stalled—border-security promises are among the clearest kept items in independent tallies, while many economic and structural pledges remain unfinished. <em>Impact:</em> crossings and enforcement stats are the campaign’s strongest “kept” talking point heading into November; incomplete wall and tariff fights show why “we delivered everything” claims do not match the ledger.</p><p><strong>“Make America Healthy Again” — vaccine injury transparency.</strong> <em>What was done:</em> HHS Secretary Robert F. Kennedy Jr.’s NIH clinic and VAERS-modernization push (physician reporting incentives, EHR hooks) is the week’s concrete MAHA move. <em>Impact:</em> families who felt dismissed by prior systems get a federal research door; infectious-disease experts warn incentivized fishing expeditions could muddy signal just as measles and other preventable diseases resurge if benefit messaging stays muted.</p><p><strong>Target enhanced kratom opioids, spare botanical leaf.</strong> <em>What was done:</em> HHS recommended DEA concentration/ratio thresholds so temporary Schedule I control of 7-OH and MGPI hits concentrated or chemically altered “enhanced” products while leaving natural botanical kratom with only trace alkaloids outside that net. <em>Impact:</em> a real MAHA-style distinction between addiction-risk synthetics and a popular herbal product—policy detail activists often demand—while the broader food/pesticide scorecard fight continues.</p>",
+        "sources": [
+          {
+            "name": "PolitiFact MAGA-Meter: Trump’s second-term promises",
+            "url": "https://www.politifact.com/truth-o-meter/promises/maga-meter-tracking-donald-trumps-2024-promises/"
+          },
+          {
+            "name": "PolitiFact: midterm talking-points cheat sheet",
+            "url": "https://www.politifact.com/article/2026/sep/29/a-cheat-sheet-to-trumps-2026-talking-points/"
+          },
+          {
+            "name": "NPR: RFK Jr. vaccine-injury initiative",
+            "url": "https://www.npr.org/2026/10/09/nx-s1-5995393/rfk-jr-touts-vaccine-injury-initiative-worrying-experts"
+          },
+          {
+            "name": "HHS: science-based thresholds for enhanced kratom products",
+            "url": "https://www.hhs.gov/press-room/hhs-recommends-thresholds-enhanced-kratom-products-7-oh-mgpi.html"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Tesla China sales lift; Starlink Mobile spectrum.",
+        "body": "<p><strong>Tesla.</strong> Shanghai-built Model 3/Y wholesale hit a 2026 high of 95,366 in September (+5% YoY per China Passenger Car Association data), extending a long streak of year-over-year gains; shares rose about 2% Friday and closed near $382.70. Investors also weighed Musk’s clarification that Tesla and SpaceX will own and operate the planned Texas Terafab chip campus ahead of Oct. 21 earnings. Forbes put Musk’s net worth back above $1 trillion on the SpaceX–Tesla rally.</p><p><strong>SpaceX / Starlink Mobile.</strong> The Grain Management nationwide 800 MHz spectrum deal (still needing FCC approval) remains the stockholder story: SpaceX calls the low-band licenses the “last critical piece” for Starlink Mobile in-building coverage with existing handsets. Friday’s tape still showed telecom selloff pressure (T-Mobile and AT&amp;T hard hit Thursday–Friday) as traders priced a future carrier rival.</p>",
+        "sources": [
+          {
+            "name": "CnEVPost: Tesla China September wholesale 95,366",
+            "url": "https://cnevpost.com/2026/10/09/tesla-china-sept-2026-wholesale/"
+          },
+          {
+            "name": "Forbes: Musk’s net worth tops $1 trillion again",
+            "url": "https://www.forbes.com/sites/fionariley/2026/10/09/musk-becomes-a-trillionaire-again-as-spacex-tesla-shares-rally/"
+          },
+          {
+            "name": "CBS News: SpaceX Starlink Mobile spectrum deal",
+            "url": "https://www.cbsnews.com/news/spacex-starlink-mobile-carrier-radio-airwaves/"
+          },
+          {
+            "name": "Ars Technica: Starlink spectrum deal vs carriers",
+            "url": "https://arstechnica.com/tech-policy/2026/10/starlink-spectrum-deal-boosts-musk-plan-to-beat-att-t-mobile-and-verizon/"
+          },
+          {
+            "name": "CNBC: SpaceX spectrum deal hits telecom shares",
+            "url": "https://www.cnbc.com/2026/10/08/spacex-spectrum-license-att-verizon-tmobile.html"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Blue Origin Hutto campus; Amazon Leo 1,000th sat.",
+        "body": "<p><strong>Blue Origin.</strong> The company selected Hutto, Texas, for Constellation Park—a large satellite and communications manufacturing campus (about 1.3 million sq ft / ~$555M investment) aimed at TeraWave, Quartz ground stations, and satellite subsystems, with more than 2,000 manufacturing and related jobs expected over ten years. CEO Dave Limp framed it as tapping Texas talent; Governor Abbott welcomed the expansion. Bezos has separately said an IPO “probably makes sense” after Blue Origin’s first large outside raise.</p><p><strong>Amazon Leo (ex-Kuiper).</strong> Amazon marked building its 1,000th broadband satellite this week (hundreds already on orbit), saying commercial service is weeks away while production outpaces launch cadence. See NASA for Friday’s commercial LEO stations RFP.</p>",
+        "sources": [
+          {
+            "name": "Blue Origin: Constellation Park / Hutto announcement",
+            "url": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus"
+          },
+          {
+            "name": "Austin American-Statesman: Blue Origin selects Hutto",
+            "url": "https://www.statesman.com/business/technology/article/jeff-bezos-blue-origin-hutto-554-million-campus-22468382.php"
+          },
+          {
+            "name": "Via Satellite: Amazon 1,000-sat milestone; Blue Origin manufacturing",
+            "url": "https://www.satellitetoday.com/manufacturing/2026/10/08/amazon-hits-1000-sat-milestone-blue-origin-bolsters-sat-manufacturing/"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Private space-station RFP live; CRS-35 Tuesday.",
+        "body": "<p>NASA on Friday released its Commercial LEO Destinations request for proposals, asking U.S. industry to build private stations that could host NASA crews as early as the 2030s after the ISS retires. Administrator Jared Isaacman said NASA will not abandon low-Earth orbit; Phase 1 winners get substantial development funding, responses are due Dec. 8, and selections are targeted for spring. Expected contenders include Axiom, Voyager/Starlab, and Vast.</p><p>CRS-35 remains targeted for Tuesday, Oct. 13, at 6:33 a.m. ET from Cape Canaveral with more than 6,300 pounds of cargo and the final ISS roll-out solar arrays, docking about Oct. 15. Crew-12’s Thursday splashdown off Los Angeles (Jessica Meir, Jack Hathaway, ESA’s Sophie Adenot, Roscosmos’s Andrey Fedyaev after 237 days) stands as the prior mission milestone.</p>",
+        "sources": [
+          {
+            "name": "NASA: seeks U.S. industry plans for commercial space stations",
+            "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/"
+          },
+          {
+            "name": "NASA: CRS-35 commercial resupply overview",
+            "url": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/"
+          },
+          {
+            "name": "NASA: CRS-35 launch and arrival coverage",
+            "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/"
+          },
+          {
+            "name": "NASA: Crew-12 splashdown blog",
+            "url": "https://www.nasa.gov/blogs/spacestation/2026/10/08/nasas-spacex-crew-12-dragon-splashes-down-at-1134-a-m-edt/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Miami Acutis Monday; Viola Archpriest; Tagle Dean.",
+        "body": "<p><strong>Miami.</strong> No new Archdiocese clergy bulletin overnight. The St. Carlo Acutis Eucharistic Miracles Exposition opens Monday, Oct. 12, at St. Mark the Evangelist in Southwest Ranches (through Oct. 16), with a first-class relic and Adoration. Women’s Emmaus retreats continue this weekend.</p><p><strong>United States / Universal Church.</strong> Saturday’s biggest hierarchical news: Archbishop Viola becomes Archpriest of St. Peter’s (see World). Cardinal Tagle’s Friday confirmation as Dean stands. In Wisconsin, Bishop Ricken appointed Fr. Francis “Rocky” Hoffman (Relevant Radio CEO) president and rector of the National Shrine of Our Lady of Champion.</p><p><strong>Latin America.</strong> Brazilian Church attention stays on the Oct. 25 runoff and fuel-price politics; no major new episcopal nomination dominated the wires overnight.</p><p><strong>Europe.</strong> Beside Amoris day four and the Lucera-Troia union <em>in persona episcopi</em> under Archbishop Giorgio Ferretti (Oct. 9), L’Osservatore Romano’s France profile—adult baptisms soaring as faith shifts from inherited to chosen—remains the clearest regional “return” story.</p><p><strong>Africa / Asia / Middle East / Oceania.</strong> No fresher overnight bishop moves than Friday’s packet; pastoral focus still includes displacement care in Nigeria, Holy See–Pakistan anniversary diplomacy via Archbishop Gallagher, and quiet autumn schedules in Oceania dioceses.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: Acutis Eucharistic Miracles Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "Vatican News: Viola Archpriest of St. Peter’s",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-appoints-francesco-viola-archpriest-saint-peters.html"
+          },
+          {
+            "name": "Vatican News: Tagle elected Dean",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/cardinal-tagle-elected-new-dean-of-college-of-cardinals.html"
+          },
+          {
+            "name": "Holy See Press Office: resignations and appointments Oct. 9",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/09/0799/01491.html"
+          },
+          {
+            "name": "Amoris Laetitia meeting programme",
+            "url": "https://www.amorislaetitia.va/en.html"
+          },
+          {
+            "name": "L'Osservatore Romano: France chosen Christianity",
+            "url": "https://www.osservatoreromano.va/en/news/2026/10/ing-010/france-moving-from-inherited-to-chosen-christianity.html"
+          },
+          {
+            "name": "Aleteia: Fr. Rocky appointed Champion Shrine rector",
+            "url": "https://aleteia.org/2026/10/09/relevant-radio-priest-appointed-rector-at-champion-shrine/"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown quiet since Oct. 3; Medjugorje Sept. 25.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> Rechecked this morning: nothing newer than October 3. Newest posts remain Marija’s “Time of Prayer for Peace,” Elizabeth Kindelmann’s Flame of Love note (“Satan Will be Blinded”), and Pedro Regis (“Humanity is Sick”).</p><p><strong>Latest Marian message.</strong> Our Lady’s September 25 Medjugorje message through Marija is still the newest monthly message—calling families to renew the Rosary for peace so she may multiply prayers before the Most High. October’s 25th message has not been published yet.</p><p><strong>Returns / revivals.</strong> France’s adult-baptism surge (more than 13,000 at Easter, sharply up year over year) remains the clearest “chosen Christianity” sign this week. Calendar gatherings include Souffle Nouveau in Sainte-Savine (Oct. 23–25) and The Great ReAwakening in Maryland (Oct. 23).</p><p><strong>End-times adjacent.</strong> No credible October report of compulsory chip implants or a mandated digital-ID “mark.” Expanding digital wallets and biometrics are real policy debates; claims of forced implants remain unverified.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Medjugorje.org: monthly messages",
+            "url": "https://www.medjugorje.org/olmmsg.htm"
+          },
+          {
+            "name": "L'Osservatore Romano: France adult baptisms",
+            "url": "https://www.osservatoreromano.va/en/news/2026-10/ing-010/france-moving-from-inherited-to-chosen-christianity.html"
+          },
+          {
+            "name": "Souffle Nouveau October 2026",
+            "url": "https://my.weezevent.com/souffle-nouveau-octobre-2026"
+          },
+          {
+            "name": "The Great ReAwakening",
+            "url": "https://www.thegreatreawakening.com/"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Harvest Festival today; Bethel Sunday; Heat tonight.",
+        "body": "<p><strong>Today, Saturday, October 10:</strong> Miami-Dade’s free Harvest &amp; Wellness Family Festival runs 10 a.m.–3 p.m. at Tropical Park (Westchester Cultural Arts Center)—pumpkin patch, rides, crafts, adaptive-sports info; first 200 families get a free pumpkin. Southern Florida Nazarene churches gather around 11 a.m. at Everglades Holiday Park for Family Mission Day (airboat, gator show, lunch, missions teaching).</p><p><strong>Sunday, October 11:</strong> Bethel Music plays The Fillmore Miami Beach (Jackie Gleason Theatre), 7 p.m.</p><p><strong>Heat:</strong> Preseason continues tonight at Kaseya Center—Timberwolves at Heat, 8 p.m. Panhandle Isaias impacts do not include South Florida’s warning area; Gulf Coast travelers should still watch residual flooding reports.</p>",
+        "sources": [
+          {
+            "name": "Miami-Dade: Harvest & Wellness Family Festival",
+            "url": "https://www.miamidade.gov/global/release.page?Mduid_release=rel1790687627744145"
+          },
+          {
+            "name": "Southern Florida Nazarene: Family Mission Day",
+            "url": "https://sfnazarene.org/family-mission-day-at-everglades-holiday-park-2026/"
+          },
+          {
+            "name": "Miami & Beaches: Bethel Music at The Fillmore",
+            "url": "https://www.miamiandbeaches.com/event/bethel-music-2026-tour/37921"
+          },
+          {
+            "name": "Live Nation: Bethel Music Fillmore Miami Beach Oct. 11",
+            "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
+          },
+          {
+            "name": "NBA.com: Timberwolves vs Heat Oct. 10",
+            "url": "https://www.nba.com/game/min-vs-mia-0012600002"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Heat host Wolves at 8; Galactic Racer on Luna.",
+        "body": "<p>After Thursday’s 128–118 preseason win over New Orleans (Giannis sharp in limited minutes), the Heat host Minnesota tonight at 8 p.m. at Kaseya Center—another look at the new lineup while Spoelstra manages minutes. On the Star Wars side, <em>Galactic Racer</em> (out this week on PS5, Xbox, and PC) is free to play for Amazon Prime members on Luna, and Lucasfilm’s five-issue <em>Ahsoka — Escape from Thrawn</em> comic (Dave Filoni story with Rodney Barnes) is set for January 20, 2027 beside Ahsoka Season 2.</p>",
+        "sources": [
+          {
+            "name": "NBA.com: Timberwolves vs Heat Oct. 10",
+            "url": "https://www.nba.com/game/min-vs-mia-0012600002"
+          },
+          {
+            "name": "9to5Google: Galactic Racer free on Amazon Luna",
+            "url": "https://9to5google.com/2026/10/09/star-wars-galactic-racer-free-amazon-luna/"
+          },
+          {
+            "name": "StarWars.com: Galactic Racer available now",
+            "url": "https://www.starwars.com/news/star-wars-galactic-racer"
+          },
+          {
+            "name": "StarWars.com: Ahsoka Escape from Thrawn comic",
+            "url": "https://www.starwars.com/news/nycc-2026-lucasfilm-publishing-reveals"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-09-evening",
     "date": "2026-10-09",
     "slot": "evening",
