@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-09-morning",
-  "label": "Friday morning",
-  "generatedAt": "2026-10-09T08:20:00-04:00",
+  "id": "2026-10-09-evening",
+  "label": "Friday evening",
+  "generatedAt": "2026-10-09T20:15:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Tagle named Dean; Isaias nears Panhandle landfall."
+      "headline": "Vatican City family talks; Isaias at Panhandle landfall."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "MAHA scorecard: 85% broken; White House cites diet wins."
+      "headline": "RFK Jr. vaccine-injury clinic; HHS kratom thresholds."
     },
     {
       "title": "Musk world",
-      "headline": "SpaceX buys 800 MHz spectrum; Musk gets National Medal."
+      "headline": "Tesla climbs on China sales; spectrum hits telecoms."
     },
     {
       "title": "Space",
-      "headline": "Blue Origin picks Hutto, Texas for 2,000-job campus."
+      "headline": "Quiet since morning."
     },
     {
       "title": "NASA",
-      "headline": "Crew-12 home after 237 days; CRS-35 set for Oct. 13."
+      "headline": "NASA opens private space-station RFP; CRS-35 still Oct. 13."
     },
     {
       "title": "Catholic",
-      "headline": "Tagle becomes Dean; Gallagher in Pakistan; Miami Acutis expo."
+      "headline": "Amoris day three; Ferretti for Lucera-Troia; Champion rector."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still quiet; France adult baptisms soar; Rosary call stands."
+      "headline": "Quiet since morning."
     },
     {
       "title": "Miami",
-      "headline": "Outpour tonight; Harvest Festival Saturday; Heat beat Pelicans."
+      "headline": "Outpour tonight; Harvest Saturday; Heat host Wolves."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat win 128–118; Ahsoka comic and Galactic Racer drop."
+      "headline": "Heat host Wolves Saturday; Galactic Racer free on Luna."
     }
   ],
-  "audio": "audio/2026-10-09-morning.mp3"
+  "audio": "audio/2026-10-09-evening.mp3"
 }
