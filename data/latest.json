@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-10-morning",
-  "label": "Saturday morning",
-  "generatedAt": "2026-10-10T08:15:00-04:00",
+  "id": "2026-10-10-evening",
+  "label": "Saturday evening",
+  "generatedAt": "2026-10-10T20:15:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican family talks; Isaias inland; Miami Ukraine talks."
+      "headline": "Riyadh airport strike kills 12; Isaias toll; Cat-4 Simon."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "MAGA-Meter scorecard; RFK clinic; kratom line."
+      "headline": "Quiet since morning on MAGA / MAHA scorecard."
     },
     {
       "title": "Musk world",
-      "headline": "Tesla China sales lift; Starlink Mobile spectrum."
+      "headline": "SpaceX SDA launch; Musk’s Digital Optimus claim."
     },
     {
       "title": "Space",
-      "headline": "Blue Origin Hutto campus; Amazon Leo 1,000th sat."
+      "headline": "Quiet since morning."
     },
     {
       "title": "NASA",
-      "headline": "Private space-station RFP live; CRS-35 Tuesday."
+      "headline": "Quiet; CRS-35 still Tuesday."
     },
     {
       "title": "Catholic",
-      "headline": "Miami Acutis Monday; Viola Archpriest; Tagle Dean."
+      "headline": "Brentwood gets Bishop Menezes; Miami still Acutis Monday."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown quiet since Oct. 3; Medjugorje Sept. 25."
+      "headline": "Quiet since morning."
     },
     {
       "title": "Miami",
-      "headline": "Harvest Festival today; Bethel Sunday; Heat tonight."
+      "headline": "Harvest Festival done; Bethel Sunday; Heat tip-off."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat host Wolves at 8; Galactic Racer on Luna."
+      "headline": "Heat tip vs Wolves; Galactic Racer still rolling."
     }
   ],
-  "audio": "audio/2026-10-10-morning.mp3"
+  "audio": "audio/2026-10-10-evening.mp3"
 }
