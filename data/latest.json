@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-10-evening",
-  "label": "Saturday evening",
-  "generatedAt": "2026-10-10T20:15:00-04:00",
+  "id": "2026-10-12-morning",
+  "label": "Monday morning",
+  "generatedAt": "2026-10-12T08:30:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Riyadh airport strike kills 12; Isaias toll; Cat-4 Simon."
+      "headline": "Energy ceasefire frays; Riyadh hit again; KP emergency."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Quiet since morning on MAGA / MAHA scorecard."
+      "headline": "Energy ceasefire claim; MAGA-Meter; MAHA ledger."
     },
     {
       "title": "Musk world",
-      "headline": "SpaceX SDA launch; Musk’s Digital Optimus claim."
+      "headline": "Terafab chip bets; Starship ship-catch window."
     },
     {
       "title": "Space",
-      "headline": "Quiet since morning."
+      "headline": "Blue Origin Hutto; Amazon Leo nears service."
     },
     {
       "title": "NASA",
-      "headline": "Quiet; CRS-35 still Tuesday."
+      "headline": "CRS-35 launches tomorrow 6:33 a.m. ET."
     },
     {
       "title": "Catholic",
-      "headline": "Brentwood gets Bishop Menezes; Miami still Acutis Monday."
+      "headline": "Acutis expo opens Miami; Yaghi to Mexico Maronites."
     },
     {
       "title": "Signs of the times",
-      "headline": "Quiet since morning."
+      "headline": "Countdown still Oct. 3; Acutis expo; France baptisms."
     },
     {
       "title": "Miami",
-      "headline": "Harvest Festival done; Bethel Sunday; Heat tip-off."
+      "headline": "Acutis expo opens; Bethel done; Heat host Nets Wed."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat tip vs Wolves; Galactic Racer still rolling."
+      "headline": "Heat fall 125–124; Galactic Racer still humming."
     }
   ],
-  "audio": "audio/2026-10-10-evening.mp3"
+  "audio": "audio/2026-10-12-morning.mp3"
 }

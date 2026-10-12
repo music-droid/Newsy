@@ -1,5 +1,275 @@
 [
   {
+    "id": "2026-10-12-morning",
+    "date": "2026-10-12",
+    "slot": "morning",
+    "label": "Monday morning",
+    "generatedAt": "2026-10-12T08:30:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Energy ceasefire frays; Riyadh hit again; KP emergency.",
+        "body": "<p><strong>Vatican City.</strong> The <em>Amoris Laetitia</em> tenth-anniversary meeting continues in Rome (through Oct. 14); the Holy See Press Office scheduled a Monday briefing on its work. Pope Leo XIV today accepted Archbishop Francisco Ozoria Acosta’s resignation from Santo Domingo and the Dominican military ordinariate, with Coadjutor Archbishop Carlos Tomás Morel Diplán succeeding in both posts, and nominated Fr. Milad Yaghi, M.L.M. (pastor in Houston), bishop of the Maronite Eparchy of Our Lady of the Martyrs of Lebanon in Mexico. Weekend moves still stand: Cardinal Mauro Gambetti to Chieti-Vasto and Archbishop Vittorio Francesco Viola, O.F.M., as Archpriest of St. Peter’s.</p><p><strong>Africa.</strong> Ethiopian forces entered Adigrat as Eritrea pressed the UN amid the Ethiopia–Eritrea confrontation over Tigray. Off Djibouti, IOM said at least 139 migrants—including 15 children—died and 84 remained missing after a boat bound for Yemen capsized near Guehere overnight Oct. 8–9 (about 305 aboard; most Ethiopian). WHO updates still track Bundibugyo Ebola spread in DRC’s North Kivu, with Alimbongo reporting cases for the first time.</p><p><strong>Asia.</strong> A day after a Houthi-claimed missile strike killed about a dozen people and wounded hundreds at Riyadh’s King Khalid airport, Saudi authorities reported a fresh projectile hit Terminal 4 on Sunday (one dead, 11 injured) and kept the airport closed for safety checks. President Asif Ali Zardari imposed emergency and governor’s rule in Khyber Pakhtunkhwa on Sunday, suspending the PTI provincial government citing terrorism; Parliament has ten days to approve. In India, opposition protests over Special Intensive Revision voter-roll deletions moved toward the Supreme Court, which will examine Form 6 challenges on Oct. 27.</p><p><strong>Europe.</strong> President Trump announced Sunday an immediate Russia–Ukraine “energy ceasefire”; Russia did not confirm it, and Zelensky said Russian strikes still hit Kharkiv and other energy sites, with blackouts and rationing. EU foreign ministers on Monday approved what Germany called an unprecedented sanctions expansion targeting more than a thousand entities tied to Russia’s military-industrial complex. EU foreign-policy chief Kaja Kallas said the bloc welcomes a truce “when it holds.”</p><p><strong>North America.</strong> Cleanup continues after Hurricane Isaias’s Cat-2 landfall near Destin, Fla.: Alabama EMA said outages were below 75,000 by Sunday (well under the peak), with some county EMA offices and healthcare sites still on generators; Red Cross and power trackers still counted hundreds of thousands without power across the Gulf and Southeast over the weekend. Category 3–4 Hurricane Simon pounded Mexico’s Pacific coast near Puerto Vallarta, remaining mostly offshore while dumping life-threatening rain on Jalisco, Colima, and Michoacán. Panama declared a state of emergency after Friday’s 7.7- and 6.6-magnitude quakes and more than 100 aftershocks damaged all ten provinces.</p><p><strong>South America.</strong> Brazil’s Oct. 25 presidential runoff between President Lula and Sen. Flávio Bolsonaro tightened as Lula campaigned in São Paulo; early polls still lean Bolsonaro within the margin of error after he led the first round. Chile warned of a possible “critical event” over a vessel’s planned transit of Argentine waters toward the Malvinas/Falklands, while Buenos Aires advanced sovereignty-defense legislation. In Colombia, President-elect Abelardo de la Espriella ordered probes into alleged illicit use of official aircraft under the prior Petro government tied to Venezuela.</p><p><strong>Oceania.</strong> Greater Sydney faced a total fire ban Monday amid ~37°C heat and dry-lightning bushfire risk. A 17-member U.S.–Kiribati team headed for Nikumaroro to examine the “Taraia Object” for possible links to Amelia Earhart’s Electra. All 73 people aboard the stranded Solomon Islands vessel MV Akwa were rescued after an engine failure.</p>",
+        "sources": [
+          {
+            "name": "Holy See / USCCB: Fr. Milad Yaghi named Maronite bishop for Mexico",
+            "url": "https://www.usccb.org/news/2026/pope-leo-xiv-has-nominated-reverend-milad-yaghi-bishop-maronite-eparchy-our-lady-martyrs"
+          },
+          {
+            "name": "Vatican News: Cardinal Gambetti appointed Archbishop of Chieti-Vasto",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/pope-appoints-cardinal-gambetti-as-new-archbishop-chieti-vasto.html"
+          },
+          {
+            "name": "IOM: Djibouti shipwreck death toll climbs to 139",
+            "url": "https://www.iom.int/news/death-toll-djibouti-shipwreck-climbs-139-un-migration"
+          },
+          {
+            "name": "Al Jazeera: Pakistan emergency and governor’s rule in Khyber Pakhtunkhwa",
+            "url": "https://www.aljazeera.com/news/2026/10/12/what-do-emergency-and-governor-rule-in-pakistans-khyber-pakhtunkhwa-mean"
+          },
+          {
+            "name": "AFP / Irish Times: Riyadh airport hit again after deadly strike",
+            "url": "https://www.irishtimes.com/world/middle-east/2026/10/12/riyadh-airport-hit-again-after-deadly-houthi-missile-attack/"
+          },
+          {
+            "name": "BBC: Ukraine blackouts after Russian strikes despite ‘energy ceasefire’",
+            "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo"
+          },
+          {
+            "name": "DW: Germany calls new EU Russia sanctions unprecedented",
+            "url": "https://www.dw.com/en/germanys-wadephul-calls-new-eu-sanctions-unprecedented-blow-to-russia/a-79638017"
+          },
+          {
+            "name": "Alabama EMA: Isaias response continues (Oct. 11)",
+            "url": "https://ema.alabama.gov/15375/alabamas-response-to-isaias-continues/"
+          },
+          {
+            "name": "AP / PBS: Hurricane Simon hits Mexico’s Pacific coast",
+            "url": "https://www.pbs.org/newshour/world/hurricane-simon-hits-mexicos-pacific-coast"
+          },
+          {
+            "name": "Boston Globe / AP: Panama state of emergency after quakes",
+            "url": "https://www.bostonglobe.com/2026/10/11/world/panama-declares-state-of-emergency-as-quake-aftershocks-rattle-communities/"
+          },
+          {
+            "name": "MercoPress: Lula campaigns in São Paulo ahead of Oct. 25 runoff",
+            "url": "https://en.mercopress.com/2026/10/12/lula-takes-to-the-streets-of-s-o-paulo-to-close-the-gap-two-weeks-before-the-runoff"
+          },
+          {
+            "name": "The Guardian: Total fire ban for Sydney",
+            "url": "https://www.theguardian.com/australia-news/2026/oct/12/total-fire-ban-sydney-extreme-weather-temperature-37c"
+          },
+          {
+            "name": "PMN: Earhart search team bound for Nikumaroro, Kiribati",
+            "url": "https://pmn.co.nz/read/pacific-region/amelia-earhart-mystery-draws-search-team-to-remote-kiribati-atoll"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Energy ceasefire claim; MAGA-Meter; MAHA ledger.",
+        "body": "<p><strong>“End the war / lower fuel costs” — energy ceasefire &amp; Russian diesel.</strong> <em>Promise:</em> Trump campaigned on ending wars quickly and bringing energy prices down. <em>What was done:</em> He announced Sunday an immediate Russia–Ukraine energy ceasefire and has floated a temporary diesel-import deal with Russia to ease U.S. pump prices before midterms. <em>Impact:</em> Moscow did not confirm the truce; Zelensky reported continued strikes on Ukrainian power plants and blackouts—so the “ceasefire” has not yet delivered civilian energy relief, and analysts doubt the diesel volumes would move U.S. prices much.</p><p><strong>“Secure the border / deliver the agenda” — MAGA-Meter midterms.</strong> <em>What was done:</em> PolitiFact’s MAGA-Meter still shows roughly one-fifth of ~75 second-term pledges marked Kept, with a large share In the Works or Stalled; border-security items remain among the clearest “kept” tallies, while many economic and structural pledges sit unfinished. <em>Impact:</em> Enforcement stats are the campaign’s strongest midterm talking point; “we delivered everything” still does not match the independent ledger.</p><p><strong>“Make America Healthy Again.”</strong> <em>What was done:</em> Activist scorecards still claim most food/pesticide/agriculture MAHA pledges unmet, while RFK Jr.’s concrete federal moves this month—NIH vaccine-injury clinic / VAERS modernization push and HHS enhanced-kratom opioid thresholds—are the clearest administrative actions. <em>Impact:</em> Families seeking injury research get a federal door; infectious-disease experts warn incentivized reporting and softer vaccine messaging could muddy signals as preventable diseases resurge. Food-dye and pesticide rollbacks remain the biggest gap between MAHA rhetoric and farm/chemical industry outcomes.</p>",
+        "sources": [
+          {
+            "name": "BBC: Trump energy ceasefire vs continued Russian strikes",
+            "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo"
+          },
+          {
+            "name": "PolitiFact MAGA-Meter: Trump’s second-term promises",
+            "url": "https://www.politifact.com/truth-o-meter/promises/maga-meter-tracking-donald-trumps-2024-promises/"
+          },
+          {
+            "name": "PolitiFact: midterm talking-points cheat sheet",
+            "url": "https://www.politifact.com/article/2026/sep/29/a-cheat-sheet-to-trumps-2026-talking-points/"
+          },
+          {
+            "name": "NBC News: MAHA loyalists accuse broken promises",
+            "url": "https://www.nbcnews.com/health/health-news/trump-rfk-jr-maha-promises-scorecard-pesticides-food-safety-rcna601905"
+          },
+          {
+            "name": "NPR: RFK Jr. vaccine-injury initiative",
+            "url": "https://www.npr.org/2026/10/09/nx-s1-5995393/rfk-jr-touts-vaccine-injury-initiative-worrying-experts"
+          },
+          {
+            "name": "HHS: thresholds for enhanced kratom products",
+            "url": "https://www.hhs.gov/press-room/hhs-recommends-thresholds-enhanced-kratom-products-7-oh-mgpi.html"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Terafab chip bets; Starship ship-catch window.",
+        "body": "<p><strong>Tesla / SpaceX — Terafab.</strong> Musk confirmed Tesla and SpaceX will build and run Terafab in Grimes County, Texas (TSMC at most a sublease), with Intel still involved; he said the companies want to make and test about ten chip designs a year at the Giga Texas research fab—high-risk cycles aimed at Optimus, Cybercab, and orbital data-center compute. SpaceX’s Oct. 8 updates page placed the full fab in Grimes County after Tesla’s North Campus research-fab groundbreaking.</p><p><strong>SpaceX — Starship &amp; weekend flight.</strong> In a Saturday virtual interview at Giga Texas, Musk said the next Starship flight (roughly four to six weeks, “a little bit before Thanksgiving”) will attempt the first upper-stage “ship” catch after Flight 14’s Sept. 28 orbital Starlink V3 deploy. Early Saturday a Falcon 9 from Vandenberg lofted 21 Northrop Grumman SDA Tranche 1 Transport Layer satellites (year’s 111th Falcon 9). Starlink Mobile’s 800 MHz spectrum deal and Gen2 FCC authorization remain the carrier-rival overhang for telecoms.</p>",
+        "sources": [
+          {
+            "name": "SpaceX Updates: Terafab / Starlink Mobile milestones",
+            "url": "https://www.spacex.com/updates/terafab"
+          },
+          {
+            "name": "Yahoo Finance: Musk on ten chip designs a year at Terafab",
+            "url": "https://finance.yahoo.com/technology/ai/articles/elon-musk-wants-tesla-spacex-040724867.html"
+          },
+          {
+            "name": "TSN Media: Musk — next Starship to try first ship catch",
+            "url": "https://tsnmedia.org/musk-next-starship-flight-first-ship-catch-about-four-weeks/"
+          },
+          {
+            "name": "SpaceNews: SpaceX launches 21 SDA satellites Oct. 10",
+            "url": "https://spacenews.com/spacex-launches-21-northrop-grumman-satellites-for-sda/"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Blue Origin Hutto; Amazon Leo nears service.",
+        "body": "<p><strong>Blue Origin.</strong> Constellation Park in Hutto, Texas—about 1.3 million sq ft / ~$555M for TeraWave, Quartz ground stations, and satellite subsystems, targeting 2,000+ jobs—remains the week’s biggest non-SpaceX industry move. Reporting still points to a December target for New Glenn’s return after the May pad incident, with Bezos previously saying an IPO “probably makes sense.”</p><p><strong>Amazon Leo.</strong> Amazon’s build of its 1,000th broadband satellite stands; hundreds are on orbit and commercial service is framed as weeks away if launch cadence catches production. See Musk world for Saturday’s SDA Falcon 9 and NASA for tomorrow’s CRS-35.</p>",
+        "sources": [
+          {
+            "name": "Blue Origin: Constellation Park / Hutto announcement",
+            "url": "https://www.blueorigin.com/news/blue-origin-announces-new-texas-manufacturing-campus"
+          },
+          {
+            "name": "Ars Technica: Amazon builds 1,000th satellite",
+            "url": "https://arstechnica.com/space/2026/10/amazon-builds-1000th-satellite-is-weeks-away-from-space-internet-rollout/"
+          },
+          {
+            "name": "SpaceNews: Blue Origin expands in Texas",
+            "url": "https://spacenews.com/blue-origin-expands-in-texas-as-its-founder-contemplates-an-ipo/"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "CRS-35 launches tomorrow 6:33 a.m. ET.",
+        "body": "<p>NASA’s SpaceX CRS-35 is targeted for <strong>Tuesday, Oct. 13, at 6:33 a.m. ET</strong> from Cape Canaveral Space Force Station—a Falcon 9 lofting Dragon with more than 6,300 pounds of cargo and science, including the final ISS roll-out solar arrays. Docking is expected around Oct. 15; return mid-November. Friday’s Commercial LEO Destinations RFP still stands (U.S. industry proposals due Dec. 8) for private stations after ISS retirement. Crew-12’s Oct. 8 splashdown after 237 days remains the prior crew milestone.</p>",
+        "sources": [
+          {
+            "name": "NASA: CRS-35 commercial resupply overview",
+            "url": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/"
+          },
+          {
+            "name": "NASA: CRS-35 launch and arrival coverage",
+            "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/"
+          },
+          {
+            "name": "NASA: seeks U.S. industry plans for commercial space stations",
+            "url": "https://www.nasa.gov/news-release/nasa-seeks-us-industry-plans-for-commercial-space-stations/"
+          },
+          {
+            "name": "SpaceX: CRS-35 mission page",
+            "url": "https://www.spacex.com/launches/crs35"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Acutis expo opens Miami; Yaghi to Mexico Maronites.",
+        "body": "<p><strong>Miami.</strong> The St. Carlo Acutis Eucharistic Miracles Exposition opens <strong>today</strong> at St. Mark the Evangelist in Southwest Ranches (through Oct. 16), with a first-class relic and Adoration—no new Archdiocese clergy bulletin overnight.</p><p><strong>United States.</strong> Pope Leo XIV today nominated Houston pastor Fr. Milad Yaghi, M.L.M., bishop of the Maronite Eparchy of Our Lady of the Martyrs of Lebanon in Mexico (announced via Nuncio Caccia / USCCB). Cardinal Tagle’s confirmation as Dean of the College of Cardinals stands from last week.</p><p><strong>Latin America.</strong> Archbishop Carlos Tomás Morel Diplán succeeds as Metropolitan of Santo Domingo and Dominican military ordinary after Ozoria Acosta’s resignation. Brazilian Church attention stays on the Oct. 25 Lula–Flávio Bolsonaro runoff.</p><p><strong>Europe.</strong> Saturday’s appointment of Bishop Timothy Francis Menezes to Brentwood (England) stands; Amoris anniversary talks continue in Rome. France’s adult-baptism surge—more than 13,000 at Easter, up sharply year-over-year—remains the clearest “chosen Christianity” story.</p><p><strong>Africa.</strong> Bishop Bonaventure Bosco Gubazire was ordained and installed for Kabale, Uganda (Oct. 3), with the apostolic nuncio urging unity as he begins ministry.</p><p><strong>Asia.</strong> Piotr Pytlovany was consecrated Bishop of Karaganda, Kazakhstan (Oct. 10); Jesuit Anthony Corcoran’s September ordination as bishop for Kyrgyzstan continues the Central Asian appointments wave.</p><p><strong>Middle East / Oceania.</strong> No dominant new Middle East episcopal story overnight beyond the Mexico Maronite (Lebanese-rite) appointment above; Oceania stayed quiet on major hierarchical news this weekend.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: Acutis Eucharistic Miracles Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "USCCB: Fr. Milad Yaghi named Maronite bishop for Mexico",
+            "url": "https://www.usccb.org/news/2026/pope-leo-xiv-has-nominated-reverend-milad-yaghi-bishop-maronite-eparchy-our-lady-martyrs"
+          },
+          {
+            "name": "CBCEW: Bishop Timothy Menezes for Brentwood",
+            "url": "https://www.cbcew.org.uk/new-bishop-for-brentwood/"
+          },
+          {
+            "name": "ACI Africa: Bishop Gubazire begins ministry in Kabale",
+            "url": "https://www.aciafrica.org/news/24491/apostolic-nuncio-urges-unity-collaboration-as-bishop-begins-ministry-in-ugandas-kabale-catholic-diocese"
+          },
+          {
+            "name": "L’Osservatore Romano: France chosen Christianity / adult baptisms",
+            "url": "https://www.osservatoreromano.va/en/news/2026-10/ing-010/france-moving-from-inherited-to-chosen-christianity.html"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown still Oct. 3; Acutis expo; France baptisms.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> Rechecked this morning: nothing newer than Oct. 3—Marija’s “Time of Prayer for Peace,” Elizabeth Kindelmann’s Flame of Love note (“Satan Will be Blinded”), and Pedro Regis (“Humanity is Sick”).</p><p><strong>Latest Marian message.</strong> Our Lady’s Sept. 25 Medjugorje message through Marija remains the newest monthly message—calling families to renew the Rosary for peace. October’s 25th message has not been published yet.</p><p><strong>Eucharistic signs / returns.</strong> The Acutis Eucharistic Miracles Exposition opening today in Southwest Ranches (see Catholic) is a concrete local pilgrimage of documented miracles and a relic of St. Carlo. France’s adult-baptism surge remains the clearest large-scale return-to-faith story. Revival calendars still list Souffle Nouveau (Sainte-Savine, Oct. 23–25) and The Great ReAwakening in Maryland (Oct. 23).</p><p><strong>End-times adjacent.</strong> No credible October report of compulsory chip implants or a mandated “mark.” Expanding digital identity wallets and biometrics are real policy debates in Europe and elsewhere; treat prophetic readings of them as discernment topics weighed against primary sources and the Magisterium, not rumor.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Medjugorje.org: monthly messages",
+            "url": "https://www.medjugorje.org/olmmsg.htm"
+          },
+          {
+            "name": "Archdiocese of Miami: Acutis Eucharistic Miracles Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "L’Osservatore Romano: France adult baptisms",
+            "url": "https://www.osservatoreromano.va/en/news/2026-10/ing-010/france-moving-from-inherited-to-chosen-christianity.html"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Acutis expo opens; Bethel done; Heat host Nets Wed.",
+        "body": "<p><strong>Today:</strong> St. Carlo Acutis Eucharistic Miracles Exposition opens at St. Mark the Evangelist, Southwest Ranches (through Friday). Bethel Music’s Fillmore Miami Beach show was Sunday night.</p><p><strong>This week for families:</strong> Tuesday brings a free Andean family concert in Sunrise (ages 4+ welcome) and Miami-Dade library storytimes/puppet hours; Wednesday’s free ADVENTURE-LEGGERS literacy-and-art festival is a solid all-ages option. Heat host Brooklyn Wednesday at Kaseya Center (7:30 p.m. ET tip)—see Pick-me-up. South Florida stayed clear of Isaias’s core; travelers to the Panhandle/Alabama still face cleanup and outages.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: Acutis Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "Live Nation: Bethel Music Fillmore Miami Beach Oct. 11",
+            "url": "https://www.livenation.com/event/vvG1VZby59vjM5/bethel-music-2026-tour"
+          },
+          {
+            "name": "Events.fl.deals: Family Concert Music from the Andes (Sunrise Oct. 13)",
+            "url": "https://events.fl.deals/e/13031/family-concert-music-from-the-andes/"
+          },
+          {
+            "name": "NBA.com / Kaseya: Nets vs Heat Oct. 14",
+            "url": "https://www.nba.com/game/bkn-vs-mia-0012600003"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Heat fall 125–124; Galactic Racer still humming.",
+        "body": "<p>Timberwolves edged the Heat <strong>125–124</strong> in Saturday’s preseason thriller at Kaseya Center (19 lead changes; Giannis sat rest). Next look: Brooklyn at Miami Wednesday, 7:30 p.m. ET, then at Orlando Oct. 16 to close preseason. On the Star Wars side, <em>Galactic Racer</em> (PS5, Xbox, PC; free for Prime on Luna) is still the week’s bright arcade hit a week after launch, and Lucasfilm’s <em>Ahsoka — Escape from Thrawn</em> comic remains aimed at January 20, 2027 beside Season 2.</p>",
+        "sources": [
+          {
+            "name": "NBA.com: Timberwolves 125, Heat 124 (Oct. 10)",
+            "url": "https://www.nba.com/game/min-vs-mia-0012600002"
+          },
+          {
+            "name": "NBA.com: Nets vs Heat Oct. 14",
+            "url": "https://www.nba.com/game/bkn-vs-mia-0012600003"
+          },
+          {
+            "name": "StarWars.com: Galactic Racer available now",
+            "url": "https://www.starwars.com/news/star-wars-galactic-racer"
+          },
+          {
+            "name": "StarWars.com: Ahsoka Escape from Thrawn comic",
+            "url": "https://www.starwars.com/news/nycc-2026-lucasfilm-publishing-reveals"
+          }
+        ]
+      }
+    ],
+    "audio": "audio/2026-10-12-morning.mp3"
+  },
+  {
     "id": "2026-10-10-evening",
     "date": "2026-10-10",
     "slot": "evening",
