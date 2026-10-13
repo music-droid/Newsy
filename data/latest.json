@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-13-morning",
-  "label": "Tuesday morning",
-  "generatedAt": "2026-10-13T07:55:00-04:00",
+  "id": "2026-10-13-evening",
+  "label": "Tuesday evening",
+  "generatedAt": "2026-10-13T19:55:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Pope at Gemelli; Bulgaria drones; NK follow-up."
+      "headline": "Vatican City: Pope surgery OK; Bulgaria missing; Brazil polls."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Diesel relief vs pump math; MAHA glyphosate backlash."
+      "headline": "Quiet since morning on MAGA / MAHA ledger."
     },
     {
       "title": "Musk world",
-      "headline": "CRS-35 up; NHTSA Robotaxi school-zone review."
+      "headline": "FSD v14.3.12 wide; FAA opens Starship PEIS."
     },
     {
       "title": "Space",
-      "headline": "CRS-35 aloft; Amazon Leo near service; Blue Origin pad."
+      "headline": "FAA opens PEIS for 456 Starbase Starship flights."
     },
     {
       "title": "NASA",
-      "headline": "CRS-35 launched 6:33 a.m. ET; docking Thursday."
+      "headline": "Quiet; CRS-35 Dragon still docks Thursday ~11 a.m."
     },
     {
       "title": "Catholic",
-      "headline": "Acutis expo continues; Pope at Gemelli; Tagle closes Amoris."
+      "headline": "Pope lobe removed; Roche: TC stays; Acutis Friday."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 3; Medjugorje peace Rosary; France baptisms."
+      "headline": "Countdown still Oct. 3; Acutis expo Friday keynote."
     },
     {
       "title": "Miami life",
-      "headline": "Andes concert today; Acutis expo on; Heat host Nets Wed."
+      "headline": "Acutis Friday keynote; Heat host Nets tomorrow."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat host Nets Wednesday; Galactic Racer still humming."
+      "headline": "Heat host Nets tomorrow; Galactic Racer still buzzing."
     }
   ],
-  "audio": "audio/2026-10-13-morning.mp3"
+  "audio": "audio/2026-10-13-evening.mp3"
 }
