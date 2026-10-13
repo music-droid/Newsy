@@ -1,5 +1,181 @@
 [
   {
+    "id": "2026-10-12-evening",
+    "date": "2026-10-12",
+    "slot": "evening",
+    "label": "Monday evening",
+    "generatedAt": "2026-10-12T19:55:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Vatican City Amoris update; NK missiles; Ukraine EU clusters.",
+        "body": "<p><strong>Vatican City.</strong> Monday’s <em>Amoris Laetitia</em> press briefing covered frank talks on young people, marriage fears, cohabitation, and post-wedding accompaniment. Cardinal Gérald Lacroix urged the Church to “be present” and go out to families. With Pope Leo XIV set for Gemelli admission Tuesday for surgery on a small localized lung nodule (announced at Sunday’s Angelus), Cardinal Tagle will preside at Wednesday’s closing Mass, and the synthesis report is held so the Pope can review it before publication. The Pope kept Monday-morning audiences but skipped the afternoon Amoris session.</p><p><strong>Africa.</strong> Quiet since this morning’s Ethiopia–Eritrea / Adigrat and Djibouti shipwreck coverage.</p><p><strong>Asia.</strong> North Korea fired multiple ballistic missiles Monday from the Pyongyang area toward the East Sea; Japan detected two (about 220 km and more than 910 km), both outside its EEZ, with no damage reported. U.S. Pacific Command confirmed two launches and said there was no immediate threat to the U.S. or allies. Overnight KCNA called a tactical ballistic-missile test a “big success” verifying a core-element upgrade—the North’s 16th ballistic launch of the year, nine days after Oct. 3.</p><p><strong>Europe.</strong> Beyond this morning’s largest-ever EU Russia sanctions list, all 27 member states unanimously agreed Monday to open accession Clusters 2 (internal market) and 3 (competitiveness and inclusive growth) for Ukraine and Moldova after Kyiv passed a minority-education law and Hungary lifted its veto; formal opening is set Tuesday.</p><p><strong>North America.</strong> Hurricane Simon weakened to Category 2 (~100 mph) west of Cabo Corrientes; Mexico reported at least two storm-related deaths (one in Guerrero tied to Simon; one in Baja California tied to former Hurricane Rachel), with more missing. Quiet beyond morning’s Isaias cleanup notes.</p><p><strong>South America.</strong> Quiet since this morning’s Lula–Flávio Bolsonaro runoff and Chile/Colombia items.</p><p><strong>Oceania.</strong> Quiet since this morning’s Greater Sydney total fire ban.</p>",
+        "sources": [
+          {
+            "name": "Vatican News: Amoris briefing / Lacroix — be present for families",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/amoris-laetitia-vatican-press-conference-12-october-2026.html"
+          },
+          {
+            "name": "Vatican News: Pope Leo to Gemelli Oct. 13 for lung-nodule surgery",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-to-be-admitted-gemelli-hospital-october-13.html"
+          },
+          {
+            "name": "Japan Times: North Korea fires multiple ballistic missiles",
+            "url": "https://www.japantimes.co.jp/news/2026/10/12/japan/north-korea-multiple-ballistic-missiles-launch/"
+          },
+          {
+            "name": "Yonhap: KCNA — tactical ballistic missile ‘big success’",
+            "url": "https://en.yna.co.kr/view/AEN20261013000752315"
+          },
+          {
+            "name": "Korea Times / PACOM: two ballistic missiles; no immediate threat",
+            "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261013/us-pacific-command-says-n-korea-fired-2-ballistic-missiles-reaffirms-defense-commitment"
+          },
+          {
+            "name": "Kyiv Post: EU opens Clusters 2 and 3 for Ukraine and Moldova",
+            "url": "https://www.kyivpost.com/post/86851"
+          },
+          {
+            "name": "Al Jazeera / AP: Two deaths as Simon and Rachel batter Mexico",
+            "url": "https://www.aljazeera.com/news/2026/10/12/two-deaths-reported-as-hurricane-simon-storm-rachel-batter-mexicos-coast"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Quiet since morning on MAGA / MAHA ledger.",
+        "body": "<p>Quiet since this morning. No fresh promise→action→impact items beyond the energy-ceasefire claim vs continued strikes, PolitiFact’s MAGA-Meter midterm scorecard, and the MAHA scorecard / kratom / vaccine-injury ledger already briefed.</p>",
+        "sources": []
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "NHTSA weighs Tesla Robotaxi school-zone petition.",
+        "body": "<p><strong>Tesla — Robotaxi scrutiny.</strong> NHTSA announced Monday it opened defect-petition review DP26010 over claims that 2026 Model Y robotaxis and Cybercabs exceeded school-zone speed limits with ADS engaged. The petition (opened Friday; reported Monday) cites three videos and four incidents, no crashes or injuries; the agency estimates about 1,000 vehicles could be affected and has ~120 days to grant or deny a formal investigation. Stockholder-relevant: third federal action on the driverless fleet in about five weeks, atop Cybercab certification scrutiny. Quiet beyond this morning’s Terafab and Starship ship-catch window.</p>",
+        "sources": [
+          {
+            "name": "Electrek: NHTSA weighs Tesla Robotaxi school-zone speeding petition",
+            "url": "https://electrek.co/2026/10/12/nhtsa-tesla-robotaxi-school-zone-speeding-petition/"
+          },
+          {
+            "name": "Business Insider: Tesla robotaxis face school-zone speeding claim review",
+            "url": "https://www.businessinsider.com/tesla-robotaxis-nhtsa-school-zone-speeding-claim-2026-10"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Quiet since morning.",
+        "body": "<p>Quiet since this morning on Blue Origin’s Hutto Constellation Park campus and Amazon Leo’s 1,000-satellite build milestone. See NASA for tomorrow’s CRS-35 T-minus.</p>",
+        "sources": []
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "CRS-35 still GO tomorrow 6:33 a.m. ET.",
+        "body": "<p>No scrub overnight. SpaceX CRS-35 remains targeted for <strong>Tuesday, Oct. 13, at 6:33 a.m. ET</strong> from Cape Canaveral SLC-40—Falcon 9 / Dragon with more than 6,300 pounds of cargo including the final ISS roll-out solar arrays. NASA coverage begins ~6:15 a.m.; docking still framed for Thursday ~11 a.m. ET. Space.com’s Monday preview confirms the window is live for viewers. Quiet otherwise on Friday’s Commercial LEO Destinations RFP.</p>",
+        "sources": [
+          {
+            "name": "Space.com: CRS-35 launches Oct. 13 — watch live",
+            "url": "https://www.space.com/space-exploration/international-space-station/spacex-crs-35-cargo-launch-international-space-station"
+          },
+          {
+            "name": "NASA: CRS-35 launch and arrival coverage",
+            "url": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/"
+          },
+          {
+            "name": "SpaceX: CRS-35 mission page",
+            "url": "https://www.spacex.com/launches/crs35"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Acutis statue tonight; Amoris closes with Tagle; Gemelli Tue.",
+        "body": "<p><strong>Miami.</strong> Beyond the Eucharistic Miracles Exposition already open at St. Mark (Southwest Ranches, through Friday), Corpus Christi Parish hosts the bilingual inauguration and blessing of Florida’s first marble statue of St. Carlo Acutis tonight at 8 p.m. (3220 NW 7th Ave.)—a Youth Group One project. No new Archdiocese clergy bulletin this evening.</p><p><strong>Universal Church.</strong> Monday’s Amoris anniversary briefing (see World) set Cardinal Tagle to preside at Wednesday’s closing Mass while Pope Leo recovers from Tuesday’s Gemelli lung-nodule surgery; the synthesis is held for his review. Quiet on new episcopal appointments beyond this morning’s Yaghi / Santo Domingo / weekend Italy moves.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: First marble St. Carlo Acutis statue (Corpus Christi)",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178242162428188"
+          },
+          {
+            "name": "Archdiocese of Miami: Acutis Eucharistic Miracles Exposition",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178725909847823"
+          },
+          {
+            "name": "Vatican News: Amoris briefing — Tagle Mass; synthesis held",
+            "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/amoris-laetitia-vatican-press-conference-12-october-2026.html"
+          },
+          {
+            "name": "Vatican News: Pope Leo to Gemelli Oct. 13",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-to-be-admitted-gemelli-hospital-october-13.html"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown still Oct. 3; Acutis statue tonight.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> Rechecked this evening: nothing newer than Oct. 3—Marija’s “Time of Prayer for Peace,” Elizabeth Kindelmann’s Flame of Love note (“Satan Will be Blinded”), and Pedro Regis (“Humanity is Sick”).</p><p><strong>Latest Marian message.</strong> Our Lady’s Sept. 25 Medjugorje message through Marija remains the newest monthly message—families renewing the Rosary for peace. October’s 25th has not been published yet.</p><p><strong>Local eucharistic sign.</strong> Tonight’s blessing of Florida’s first marble St. Carlo Acutis statue at Corpus Christi (see Catholic / Miami) joins the ongoing Acutis Eucharistic Miracles Exposition in Southwest Ranches as a concrete local pilgrimage of documented miracles and a first-class relic.</p><p><strong>End-times adjacent.</strong> No credible new October report of compulsory chip implants or a mandated “mark.” Expanding digital-identity wallets remain policy debates; weigh prophetic readings against primary sources and the Magisterium.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Medjugorje.org: monthly messages",
+            "url": "https://www.medjugorje.org/olmmsg.htm"
+          },
+          {
+            "name": "Archdiocese of Miami: Acutis marble statue inauguration",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178242162428188"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Acutis statue tonight; Andes concert Tue; Heat Wed.",
+        "body": "<p><strong>Tonight:</strong> Corpus Christi’s bilingual blessing of Florida’s first marble St. Carlo Acutis statue at 8 p.m.; the Acutis Eucharistic Miracles Exposition continues at St. Mark in Southwest Ranches through Friday.</p><p><strong>This week:</strong> Tuesday’s free Andean family concert in Sunrise (ages 4+) still stands; Wednesday’s ADVENTURE-LEGGERS festival and Heat vs. Nets at Kaseya (7:30 p.m. ET) remain the midweek family picks. Quiet otherwise on new Christian/family events since morning.</p>",
+        "sources": [
+          {
+            "name": "Archdiocese of Miami: Acutis marble statue (Corpus Christi)",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_178242162428188"
+          },
+          {
+            "name": "Events.fl.deals: Family Concert Music from the Andes (Sunrise Oct. 13)",
+            "url": "https://events.fl.deals/e/13031/family-concert-music-from-the-andes/"
+          },
+          {
+            "name": "NBA.com: Nets vs Heat Oct. 14",
+            "url": "https://www.nba.com/game/bkn-vs-mia-0012600003"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Quiet; Heat host Nets Wednesday; Galactic Racer.",
+        "body": "<p>Quiet on new scores since Saturday’s Timberwolves edge (125–124). Next look: Brooklyn at Miami Wednesday, 7:30 p.m. ET at Kaseya Center, then at Orlando Oct. 16 to close preseason. On the Star Wars side, <em>Galactic Racer</em> is still the week’s bright arcade hit, and Lucasfilm’s <em>Ahsoka — Escape from Thrawn</em> comic remains aimed at January 20, 2027 beside Season 2.</p>",
+        "sources": [
+          {
+            "name": "NBA.com: Nets vs Heat Oct. 14",
+            "url": "https://www.nba.com/game/bkn-vs-mia-0012600003"
+          },
+          {
+            "name": "StarWars.com: Galactic Racer available now",
+            "url": "https://www.starwars.com/news/star-wars-galactic-racer"
+          }
+        ]
+      }
+    ],
+    "audio": "audio/2026-10-12-evening.mp3"
+  },
+  {
     "id": "2026-10-12-morning",
     "date": "2026-10-12",
     "slot": "morning",
