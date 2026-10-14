@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-13-evening",
-  "label": "Tuesday evening",
-  "generatedAt": "2026-10-13T19:55:00-04:00",
+  "id": "2026-10-14-morning",
+  "label": "Wednesday morning",
+  "generatedAt": "2026-10-14T07:55:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Pope surgery OK; Bulgaria missing; Brazil polls."
+      "headline": "Vatican City: Pope’s calm night; Kabila rebel front; Black Sea toll."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Quiet since morning on MAGA / MAHA ledger."
+      "headline": "Alaska LNG pledge firms up; bird-flu vaccine plan stalled."
     },
     {
       "title": "Musk world",
-      "headline": "FSD v14.3.12 wide; FAA opens Starship PEIS."
+      "headline": "Roadster unveil Thursday night; FSD Lite reaches older S/X."
     },
     {
       "title": "Space",
-      "headline": "FAA opens PEIS for 456 Starbase Starship flights."
+      "headline": "Launch crunch fuels record investment; ESA eyes human spaceflight."
     },
     {
       "title": "NASA",
-      "headline": "Quiet; CRS-35 Dragon still docks Thursday ~11 a.m."
+      "headline": "CRS-35 docks Thursday; Mars biosignature sample still stranded."
     },
     {
       "title": "Catholic",
-      "headline": "Pope lobe removed; Roche: TC stays; Acutis Friday."
+      "headline": "Wenski asks prayers; Košice, Cuiabá archbishops named; Gboko closures."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 3; Acutis expo Friday keynote."
+      "headline": "Countdown still Oct. 3; Pope urges family prayer; Acutis Friday."
     },
     {
       "title": "Miami life",
-      "headline": "Acutis Friday keynote; Heat host Nets tomorrow."
+      "headline": "Heat-Nets tonight; Acutis Friday; Gettys Sunday in Fort Lauderdale."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat host Nets tomorrow; Galactic Racer still buzzing."
+      "headline": "Heat host Nets tonight; D&D meets Star Wars in 2027."
     }
   ],
-  "audio": "audio/2026-10-13-evening.mp3"
+  "audio": "audio/2026-10-14-morning.mp3"
 }

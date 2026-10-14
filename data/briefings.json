@@ -1,5 +1,335 @@
 [
   {
+    "id": "2026-10-14-morning",
+    "date": "2026-10-14",
+    "slot": "morning",
+    "label": "Wednesday morning",
+    "generatedAt": "2026-10-14T07:55:00-04:00",
+    "audio": "audio/2026-10-14-morning.mp3",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Vatican City: Pope’s calm night; Kabila rebel front; Black Sea toll.",
+        "body": "<p><strong>Vatican City.</strong> The Holy See Press Office said early Wednesday that Pope Leo XIV “had a peaceful night” at Gemelli after Tuesday’s ~90-minute video-assisted removal of the lower lobe of his right lung, where adenocarcinoma was confirmed; more information is promised later today, and doctors are not yet discussing further therapy pending other test results. Cardinal Tagle, Dean of the College of Cardinals, presided this morning’s <em>Amoris Laetitia</em> tenth-anniversary closing Mass in St. Peter’s Square and read the Pope’s prepared homily on charity, chastity, and family prayer; the faithful prayed for “a serene convalescence.” The Bollettino also named Bishop Marek Forgáč archbishop of Košice (Slovakia) and Bishop Wellington de Queiroz Vieira archbishop of Cuiabá (Brazil). The Nov. 6–17 Uruguay–Argentina–Peru trip has not been changed.</p><p><strong>Africa.</strong> Reuters-sourced reports say Ethiopian troops reached Zalambessa on the Eritrean border Tuesday as the UN Security Council met behind closed doors. In DR Congo, ex-president Joseph Kabila launched a new rebel coalition (FRN) in Goma with M23 leaders, while a UN envoy told the Council a peace “window” remains; Congo’s Ebola outbreak passed 9,000 confirmed cases. Mauritius imposed an overnight curfew over about a third of the island after unrest following a police shooting; 14 arrests reported.</p><p><strong>Asia.</strong> China and North Korea open the long-delayed New Yalu River Bridge on Thursday, Xinhua says. Taiwan tracked 9 PLA aircraft (all crossing the median line), 6 navy and 6 official ships overnight. Taiwan confirmed plans to buy 6 million tons a year of Alaska LNG and possibly invest up to $4.4 billion.</p><p><strong>Europe.</strong> Bulgaria says 11 crew remain missing from the sunk <em>HS Dignity</em>; PM Radev told parliament Russia has a motive but Sofia “cannot prove” it, and Bulgaria is seeking NATO/EU surveillance help. Ukraine and Moldova formally opened two more EU accession clusters (internal market; competitiveness). The Black Sea attacks head to the Oct. 15–16 European Council.</p><p><strong>North America.</strong> Hurricane Simon, re-strengthened to Category 2 (about 105 mph), is drifting off Mexico’s Pacific coast and forecast to turn north toward Baja California Sur by the weekend; six dead from Simon and ex-Rachel. Alberta advance voting opened for Monday’s 10-question referendum, including separation; Carney rallies there Thursday–Friday. U.S. September CPI is due at 8:30 a.m. ET; forecasts see higher gasoline-driven headline inflation.</p><p><strong>South America.</strong> Brazil’s electoral court warned the Lula and Flávio Bolsonaro campaigns over a record 162 censorship-style legal challenges since the first round; Band debate set for Oct. 18. Escondida supervisors reached a preliminary deal, putting off a strike pending a vote today. Argentina’s September inflation came in at 1.9%, a second month under 2%.</p><p><strong>Oceania.</strong> Pacific nations told the UN its first sea-level-rise declaration falls short on statehood and maritime protections. Tuvalu defended last week’s Pre-COP and hailed Australia’s High Court coal-emissions ruling. More than 20 crews are fighting a wind-driven bushfire at Norwell on the northern Gold Coast.</p>",
+        "sources": [
+          {
+            "name": "Vatican News: Pope Leo has calm night after lung surgery",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-gemelli-hospital-holy-see-press-office-update-14-0ctobe.html"
+          },
+          {
+            "name": "AP via The Hill: Pope spent a tranquil night",
+            "url": "https://thehill.com/homenews/ap/ap-international/ap-the-vatican-says-pope-leo-spent-a-tranquil-night-in-the-hospital-after-undergoing-cancer-surgery/"
+          },
+          {
+            "name": "Vatican News (IT): Tagle reads Pope’s Amoris Laetitia homily",
+            "url": "https://www.vaticannews.va/it/papa/news/2026-10/messa-incontro-amoris-laetitia-papa-leone-tagle.html"
+          },
+          {
+            "name": "Holy See Bollettino: Rinunce e nomine, Oct. 14",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/14/0811/01515.html"
+          },
+          {
+            "name": "Infovaticana: First night at Gemelli; Nov. trip unchanged",
+            "url": "https://infovaticana.com/en/2026/10/14/first-night-at-gemelli-this-is-how-the-pope-is-after-his-lung-operation/"
+          },
+          {
+            "name": "SABC/Reuters: Ethiopian troops enter Zalambessa",
+            "url": "https://www.sabcnews.com/sabcnews/ethiopian-troops-enter-town-on-border-with-eritrea-stoking-war-fears/"
+          },
+          {
+            "name": "Al Jazeera: Kabila’s alliance with M23",
+            "url": "https://www.aljazeera.com/news/2026/10/14/ex-drc-president-joseph-kabila-joins-hands-with-m23-rebels-why-it-matters"
+          },
+          {
+            "name": "AP: Congo Ebola cases exceed 9,000",
+            "url": "https://apnews.com/article/congo-ebola-death-toll-latest-23d7b1bfdae22c7a17cac49cc7b5826e"
+          },
+          {
+            "name": "Africanews/AFP: Mauritius curfew after police shooting",
+            "url": "https://www.africanews.com/2026/10/14/mauritius-imposes-curfew-after-police-shooting-sparks-violent-protests/"
+          },
+          {
+            "name": "Straits Times/Reuters: China–North Korea bridge opens Oct. 15",
+            "url": "https://www.straitstimes.com/asia/china-north-korea-bridge-to-open-on-october-15"
+          },
+          {
+            "name": "Taiwan MND: PLA activity Oct. 14",
+            "url": "https://www.mnd.gov.tw/en/News/PLAAct/87986"
+          },
+          {
+            "name": "NBC/AP: Taiwan plans Alaska LNG purchase",
+            "url": "https://www.nbcnews.com/world/asia/taiwan-says-plans-buy-liquefied-natural-gas-alaska-pipeline-project-rcna603411"
+          },
+          {
+            "name": "Sofia Globe: Radev—Russia has motive, cannot prove guilt",
+            "url": "https://sofiaglobe.com/2026/10/14/radev-russia-has-a-motive-for-drone-attacks-on-ships-in-black-sea-but-bulgaria-cannot-prove-its-guilt/"
+          },
+          {
+            "name": "European Commission: Ukraine clusters opened",
+            "url": "https://enlargement.ec.europa.eu/news/eu-opens-accession-negotiations-ukraine-internal-market-competitiveness-and-inclusive-growth-2026-10-13_en"
+          },
+          {
+            "name": "World Ports Organization: Bulgaria seeks EU/NATO help",
+            "url": "https://www.worldports.org/bulgaria-calls-for-eu-nato-turkey-and-romania-to-aid-black-sea-security/"
+          },
+          {
+            "name": "NHC: Hurricane Simon advisory 28",
+            "url": "https://prod-west-nhc.woc.noaa.gov/mobile/text/refresh/MIATCMEP5+html/120246.shtml"
+          },
+          {
+            "name": "CBS/AP: Simon and Rachel deaths rise to six",
+            "url": "https://www.cbsnews.com/news/hurricane-simon-still-hitting-western-mexico-tropical-systems/"
+          },
+          {
+            "name": "Globe and Mail: Alberta referendum advance vote",
+            "url": "https://www.theglobeandmail.com/canada/alberta/article-former-alberta-premiers-argue-against-separation-referendum-vote/"
+          },
+          {
+            "name": "AP: Gas likely pushed up September inflation",
+            "url": "https://apnews.com/article/cpi-inflation-consumer-prices-affordability-3985019a54c82421e6112fb57baba048"
+          },
+          {
+            "name": "France 24/AFP: Brazil court warns Lula, Bolsonaro",
+            "url": "https://www.france24.com/en/live-news/20261014-lula-bolsonaro-ordered-to-call-off-attempts-at-online-censorship"
+          },
+          {
+            "name": "La Tercera: Escondida pre-agreement, strike postponed",
+            "url": "https://www.latercera.com/pulso/noticia/escondida-y-sindicato-de-supervisores-alcanzan-preacuerdo-y-postergan-la-huelga-a-la-espera-de-una-votacion/"
+          },
+          {
+            "name": "Rio Times: Latin American Pulse Oct. 14",
+            "url": "https://www.riotimesonline.com/latin-american-pulse-for-wednesday-october-14-2026/"
+          },
+          {
+            "name": "PINA: Pacific says UN sea-level declaration falls short",
+            "url": "https://pina.com.fj/2026/10/14/pacific-nations-warn-un-sea-level-rise-declaration-falls-short/"
+          },
+          {
+            "name": "SBS: Tuvalu on Pre-COP and coal ruling",
+            "url": "https://www.sbs.com.au/news/article/australias-ruling-on-coal-a-clear-signal-to-the-world-pacific-minister-says/thee26olz"
+          },
+          {
+            "name": "Hot Tomato: Norwell bushfire grows",
+            "url": "https://www.hottomato.com.au/gold-coast/firefighters-return-to-growing-bushfire-on-the-northern-gc/"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Alaska LNG pledge firms up; bird-flu vaccine plan stalled.",
+        "body": "<p><strong>“Unleash American energy” — Alaska LNG.</strong> <em>Promise:</em> Trump pledged to get the long-stalled North Slope gas line built. <em>What was done:</em> At Tuesday’s Wasilla rally he and Commerce Secretary Lutnick said Taiwan will buy 30% of the project’s gas for 20 years and invest $4.4 billion; Taiwan’s economy ministry confirmed plans to buy 6 million tons a year. <em>Impact:</em> A real step for the buyer side, but Alaska’s gasline agency says Taiwan’s 30% offtake is still non-binding with price and term “nearing conclusion,” South Korea has not confirmed the $50 billion Trump cites, and no construction start has been announced—so no change yet in Alaskans’ energy bills.</p><p><strong>“Cheaper eggs” meets MAHA vaccine skepticism — bird flu.</strong> <em>Promise:</em> Trump campaigned on egg prices; Kennedy on questioning vaccines. <em>What was done:</em> Politico reports (five sources) that USDA shelved a poultry-vaccination strategy in 2025, with Kennedy’s views a major factor. <em>Impact:</em> Biosecurity steps alone have not stopped spread (about 2 million birds hit in the last three months); Republican senators and egg producers warn migration season could push protein prices back up.</p>",
+        "sources": [
+          {
+            "name": "Anchorage Daily News: Trump rallies in Wasilla on gas line",
+            "url": "https://www.adn.com/politics/2026/10/13/trump-rallies-in-wasilla-with-promises-of-additional-foreign-investment-in-gas-line/"
+          },
+          {
+            "name": "CNBC: Taiwan to buy 30% of Alaska LNG, Trump says",
+            "url": "https://www.cnbc.com/2026/10/14/taiwan-alaska-lng-project-trump-.html"
+          },
+          {
+            "name": "NBC/AP: Taiwan plans Alaska LNG purchase",
+            "url": "https://www.nbcnews.com/world/asia/taiwan-says-plans-buy-liquefied-natural-gas-alaska-pipeline-project-rcna603411"
+          },
+          {
+            "name": "Politico: RFK Jr.’s views helped stall bird flu plan",
+            "url": "https://www.politico.com/news/2026/10/13/rfk-jr-s-anti-vaccine-views-helped-sideline-a-bird-flu-plan-01114568"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Roadster unveil Thursday night; FSD Lite reaches older S/X.",
+        "body": "<p><strong>Tesla — Roadster event.</strong> Tesla will stream the next-generation Roadster unveil Thursday, Oct. 15, at 7:55 p.m. Central (8:55 p.m. ET), outdoors in Texas after the Oct. 1 date was weather-scrubbed. Teasers point to SpaceX cold-gas thrusters; Electrek notes production has slipped repeatedly (now 2027–28 per prior guidance). Stockholder-relevant: a hype moment a week before Q3 results (Wed., Oct. 21, after close; 5:30 p.m. ET call).</p><p><strong>Tesla — software.</strong> FSD Supervised v14 Lite began rolling to Intel-computer Model S and X (mostly HW3 cars) Tuesday night, keeping older paid-FSD owners on the current release family.</p><p><strong>SpaceX.</strong> Starlink 15-25 flew from Vandenberg Monday night (B1088’s 20th flight); Falcon 9 flies the classified USSF-481 Thursday evening. Musk is eyeing a tower catch of the Starship upper stage on Flight 15 in roughly four to six weeks.</p>",
+        "sources": [
+          {
+            "name": "Electrek: Tesla sets Roadster event for Thursday",
+            "url": "https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/"
+          },
+          {
+            "name": "Tesla Oracle: Q3 2026 earnings date and webcast",
+            "url": "https://www.teslaoracle.com/2026/10/04/tesla-tsla-announces-the-date-and-time-for-the-q3-2026-earnings-call-live-webcast-with-elon-musk-and-his-team/"
+          },
+          {
+            "name": "TeslaNorth: FSD Lite rolls out to Intel Model S and X",
+            "url": "https://teslanorth.com/2026/10/13/fsd-v14-lite-intel-model-s-x/"
+          },
+          {
+            "name": "NASASpaceflight: Launch preview, week of Oct. 13",
+            "url": "https://www.nasaspaceflight.com/2026/10/launch-preview-101326/"
+          },
+          {
+            "name": "Starlink News: Musk eyes Flight 15 ship catch",
+            "url": "https://starlink-news.com/2026/10/13/musk-eyes-starship-flight-15-ship-catch-key-to-faster-starlink-launches/"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Launch crunch fuels record investment; ESA eyes human spaceflight.",
+        "body": "<p><strong>Capital.</strong> SpaceNews reports a looming launch-capacity shortage is driving record space-economy investment, as satellite operators bankroll alternative rockets and cash cushions to ride out deployment delays.</p><p><strong>Europe.</strong> At the IAC in Istanbul, several national space agencies voiced support for ESA’s push toward an independent European human-spaceflight capability ahead of funding decisions.</p><p><strong>This week.</strong> A quiet manifest: LandSpace’s methane-fueled Zhuque-2E targets Jiuquan today, and Falcon 9 flies USSF-481 Thursday. Amazon Leo demonstrated 400+ Mbps satellite internet for the U.S. Army; its next Vulcan launch is targeted Oct. 29.</p>",
+        "sources": [
+          {
+            "name": "SpaceNews: Launch shortage driving record space investments",
+            "url": "https://spacenews.com/launch-shortage-driving-record-space-investments/"
+          },
+          {
+            "name": "SpaceNews: ESA states back human spaceflight plans",
+            "url": "https://spacenews.com/esa-member-states-signal-support-for-new-european-human-spaceflight-plans/"
+          },
+          {
+            "name": "SpaceNews: Amazon Leo demonstrates internet for U.S. Army",
+            "url": "https://spacenews.com/amazon-leo-demonstrates-satellite-internet-for-u-s-army/"
+          },
+          {
+            "name": "NASASpaceflight: Launch preview, Falcon 9 and Zhuque-2E",
+            "url": "https://www.nasaspaceflight.com/2026/10/launch-preview-101326/"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "CRS-35 docks Thursday; Mars biosignature sample still stranded.",
+        "body": "<p><strong>Station.</strong> Cargo Dragon CRS-35 is coasting toward an autonomous docking at Harmony’s space-facing port Thursday, Oct. 15, around 11 a.m. ET (NASA coverage from 9:15 a.m.), carrying the last two iROSA solar arrays, a replacement spacesuit, and research on artificial retinas and 3D heart tissue.</p><p><strong>Mars.</strong> A CNN deep dive notes Perseverance’s Sapphire Canyon core—NASA’s strongest potential biosignature yet—sits sealed in the rover with no return mission after Mars Sample Return was canceled; Administrator Isaacman says NASA will “go get samples” but hasn’t named a path, while China’s Tianwen-3 aims for 2031.</p>",
+        "sources": [
+          {
+            "name": "NASA: CRS-35 science and cargo launch release",
+            "url": "https://www.nasa.gov/news-release/nasa-science-cargo-launch-on-35th-spacex-resupply-mission-to-station/"
+          },
+          {
+            "name": "NASASpaceflight: CRS-35 cargo details",
+            "url": "https://www.nasaspaceflight.com/2026/10/launch-preview-101326/"
+          },
+          {
+            "name": "CNN via ABC17: Mars proof of life may never come home",
+            "url": "https://abc17news.com/cnn-other/2026/10/12/nasa-may-already-have-proof-life-once-existed-on-another-planet-scientists-might-never-get-to-find-out/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Wenski asks prayers; Košice, Cuiabá archbishops named; Gboko closures.",
+        "body": "<p><strong>Miami.</strong> Archbishop Wenski asked the faithful to pray for Pope Leo and all facing life-threatening illness, noting he met the Pope Oct. 5 and told him Miami prays for him daily. This weekend: Friday’s St. Carlo Acutis Eucharistic Miracles Exposition at St. Mark (Southwest Ranches; exhibit 5–7 p.m., keynote and Adoration 7–9 p.m.) and Emmaus / Emaús retreats. No new clergy assignments posted.</p><p><strong>Appointments (Bollettino).</strong> <em>Oct. 14:</em> Bishop Marek Forgáč, Košice auxiliary (psychologist; chairs Slovakia’s child-protection and music commissions), succeeds Archbishop Bernard Bober in Košice; Bishop Wellington de Queiroz Vieira of Cristalândia, who chairs Brazil’s safeguarding commission, becomes archbishop of Cuiabá. <em>Oct. 13:</em> Bishop Francisco Cota de Oliveira moves from Sete Lagoas to Itabira-Fabriciano (Brazil); Bishop Miguel Ángel Martínez Méndez of Izabal becomes coadjutor of Huehuetenango (Guatemala).</p><p><strong>United States.</strong> Cardinal Cupich called the diagnosis “not the news we hoped for,” asking Chicago to pray for its native son. <strong>Latin America.</strong> The three Brazil/Guatemala moves above. <strong>Europe.</strong> Tagle’s <em>Amoris Laetitia</em> Mass (see World). <strong>Africa.</strong> Nigeria’s Gboko diocese indefinitely shut St. Winifred parish, three schools, and St. Thomas Hospital in Ihugh after repeated arson and attacks, withdrawing priests and sisters; Oct. 23 set as a day of prayer and fasting. <strong>Middle East.</strong> At today’s Mass, Tagle publicly manifested the Pope’s ecclesiastical communion with Chaldean Patriarch Paul III Nona of Baghdad. <strong>Asia / Oceania.</strong> Quiet beyond bishops’ conferences (including Australia’s) joining prayers for the Pope.</p>",
+        "sources": [
+          {
+            "name": "ADOM: Archbishop Wenski statement on Pope Leo",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_statement-from-archbishop-thomas-wenski-on-the-surgery-and-diagnosis-of-pope-leo-xiv"
+          },
+          {
+            "name": "ADOM: Around the Archdiocese, Oct. 16–18",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_179191074450003"
+          },
+          {
+            "name": "Holy See Bollettino: Rinunce e nomine, Oct. 14",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/14/0811/01515.html"
+          },
+          {
+            "name": "Holy See Bollettino: Rinunce e nomine, Oct. 13",
+            "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/13/0808/01510.html"
+          },
+          {
+            "name": "Good Morning America: Cupich statement, Pope’s peaceful night",
+            "url": "https://www.goodmorningamerica.com/news/story/pope-peaceful-night-hospital-surgery-vatican-137248831"
+          },
+          {
+            "name": "ACI Africa: Gboko diocese suspends parish, schools, hospital",
+            "url": "https://www.aciafrica.org/news/24669/activities-at-nigerian-catholic-parish-three-schools-and-hospital-suspended-indefinitely-amid-persistent-insecurity"
+          },
+          {
+            "name": "Vatican News (IT): Amoris Laetitia Mass, Patriarch Nona",
+            "url": "https://www.vaticannews.va/it/papa/news/2026-10/messa-incontro-amoris-laetitia-papa-leone-tagle.html"
+          },
+          {
+            "name": "ACBC: Statement on Pope Leo XIV",
+            "url": "https://mediablog.catholic.org.au/statement-on-pope-leo-xiv/"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown still Oct. 3; Pope urges family prayer; Acutis Friday.",
+        "body": "<p><strong>Countdown to the Kingdom.</strong> Rechecked this morning: nothing newer than Oct. 3—Marija’s “Time of Prayer for Peace,” Elizabeth Kindelmann (“Satan Will be Blinded”), and Pedro Regis (“Humanity is Sick”).</p><p><strong>Latest Marian message.</strong> Our Lady’s Sept. 25 Medjugorje message through Marija remains the newest monthly message: “May this time be a time of prayer for peace,” asking families to renew the Rosary for her intentions so she may intercede before the Most High. October’s 25th message is not out yet.</p><p><strong>Prayer and the Eucharist.</strong> From his hospital bed, Pope Leo’s homily read in St. Peter’s Square lamented that family prayer “has greatly weakened” and urged households to rediscover praying together and Sunday Eucharist. Locally, Friday’s Acutis Eucharistic-miracles exhibit and Adoration night (see Catholic) is the week’s clearest Eucharistic-signs event. World Mission Sunday is this Sunday, Oct. 18. No sober new chip or digital-ID headline worth elevating.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Countdown: Marija—Time of Prayer for Peace",
+            "url": "https://www.countdowntothekingdom.com/marija-time-of-prayer-for-peace/"
+          },
+          {
+            "name": "Medjugorje.org: Sept. 25, 2026 monthly message",
+            "url": "https://www.medjugorje.org/olmmsg.htm"
+          },
+          {
+            "name": "Vatican News (IT): Pope’s homily on family prayer",
+            "url": "https://www.vaticannews.va/it/papa/news/2026-10/messa-incontro-amoris-laetitia-papa-leone-tagle.html"
+          },
+          {
+            "name": "ADOM: Acutis exposition Friday",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_179191074450003"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami life",
+        "headline": "Heat-Nets tonight; Acutis Friday; Gettys Sunday in Fort Lauderdale.",
+        "body": "<p><strong>Tonight:</strong> Heat host Brooklyn at Kaseya Center, 7:30 p.m. ET (WPLG Local 10)—see Pick-me-up.</p><p><strong>Friday:</strong> St. Carlo Acutis Eucharistic Miracles Exposition at St. Mark, Southwest Ranches (free tickets). Free Food Trucks Friday at Tropical Park, 5–10 p.m., with music, bounce house, and kids’ activities.</p><p><strong>Saturday:</strong> Schott Communities 5K Walk &amp; Roll (Cooper City, 8 a.m.); St. Elizabeth Ann Seton craft show (Coral Springs, through Sunday).</p><p><strong>Sunday:</strong> Keith &amp; Kristyn Getty (modern hymns) at Coral Ridge Presbyterian, Fort Lauderdale, 4–6 p.m. (tickets on Eventbrite).</p>",
+        "sources": [
+          {
+            "name": "NBA.com: Nets at Heat, Oct. 14",
+            "url": "https://www.nba.com/game/bkn-vs-mia-0012600003"
+          },
+          {
+            "name": "ADOM: Around the Archdiocese, Oct. 16–18",
+            "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_179191074450003"
+          },
+          {
+            "name": "The Miami Moms: Food Trucks Fridays, Tropical Park",
+            "url": "https://themiamimoms.com/event/food-trucks-fridays-fiesta-tropical-park-2/2026-10-16/"
+          },
+          {
+            "name": "Coral Ridge Presbyterian: An Evening with the Gettys",
+            "url": "https://crpc.org/calendar/an-evening-with-keith-kristyn-getty/"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Heat host Nets tonight; D&D meets Star Wars in 2027.",
+        "body": "<p>The Heat host Brooklyn tonight (7:30 p.m. ET, Kaseya Center), their first game since Saturday’s 125–124 heartbreaker to Minnesota, then close the exhibition slate at Orlando Friday. On the Star Wars side, New York Comic Con delivered a fun one: Wizards of the Coast and Lucasfilm unveiled <em>D&amp;D | Star Wars</em>—a Core Rules book plus <em>Tyro Squadron: Adventures</em>, putting players on a secret Rebel crew in the Original Trilogy era—arriving in 2027. Hasbro also revealed Black Series figures of Agen Kolar, Saesee Tiin, and Zam Wesell (preorders Oct. 29).</p>",
+        "sources": [
+          {
+            "name": "NBA.com: Nets at Heat, Oct. 14",
+            "url": "https://www.nba.com/game/bkn-vs-mia-0012600003"
+          },
+          {
+            "name": "StarWars.com: NYCC 2026 news and reveals",
+            "url": "https://www.starwars.com/news/new-york-comic-con-2026"
+          },
+          {
+            "name": "Collider: Star Wars brings the Original Trilogy to D&D",
+            "url": "https://collider.com/star-wars-dungeons-dragons-tyro-squadron-2027-books/"
+          },
+          {
+            "name": "Flickering Myth: Black Series Attack of the Clones reveals",
+            "url": "https://www.flickeringmyth.com/star-wars-the-black-series-figure-reveals-spotlight-attack-of-the-clones-with-agen-kolar-saesee-tiin-and-zam-wesell/"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-10-13-evening",
     "date": "2026-10-13",
     "slot": "evening",
