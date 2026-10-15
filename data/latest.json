@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-14-morning",
-  "label": "Wednesday morning",
-  "generatedAt": "2026-10-14T07:55:00-04:00",
+  "id": "2026-10-14-evening",
+  "label": "Wednesday evening",
+  "generatedAt": "2026-10-14T19:55:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Pope’s calm night; Kabila rebel front; Black Sea toll."
+      "headline": "Vatican City: Pope walking, Mass; Black Sea search ends."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Alaska LNG pledge firms up; bird-flu vaccine plan stalled."
+      "headline": "Quiet since morning on MAGA / MAHA ledger."
     },
     {
       "title": "Musk world",
-      "headline": "Roadster unveil Thursday night; FSD Lite reaches older S/X."
+      "headline": "Quiet: Roadster still Thursday; CRS-35 on track."
     },
     {
       "title": "Space",
-      "headline": "Launch crunch fuels record investment; ESA eyes human spaceflight."
+      "headline": "Quiet: CRS-35 still docks Thursday morning."
     },
     {
       "title": "NASA",
-      "headline": "CRS-35 docks Thursday; Mars biosignature sample still stranded."
+      "headline": "Crew preps; CRS-35 docking still ~11 a.m. Thursday."
     },
     {
       "title": "Catholic",
-      "headline": "Wenski asks prayers; Košice, Cuiabá archbishops named; Gboko closures."
+      "headline": "Pope Mass at Gemelli; Miami still Acutis Friday."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 3; Pope urges family prayer; Acutis Friday."
+      "headline": "Countdown still Oct. 3; Sept. 25 Medjugorje stands."
     },
     {
       "title": "Miami life",
-      "headline": "Heat-Nets tonight; Acutis Friday; Gettys Sunday in Fort Lauderdale."
+      "headline": "Heat–Nets underway; Acutis Friday; Gettys Sunday."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat host Nets tonight; D&D meets Star Wars in 2027."
+      "headline": "Heat lead Nets early; Roadster and D&D still tomorrow/’27."
     }
   ],
-  "audio": "audio/2026-10-14-morning.mp3"
+  "audio": "audio/2026-10-14-evening.mp3"
 }
