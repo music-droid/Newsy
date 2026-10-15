@@ -1,0 +1,338 @@
+{
+  "id": "2026-10-15-morning",
+  "date": "2026-10-15",
+  "slot": "morning",
+  "label": "Thursday morning",
+  "generatedAt": "2026-10-15T07:55:00-04:00",
+  "beats": [
+    {
+      "id": "world",
+      "title": "World",
+      "headline": "Vatican City: Pope’s good second night; Yalu bridge opens; EU summit.",
+      "body": "<p><strong>Vatican City.</strong> The Holy See Press Office said Thursday morning that Pope Leo XIV “had a good night in the hospital, got up and had breakfast”—his second night at Gemelli after Tuesday’s removal of the lower lobe of his right lung. Spokesman Matteo Bruni says the Pope wants to make the Nov. 6–17 Uruguay–Argentina–Peru trip; Peru’s President Keiko Fujimori said recovery could take weeks and the schedule might change, but the Holy See has announced no change. Today’s Bollettino: Father Ignatius Ding Zuyao was ordained bishop of Haimen, China, under the Holy See–China Provisional Agreement, and Bishop Paolo Andreolli, S.X., was named to Ponta de Pedras, Brazil (see Catholic). At the UN, Archbishop El Kassis told the First Committee that disarmament “cannot be postponed until more favourable circumstances arise.”</p><p><strong>Africa.</strong> Secretary of State Rubio phoned Ethiopia’s Abiy Ahmed urging de-escalation with Eritrea under their 2018 peace deal, as Ethiopian forces expand control in northern Tigray. Kenya confirmed a second Ebola (Bundibugyo) case—a relative of the first patient who was already in quarantine; officials see no community spread. Mauritius extended its curfew through Friday morning after protests over water shortages and living costs; 94 arrests so far (16 minors), and schools are closed Thursday and Friday.</p><p><strong>Asia.</strong> China and North Korea opened the New Yalu River Bridge Thursday morning—the four-lane, 3-km Dandong–Sinuiju crossing finished in 2014 but idle until now; Premier Li Qiang called it a “new landmark” of friendship. Singapore’s haze peaked at a season-high 24-hour PSI of 212 in the west at noon local time; masks are being distributed and 300+ community centers are serving as haze shelters. The EU–Gulf summit planned for Oct. 24 in Riyadh was postponed after repeated Houthi strikes on Riyadh’s airport.</p><p><strong>Europe.</strong> EU leaders opened a two-day Brussels summit focused on energy prices (oil above $100, gas at its highest since winter 2022), a sharply divided 2028–34 budget, and Ukraine; draft conclusions lament the U.S. pause on Russian-diesel sanctions, which Bulgaria’s Radev backed as fuel-price relief while most leaders criticized it. Zelenskyy joins Friday. Radev also said he summoned Russia’s ambassador over the Black Sea drone strikes—logic points to Russia, he said, but there is no solid evidence yet; a full terror investigation starts when the ship damaged Tuesday reaches port.</p><p><strong>North America.</strong> Simon is now a tropical storm (60 mph), nearly stationary about 270 miles south-southeast of Cabo San Lucas; it should drift northwest from Friday and fade by late weekend, with 1–3 inches of rain possible in Baja California Sur and no watches posted. Carney headlines a “Forever Canadian” rally in Calgary tonight ahead of Monday’s Alberta referendum. Panama reported its first death from the Oct. 9 magnitude-7.7 quake, and aftershocks are keeping hundreds from going home.</p><p><strong>South America.</strong> Brazil’s first Quaest runoff poll has Flávio Bolsonaro 46%, Lula 44%—a statistical tie—ahead of the Oct. 25 vote; Datafolha publishes today. In Colombia, thousands marched peacefully Wednesday, led by ex-president Petro, against President Abelardo de la Espriella’s labor and pension proposals—the opposition’s first big show since he took office in August.</p><p><strong>Oceania.</strong> Pacific Islands Forum chair Surangel Whipps of Palau, visiting Canberra, pushed back on critics counting absent leaders at last week’s Fiji–Tuvalu pre-COP and pressed for climate finance before COP31 opens Nov. 9; pledges to the Pacific Resilience Facility reached only half of a $500 million goal. Fiji approved a six-month, New Zealand–funded NZSIS review of its intelligence system amid foreign-interference concerns.</p>",
+      "sources": [
+        {
+          "name": "Vatican News: Pope has good second night at Gemelli",
+          "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-holy-see-press-office-gemelli-15-october-2026.html"
+        },
+        {
+          "name": "EWTN Vatican: Pope intends to make South America trip",
+          "url": "https://ewtnvatican.com/articles/pope-leo-xiv-recovering-after-lung-cancer-surgery-vatican-says-he-intends-to-make-south-america-trip"
+        },
+        {
+          "name": "Crux/AP: Fujimori on possible trip changes",
+          "url": "https://cruxnow.com/vatican/2026/10/pope-leo-is-eating-celebrating-mass-and-walking-after-cancer-surgery-but-trip-is-in-question"
+        },
+        {
+          "name": "Holy See Bollettino: Rinunce e nomine, Oct. 15",
+          "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/15/0813/01518.html"
+        },
+        {
+          "name": "Holy See Mission to the UN: First Committee statement",
+          "url": "https://holyseemission.org/contents/statements/6acfe1d2082a3.php"
+        },
+        {
+          "name": "AP: Rubio urges restraint over Ethiopia–Eritrea tensions",
+          "url": "https://apnews.com/article/ethiopia-tigray-eritrea-rubio-6d136d4280931d2d213d7d6cafd670ab"
+        },
+        {
+          "name": "Anadolu: Ethiopian forces expand control in Tigray",
+          "url": "https://www.aa.com.tr/en/africa/ethiopian-forces-expand-control-in-tigray-as-militia-claims-heavy-eritrean-losses/4089516"
+        },
+        {
+          "name": "The Star (Kenya): Second Ebola case confirmed",
+          "url": "https://www.the-star.co.ke/news/2026-10-14-kenya-confirms-second-ebola-case"
+        },
+        {
+          "name": "Africanews/AFP: Mauritius extends curfew",
+          "url": "https://www.africanews.com/2026/10/15/mauritius-extends-curfew-after-protests-turn-violent/"
+        },
+        {
+          "name": "BBC: North Korea and China open new bridge",
+          "url": "https://www.bbc.com/news/articles/ck1exgw3j115o"
+        },
+        {
+          "name": "AP: China–North Korea bridge opens",
+          "url": "https://apnews.com/article/china-north-korea-bridge-delay-899452a683ff984b081e538901050da8"
+        },
+        {
+          "name": "Straits Times: Haze persists; PSI hits 212",
+          "url": "https://www.straitstimes.com/singapore/haze-in-singapore-psi-in-western-part-of-island-remains-very-unhealthy-overnight"
+        },
+        {
+          "name": "Euronews live: EU summit on energy, budget, Ukraine",
+          "url": "https://www.euronews.com/2026/10/15/eu-summit-leaders-seek-fast-solutions-to-spiralling-energy-prices"
+        },
+        {
+          "name": "BBC: Attack on Riyadh’s King Khalid Airport",
+          "url": "https://www.bbc.com/news/articles/cw33x4y8k82no"
+        },
+        {
+          "name": "NHC: Tropical Storm Simon advisory 32",
+          "url": "https://www.nhc.noaa.gov/text/MIATCPEP5.shtml"
+        },
+        {
+          "name": "CBC: Carney to attend Alberta unity rallies",
+          "url": "https://www.cbc.ca/news/canada/edmonton/carney-alberta-rallies-canadian-unity-9.7379637"
+        },
+        {
+          "name": "AP (Spanish): Panama reports first quake death",
+          "url": "https://apnews.com/article/panama-sismo-evacuados-danos-8f4bbce4c81952ccfcd8eddbbb95c203"
+        },
+        {
+          "name": "Valor International: Quaest—Flávio 46%, Lula 44%",
+          "url": "https://valorinternational.globo.com/politics/news/2026/10/15/quaest-poll-shows-flavio-bolsonaro-at-46percent-lula-44percent-in-runoff.ghtml"
+        },
+        {
+          "name": "France 24/AFP: Colombians march against government policies",
+          "url": "https://www.france24.com/en/americas/20261015-thousands-protest-colombia-right-wing-president"
+        },
+        {
+          "name": "PINA: Pacific head rebukes focus on pre-COP costs",
+          "url": "https://pina.com.fj/2026/10/15/pacific-head-rebukes-australias-focus-on-pre-cop-costs/"
+        },
+        {
+          "name": "RNZ: NZSIS to support Fiji intelligence review",
+          "url": "https://www.rnz.co.nz/news/pacific/1919842/nzsis-to-support-fiji-intelligence-review-amid-foreign-interference-claims"
+        }
+      ]
+    },
+    {
+      "id": "promises",
+      "title": "MAGA / MAHA promises kept",
+      "headline": "Lower-prices pledge mostly unmet; ACA duplicate-subsidy sweep, some reinstated.",
+      "body": "<p><strong>“Your groceries will be cheaper” — cost of living.</strong> <em>Promise:</em> Trump vowed cheaper groceries, gas under $2, 2% mortgages, and electricity bills cut in half. <em>What was done:</em> CBS News’s Oct. 14 tally finds food at home up 4% since November 2024, gas at $4.37 (up 47% since the Iran war began in late February), 30-year mortgages at 7.28%, and residential electricity up 12.5% since December 2024. The clear kept item: prescription-drug prices are down 3.9% since their February 2025 peak—the White House credits “most favored nation” pricing; experts also cite GLP-1 competition and more generics. <em>Impact:</em> With September CPI at 3.7%, nine in ten Americans tell CBS prices drive their view of the economy; the White House points to tax cuts, jobs, and trade deals.</p><p><strong>“Crush fraud, waste, and abuse” — ACA subsidies.</strong> <em>Promise:</em> Kennedy and CMS’s Dr. Oz pledged to stop taxpayer money going where it shouldn’t. <em>What was done:</em> HHS said Oct. 14 it ended Obamacare subsidies this year for 189,000 enrollees who also had Medicare, Medicaid, or CHIP or had died, projecting about $1.5 billion in savings over the next year, with a 30-day window to dispute. <em>Impact:</em> KFF Health News (via NPR) reports a separate sweep removed 760,000 enrollees and insurers say CMS has reinstated a small number wrongly cut; 419,000 more sign-ups are under review, with results due after the midterms. Supporters call the cleanup overdue; policy experts say there’s too little data to know how many legitimate members were caught.</p>",
+      "sources": [
+        {
+          "name": "CBS News: Trump promised lower prices—what the data shows",
+          "url": "https://www.cbsnews.com/news/trump-promised-lower-prices-cost-living-inflation/"
+        },
+        {
+          "name": "HHS: Stopping subsidies for duplicate and deceased enrollees",
+          "url": "https://www.hhs.gov/press-room/cms-stops-obamacare-subsidies-duplicate-deceased-enrollees.html"
+        },
+        {
+          "name": "NPR/KFF Health News: Some removed ACA enrollees reinstated",
+          "url": "https://www.npr.org/2026/10/15/nx-s1-6002957/aca-fraud-trump-health-insurance"
+        },
+        {
+          "name": "CNBC: September CPI 3.7%",
+          "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html"
+        }
+      ]
+    },
+    {
+      "id": "musk",
+      "title": "Musk world",
+      "headline": "Roadster unveils tonight; Barclays eyes Tesla–SpaceX merger; Starshield curbs eased.",
+      "body": "<p><strong>Tesla — Roadster tonight.</strong> The redesigned Roadster debuts at 8:55 p.m. ET at SpaceX’s McGregor, Texas, test site, nearly nine years after the $200,000 prototype (reservations still $50,000). Morningstar sees about 2,000 a year—a halo car, not a profit driver; Q3 results follow Wednesday, Oct. 21.</p><p><strong>Tesla + SpaceX.</strong> Barclays says a Tesla–SpaceX merger is “increasingly becoming the market consensus,” possibly announced late October or early November, and would likely need a vote at Tesla’s annual meeting (expected by Dec. 6). Nothing has been announced by either company.</p><p><strong>SpaceX — Starshield and Starship.</strong> Ukraine said new speed limits on moving Starlink/Starshield terminals disrupted drone and interceptor missions; Musk replied that Starshield is “owned and controlled by the U.S. government” and limits are set by the military “and ultimately POTUS.” Ukraine’s Fedorov said Thursday that service at up to 160 km/h is back. Separately, the FAA opened an environmental review of SpaceX’s request to fly Starship up to 456 times a year from Starbase (25 allowed today); public meetings Nov. 17–19.</p>",
+      "sources": [
+        {
+          "name": "Reuters via Yahoo Finance: Tesla set to unveil Roadster",
+          "url": "https://finance.yahoo.com/news/tesla-set-unveil-next-generation-100401819.html"
+        },
+        {
+          "name": "Electrek: Roadster event Thursday",
+          "url": "https://electrek.co/2026/10/13/tesla-roadster-event-thursday-nine-years-delays/"
+        },
+        {
+          "name": "Asia Business Daily: Barclays on Tesla–SpaceX merger",
+          "url": "https://www.asiae.co.kr/en/article/2026101508563824981"
+        },
+        {
+          "name": "CNBC: Musk says Trump responsible for Starshield curbs",
+          "url": "https://www.cnbc.com/2026/10/15/elon-musk-starlink-ukraine-trump-energy-ceasefire.html"
+        },
+        {
+          "name": "Space.com: SpaceX seeks 450+ Starship launches a year",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-wants-to-launch-starship-more-than-450-times-per-year-from-south-texas"
+        },
+        {
+          "name": "Federal Register: FAA Starbase PEIS notice",
+          "url": "https://www.federalregister.gov/documents/2026/10/14/2026-20963/notice-of-intent-to-prepare-a-programmatic-environmental-impact-statement-peis-open-public-scoping"
+        }
+      ]
+    },
+    {
+      "id": "space",
+      "title": "Space",
+      "headline": "UK hires ClearSpace for debris cleanup; USSF-481 flies tonight.",
+      "body": "<p><strong>Debris removal.</strong> The UK Space Agency picked ClearSpace’s British unit as prime contractor, worth about $80 million, for a 2029 mission to de-orbit two defunct UK-licensed small satellites.</p><p><strong>Moon landers.</strong> SpaceNews reports two companies are planning robotic lunar missions that will set down near other spacecraft—demonstrating precision landing while testing one of the biggest hazards facing NASA’s proposed Moon Base.</p><p><strong>Today’s manifest.</strong> Cargo Dragon CRS-35 docks this morning (see NASA), and a Falcon 9 carries the classified USSF-481 mission from Vandenberg, with a window opening at 4:44 p.m. PT (7:44 p.m. ET). Starship’s bid for a 456-flight-a-year cadence is in Musk world.</p>",
+      "sources": [
+        {
+          "name": "SpaceNews: UK awards ClearSpace $80 million contract",
+          "url": "https://spacenews.com/uk-awards-clearspace-80-million-prime-contract-for-dual-satellite-deorbit-mission/"
+        },
+        {
+          "name": "SpaceNews: Lunar landers plan precision landing demos",
+          "url": "https://spacenews.com/lunar-lander-companies-planning-precision-landing-demonstrations/"
+        },
+        {
+          "name": "Next Spaceflight: Falcon 9 USSF-481",
+          "url": "https://nextspaceflight.com/launches/details/8332/"
+        },
+        {
+          "name": "Space.com: Watch CRS-35 dock today",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-crs-35-iss-cargo-mission-docking"
+        }
+      ]
+    },
+    {
+      "id": "nasa",
+      "title": "NASA",
+      "headline": "Dragon docks this morning; Koch moves to management; final array spacewalks set.",
+      "body": "<p><strong>Station.</strong> Cargo Dragon CRS-35 docks autonomously to Harmony’s space-facing port around 11 a.m. ET (NASA+ coverage from 9:15 a.m.) and stays about a month. The Crew-12 astronauts, home since Oct. 8, brief reporters at 3:30 p.m. ET. NASA also set U.S. spacewalks 100 and 101 for Oct. 29 and Nov. 5: Anil Menon and Canada’s Joshua Kutryk will install the seventh and eighth roll-out solar arrays, raising station power up to 30% (about 160 to 215 kilowatts); preview briefing Tuesday, Oct. 20.</p><p><strong>People and the Moon.</strong> Artemis II’s Christina Koch becomes NASA’s acting deputy chief engineer Nov. 1 and will no longer be eligible to fly—so all four Artemis II crew members have now moved to other roles. Administrator Isaacman leads an Artemis update Friday, Oct. 23, at 2 p.m. ET at Kennedy on next year’s Artemis III Earth-orbit test and the 2028 landing goal.</p>",
+      "sources": [
+        {
+          "name": "Space.com: CRS-35 docking today",
+          "url": "https://www.space.com/space-exploration/launches-spacecraft/spacex-crs-35-iss-cargo-mission-docking"
+        },
+        {
+          "name": "NASA: Spacewalks 100 and 101 preview",
+          "url": "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/"
+        },
+        {
+          "name": "NASA: Koch named acting deputy chief engineer",
+          "url": "https://www.nasa.gov/news-release/nasa-names-astronaut-christina-koch-acting-deputy-chief-engineer/"
+        },
+        {
+          "name": "Space.com: Koch steps down from active duty",
+          "url": "https://www.space.com/space-exploration/artemis/life-after-the-moon-artemis-iis-christina-koch-steps-down-from-active-astronaut-duty"
+        },
+        {
+          "name": "NASA: Artemis acceleration update Oct. 23",
+          "url": "https://www.nasa.gov/news-release/nasa-to-discuss-artemis-acceleration-status-of-upcoming-moon-missions/"
+        }
+      ]
+    },
+    {
+      "id": "catholic",
+      "title": "Catholic",
+      "headline": "Haimen bishop ordained; Ponta de Pedras named; Wenski on mental illness.",
+      "body": "<p><strong>Miami.</strong> In a new Florida Catholic feature, Archbishop Wenski urges compassion for people with mental illness: “Catholics do not think mental illness should be solved by prayer rather than by psychiatry. We are a people of both.” Catholic Charities (95 this year) offers bilingual, sliding-scale counseling and addiction treatment at St. Luke’s Center. This weekend: Friday’s St. Carlo Acutis Eucharistic Miracles Exposition at St. Mark, Southwest Ranches (exhibit 5–7 p.m.; keynote and Adoration 7–9 p.m.; free tickets), Emmaus / Emaús retreats, and St. Andrew’s Bill McAlpine Golf Classic Saturday. No new clergy assignments posted.</p><p><strong>Rome.</strong> From Gemelli, Pope Leo sent a message closing the <em>Amoris Laetitia</em> 10th-anniversary meeting: “I ask you please to pray for me, as I pray for you.”</p><p><strong>Appointments (Bollettino, Oct. 15).</strong> <em>Ponta de Pedras, Brazil:</em> Bishop Paolo Andreolli, S.X.—an Italian-born Xaverian missionary in Pará since 2007 and Belém auxiliary since 2023—becomes diocesan bishop. <em>Haimen, China:</em> Bishop Ignatius Ding Zuyao, 40, appointed Aug. 24 under the Provisional Agreement and pastor in Nantong since 2023, was ordained today. <em>Romania:</em> Greek-Catholic Major Archbishop Claudiu-Lucian Pop united the Eparchy of Cluj-Gherla with the Archeparchy of Făgăraș and Alba Iulia under one bishop.</p><p><strong>United States.</strong> The USCCB and National Association of Evangelicals issued a joint call for humane, targeted enforcement, keeping families together, due process, and legal pathways. <strong>Latin America.</strong> Ponta de Pedras above; Peru’s president hopes the November papal visit goes ahead. <strong>Europe.</strong> The Romanian union above. <strong>Africa.</strong> Dar es Salaam’s Archbishop Ruwa’ichi invited testimony, favorable or not, for the beatification cause of Tanzania’s founding president Julius Nyerere. <strong>Middle East.</strong> Lebanon’s ambassador to the Holy See detailed the Pope’s new scholarships for vulnerable Christian families in Lebanon, Syria, and Iraq, run by the Dicastery for the Eastern Churches. <strong>Asia.</strong> Haimen above. <strong>Oceania.</strong> Quiet.</p>",
+      "sources": [
+        {
+          "name": "Florida Catholic: Archbishop urges compassion for mental illness",
+          "url": "https://www.thefloridacatholic.org/dioceses/miami/archbishop-urges-compassion-for-those-with-mental-illness/article_90a269c0-bcae-4826-acc3-d6c8c3fe9c77.html"
+        },
+        {
+          "name": "ADOM: Around the Archdiocese, Oct. 16–18",
+          "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_archdiocese-of-miami-around-the-archdiocese-coming-up-this-weekend-10-16-2026"
+        },
+        {
+          "name": "CNA: Pope’s message asks for prayers",
+          "url": "https://catholics.news/pope-leo-xiv-sends-message-after-surgery-to-vatican-conference-asks-for-prayers"
+        },
+        {
+          "name": "Holy See Bollettino: Rinunce e nomine, Oct. 15",
+          "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/15/0813/01518.html"
+        },
+        {
+          "name": "Holy See Bollettino: Dalle Chiese Orientali, Oct. 15",
+          "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/10/15/0813/01520.html"
+        },
+        {
+          "name": "Vatican News: Bishop Ding Zuyao ordained in Haimen",
+          "url": "https://www.vaticannews.va/en/church/news/2026-10/bishop-ignatius-ding-zuyao-ordained-in-haimen-china.html"
+        },
+        {
+          "name": "USCCB: Catholic and Evangelical leaders on immigration",
+          "url": "https://www.usccb.org/news/2026/catholic-and-evangelical-leaders-unite-call-compassionate-immigration-reform"
+        },
+        {
+          "name": "ACI Africa: Nyerere beatification testimony",
+          "url": "https://www.aciafrica.org/news/24693/tanzanian-archbishop-invites-testimony-supporting-or-raising-concerns-about-nyereres-beatification-cause"
+        },
+        {
+          "name": "The Beiruter: Vatican scholarships for Middle East Christians",
+          "url": "https://www.thebeiruter.com/articledetails/2809"
+        }
+      ]
+    },
+    {
+      "id": "signs",
+      "title": "Signs of the times",
+      "headline": "Countdown still Oct. 3; Sept. 25 message stands; EU ID wallets.",
+      "body": "<p><strong>Countdown to the Kingdom.</strong> Rechecked this morning: nothing newer than Oct. 3—Marija’s “Time of Prayer for Peace,” Elizabeth Kindelmann (“Satan Will be Blinded”), and Pedro Regis (“Humanity is Sick”).</p><p><strong>Latest Marian message.</strong> Our Lady’s Sept. 25 Medjugorje message through Marija is still the newest monthly message: “May this time be a time of prayer for peace,” with families asked to renew the Rosary for her intentions—fitting for October, the month of the Rosary. The Oct. 25 message is next.</p><p><strong>Prayer and the Eucharist.</strong> The Pope’s own ask from his hospital room—“pray for me, as I pray for you”—is the morning’s clearest call. Locally, Friday’s Acutis Eucharistic-miracles exhibit and Adoration night (see Catholic) is the week’s Eucharistic-signs event, and World Mission Sunday is this Sunday, Oct. 18.</p><p><strong>Digital ID, soberly.</strong> Six Dutch firms (including ABN AMRO, Rabobank, and KPN) launched “MyCheck,” an EU-compliant digital-identity wallet they’re offering the government free; every EU state must have a digital-ID system by the end of 2026, and Germany’s wallet launches Jan. 2, 2027. It’s voluntary, real infrastructure news—no chips involved.</p>",
+      "sources": [
+        {
+          "name": "Countdown to the Kingdom",
+          "url": "https://www.countdowntothekingdom.com/"
+        },
+        {
+          "name": "Countdown: Marija—Time of Prayer for Peace",
+          "url": "https://www.countdowntothekingdom.com/marija-time-of-prayer-for-peace/"
+        },
+        {
+          "name": "Medjugorje.org: Sept. 25, 2026 monthly message",
+          "url": "https://www.medjugorje.org/olmmsg.htm"
+        },
+        {
+          "name": "CNA: Pope asks for prayers",
+          "url": "https://catholics.news/pope-leo-xiv-sends-message-after-surgery-to-vatican-conference-asks-for-prayers"
+        },
+        {
+          "name": "ADOM: Acutis exposition Friday",
+          "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_archdiocese-of-miami-around-the-archdiocese-coming-up-this-weekend-10-16-2026"
+        },
+        {
+          "name": "Biometric Update: Dutch coalition launches MyCheck wallet",
+          "url": "https://www.biometricupdate.com/202610/dutch-coalition-launches-mycheck-digital-identity-wallet-in-push-for-sovereignty"
+        }
+      ]
+    },
+    {
+      "id": "miami",
+      "title": "Miami life",
+      "headline": "Acutis Friday; kids’ book fest and pumpkin patches; Gettys Sunday.",
+      "body": "<p><strong>Friday:</strong> St. Carlo Acutis Eucharistic Miracles Exposition at St. Mark, Southwest Ranches (free tickets). Free Food Trucks Friday at Tropical Park, 5–10 p.m., and Laser Evening at Frost Science’s planetarium, 7–11 p.m.</p><p><strong>Saturday:</strong> Entrelibros Family Day at the Coral Gables Museum (Spanish-language children’s book festival), 10 a.m.–6 p.m., with the Tabatha children’s choir at 4:30. Coral Gables Pumpkin Patch at Ponce Circle Park, 2–6 p.m.; Schott Communities 5K Walk &amp; Roll in Cooper City, 8 a.m.</p><p><strong>All weekend:</strong> Not-So-Scary Halloween at Miami Children’s Museum (Sat.–Sun., 10 a.m.–6 p.m.; $20 Florida residents) and the pumpkin patch at Hope Miami Lakes United Methodist (daily 9 a.m.–9 p.m.; kids 12 and under free with an adult).</p><p><strong>Sunday:</strong> Keith &amp; Kristyn Getty (modern hymns) at Coral Ridge Presbyterian, Fort Lauderdale, 4–6 p.m.; Entrelibros closes with the family play <em>La Cucarachita Martina y el Ratoncito Pérez</em> at 4:30.</p>",
+      "sources": [
+        {
+          "name": "ADOM: Around the Archdiocese, Oct. 16–18",
+          "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_archdiocese-of-miami-around-the-archdiocese-coming-up-this-weekend-10-16-2026"
+        },
+        {
+          "name": "The Miami Moms: Food Trucks Fridays, Tropical Park",
+          "url": "https://themiamimoms.com/event/food-trucks-fridays-fiesta-tropical-park-2/2026-10-16/"
+        },
+        {
+          "name": "Miami Local Today: This weekend, Oct. 16–18",
+          "url": "https://miamilocaltoday.com/things-to-do-this-weekend/"
+        },
+        {
+          "name": "Coral Gables Museum: Entrelibros 2026",
+          "url": "https://coralgablesmuseum.org/entrelibros-2026/"
+        },
+        {
+          "name": "Coral Ridge Presbyterian: An Evening with the Gettys",
+          "url": "https://crpc.org/calendar/an-evening-with-keith-kristyn-getty/"
+        }
+      ]
+    },
+    {
+      "id": "pick-me-up",
+      "title": "Pick-me-up",
+      "headline": "Giannis nearly triple-doubles as Heat top Nets; Mando gets a line.",
+      "body": "<p>The Heat beat Brooklyn 144–128 Wednesday, and Giannis Antetokounmpo put up 20 points, 15 rebounds, nine assists, and three blocks in just 23 minutes; Andrew Wiggins added 19. Bam Adebayo sat (groin tightness, day-to-day). The preseason wraps Friday at Orlando.</p><p>For Star Wars fans: the Mandalorian and Grogu now have a real queue-up meet-and-greet near Millennium Falcon: Smugglers Run at Disney’s Hollywood Studios (Chewie moved outside Black Spire Outpost)—a fun one for a Florida family day. And Lucasfilm announced the first official sequel to <em>Solo</em>: the graphic novel <em>Smugglers &amp; Scoundrels: The Black Sun Eclipse</em>, with Han, Lando, and Chewie in debt to Black Sun, due fall 2027.</p>",
+      "sources": [
+        {
+          "name": "NBA.com/Heat: Antetokounmpo dominates vs. Brooklyn",
+          "url": "https://www.nba.com/heat/news/coups-takeaways-antetokounmpo-dominates-heat-preseason-victory-brooklyn"
+        },
+        {
+          "name": "NBA.com: Nets at Heat box score",
+          "url": "https://www.nba.com/game/0012600003/box-score"
+        },
+        {
+          "name": "MickeyBlog: Mando and Grogu get a meet-and-greet spot",
+          "url": "https://mickeyblog.com/2026/10/14/the-mandalorian-and-grogu-get-traditional-meet-and-greet-location-at-disneys-hollywood-studios/"
+        },
+        {
+          "name": "The Direct: Solo sequel comic announced",
+          "url": "https://thedirect.com/article/disney-star-wars-solo-story-sequel-dave-filoni"
+        }
+      ]
+    }
+  ],
+  "audio": "audio/2026-10-15-morning.mp3"
+}

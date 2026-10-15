@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-14-evening",
-  "label": "Wednesday evening",
-  "generatedAt": "2026-10-14T19:55:00-04:00",
+  "id": "2026-10-15-morning",
+  "label": "Thursday morning",
+  "generatedAt": "2026-10-15T07:55:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Pope walking, Mass; Black Sea search ends."
+      "headline": "Vatican City: Pope’s good second night; Yalu bridge opens; EU summit."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Quiet since morning on MAGA / MAHA ledger."
+      "headline": "Lower-prices pledge mostly unmet; ACA duplicate-subsidy sweep, some reinstated."
     },
     {
       "title": "Musk world",
-      "headline": "Quiet: Roadster still Thursday; CRS-35 on track."
+      "headline": "Roadster unveils tonight; Barclays eyes Tesla–SpaceX merger; Starshield curbs eased."
     },
     {
       "title": "Space",
-      "headline": "Quiet: CRS-35 still docks Thursday morning."
+      "headline": "UK hires ClearSpace for debris cleanup; USSF-481 flies tonight."
     },
     {
       "title": "NASA",
-      "headline": "Crew preps; CRS-35 docking still ~11 a.m. Thursday."
+      "headline": "Dragon docks this morning; Koch moves to management; final array spacewalks set."
     },
     {
       "title": "Catholic",
-      "headline": "Pope Mass at Gemelli; Miami still Acutis Friday."
+      "headline": "Haimen bishop ordained; Ponta de Pedras named; Wenski on mental illness."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 3; Sept. 25 Medjugorje stands."
+      "headline": "Countdown still Oct. 3; Sept. 25 message stands; EU ID wallets."
     },
     {
       "title": "Miami life",
-      "headline": "Heat–Nets underway; Acutis Friday; Gettys Sunday."
+      "headline": "Acutis Friday; kids’ book fest and pumpkin patches; Gettys Sunday."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat lead Nets early; Roadster and D&D still tomorrow/’27."
+      "headline": "Giannis nearly triple-doubles as Heat top Nets; Mando gets a line."
     }
   ],
-  "audio": "audio/2026-10-14-evening.mp3"
+  "audio": "audio/2026-10-15-morning.mp3"
 }
