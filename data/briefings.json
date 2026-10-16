@@ -1,5 +1,207 @@
 [
   {
+    "id": "2026-10-15-evening",
+    "date": "2026-10-15",
+    "slot": "evening",
+    "label": "Thursday evening",
+    "generatedAt": "2026-10-15T19:55:00-04:00",
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Vatican City: Pope back at work; EU budget stalls; Brazil tied.",
+        "body": "<p><strong>Vatican City.</strong> Thursday afternoon’s medical update: routine checks were normal, the chest X-ray shows “good recovery of the lung that underwent surgery,” and Pope Leo XIV is doing his daily activities on his own with a full physiotherapy session. He concelebrated Mass again and has resumed work, meeting the Substitute of the Secretariat of State, Archbishop Paolo Rudelli, at Gemelli. Cardinal Parolin said the Nov. 6–17 South America trip will depend on what doctors say after discharge, and that the Pope may reshape parts of his pontificate later if needed; recovery is expected to take about a week in hospital.</p><p><strong>Africa.</strong> Ethiopian forces and the allied Tigray Peace Force say they have entered Aksum; the monitor ACLED reports Eritrean troops pulling back across the border at Zalambessa, which Eritrea denies. Mauritius police say the island is calm and roads are clear after the week’s unrest.</p><p><strong>Asia.</strong> A tech selloff hit Asia hardest: South Korea’s KOSPI fell almost 8% and Japan’s Nikkei nearly 5%, though Wall Street ended higher. Japan and the U.S. launched a roughly $21 billion chip-production project in New York state, and Japan’s foreign minister condemned the Houthi attacks on Saudi Arabia.</p><p><strong>Europe.</strong> The EU summit ended its first day with no budget breakthrough; Sweden’s Kristersson said a deal may not come even by year’s end. Council President Costa takes over the talks, with a new proposal in a few weeks and a special summit Nov. 26.</p><p><strong>North America.</strong> U.S. producer prices jumped the most in four and a half years in September, while retail sales beat forecasts; the 10-year Treasury yield had its biggest one-day drop in over a year, to about 5.06%. Tropical Storm Simon weakened to 50 mph off Mexico and should fade by the weekend, with no watches posted.</p><p><strong>South America.</strong> Datafolha’s runoff poll also shows a tie: Flávio Bolsonaro 51%, Lula 49% of valid votes, within the margin of error, ten days before the Oct. 25 vote.</p><p><strong>Oceania.</strong> Australia edged New Zealand 24–22 to open the Rugby League World Cup. Fiji’s cabinet endorsed a feasibility study for a roughly US$396 million ship-repair and shipbuilding yard at Lautoka, with Australian support for the next phase.</p>",
+        "sources": [
+          {
+            "name": "Vatican News: Recovery ‘progressing normally’",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-s-postoperative-recovery-progressing-normally.html"
+          },
+          {
+            "name": "ANSA: Pope back to work; Parolin on the trip",
+            "url": "https://www.ansa.it/english/newswire/english_service/2026/10/15/ansapope-recovering-well-already-back-to-work_87bd898c-ebad-429b-8d87-55b19e3a0a84.html"
+          },
+          {
+            "name": "ABC News: Pope resumes work activities",
+            "url": "https://abcnews.com/International/pope-leo-slept-recovery-continues-vatican/story?id=137278462"
+          },
+          {
+            "name": "Al Jazeera/AFP: Ethiopian forces enter Aksum",
+            "url": "https://www.aljazeera.com/news/2026/10/15/ethiopian-forces-expand-control-in-tigray-as-militia-claims-eritrean-losses"
+          },
+          {
+            "name": "Bloomberg via Moneyweb: Mauritius calm restored",
+            "url": "https://www.moneyweb.co.za/news-fast-news/mauritius-says-calm-restored-following-spasm-of-public-disorder/"
+          },
+          {
+            "name": "Reuters via Investing.com: Global stocks, Asia selloff, PPI",
+            "url": "https://www.investing.com/news/economy-news/asian-markets-sell-off-as-ai-trades-crumble-after-hot-us-cpi-data-4950348"
+          },
+          {
+            "name": "Kyodo News Digest, Oct. 15",
+            "url": "https://english.kyodonews.net/articles/-/88212"
+          },
+          {
+            "name": "Euronews: EU budget timeline in question",
+            "url": "https://www.euronews.com/2026/10/15/inconclusive-sparring-at-eu-summit-puts-budget-timeline-into-question"
+          },
+          {
+            "name": "NHC: Tropical Storm Simon advisory",
+            "url": "https://www.nhc.noaa.gov/mobile/text/refresh/MIATCPEP5%2Bhtml/101454.shtml"
+          },
+          {
+            "name": "Folha: Datafolha 51–49 runoff tie",
+            "url": "https://www1.folha.uol.com.br/poder/2026/10/datafolha-flavio-bolsonaro-tem-51-e-lula-49-dos-votos-validos-um-empate-tecnico.shtml"
+          },
+          {
+            "name": "AP: Australia edges New Zealand in RLWC opener",
+            "url": "https://apnews.com/article/rugby-league-world-cup-kangaroos-kiwis-f0d3bc4c274abc5970113b4127883761"
+          },
+          {
+            "name": "PACNEWS: Fiji Lautoka shipyard plan",
+            "url": "https://islandsbusiness.com/pacnews/pacnews-two-15-october-2026/"
+          }
+        ]
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Third-country deportations top 16,000; Kennedy vows to end measles outbreak.",
+        "body": "<p><strong>“Largest deportation operation in American history.”</strong> Promise: Trump pledged mass deportations. What was done: an Al Jazeera analysis of Homeland Security data (via the Berkeley/UCLA Deportation Data Project) counts more than 16,000 third-country deportations, people sent to countries they aren’t from, between January 2025 and August 2026; rights groups put it above 25,000. The Supreme Court allowed the practice to continue in September. Impact: deals with countries like Liberia and Cameroon trade U.S. aid for taking deportees; the UN and rights groups say it risks sending people to danger.</p><p><strong>MAHA and measles.</strong> Kennedy said Thursday he is “confident I will bring [Pennsylvania’s] outbreak to a quick close,” blaming pandemic-era missed shots. The CDC counts 4,080 U.S. cases this year, the worst since 1991; Pennsylvania has 1,222 cases and five deaths, all unvaccinated, and the CDC sent an investigator this week.</p>",
+        "sources": [
+          {
+            "name": "Al Jazeera: Third-country deportations ramp up",
+            "url": "https://www.aljazeera.com/news/2026/10/15/trump-ramps-up-third-country-us-deportations-despite-global-rights-outcry"
+          },
+          {
+            "name": "Spectrum News: Kennedy on Pennsylvania measles",
+            "url": "https://spectrumlocalnews.com/us/snplus/health-and-medicine/2026/10/15/rfk-jr--says-pennsylvania-measles-outbreak-will-come-to-quick-close"
+          }
+        ]
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "Roadster reveal at 8:55 tonight; Tesla and SpaceX shares slip.",
+        "body": "<p><strong>Tesla.</strong> Shares closed down about 1.3% at $362.44 ahead of tonight’s Roadster reveal at 8:55 p.m. ET from SpaceX’s McGregor, Texas, site (livestream on Tesla’s X account). Executives are expected to give pricing, specs, and production targets, the details still missing nine years after the first deposits.</p><p><strong>SpaceX.</strong> The stock fell as much as 6.5% in morning trading over the Starlink/Starshield speed-limit controversy in Ukraine and merger speculation, then closed down about 2.3% at $148.61.</p>",
+        "sources": [
+          {
+            "name": "CNBC: What to know about the Roadster reveal",
+            "url": "https://www.cnbc.com/2026/10/15/tesla-roadster-reveal-what-to-know-about-the-delayed-ev.html"
+          },
+          {
+            "name": "Exa market data: TSLA Oct. 15 close",
+            "url": "https://exa.ai/library/markets/stock/TSLA?date=2026-10-15&view=daily&measure=change"
+          },
+          {
+            "name": "Investing.com: Why SpaceX stock dropped",
+            "url": "https://www.investing.com/news/stock-market-news/why-is-space-exploration-technologies-stock-dropping-today-93CH-4952111"
+          },
+          {
+            "name": "Reuters via Investing.com: SPCX close",
+            "url": "https://www.investing.com/news/economy-news/asian-markets-sell-off-as-ai-trades-crumble-after-hot-us-cpi-data-4950348"
+          }
+        ]
+      },
+      {
+        "id": "space",
+        "title": "Space industry",
+        "headline": "China grows Guowang megaconstellation; USSF-481 go for tonight.",
+        "body": "<p>China’s Long March 12 and Landspace’s commercial Zhuque-2E flew this week, adding satellites to the Guowang broadband constellation and testing orbital computing and laser links. Falcon 9 was “go” with good weather for the classified USSF-481 mission from Vandenberg, with liftoff targeted for 8:01 p.m. ET as this went out.</p>",
+        "sources": [
+          {
+            "name": "SpaceNews: Chinese launches boost Guowang",
+            "url": "https://spacenews.com/chinese-launches-boost-guowang-constellation-add-space-computing-sats/"
+          },
+          {
+            "name": "Spaceflight Now: Launch schedule",
+            "url": "https://spaceflightnow.com/launch-schedule/"
+          },
+          {
+            "name": "SpaceX on X: USSF-481 webcast",
+            "url": "https://x.com/SpaceX/status/2110880637418954999"
+          }
+        ]
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Dragon docked early with final solar arrays and science.",
+        "body": "<p>Cargo Dragon CRS-35 docked at 10:27 a.m. ET, a half hour early, with more than 6,300 pounds of supplies, the station’s last pair of roll-out solar arrays, and experiments including artificial-retina manufacturing and brain organoids for Alzheimer’s and Parkinson’s research. It stays until mid-November.</p>",
+        "sources": [
+          {
+            "name": "NASA: Dragon docks with science and solar arrays",
+            "url": "https://www.nasa.gov/blogs/spacestation/2026/10/15/spacex-dragon-docks-with-science-supplies-and-roll-out-solar-arrays/"
+          }
+        ]
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Wenski asks Miami to pray for the Pope; no new appointments.",
+        "body": "<p><strong>Miami.</strong> Archbishop Wenski invited the faithful of the archdiocese “to unite in prayer for Pope Leo, and for all those who struggle with life-threatening illnesses.” He met the Pope on Oct. 5 and told him Miami prays for him daily. No new clergy assignments posted.</p><p><strong>Rome.</strong> The Pope is back at work from Gemelli (see World). <strong>Appointments.</strong> No new bishop or priest moves since this morning’s Bollettino (Haimen, Ponta de Pedras, the Romanian Greek-Catholic union). <strong>Africa.</strong> Aksum, the ancient Christian city in Tigray, is now held by Ethiopian forces (see World). Other regions are quiet since morning.</p>",
+        "sources": [
+          {
+            "name": "Miami Herald: Wenski prays for Pope Leo",
+            "url": "https://www.miamiherald.com/news/local/community/miami-dade/article317620679.html"
+          },
+          {
+            "name": "Holy See: Resignations and Appointments, Oct. 15",
+            "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/15/261015a.html"
+          }
+        ]
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Quiet: Countdown still Oct. 3; Oct. 25 message next.",
+        "body": "<p>Quiet since morning. Countdown to the Kingdom was rechecked tonight and has nothing newer than Oct. 3. Our Lady’s Sept. 25 Medjugorje message (“May this time be a time of prayer for peace”) is still the latest; the Oct. 25 message is next. Friday’s Acutis Eucharistic-miracles evening at St. Mark is still on.</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          },
+          {
+            "name": "Medjugorje.org: Monthly messages",
+            "url": "https://www.medjugorje.org/olmmsg.htm"
+          }
+        ]
+      },
+      {
+        "id": "miami",
+        "title": "Miami life",
+        "headline": "Quiet: weekend plans from this morning still stand.",
+        "body": "<p>Quiet since morning. The weekend lineup holds: Friday’s Acutis exhibit and Food Trucks Friday, Saturday’s Entrelibros family day and pumpkin patches, and the Gettys on Sunday.</p>",
+        "sources": [
+          {
+            "name": "Coral Gables Museum: Entrelibros 2026",
+            "url": "https://coralgablesmuseum.org/entrelibros-2026/"
+          },
+          {
+            "name": "Coral Ridge: Keith & Kristyn Getty",
+            "url": "https://crpc.org/calendar/an-evening-with-keith-kristyn-getty/"
+          }
+        ]
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Luke Skywalker meets Spider-Man; Heat close preseason Friday.",
+        "body": "<p>Marvel showed new pages and an Alex Ross cover of Luke Skywalker and Spider-Man fighting side by side in <em>Star Wars/Marvel: Hope Assembles</em>, Kevin Smith’s six-issue crossover for the 50th anniversary of <em>A New Hope</em>. Issue #1 arrives Jan. 13, 2027. The Heat wrap the preseason Friday at Orlando, then open the season Oct. 21 against Minnesota.</p>",
+        "sources": [
+          {
+            "name": "CBR: Luke Skywalker and Spider-Man meet",
+            "url": "https://www.cbr.com/luke-skywalker-spider-man-marvel-star-wars-hope-assembles/"
+          },
+          {
+            "name": "CBS Sports: Heat schedule",
+            "url": "https://www.cbssports.com/nba/teams/MIA/miami-heat/"
+          }
+        ]
+      }
+    ],
+    "audio": "audio/2026-10-15-evening.mp3"
+  },
+  {
     "id": "2026-10-15-morning",
     "date": "2026-10-15",
     "slot": "morning",

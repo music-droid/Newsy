@@ -4,6 +4,7 @@
   "slot": "evening",
   "label": "Wednesday evening",
   "generatedAt": "2026-10-14T19:55:00-04:00",
+  "audio": "audio/2026-10-14-evening.mp3",
   "beats": [
     {
       "id": "world",
