@@ -1,45 +1,45 @@
 {
-  "id": "2026-10-15-evening",
-  "label": "Thursday evening",
-  "generatedAt": "2026-10-15T19:55:00-04:00",
+  "id": "2026-10-16-morning",
+  "label": "Friday morning",
+  "generatedAt": "2026-10-16T07:55:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Pope back at work; EU budget stalls; Brazil tied."
+      "headline": "Vatican City: Angelus from Gemelli weighed; Indonesia stocks plunge; Trudy nears Mexico."
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Third-country deportations top 16,000; Kennedy vows to end measles outbreak."
+      "headline": "Tips and overtime tax cuts reach millions; Kennedy’s peptide pledge advances."
     },
     {
       "title": "Musk world",
-      "headline": "Roadster reveal at 8:55 tonight; Tesla and SpaceX shares slip."
+      "headline": "Roadster flies, no price, 2028 production; Tesla up nearly 5% premarket."
     },
     {
       "title": "Space industry",
-      "headline": "China grows Guowang megaconstellation; USSF-481 go for tonight."
+      "headline": "USSF-481 flies; Blue Origin plans for 100-plus Florida launches yearly."
     },
     {
       "title": "NASA",
-      "headline": "Dragon docked early with final solar arrays and science."
+      "headline": "NASA instruments ride Japan’s Mars-moon sample mission Monday."
     },
     {
       "title": "Catholic",
-      "headline": "Wenski asks Miami to pray for the Pope; no new appointments."
+      "headline": "Madrid gets two auxiliaries; Wenski on executions; Latin America prays for Leo."
     },
     {
       "title": "Signs of the times",
-      "headline": "Quiet: Countdown still Oct. 3; Oct. 25 message next."
+      "headline": "Countdown still Oct. 3; PNG Fatima shrine; 550 baptized at Bridlington."
     },
     {
       "title": "Miami life",
-      "headline": "Quiet: weekend plans from this morning still stand."
+      "headline": "Acutis tonight; pumpkin patches, Halloween fun, ballet; Gettys Sunday."
     },
     {
       "title": "Pick-me-up",
-      "headline": "Luke Skywalker meets Spider-Man; Heat close preseason Friday."
+      "headline": "Heat close preseason at Orlando tonight; young Anakin thanks fans."
     }
   ],
-  "audio": "audio/2026-10-15-evening.mp3"
+  "audio": "audio/2026-10-16-morning.mp3"
 }
