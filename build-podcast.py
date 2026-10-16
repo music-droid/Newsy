@@ -131,11 +131,36 @@ def with_period(s: str) -> str:
     return s if re.search(r"[.!?…][\"'”’)]*$", s) else s + "."
 
 
+NEW_HOUR_VOICE = ANCHOR_VOICE
+
+
+def beat_spoken(beat: dict) -> str:
+    """Stories schema (v2) or legacy body -> speakable text. Story headlines are read
+    as lead-ins, then the full body (repeated/expanded content is read, never skipped)."""
+    stories = beat.get("stories") or []
+    if not stories:
+        return sanitize_for_tts(beat.get("body") or "")
+    parts = []
+    for st in stories:
+        head = sanitize_for_tts(st.get("headline") or "")
+        body = sanitize_for_tts(st.get("body") or "")
+        parts.append(" ".join(x for x in (with_period(head) if head else "", with_period(body) if body else "") if x))
+    return " ".join(p for p in parts if p)
+
+
 def build_segments(briefing: dict) -> list[tuple[str, str]]:
-    """Return [(voice, text)] — opener, one per beat, sign-off."""
+    """Return [(voice, text)] — opener, [evening: New at this hour], one per beat, sign-off."""
     segs: list[tuple[str, str]] = [(ANCHOR_VOICE, OPENER_TEXT)]
+    fresh = briefing.get("newAtThisHour") or []
+    if fresh:
+        lines = []
+        for n in fresh:
+            head = sanitize_for_tts(n.get("headline") or "")
+            body = sanitize_for_tts(n.get("body") or "")
+            lines.append(" ".join(x for x in (with_period(head) if head else "", with_period(body) if body else "") if x))
+        segs.append((NEW_HOUR_VOICE, "New at this hour. " + " ".join(l for l in lines if l)))
     for beat in briefing.get("beats") or []:
-        plain = sanitize_for_tts(beat.get("body") or "")
+        plain = beat_spoken(beat)
         if not plain or is_quiet_only(plain):
             continue
         title = sanitize_for_tts(beat.get("title") or beat.get("id") or "Next").rstrip(".")
@@ -144,6 +169,8 @@ def build_segments(briefing: dict) -> list[tuple[str, str]]:
     for voice, text in segs:
         assert "<" not in text and ">" not in text, f"markup left in TTS text: {text[:120]}"
         assert not re.search(r"(?i)break\s*time|\d+\s*ms\b", text), f"break artifact: {text[:120]}"
+        assert not re.search(r"(?i)nothing (new )?to report|no new (news|reports?)", text), \
+            f"'nothing to report' phrasing — repeat or develop the story instead: {text[:120]}"
     return segs
 
 

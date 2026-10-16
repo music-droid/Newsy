@@ -91,3 +91,13 @@ python3 build-newsy.py
 
 `build-podcast.py` reads the briefing, strips HTML to spoken prose, synthesizes with edge-tts (`en-US-AndrewNeural`), then mixes a soft sine-pad + filtered pink-noise bed about **−28 dB** under the voice (ffmpeg), with fade in/out. Output: `audio/{id}.mp3`. The site header shows a Listen control when `audio` is set on that briefing.
 
+
+## v2 schema (Oct 16, 2026)
+
+Each beat: `{id, title, headline, image?, stories:[{headline, body, sources, why?, image?}], sources?, carried?}`.
+Legacy beats with only `body` still render. Evening bulletins add top-level
+`newAtThisHour: [{beat, headline, body, sources}]`; beats with no new news repeat the
+morning's stories with `"carried": true` (shown as "Continuing from this morning"). Optional `topLine`.
+
+Per-run pipeline: write briefing → `python3 fetch-images.py` → `.venv/bin/python build-podcast.py`
+→ `python3 prune.py` (keeps newest 7; prints DELETED paths to `git rm`) → `python3 build-latest.py` → `python3 build-newsy.py`.

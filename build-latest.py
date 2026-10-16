@@ -26,10 +26,13 @@ def main() -> None:
             {
                 "title": beat["title"],
                 "headline": beat.get("headline", ""),
+                **({"image": SITE_URL + beat["image"]["src"]} if (beat.get("image") or {}).get("src") else {}),
             }
             for beat in newest.get("beats", [])
         ],
     }
+    if newest.get("newAtThisHour"):
+        out["newAtThisHour"] = [n.get("headline", "") for n in newest["newAtThisHour"]]
     if newest.get("audio"):
         out["audio"] = newest["audio"]
     LATEST.write_text(

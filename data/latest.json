@@ -6,39 +6,48 @@
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Angelus from Gemelli weighed; Indonesia stocks plunge; Trudy nears Mexico."
+      "headline": "Vatican City: Angelus from Gemelli weighed; Indonesia stocks plunge; Trudy nears Mexico.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Tips and overtime tax cuts reach millions; Kennedy’s peptide pledge advances."
+      "headline": "Tips and overtime tax cuts reach millions; Kennedy’s peptide pledge advances.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Roadster flies, no price, 2028 production; Tesla up nearly 5% premarket."
+      "headline": "Roadster flies, no price, 2028 production; Tesla up nearly 5% premarket.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-musk.jpg"
     },
     {
       "title": "Space industry",
-      "headline": "USSF-481 flies; Blue Origin plans for 100-plus Florida launches yearly."
+      "headline": "USSF-481 flies; Blue Origin plans for 100-plus Florida launches yearly.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "NASA instruments ride Japan’s Mars-moon sample mission Monday."
+      "headline": "NASA instruments ride Japan’s Mars-moon sample mission Monday.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Madrid gets two auxiliaries; Wenski on executions; Latin America prays for Leo."
+      "headline": "Madrid gets two auxiliaries; Wenski on executions; Latin America prays for Leo.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 3; PNG Fatima shrine; 550 baptized at Bridlington."
+      "headline": "Countdown still Oct. 3; PNG Fatima shrine; 550 baptized at Bridlington.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-signs.jpg"
     },
     {
       "title": "Miami life",
-      "headline": "Acutis tonight; pumpkin patches, Halloween fun, ballet; Gettys Sunday."
+      "headline": "Acutis tonight; pumpkin patches, Halloween fun, ballet; Gettys Sunday.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat close preseason at Orlando tonight; young Anakin thanks fans."
+      "headline": "Heat close preseason at Orlando tonight; young Anakin thanks fans.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-pick-me-up.jpg"
     }
   ],
   "audio": "audio/2026-10-16-morning.mp3"

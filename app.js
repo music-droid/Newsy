@@ -135,6 +135,46 @@
     els.podcast.hidden = false;
   }
 
+  function storyHtml(st, open) {
+    const why = st.why ? '<p class="why"><span>Why it matters</span> ' + escapeHtml(st.why) + "</p>" : "";
+    const img = st.image && st.image.src
+      ? '<img class="story-img" loading="lazy" src="' + escapeAttr(st.image.src) + '" alt="' + escapeAttr(st.image.alt || "") + '" onerror="this.remove()">'
+      : "";
+    return (
+      '<li class="story"><details' + (open ? " open" : "") + ">" +
+      '<summary><span class="story-head">' + escapeHtml(st.headline || "") + "</span></summary>" +
+      '<div class="story-body">' + img + why + bodyHtml(st.body || "") + renderSources(st.sources) + "</div>" +
+      "</details></li>"
+    );
+  }
+
+  function storiesOf(beat) {
+    if (Array.isArray(beat.stories) && beat.stories.length) return beat.stories;
+    if (beat.body) return [{ headline: beat.headline || beat.title || "", body: beat.body, sources: beat.sources }];
+    return [];
+  }
+
+  function beatImageHtml(beat) {
+    const im = beat.image;
+    if (!im || !im.src) return "";
+    const credit = im.credit
+      ? '<figcaption>' + (im.sourceUrl
+          ? '<a href="' + escapeAttr(im.sourceUrl) + '" rel="noopener noreferrer" target="_blank">' + escapeHtml(im.credit) + "</a>"
+          : escapeHtml(im.credit)) + "</figcaption>"
+      : "";
+    return '<figure class="beat-figure"><img loading="lazy" src="' + escapeAttr(im.src) + '" alt="' + escapeAttr(im.alt || "") +
+      '" onerror="this.closest(\'figure\').remove()">' + credit + "</figure>";
+  }
+
+  function wordCount(b) {
+    let txt = "";
+    (b.newAtThisHour || []).forEach(function (n) { txt += " " + (n.headline || "") + " " + (n.body || ""); });
+    (b.beats || []).forEach(function (beat) {
+      storiesOf(beat).forEach(function (st) { txt += " " + (st.headline || "") + " " + (st.body || ""); });
+    });
+    return txt.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+  }
+
   function renderBriefing(b) {
     if (!b) {
       els.title.textContent = "No briefing";
@@ -149,34 +189,62 @@
     els.status.hidden = true;
     els.title.textContent = b.label || b.id;
     const when = formatGeneratedAt(b.generatedAt);
-    els.meta.textContent = when ? "Prepared " + when : "";
+    const mins = Math.max(1, Math.round(wordCount(b) / 230));
+    els.meta.textContent = (when ? "Prepared " + when + " · " : "") + mins + " min read";
     setPodcast(b);
 
     document.title = (b.label || "Briefing") + " · Newsy";
 
     const beats = b.beats || [];
-    els.beats.innerHTML = beats
-      .map(function (beat) {
-        return (
-          '<article class="beat" id="beat-' +
-          escapeAttr(beat.id || "") +
-          '">' +
-          "<h2 class=\"beat-title\">" +
-          escapeHtml(beat.title || "") +
-          "</h2>" +
-          '<div class="beat-body">' +
-          bodyHtml(beat.body || "") +
-          "</div>" +
-          renderSources(beat.sources) +
-          "</article>"
-        );
-      })
-      .join("");
+    let html = "";
 
-    // Keep the picker in sync
+    if (b.topLine) {
+      html += '<p class="top-line">' + escapeHtml(b.topLine) + "</p>";
+    }
+
+    // At a glance: one tappable line per beat (NYT/Axios-style index)
+    html += '<nav class="glance" aria-label="At a glance"><p class="glance-label">At a glance</p><ol>' +
+      beats.map(function (beat) {
+        return '<li><a href="#beat-' + escapeAttr(beat.id || "") + '" data-jump="beat-' + escapeAttr(beat.id || "") + '"><span class="glance-beat">' +
+          escapeHtml(beat.title || "") + "</span> " + escapeHtml(beat.headline || "") + "</a></li>";
+      }).join("") + "</ol></nav>";
+
+    const fresh = b.newAtThisHour || [];
+    if (fresh.length) {
+      html += '<section class="beat new-hour" id="beat-new"><h2 class="beat-title">New at this hour</h2><ul class="stories">' +
+        fresh.map(function (n, i) {
+          const tag = n.beat ? '<span class="tag">' + escapeHtml(n.beat) + "</span> " : "";
+          return storyHtml({ headline: "", body: n.body, sources: n.sources, why: n.why, image: n.image }, i === 0)
+            .replace('<span class="story-head"></span>', '<span class="story-head">' + tag + escapeHtml(n.headline || "") + "</span>");
+        }).join("") + "</ul></section>";
+    }
+
+    html += beats.map(function (beat) {
+      const stories = storiesOf(beat);
+      const carried = beat.carried ? '<p class="carried">' + escapeHtml(beat.carried === true ? "Continuing from this morning" : beat.carried) + "</p>" : "";
+      return (
+        '<article class="beat" id="beat-' + escapeAttr(beat.id || "") + '">' +
+        '<h2 class="beat-title">' + escapeHtml(beat.title || "") + "</h2>" +
+        beatImageHtml(beat) + carried +
+        '<ul class="stories">' + stories.map(function (st) { return storyHtml(st, false); }).join("") + "</ul>" +
+        (beat.stories && beat.stories.length ? renderSources(beat.sources) : "") +
+        "</article>"
+      );
+    }).join("");
+
+    els.beats.innerHTML = html;
+
+    // in-page jumps without clobbering the briefing hash
+    els.beats.querySelectorAll("[data-jump]").forEach(function (a) {
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        const t = document.getElementById(a.getAttribute("data-jump"));
+        if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+    });
+
     if (els.select && els.select.value !== b.id) els.select.value = b.id;
 
-    // Reflect selection in the URL hash without scrolling noise
     if (history.replaceState) {
       history.replaceState(null, "", "#" + encodeURIComponent(b.id));
     } else {
