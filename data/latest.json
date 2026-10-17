@@ -1,54 +1,64 @@
 {
-  "id": "2026-10-16-morning",
-  "label": "Friday morning",
-  "generatedAt": "2026-10-16T07:55:00-04:00",
+  "id": "2026-10-16-evening",
+  "label": "Friday evening",
+  "generatedAt": "2026-10-16T20:14:24-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Vatican City: Angelus from Gemelli weighed; Indonesia stocks plunge; Trudy nears Mexico.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-world.jpg"
+      "headline": "Pope says Mass at Gemelli; Kabila leads Congo rebels; Tigray shake-up.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Tips and overtime tax cuts reach millions; Kennedy’s peptide pledge advances.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-promises.jpg"
+      "headline": "Vance’s fraud pledge spreads; peptide plan’s fine print; tax relief recap.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Roadster flies, no price, 2028 production; Tesla up nearly 5% premarket.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-musk.jpg"
+      "headline": "Tesla fades 2% after Roadster pop; Starshield order traced to White House.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-musk.jpg"
     },
     {
       "title": "Space industry",
-      "headline": "USSF-481 flies; Blue Origin plans for 100-plus Florida launches yearly.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-space.jpg"
+      "headline": "SpaceX seeks up to 456 Starship launches yearly from Texas.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "NASA instruments ride Japan’s Mars-moon sample mission Monday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-nasa.jpg"
+      "headline": "Shuttle veteran Stephen Cash to lead Marshall; station science starts.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Madrid gets two auxiliaries; Wenski on executions; Latin America prays for Leo.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-catholic.jpg"
+      "headline": "Miami ABCD nears goal; China bishop consecrated; Madrid auxiliaries profiled.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 3; PNG Fatima shrine; 550 baptized at Bridlington.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-signs.jpg"
+      "headline": "Countdown posts Oct. 16 messages; Guatemala Host studied; App State revival.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-signs.jpg"
     },
     {
       "title": "Miami life",
-      "headline": "Acutis tonight; pumpkin patches, Halloween fun, ballet; Gettys Sunday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-miami.jpg"
+      "headline": "Fall festivals Saturday; Hallelujah Night; Gettys Sunday; free family afternoons.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat close preseason at Orlando tonight; young Anakin thanks fans.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-morning-pick-me-up.jpg"
+      "headline": "Heat wrap preseason in Orlando; a VHS-style Star Wars saga set.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-16-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-16-morning.mp3"
+  "newAtThisHour": [
+    "Pope celebrates Mass at Gemelli; first photos released",
+    "Kabila takes command of Congo’s rebel alliance",
+    "Ethiopia names Tigray caretaker government; elections promised",
+    "UN: Ukraine’s September civilian toll up 85%",
+    "Tesla closes down 2.1% after its Roadster pop fades",
+    "SpaceX seeks up to 456 Starship launches a year",
+    "Stephen Cash named Marshall Space Flight Center director",
+    "Countdown to the Kingdom posts new messages dated Oct. 16"
+  ],
+  "audio": "audio/2026-10-16-evening.mp3"
 }
