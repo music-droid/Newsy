@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
-"""Generate a spoken MP3 for a Newsy briefing via edge-tts, with a soft ambient bed.
+"""Generate a spoken MP3 for a Newsy briefing (edge-tts by default, or Kokoro), with theme
+music only at the edges: theme under the opener + preview (fades out before section one), a fixed
+1.8 s chime sting between sections, dry voice over silence for every story, and the theme back
+for the last ~11 s under "Viva Cristo Rey." with the outro swell and fade.
 
 Structure of each episode (podcast only; the website layout is independent):
   [intro swell] -> anchor: "Welcome back to Newsy." -> anchor: "Here's what's ahead: ..."
@@ -20,6 +23,18 @@ Usage:
   build-podcast.py <briefing-id>   # one briefing
   build-podcast.py --all           # every briefing that already has an audio field
   build-podcast.py --show [<id>]   # print the exact TTS text per clip, no audio
+
+Engine switch (default edge; the routine is unchanged unless --engine kokoro is passed):
+  .venv-kokoro/bin/python build-podcast.py --engine kokoro [<id>]
+Kokoro-82M (Apache-2.0, local CPU, no network after the first model download) uses
+KOKORO_* voices below and pronunciations-kokoro.json (misaki phoneme hints sent inline
+as [Word](/phonemes/), which Kokoro does not read aloud). Same script, normalization,
+pauses, levels, bed and swells.
+Trial-only flags (never touch audio/ or briefings.json):
+  --sample-seconds N   render only the clips needed to fill the first N seconds, cut to N s
+  --out PATH           write the MP3 to PATH instead of audio/{id}.mp3
+  --sample-close       with --sample-seconds N: the last N seconds (final story -> outro)
+  Open samples play opener, preview, section one's first story, a sting, then section two.
 """
 from __future__ import annotations
 
@@ -76,6 +91,37 @@ def prosody_for(voice: str) -> dict[str, str]:
     return {**DEFAULT_PROSODY, **VOICE_PROSODY.get(voice, {})}
 
 
+# --- Engine selection -----------------------------------------------------------
+ENGINE = "edge"  # set by --engine; "edge" (edge-tts, default) or "kokoro" (Kokoro-82M, local)
+
+# Kokoro voices (https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md). a* = American
+# (lang 'a'), b* = British (lang 'b'). Best-graded voices go to the longest beats.
+KOKORO_ANCHOR_VOICE = "am_michael"      # warm US male, C+; bookends + preview
+KOKORO_DEFAULT_BEAT_VOICE = "am_puck"
+KOKORO_FALLBACK_VOICE = "am_michael"
+KOKORO_BEAT_VOICES: dict[str, str] = {
+    "maga": "am_fenrir",
+    "maha": "am_fenrir",
+    "promise": "am_fenrir",
+    "musk": "am_puck",
+    "nasa": "af_kore",        # checked before "space"
+    "space": "bm_george",
+    "catholic": "af_bella",   # A-
+    "signs": "bf_emma",       # B-
+    "miami": "af_sarah",
+    "pick": "bm_fable",
+    "world": "af_heart",      # A; World is ~40% of an episode
+}
+KOKORO_DEFAULT_SPEED = 0.97             # a hair under 1.0 reads less rushed
+KOKORO_SPEED: dict[str, float] = {"am_michael": 1.0, "af_bella": 0.95, "bf_emma": 0.96}
+KOKORO_CHUNK_CHARS = 280                # keep chunks in Kokoro's 100-200 token sweet spot
+KOKORO_CHUNK_GAP_S = 0.12               # silence between chunks inside one clip
+
+
+def anchor_voice() -> str:
+    return KOKORO_ANCHOR_VOICE if ENGINE == "kokoro" else ANCHOR_VOICE
+
+
 # Exact spoken bookends (anchor voice).
 OPENER_TEXT = "Welcome back to Newsy."
 PREVIEW_PREFIX = "Here's what's ahead:"
@@ -88,14 +134,26 @@ TITLE_PAUSE_S = 0.6            # after the section name, before its first story
 OPENER_PAUSE_S = 0.45          # between "Welcome back to Newsy." and the preview
 SECTION_PAUSE_S = 1.6          # silence between sections (longer than story pause)
 LEVEL_TARGET_DB = -20.0        # per-clip mean loudness, so voice changes don't jump
-AMBIENT_REL_DB = -28.0         # bed under the voice
-SWELL_REL_DB = -15.0           # intro/outro swell level (same scale)
-INTRO_HOLD_S = 5.5             # ambient alone at swell level
+# Music (Oct 17, 2026): theme only at the edges, stories are dry voice over silence.
+#   intro swell -> theme ~18 dB under the opener + preview -> 2 s fade before the first section
+#   between sections: one fixed 1.8 s chime sting (no bed)
+#   theme returns ~1.5 s before "Viva Cristo Rey." -> outro swell -> fade (~11 s total)
+# The theme generator's raw mean is about -15 dB, so these gains land the bed near -38 dB mean
+# (18 dB under the -20 dB voice) and the swells near -28 dB.
+AMBIENT_REL_DB = -23.0         # theme under opener/preview/closer (~18 dB below voice)
+SWELL_REL_DB = -13.0           # intro/outro swell level (same scale)
+INTRO_HOLD_S = 5.5             # theme alone at swell level
 RAMP_S = 2.0                   # swell <-> bed ramps
 VOICE_START_S = INTRO_HOLD_S + 1.5   # voice enters as the ramp down finishes
+INTRO_FADE_S = 2.0             # theme fades to silence after the preview
+PREVIEW_PAUSE_S = 2.3          # silence after the preview (covers the fade) before section one
+OUTRO_LEAD_S = 1.5             # theme fades back in this long before the closer starts
 OUTRO_GAP_S = 0.6              # after last word, before the ramp up
-OUTRO_HOLD_S = 4.5
+OUTRO_HOLD_S = 3.0
 OUTRO_FADE_S = 3.0
+STING_S = 1.8                  # between-section sting length
+STING_GAP_S = 0.6              # silence on each side of the sting
+STING_DB = -27.0               # sting mean level (voice is -20)
 SAMPLE_RATE = 44100
 
 
@@ -243,20 +301,31 @@ def normalize_for_speech(text: str) -> str:
 
 
 PRONUNCIATIONS_FILE = ROOT / "pronunciations.json"
+KOKORO_PRONUNCIATIONS_FILE = ROOT / "pronunciations-kokoro.json"
 _PRON_RE: re.Pattern | None = None
 _PRON_MAP: dict[str, str] = {}
+
+
+def _kokoro_pron(word: str, value: str) -> str:
+    """'/phonemes/' -> Kokoro inline hint '[word](/phonemes/)'; anything else is plain text."""
+    if len(value) > 2 and value.startswith("/") and value.endswith("/"):
+        return f"[{word}]({value})"
+    return value
 
 
 def apply_pronunciations(text: str) -> str:
     global _PRON_RE, _PRON_MAP
     if _PRON_RE is None:
         raw = {}
-        if PRONUNCIATIONS_FILE.exists():
-            raw = json.loads(PRONUNCIATIONS_FILE.read_text(encoding="utf-8"))
+        src = KOKORO_PRONUNCIATIONS_FILE if ENGINE == "kokoro" else PRONUNCIATIONS_FILE
+        if src.exists():
+            raw = json.loads(src.read_text(encoding="utf-8"))
         _PRON_MAP = {k.lower(): v for k, v in raw.items() if not k.startswith("_") and v}
         keys = sorted(_PRON_MAP, key=len, reverse=True)
         _PRON_RE = re.compile(r"(?<![\w-])(" + "|".join(re.escape(k) for k in keys) + r")(?![\w-])",
                               re.IGNORECASE) if keys else re.compile(r"(?!x)x")
+    if ENGINE == "kokoro":
+        return _PRON_RE.sub(lambda m: _kokoro_pron(m.group(1), _PRON_MAP[m.group(1).lower()]), text)
     return _PRON_RE.sub(lambda m: _PRON_MAP[m.group(1).lower()], text)
 
 
@@ -273,10 +342,12 @@ def is_quiet_only(plain: str) -> bool:
 
 def voice_for_beat(title: str) -> str:
     t = (title or "").lower()
-    for key, voice in BEAT_VOICES.items():
+    table, default = ((KOKORO_BEAT_VOICES, KOKORO_DEFAULT_BEAT_VOICE) if ENGINE == "kokoro"
+                      else (BEAT_VOICES, DEFAULT_BEAT_VOICE))
+    for key, voice in table.items():
         if key in t:
             return voice
-    return DEFAULT_BEAT_VOICE
+    return default
 
 
 def with_period(s: str) -> str:
@@ -382,13 +453,13 @@ def build_preview(briefing: dict) -> str:
 def build_segments(briefing: dict) -> list[dict]:
     """Return clips [{voice, text, pause, kind}] in play order. 'pause' is the silence
     after the clip. Headlines are never spoken."""
-    segs: list[dict] = [{"voice": ANCHOR_VOICE, "text": OPENER_TEXT, "pause": OPENER_PAUSE_S, "kind": "opener"}]
+    segs: list[dict] = [{"voice": anchor_voice(), "text": OPENER_TEXT, "pause": OPENER_PAUSE_S, "kind": "opener"}]
     preview = build_preview(briefing)
     if preview:
-        segs.append({"voice": ANCHOR_VOICE, "text": apply_pronunciations(normalize_for_speech(preview)),
-                     "pause": SECTION_PAUSE_S, "kind": "preview"})
+        segs.append({"voice": anchor_voice(), "text": apply_pronunciations(normalize_for_speech(preview)),
+                     "pause": PREVIEW_PAUSE_S, "kind": "preview"})
     else:
-        segs[-1]["pause"] = SECTION_PAUSE_S
+        segs[-1]["pause"] = PREVIEW_PAUSE_S
     beats = briefing.get("beats") or []
     fresh_by_beat: dict[int, list[dict]] = {}
     for item in briefing.get("newAtThisHour") or []:
@@ -410,7 +481,7 @@ def build_segments(briefing: dict) -> list[dict]:
             last = i == len(bodies) - 1
             segs.append({"voice": voice, "text": body, "kind": "story",
                          "pause": SECTION_PAUSE_S if last else STORY_PAUSE_S})
-    segs.append({"voice": ANCHOR_VOICE, "text": CLOSER_TEXT, "pause": 0.0, "kind": "closer"})
+    segs.append({"voice": anchor_voice(), "text": CLOSER_TEXT, "pause": 0.0, "kind": "closer"})
     for s in segs:
         text = s["text"]
         assert "<" not in text and ">" not in text, f"markup left in TTS text: {text[:120]}"
@@ -452,6 +523,90 @@ async def synth_all(segs: list[dict], tmp: Path) -> list[Path]:
     return paths
 
 
+# --- Kokoro (local) ---------------------------------------------------------------
+_KOKORO_PIPES: dict[str, object] = {}
+
+
+def _kokoro_pipe(lang: str):
+    if lang not in _KOKORO_PIPES:
+        from kokoro import KPipeline  # .venv-kokoro only
+        shared = next(iter(_KOKORO_PIPES.values()), None)
+        _KOKORO_PIPES[lang] = KPipeline(lang_code=lang, repo_id="hexgrad/Kokoro-82M",
+                                        model=getattr(shared, "model", True))
+    return _KOKORO_PIPES[lang]
+
+
+def _kokoro_chunks(text: str) -> list[str]:
+    """Sentence-group a clip to <= KOKORO_CHUNK_CHARS (long inputs make Kokoro rush).
+    Never splits inside a [word](/phonemes/) hint."""
+    marked = re.sub(r"([.!?…][”’\"')]?)\s+(?=[\[“\"‘'(]?[A-Z0-9])", "\\1\x00", text.strip())
+    sents: list[str] = []
+    for piece in marked.split("\x00"):
+        # don't break after initialisms/abbreviations: "3:30 p.m. Rome", "U.S. Navy", "J. Smith"
+        if sents and re.search(r"(?:^|[\s(])(?:[A-Za-z]\.){1,3}$", sents[-1]):
+            sents[-1] += " " + piece
+        else:
+            sents.append(piece)
+    chunks: list[str] = []
+    for snt in sents:
+        if chunks and len(chunks[-1]) + 1 + len(snt) <= KOKORO_CHUNK_CHARS:
+            chunks[-1] += " " + snt
+        else:
+            chunks.append(snt)
+    return [c for c in chunks if c.strip()]
+
+
+def kokoro_text(text: str) -> str:
+    """Kokoro-only touch-ups: misaki keeps ':' in clock times as a pause ("three : thirty")."""
+    t = re.sub(r"\b(\d{1,2}):00\b", r"\1", text)                 # 7:00 p.m. -> 7 p.m.
+    t = re.sub(r"\b(\d{1,2}):0(\d)\b", r"\1 oh \2", t)             # 9:05 -> 9 oh 5
+    return re.sub(r"\b(\d{1,2}):([1-5]\d)\b", r"\1 \2", t)          # 3:30 -> 3 30
+
+
+def synth_kokoro(text: str, voice: str, out_path: Path) -> str:
+    import numpy as np
+    import soundfile as sf
+
+    text = kokoro_text(text)
+
+    last: Exception | None = None
+    for v in (voice, KOKORO_FALLBACK_VOICE):
+        try:
+            pipe = _kokoro_pipe("b" if v.startswith("b") else "a")
+            speed = KOKORO_SPEED.get(v, KOKORO_DEFAULT_SPEED)
+            gap = np.zeros(int(24000 * KOKORO_CHUNK_GAP_S), dtype=np.float32)
+            parts: list = []
+            for chunk in _kokoro_chunks(text):
+                for _gs, _ps, audio in pipe(chunk, voice=v, speed=speed, split_pattern=None):
+                    if audio is not None:
+                        parts += [np.asarray(audio, dtype=np.float32), gap]
+            if not parts:
+                raise RuntimeError("empty Kokoro output")
+            sf.write(str(out_path), np.concatenate(parts[:-1]), 24000)
+            return v
+        except Exception as err:
+            last = err
+            print(f"  Kokoro {v} failed: {err}")
+    raise SystemExit(f"Kokoro TTS failed for segment: {last}")
+
+
+def synth_all_kokoro(segs: list[dict], tmp: Path, limit_s: float | None = None) -> list[Path]:
+    """Sequential (torch already uses every core). With limit_s, stop once the clips plus
+    pauses cover limit_s of voice; returns only the rendered clips."""
+    paths: list[Path] = []
+    covered = 0.0
+    for i, seg in enumerate(segs):
+        path = tmp / f"seg{i:03d}.flac"
+        used = synth_kokoro(seg["text"], seg["voice"], path)
+        paths.append(path)
+        print(f"  seg{i:03d} {seg['kind']:<7} {used} ({len(seg['text'])} chars)")
+        if limit_s is not None:
+            covered += probe_duration(path) + seg["pause"]
+            if covered >= limit_s:
+                break
+    return paths
+
+
 def ff(*args: str) -> None:
     subprocess.run(["ffmpeg", "-y", "-hide_banner", "-loglevel", "error", *args], check=True)
 
@@ -472,9 +627,31 @@ def mean_volume_db(path: Path) -> float | None:
     return float(m.group(1)) if m else None
 
 
-def build_voice_track(seg_paths: list[Path], segs: list[dict], tmp: Path) -> Path:
+def make_sting(tmp: Path) -> Path:
+    """The between-section sting: a soft A-major chime arpeggio over a short pad swell, light
+    echo. Fully deterministic, so it sounds identical every time."""
+    d = STING_S
+    notes = [(440.00, 0.00, 0.30), (554.37, 0.10, 0.24), (659.25, 0.20, 0.22), (880.00, 0.32, 0.16)]
+    chime = "+".join(
+        f"{a}*gte(t,{st})*sin(2*PI*{f}*(t-{st}))*exp(-3.2*(t-{st}))" for f, st, a in notes)
+    pad = f"0.18*sin(PI*t/{d})*(sin(2*PI*220*t)+0.6*sin(2*PI*329.63*t))"
+    raw = tmp / "sting_raw.wav"
+    ff("-f", "lavfi", "-i", f"aevalsrc=exprs='{chime}+{pad}':d={d}:s={SAMPLE_RATE}",
+       "-af", "lowpass=f=4000,aecho=0.8:0.6:70|140:0.25|0.15,"
+              f"afade=t=in:d=0.01,afade=t=out:st={d - 0.5:.2f}:d=0.5,atrim=0:{d}",
+       "-ac", "1", "-c:a", "pcm_s16le", str(raw))
+    mv = mean_volume_db(raw) or STING_DB
+    out = tmp / "sting.wav"
+    ff("-i", str(raw), "-af", f"volume={STING_DB - mv:.2f}dB,alimiter=limit=0.9",
+       "-ar", str(SAMPLE_RATE), "-ac", "1", "-c:a", "pcm_s16le", str(out))
+    return out
+
+
+def build_voice_track(seg_paths: list[Path], segs: list[dict], tmp: Path) -> tuple[Path, dict]:
     """Decode clips to PCM (trimmed, level-matched) and join them with true digital silence:
-    STORY_PAUSE_S between stories, SECTION_PAUSE_S between sections, etc."""
+    STORY_PAUSE_S between stories, PREVIEW_PAUSE_S after the preview, and between sections
+    silence + sting + silence. Returns (voice wav, marks) where marks hold the intro end and
+    closer start/end in voice-track seconds for the music envelope."""
     silences: dict[float, Path] = {}
 
     def silence(sec: float) -> Path:
@@ -502,41 +679,70 @@ def build_voice_track(seg_paths: list[Path], segs: list[dict], tmp: Path) -> Pat
         wavs.append(w)
     lst = tmp / "concat.txt"
     lines: list[str] = []
+    sting: Path | None = None
+    t = 0.0
+    marks: dict = {"intro_end": 0.0, "closer_start": None}
     for i, w in enumerate(wavs):
+        kind = segs[i]["kind"]
+        if kind == "closer":
+            marks["closer_start"] = t
         lines.append(f"file '{w}'")
-        pause = segs[i]["pause"]
-        if i < len(wavs) - 1 and pause > 0:
-            lines.append(f"file '{silence(pause)}'")
+        t += probe_duration(w)
+        if kind in ("opener", "preview"):
+            marks["intro_end"] = t
+        if i >= len(wavs) - 1:
+            continue
+        nxt = segs[i + 1]["kind"]
+        if kind == "story" and nxt == "section":
+            sting = sting or make_sting(tmp)
+            for part in (silence(STING_GAP_S), sting, silence(STING_GAP_S)):
+                lines.append(f"file '{part}'")
+            t += 2 * STING_GAP_S + probe_duration(sting)
+        elif segs[i]["pause"] > 0:
+            lines.append(f"file '{silence(segs[i]['pause'])}'")
+            t += round(segs[i]["pause"], 3)
     lst.write_text("\n".join(lines) + "\n")
     voice = tmp / "voice.wav"
     ff("-f", "concat", "-safe", "0", "-i", str(lst), "-c:a", "pcm_s16le", str(voice))
-    return voice
+    return voice, marks
 
 
-def gain_expr(voice_dur: float) -> tuple[str, float]:
-    """dB envelope on t for the ambient bed; returns (volume expr, total length)."""
-    s, b = SWELL_REL_DB, AMBIENT_REL_DB
-    r1 = INTRO_HOLD_S
-    r2 = INTRO_HOLD_S + RAMP_S
-    o1 = VOICE_START_S + voice_dur + OUTRO_GAP_S
+def gain_expr(voice_dur: float, marks: dict | None = None) -> tuple[str, float]:
+    """Linear gain envelope on t for the theme; returns (volume expr, total length).
+    swell -> bed under opener/preview -> fade to silence -> (dry body) -> fade in before the
+    closer -> bed under closer -> swell -> (afade out in the filter)."""
+    marks = marks or {}
+    S, B = 10 ** (SWELL_REL_DB / 20), 10 ** (AMBIENT_REL_DB / 20)
+    v0 = VOICE_START_S
+    r1, r2 = INTRO_HOLD_S, INTRO_HOLD_S + RAMP_S
+    i1 = max(r2, v0 + marks.get("intro_end", 0.0))
+    i2 = i1 + INTRO_FADE_S
+    o1 = v0 + voice_dur + OUTRO_GAP_S
     o2 = o1 + RAMP_S
     total = o2 + OUTRO_HOLD_S + OUTRO_FADE_S
-    ease = lambda a, w: f"(1-cos(PI*(t-{a:.3f})/{w:.3f}))/2"  # noqa: E731
-    db = (
-        f"if(lt(t,{r1:.3f}),{s},"
-        f"if(lt(t,{r2:.3f}),{s}+({b}-({s}))*{ease(r1, RAMP_S)},"
-        f"if(lt(t,{o1:.3f}),{b},"
-        f"if(lt(t,{o2:.3f}),{b}+({s}-({b}))*{ease(o1, RAMP_S)},"
-        f"{s}))))"
+    cs = marks.get("closer_start")
+    c1 = max(i2, v0 + cs) if cs is not None else o1   # no closer (trial sample): no return
+    c0 = max(i2, c1 - OUTRO_LEAD_S)
+    ease = lambda a, w: f"(1-cos(PI*(t-{a:.3f})/{max(w, 0.001):.3f}))/2"  # noqa: E731
+    expr = (
+        f"if(lt(t,{r1:.3f}),{S:.6f},"
+        f"if(lt(t,{r2:.3f}),{S:.6f}+({B:.6f}-{S:.6f})*{ease(r1, RAMP_S)},"
+        f"if(lt(t,{i1:.3f}),{B:.6f},"
+        f"if(lt(t,{i2:.3f}),{B:.6f}*(1-{ease(i1, INTRO_FADE_S)}),"
+        f"if(lt(t,{c0:.3f}),0,"
+        f"if(lt(t,{c1:.3f}),{B:.6f}*{ease(c0, c1 - c0)},"
+        f"if(lt(t,{o1:.3f}),{B:.6f},"
+        f"if(lt(t,{o2:.3f}),{B:.6f}+({S:.6f}-{B:.6f})*{ease(o1, RAMP_S)},"
+        f"{S:.6f}))))))))"
     )
-    return f"pow(10,({db})/20)", total
+    return expr, total
 
 
-def mix_episode(voice_wav: Path, final_path: Path) -> dict:
+def mix_episode(voice_wav: Path, final_path: Path, marks: dict | None = None) -> dict:
     voice_dur = probe_duration(voice_wav)
     if not math.isfinite(voice_dur) or voice_dur <= 0:
         raise SystemExit(f"Bad voice duration for {voice_wav}")
-    vol, total = gain_expr(voice_dur)
+    vol, total = gain_expr(voice_dur, marks)
     fade_st = total - OUTRO_FADE_S
     # Same soft bed as before: low sine fifths + whisper of filtered pink noise.
     pad = (
@@ -575,28 +781,96 @@ def update_briefings_audio(data: list, briefing_id: str, rel_path: str) -> None:
     raise SystemExit(f"Could not update audio field for {briefing_id}")
 
 
-def generate(briefing: dict) -> str:
+def sample_open_segments(segs: list[dict]) -> list[dict]:
+    """Trial sample: opener, preview, first section + its first story, then jump straight to
+    the second section (so one between-section sting is heard), then the rest in order."""
+    first = next((i for i, s in enumerate(segs) if s["kind"] == "section"), None)
+    if first is None:
+        return segs
+    second = next((i for i in range(first + 1, len(segs)) if segs[i]["kind"] == "section"), None)
+    head = segs[:first + 2]
+    return head + (segs[second:] if second is not None else [])
+
+
+def sample_close_segments(segs: list[dict]) -> list[dict]:
+    """Trial closing sample: last section's last story + the closer."""
+    return [s for s in segs[-2:]]
+
+
+def generate(briefing: dict, out: Path | None = None, sample_s: float | None = None,
+             sample_mode: str = "open") -> str:
+    import time
+
     if not shutil.which("ffmpeg"):
         raise SystemExit("ffmpeg is required")
     bid = briefing["id"]
     segs = build_segments(briefing)
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
     rel = f"audio/{bid}.mp3"
-    out_path = ROOT / rel
-    print(f"Generating podcast for {bid} ({len(segs)} clips)…")
+    out_path = out or (ROOT / rel)
+    if out is not None:
+        rel = str(out)
+    print(f"Generating podcast for {bid} ({len(segs)} clips, engine {ENGINE})…")
+    t0 = time.monotonic()
     with tempfile.TemporaryDirectory(prefix="newsy-pod-") as tmpd:
         tmp = Path(tmpd)
-        seg_paths = asyncio.run(synth_all(segs, tmp))
-        voice = build_voice_track(seg_paths, segs, tmp)
-        info = mix_episode(voice, tmp / "final.mp3")
+        if sample_s and sample_mode == "close":
+            segs = sample_close_segments(segs)
+        elif sample_s:
+            segs = sample_open_segments(segs)
+        if ENGINE == "kokoro":
+            limit = (sample_s - VOICE_START_S) if sample_s and sample_mode != "close" else None
+            seg_paths = synth_all_kokoro(segs, tmp, limit)
+        else:
+            seg_paths = asyncio.run(synth_all(segs, tmp))
+        t_tts = time.monotonic() - t0
+        segs = segs[:len(seg_paths)]
+        voice, marks = build_voice_track(seg_paths, segs, tmp)
+        info = mix_episode(voice, tmp / "final.mp3", marks)
+        if sample_s:
+            if sample_mode == "close":   # last N seconds: end of the last story -> outro
+                st = max(0.0, info["total"] - sample_s)
+                af = f"afade=t=in:st={st:.3f}:d=1.0"
+                cut = ["-ss", f"{st:.3f}"]
+            else:
+                af = f"afade=t=out:st={sample_s - 1.5:.3f}:d=1.5"
+                cut = ["-t", f"{sample_s:.3f}"]
+            ff("-i", str(tmp / "final.mp3"), "-af", af, *cut,
+               "-c:a", "libmp3lame", "-q:a", "4", str(tmp / "cut.mp3"))
+            shutil.move(str(tmp / "cut.mp3"), tmp / "final.mp3")
         shutil.move(str(tmp / "final.mp3"), out_path)
+    print(f"Timing: TTS {t_tts:.1f}s, total {time.monotonic() - t0:.1f}s for {len(seg_paths)} clips, "
+          f"{sum(len(s['text']) for s in segs)} chars, voice {info['voice']:.1f}s "
+          f"(TTS real-time factor {t_tts / max(info['voice'], 0.1):.3f})")
     print(f"Wrote {rel} ({out_path.stat().st_size} bytes; voice {info['voice']:.1f}s, "
           f"total {info['total']:.1f}s, voice starts {info['voice_start']:.1f}s)")
     return rel
 
 
 def main() -> None:
+    global ENGINE
     args = sys.argv[1:]
+    out: Path | None = None
+    sample_s: float | None = None
+    sample_mode = "open"
+    rest: list[str] = []
+    it = iter(args)
+    for a in it:
+        if a == "--engine":
+            ENGINE = next(it, "edge")
+        elif a.startswith("--engine="):
+            ENGINE = a.split("=", 1)[1]
+        elif a == "--out":
+            out = Path(next(it)).resolve()
+        elif a == "--sample-seconds":
+            sample_s = float(next(it))
+        elif a == "--sample-close":
+            sample_mode = "close"
+        else:
+            rest.append(a)
+    if ENGINE not in ("edge", "kokoro"):
+        raise SystemExit(f"Unknown --engine {ENGINE!r} (edge|kokoro)")
+    args = rest
     data = json.loads(BRIEFINGS.read_text(encoding="utf-8"))
     if not isinstance(data, list) or not data:
         raise SystemExit("briefings.json is empty or not an array")
@@ -618,6 +892,13 @@ def main() -> None:
         targets = [by_id[args[0]]]
     else:
         targets = [data[0]]
+
+    if out is not None or sample_s:
+        # trial render: never touches audio/ or briefings.json
+        if len(targets) != 1:
+            raise SystemExit("--out / --sample-seconds take a single briefing")
+        generate(targets[0], out or (ROOT.parent / f"newsy-sample-{ENGINE}.mp3"), sample_s, sample_mode)
+        return
 
     for b in targets:
         rel = generate(b)

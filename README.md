@@ -91,6 +91,22 @@ python3 build-newsy.py
 
 `build-podcast.py` reads the briefing, strips HTML to spoken prose, synthesizes each clip with edge-tts (anchor `en-US-AndrewNeural`, one "reporter" voice per beat), then mixes a soft sine-pad + filtered pink-noise bed about **−28 dB** under the voice (ffmpeg), with intro/outro swells. Output: `audio/{id}.mp3`. The site header shows a Listen control when `audio` is set on that briefing.
 
+### Music (Oct 17, 2026, both engines)
+
+No continuous bed. Theme swell (~5.5 s) → theme about 18 dB under "Welcome back to Newsy." and the
+preview → 2 s fade to silence before section one. Between sections: one fixed 1.8 s chime sting
+(0.6 s silence each side). Every story is dry voice over silence. The theme fades back in 1.5 s
+before "Viva Cristo Rey." → outro swell → fade (~11 s). Knobs: `AMBIENT_REL_DB`, `SWELL_REL_DB`,
+`INTRO_FADE_S`, `STING_*`, `OUTRO_*` in `build-podcast.py`.
+
+### Kokoro trial engine (not live)
+
+`.venv-kokoro` (Python 3.12 via uv, CPU torch, kokoro 0.9.4, espeak-ng from apt) runs
+`.venv-kokoro/bin/python build-podcast.py --engine kokoro [id]`. Voices: `KOKORO_*` in the script;
+pronunciations: `pronunciations-kokoro.json` (misaki phonemes as inline `[Word](/phonemes/)` hints).
+Trial renders: `--sample-seconds 95 --out /workspace/x.mp3` (open) or add `--sample-close`;
+these never touch `audio/` or `briefings.json`. Default engine stays edge.
+
 ### Podcast format (Oct 17, 2026; podcast only, the website layout is separate)
 
 1. Intro swell → anchor: **"Welcome back to Newsy."** → **"Here's what's ahead: A, B, C, and D."**
