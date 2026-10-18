@@ -89,8 +89,34 @@ python3 build-latest.py
 python3 build-newsy.py
 ```
 
-`build-podcast.py` reads the briefing, strips HTML to spoken prose, synthesizes with edge-tts (`en-US-AndrewNeural`), then mixes a soft sine-pad + filtered pink-noise bed about **−28 dB** under the voice (ffmpeg), with fade in/out. Output: `audio/{id}.mp3`. The site header shows a Listen control when `audio` is set on that briefing.
+`build-podcast.py` reads the briefing, strips HTML to spoken prose, synthesizes each clip with edge-tts (anchor `en-US-AndrewNeural`, one "reporter" voice per beat), then mixes a soft sine-pad + filtered pink-noise bed about **−28 dB** under the voice (ffmpeg), with intro/outro swells. Output: `audio/{id}.mp3`. The site header shows a Listen control when `audio` is set on that briefing.
 
+### Podcast format (Oct 17, 2026; podcast only, the website layout is separate)
+
+1. Intro swell → anchor: **"Welcome back to Newsy."** → **"Here's what's ahead: A, B, C, and D."**
+   Built from beat-headline clauses (lead beat's top two, then beats with new-at-this-hour items).
+   Override per briefing with a top-level `"podcastPreview": "..."` string.
+2. Beats in site order. The section name is said once (beat voice), then each story's **body**
+   is read directly. **Headlines are never read.** ~0.95 s silence between stories, 0.6 s after the
+   section name, 1.6 s between sections.
+3. **No separate "New at this hour" segment.** Each `newAtThisHour` item is folded into its own beat
+   and read first there; if the beat already has a fuller version of the story (word-overlap match),
+   that story is moved to the front instead of being read twice.
+4. Anchor: **"Viva Cristo Rey."** → outro swell.
+
+Speech cleanup before TTS (`speakable()`): HTML/markup sanitization → `normalize_for_speech()`
+(St./Fr./Msgr./Card. → Saint/Father/Monsignor/Cardinal, ET → Eastern, Q3 → the third quarter,
+% → percent, $1.2B → 1.2 billion dollars, vs. → versus, Oct. → October, mph/km/h, Leo XIV → Leo the
+Fourteenth, Artemis III → Artemis Three, 43–21 / 10 a.m.–6 p.m. → "to", RFK Jr., LC-36A) →
+`pronunciations.json` (whole-word, case-insensitive phonetic respellings such as
+Medjugorje → Med-joo-gor-yeh; add names there as they come up). Clips are level-matched to about
+−20 dB mean so voice changes don't jump. Per-voice prosody lives in `VOICE_PROSODY` (default rate −5%).
+
+edge-tts cannot take custom SSML (no `<break>`, `<phoneme>`, `<lexicon>`, `express-as` styles);
+only rate, volume, and pitch. Any markup sent as text is read aloud, so the script asserts no
+`<`/`>`, no "ms"/"break time" artifacts, and no "nothing to report" phrasing.
+
+`.venv/bin/python build-podcast.py --show [id]` prints every clip (kind, voice, pause, exact text).
 
 ## v2 schema (Oct 16, 2026)
 

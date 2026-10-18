@@ -1,20 +1,25 @@
 #!/usr/bin/env python3
 """Generate a spoken MP3 for a Newsy briefing via edge-tts, with a soft ambient bed.
 
-Structure of each episode:
-  [intro swell: ambient alone, louder] -> anchor opener ("Welcome back to Newsy.") -> one clip per beat
-  (each read by its own "reporter" voice, starting with the section name) ->
-  anchor sign-off ("Viva Cristo Rey.") -> [outro swell: ambient back up, hold, fade out].
+Structure of each episode (podcast only; the website layout is independent):
+  [intro swell] -> anchor: "Welcome back to Newsy." -> anchor: "Here's what's ahead: ..."
+  (3-4 top items) -> each beat in site order: section name (beat voice), then each
+  story BODY read directly (headlines are never read), short silence between stories,
+  longer silence between sections -> anchor: "Viva Cristo Rey." -> [outro swell].
 
-Sections are separated by real digital silence in the voice track (the
-ambient bed keeps playing underneath). No SSML/markup is ever sent to TTS:
-edge-tts reads tags like <break/> out loud as text.
+There is no separate "New at this hour" / breaking segment. Evening newAtThisHour items
+are folded into their own beat and read first there (if the beat already has a fuller
+version of the same story, that story is moved to the front instead of read twice).
+
+Text goes through normalize_for_speech() (abbreviations, money, papal numerals, months,
+scores) and pronunciations.json (phonetic respellings) before TTS. No SSML/markup is ever
+sent: edge-tts only allows rate/volume/pitch and reads tags like <break/> out loud.
 
 Usage:
   build-podcast.py                 # newest briefing
   build-podcast.py <briefing-id>   # one briefing
   build-podcast.py --all           # every briefing that already has an audio field
-  build-podcast.py --show <id>     # print the exact TTS text per segment, no audio
+  build-podcast.py --show [<id>]   # print the exact TTS text per clip, no audio
 """
 from __future__ import annotations
 
@@ -55,12 +60,34 @@ BEAT_VOICES: dict[str, str] = {
     "world": "en-GB-RyanNeural",
 }
 
-# Exact spoken bookends (anchor voice). No other bookend text.
+# Prosody per voice (the only knobs edge-tts allows). A touch slower than default reads
+# less clipped/robotic; pitch is left alone (shifting it sounds synthetic).
+DEFAULT_PROSODY = {"rate": "-5%", "pitch": "+0Hz", "volume": "+0%"}
+VOICE_PROSODY: dict[str, dict[str, str]] = {
+    "en-US-AndrewNeural": {"rate": "-3%"},     # anchor: keep the open snappy
+    "en-GB-RyanNeural": {"rate": "-4%"},
+    "en-US-BrianNeural": {"rate": "-3%"},
+    "en-US-JennyNeural": {"rate": "-7%"},      # reads fast by default
+    "en-US-AriaNeural": {"rate": "-6%"},
+}
+
+
+def prosody_for(voice: str) -> dict[str, str]:
+    return {**DEFAULT_PROSODY, **VOICE_PROSODY.get(voice, {})}
+
+
+# Exact spoken bookends (anchor voice).
 OPENER_TEXT = "Welcome back to Newsy."
+PREVIEW_PREFIX = "Here's what's ahead:"
+PREVIEW_MAX_ITEMS = 4
 CLOSER_TEXT = "Viva Cristo Rey."
 
 # --- Timing / levels ----------------------------------------------------------
-SECTION_PAUSE_S = 1.3          # true silence between sections (voice track)
+STORY_PAUSE_S = 0.95           # silence between stories inside a section
+TITLE_PAUSE_S = 0.6            # after the section name, before its first story
+OPENER_PAUSE_S = 0.45          # between "Welcome back to Newsy." and the preview
+SECTION_PAUSE_S = 1.6          # silence between sections (longer than story pause)
+LEVEL_TARGET_DB = -20.0        # per-clip mean loudness, so voice changes don't jump
 AMBIENT_REL_DB = -28.0         # bed under the voice
 SWELL_REL_DB = -15.0           # intro/outro swell level (same scale)
 INTRO_HOLD_S = 5.5             # ambient alone at swell level
@@ -112,6 +139,132 @@ def sanitize_for_tts(raw: str) -> str:
     return text.strip()
 
 
+# --- Speech normalization (podcast only) -----------------------------------------
+_ORD = ["", "First", "Second", "Third", "Fourth", "Fifth", "Sixth", "Seventh", "Eighth",
+        "Ninth", "Tenth", "Eleventh", "Twelfth", "Thirteenth", "Fourteenth", "Fifteenth",
+        "Sixteenth", "Seventeenth", "Eighteenth", "Nineteenth", "Twentieth",
+        "Twenty-first", "Twenty-second", "Twenty-third"]
+_CARD = ["", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+         "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen",
+         "Eighteen", "Nineteen", "Twenty"]
+_REGNAL = (r"Leo|Pius|Benedict|Gregory|Innocent|Clement|Urban|Boniface|Paul|John Paul|John|"
+           r"Francis|Sixtus|Alexander|Charles|Henry|Edward|George|Elizabeth|Louis|Philip|"
+           r"Felipe|William|Richard|James|Frederick|Constantine")
+_CARDINAL_AFTER = r"World War|Artemis|Apollo|Vatican|Gemini|Super Bowl|Season|Part|Chapter|Title|Phase|Starship V|Falcon|Block"
+_MONTHS = {"Jan": "January", "Feb": "February", "Mar": "March", "Apr": "April",
+           "Jun": "June", "Jul": "July", "Aug": "August", "Sep": "September",
+           "Sept": "September", "Oct": "October", "Nov": "November", "Dec": "December"}
+_QUARTERS = {"1": "first", "2": "second", "3": "third", "4": "fourth"}
+_SCALE = {"K": "thousand", "M": "million", "B": "billion", "T": "trillion",
+          "bn": "billion", "mn": "million", "tn": "trillion"}
+# (pattern, replacement) — applied in order, all case-sensitive unless (?i)
+_ABBREV: list[tuple[str, str]] = [
+    (r"\bRFK Jr\.", "R F K Junior"),
+    (r"\bJr\.", "Junior"),
+    (r"\bSr\.(?=\s+[A-Z])", "Sister"),
+    (r"\bSts\.(?=\s+[A-Z])", "Saints"),
+    (r"\bSt\.(?=\s+[A-Z])", "Saint"),
+    (r"\bFr\.(?=\s+[A-Z])", "Father"),
+    (r"\bMsgr\.(?=\s+[A-Z])", "Monsignor"),
+    (r"\bAbp\.(?=\s+[A-Z])", "Archbishop"),
+    (r"\bBp\.(?=\s+[A-Z])", "Bishop"),
+    (r"\bCard\.(?=\s+[A-Z])", "Cardinal"),
+    (r"\bProf\.(?=\s+[A-Z])", "Professor"),
+    (r"\bGen\.(?=\s+[A-Z])", "General"),
+    (r"\bGov\.(?=\s+[A-Z])", "Governor"),
+    (r"\bSen\.(?=\s+[A-Z])", "Senator"),
+    (r"\bRep\.(?=\s+[A-Z])", "Representative"),
+    (r"\bCapt?\.(?=\s+[A-Z])", "Captain"),
+    (r"\bAve\.", "Avenue"),
+    (r"\bBlvd\.", "Boulevard"),
+    (r"\bHwy\.", "Highway"),
+    (r"\bvs?\.(?=\s)", "versus"),
+    (r"\bapprox\.", "approximately"),
+    (r"\be\.g\.,?", "for example,"),
+    (r"\bi\.e\.,?", "that is,"),
+    (r"\betc\.", "et cetera."),
+    (r"\bthe WHO\b", "the W.H.O."),
+    (r"\bmph\b", "miles per hour"),
+    (r"\bkm/h\b|(?<=\d)\s?km h\b", " kilometers per hour"),
+    (r"(?<=\d)\s?km\b", " kilometers"),
+    (r"(?<=\d)\s?mi\b", " miles"),
+    (r"\bLC-(\d+)([A-Z]?)\b", r"Launch Complex \1 \2"),
+    (r"\bRS-25\b", "R S 25"),
+    (r"\bQ([1-4])\b", lambda m: f"the {_QUARTERS[m.group(1)]} quarter"),
+    (r"\b(?:ET|EDT|EST)\b", "Eastern"),
+    (r"\b(?:PT|PDT|PST)\b", "Pacific"),
+    (r"\bGMT\b|\bUTC\b", "G M T"),
+]
+
+
+def _money(m: re.Match) -> str:
+    num, scale = m.group(1), m.group(2) or ""
+    word = _SCALE.get(scale.strip(), scale.strip())
+    if word:
+        return f"{num} {word} dollars"
+    return f"{num} dollars" if num != "1" else "1 dollar"
+
+
+def normalize_for_speech(text: str) -> str:
+    t = text
+    # Dashes as pauses; digit–digit (scores, ranges) -> "to"
+    t = re.sub(r"(?<=\d)\s?[–—]\s?(?=\d)", " to ", t)
+    t = re.sub(r"\s+[—–]\s+|—", ", ", t)
+    t = re.sub(r"(?<=[A-Za-z.])\s?–\s?(?=\d)", " to ", t)          # "noon–5" -> "noon to 5"
+    t = re.sub(r"(?<=\w)–(?=\w)", "-", t)                   # "Tesla–SpaceX" -> hyphen
+    # Money: $1.2B, $330 million, $250,000
+    t = re.sub(r"\$(\d[\d,]*(?:\.\d+)?)\s?(bn|mn|tn|[KMBT])\b", _money, t)
+    # Plain "$250,000 deposits" / "$330 million factory" are left to the engine, which
+    # already reads currency correctly (and handles adjective use: "a 330 million dollar ...").
+    t = re.sub(r"(\d)\s?%", r"\1 percent", t)
+    for pat, rep in _ABBREV:
+        t = re.sub(pat, rep, t)
+    # Months: "Oct. 16" / "Sept." -> full
+    t = re.sub(r"\b(Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sept|Sep|Oct|Nov|Dec)\.(?=\s*\d|\s+[a-z,])",
+               lambda m: _MONTHS[m.group(1)], t)
+    # Roman numerals: regnal names -> "the Fourteenth"; programs/events -> cardinal
+    def roman(s: str) -> int:
+        vals = {"I": 1, "V": 5, "X": 10, "L": 50}
+        n = 0
+        for i, ch in enumerate(s):
+            v = vals[ch]
+            n += -v if i + 1 < len(s) and vals[s[i + 1]] > v else v
+        return n
+    t = re.sub(rf"\b({_REGNAL})\s+([IVXL]+)\b(?![-’'])",
+               lambda m: f"{m.group(1)} the {_ORD[roman(m.group(2))]}"
+               if 0 < roman(m.group(2)) < len(_ORD) else m.group(0), t)
+    t = re.sub(rf"\b({_CARDINAL_AFTER})\s+([IVXL]{{1,5}})\b",
+               lambda m: f"{m.group(1)} {_CARD[roman(m.group(2))]}"
+               if 0 < roman(m.group(2)) < len(_CARD) else m.group(0), t)
+    t = re.sub(r"[ \t]+", " ", t)
+    t = re.sub(r"\s+([,.;:!?])", r"\1", t)
+    t = re.sub(r",\s*,", ",", t)
+    return t.strip()
+
+
+PRONUNCIATIONS_FILE = ROOT / "pronunciations.json"
+_PRON_RE: re.Pattern | None = None
+_PRON_MAP: dict[str, str] = {}
+
+
+def apply_pronunciations(text: str) -> str:
+    global _PRON_RE, _PRON_MAP
+    if _PRON_RE is None:
+        raw = {}
+        if PRONUNCIATIONS_FILE.exists():
+            raw = json.loads(PRONUNCIATIONS_FILE.read_text(encoding="utf-8"))
+        _PRON_MAP = {k.lower(): v for k, v in raw.items() if not k.startswith("_") and v}
+        keys = sorted(_PRON_MAP, key=len, reverse=True)
+        _PRON_RE = re.compile(r"(?<![\w-])(" + "|".join(re.escape(k) for k in keys) + r")(?![\w-])",
+                              re.IGNORECASE) if keys else re.compile(r"(?!x)x")
+    return _PRON_RE.sub(lambda m: _PRON_MAP[m.group(1).lower()], text)
+
+
+def speakable(raw: str) -> str:
+    """HTML -> sanitized prose -> spoken-form normalization -> pronunciation respellings."""
+    return apply_pronunciations(normalize_for_speech(sanitize_for_tts(raw)))
+
+
 def is_quiet_only(plain: str) -> bool:
     """Skip beats whose entire body is just 'quiet' (optional punctuation)."""
     cleaned = re.sub(r"[.!?…]+", "", plain or "").strip()
@@ -131,46 +284,140 @@ def with_period(s: str) -> str:
     return s if re.search(r"[.!?…][\"'”’)]*$", s) else s + "."
 
 
-NEW_HOUR_VOICE = ANCHOR_VOICE
+# --- Episode structure -------------------------------------------------------------
+_STOP = set("""the a an and or of to in on at for from with by as is are was were be been this
+that these those its it his her their our your after before over under into about than then
+says said will would could also just more most still now new news who what when where which
+while amid near only some into onto off out up down sunday monday tuesday wednesday thursday
+friday saturday tonight today morning evening""".split())
 
 
-def beat_spoken(beat: dict) -> str:
-    """Stories schema (v2) or legacy body -> speakable text. Story headlines are read
-    as lead-ins, then the full body (repeated/expanded content is read, never skipped)."""
-    stories = beat.get("stories") or []
-    if not stories:
-        return sanitize_for_tts(beat.get("body") or "")
-    parts = []
-    for st in stories:
-        head = sanitize_for_tts(st.get("headline") or "")
-        body = sanitize_for_tts(st.get("body") or "")
-        parts.append(" ".join(x for x in (with_period(head) if head else "", with_period(body) if body else "") if x))
-    return " ".join(p for p in parts if p)
+def _tokens(*parts: str) -> set[str]:
+    words = re.findall(r"[a-z0-9’']+", " ".join(sanitize_for_tts(p or "") for p in parts).lower())
+    return {w.strip("’'") for w in words if len(w) >= 4 and w not in _STOP}
 
 
-def build_segments(briefing: dict) -> list[tuple[str, str]]:
-    """Return [(voice, text)] — opener, [evening: New at this hour], one per beat, sign-off."""
-    segs: list[tuple[str, str]] = [(ANCHOR_VOICE, OPENER_TEXT)]
-    fresh = briefing.get("newAtThisHour") or []
-    if fresh:
-        lines = []
-        for n in fresh:
-            head = sanitize_for_tts(n.get("headline") or "")
-            body = sanitize_for_tts(n.get("body") or "")
-            lines.append(" ".join(x for x in (with_period(head) if head else "", with_period(body) if body else "") if x))
-        segs.append((NEW_HOUR_VOICE, "New at this hour. " + " ".join(l for l in lines if l)))
-    for beat in briefing.get("beats") or []:
-        plain = beat_spoken(beat)
-        if not plain or is_quiet_only(plain):
+def _beat_for_item(item: dict, beats: list[dict]) -> dict | None:
+    key = (item.get("beat") or "").lower()
+    for b in beats:
+        if (b.get("id") or "").lower() == key:
+            return b
+    for b in beats:
+        if key and key in (b.get("title") or "").lower():
+            return b
+    return None
+
+
+def ordered_stories(beat: dict, fresh: list[dict]) -> list[dict]:
+    """Beat stories with this beat's new-at-this-hour items first. A fresh item that matches
+    an existing (fuller) story promotes that story; an unmatched one is read as its own story."""
+    stories = list(beat.get("stories") or [])
+    if not stories and beat.get("body"):
+        stories = [{"body": beat.get("body")}]
+    front: list[dict] = []
+    used: set[int] = set()
+    for item in fresh:
+        it = _tokens(item.get("headline", ""), item.get("body", ""))
+        best, best_score = None, 0.0
+        for i, st in enumerate(stories):
+            if i in used:
+                continue
+            stt = _tokens(st.get("headline", ""), st.get("body", ""))
+            if it and stt:
+                score = len(it & stt) / min(len(it), len(stt))
+                if score > best_score:
+                    best, best_score = i, score
+        if best is not None and best_score >= 0.3:
+            used.add(best)
+            front.append(stories[best])
+        else:
+            front.append({"headline": item.get("headline"), "body": item.get("body")})
+    return front + [st for i, st in enumerate(stories) if i not in used]
+
+
+def _clause_list(items: list[str]) -> str:
+    if len(items) == 1:
+        return items[0]
+    return ", ".join(items[:-1]) + ", and " + items[-1]
+
+
+def build_preview(briefing: dict) -> str:
+    """'Here's what's ahead: A, B, C, and D.' — from beat headline clauses, preferring beats
+    with new-at-this-hour items. Override with a briefing-level 'podcastPreview' string."""
+    custom = (briefing.get("podcastPreview") or "").strip()
+    if custom:
+        return with_period(custom if custom.lower().startswith("here") else f"{PREVIEW_PREFIX} {custom}")
+    beats = [b for b in briefing.get("beats") or [] if b.get("headline")]
+    fresh_beats = {(n.get("beat") or "").lower() for n in briefing.get("newAtThisHour") or []}
+
+    def clauses(b: dict) -> list[str]:
+        h = sanitize_for_tts(b.get("headline") or "").rstrip(".!")
+        return [c.strip() for c in re.split(r";\s*", h) if c.strip()]
+
+    ordered: list[str] = []
+    if beats:
+        ordered += clauses(beats[0])[:2]                      # lead beat: top two
+    for b in beats[1:]:
+        if (b.get("id") or "").lower() in fresh_beats:
+            ordered += clauses(b)[:1]
+    for b in beats[1:]:
+        if (b.get("id") or "").lower() not in fresh_beats:
+            ordered += clauses(b)[:1]
+    picked: list[str] = []
+    seen: list[set[str]] = []
+    for c in ordered:
+        tk = _tokens(c)
+        if any(tk and len(tk & s) / max(1, min(len(tk), len(s))) >= 0.5 for s in seen):
             continue
-        title = sanitize_for_tts(beat.get("title") or beat.get("id") or "Next").rstrip(".")
-        segs.append((voice_for_beat(beat.get("title") or ""), f"{title}. {with_period(plain)}"))
-    segs.append((ANCHOR_VOICE, CLOSER_TEXT))
-    for voice, text in segs:
+        picked.append(c[0].lower() + c[1:] if re.match(r"[A-Z][a-z]+\b", c) and c.split()[0].lower() in _STOP | {"record-low"} else c)
+        seen.append(tk)
+        if len(picked) >= PREVIEW_MAX_ITEMS:
+            break
+    if not picked:
+        top = sanitize_for_tts(briefing.get("topLine") or "")
+        return f"{PREVIEW_PREFIX} {with_period(top)}" if top else ""
+    return f"{PREVIEW_PREFIX} {_clause_list(picked)}."
+
+
+def build_segments(briefing: dict) -> list[dict]:
+    """Return clips [{voice, text, pause, kind}] in play order. 'pause' is the silence
+    after the clip. Headlines are never spoken."""
+    segs: list[dict] = [{"voice": ANCHOR_VOICE, "text": OPENER_TEXT, "pause": OPENER_PAUSE_S, "kind": "opener"}]
+    preview = build_preview(briefing)
+    if preview:
+        segs.append({"voice": ANCHOR_VOICE, "text": apply_pronunciations(normalize_for_speech(preview)),
+                     "pause": SECTION_PAUSE_S, "kind": "preview"})
+    else:
+        segs[-1]["pause"] = SECTION_PAUSE_S
+    beats = briefing.get("beats") or []
+    fresh_by_beat: dict[int, list[dict]] = {}
+    for item in briefing.get("newAtThisHour") or []:
+        b = _beat_for_item(item, beats)
+        if b is not None:
+            fresh_by_beat.setdefault(id(b), []).append(item)
+    for beat in beats:
+        voice = voice_for_beat(beat.get("title") or "")
+        bodies = []
+        for st in ordered_stories(beat, fresh_by_beat.get(id(beat), [])):
+            body = speakable(st.get("body") or "")
+            if body and not is_quiet_only(body):
+                bodies.append(with_period(body))
+        if not bodies:
+            continue
+        title = apply_pronunciations(sanitize_for_tts(beat.get("title") or beat.get("id") or "Next").rstrip("."))
+        segs.append({"voice": voice, "text": f"{title}.", "pause": TITLE_PAUSE_S, "kind": "section"})
+        for i, body in enumerate(bodies):
+            last = i == len(bodies) - 1
+            segs.append({"voice": voice, "text": body, "kind": "story",
+                         "pause": SECTION_PAUSE_S if last else STORY_PAUSE_S})
+    segs.append({"voice": ANCHOR_VOICE, "text": CLOSER_TEXT, "pause": 0.0, "kind": "closer"})
+    for s in segs:
+        text = s["text"]
         assert "<" not in text and ">" not in text, f"markup left in TTS text: {text[:120]}"
         assert not re.search(r"(?i)break\s*time|\d+\s*ms\b", text), f"break artifact: {text[:120]}"
         assert not re.search(r"(?i)nothing (new )?to report|no new (news|reports?)", text), \
             f"'nothing to report' phrasing — repeat or develop the story instead: {text[:120]}"
+        assert not re.match(r"(?i)new at this hour", text), "separate breaking segment must not be spoken"
     return segs
 
 
@@ -181,7 +428,7 @@ async def synth_one(text: str, voice: str, out_path: Path) -> str:
     last: Exception | None = None
     for attempt, v in enumerate([voice, voice, FALLBACK_VOICE]):
         try:
-            await edge_tts.Communicate(text, v).save(str(out_path))
+            await edge_tts.Communicate(text, v, **prosody_for(v)).save(str(out_path))
             if out_path.exists() and out_path.stat().st_size > 1000:
                 return v
             raise RuntimeError("empty TTS output")
@@ -192,14 +439,14 @@ async def synth_one(text: str, voice: str, out_path: Path) -> str:
     raise SystemExit(f"TTS failed for segment: {last}")
 
 
-async def synth_all(segs: list[tuple[str, str]], tmp: Path) -> list[Path]:
+async def synth_all(segs: list[dict], tmp: Path) -> list[Path]:
     sem = asyncio.Semaphore(3)
-    paths = [tmp / f"seg{i:02d}.mp3" for i in range(len(segs))]
+    paths = [tmp / f"seg{i:03d}.mp3" for i in range(len(segs))]
 
     async def run(i: int) -> None:
         async with sem:
-            used = await synth_one(segs[i][1], segs[i][0], paths[i])
-            print(f"  seg{i:02d} {used} ({len(segs[i][1])} chars)")
+            used = await synth_one(segs[i]["text"], segs[i]["voice"], paths[i])
+            print(f"  seg{i:03d} {segs[i]['kind']:<7} {used} ({len(segs[i]['text'])} chars)")
 
     await asyncio.gather(*(run(i) for i in range(len(segs))))
     return paths
@@ -218,26 +465,48 @@ def probe_duration(path: Path) -> float:
     return float(out)
 
 
-def build_voice_track(seg_paths: list[Path], tmp: Path) -> Path:
-    """Decode clips to PCM and join with true silence between sections."""
-    silence = tmp / "silence.wav"
-    ff("-f", "lavfi", "-i", f"anullsrc=r={SAMPLE_RATE}:cl=mono",
-       "-t", f"{SECTION_PAUSE_S}", "-c:a", "pcm_s16le", str(silence))
+def mean_volume_db(path: Path) -> float | None:
+    proc = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path), "-af", "volumedetect",
+                           "-f", "null", "-"], capture_output=True, text=True)
+    m = re.search(r"mean_volume:\s*(-?[\d.]+) dB", proc.stderr)
+    return float(m.group(1)) if m else None
+
+
+def build_voice_track(seg_paths: list[Path], segs: list[dict], tmp: Path) -> Path:
+    """Decode clips to PCM (trimmed, level-matched) and join them with true digital silence:
+    STORY_PAUSE_S between stories, SECTION_PAUSE_S between sections, etc."""
+    silences: dict[float, Path] = {}
+
+    def silence(sec: float) -> Path:
+        key = round(sec, 3)
+        if key not in silences:
+            p = tmp / f"silence_{int(key * 1000)}.wav"
+            ff("-f", "lavfi", "-i", f"anullsrc=r={SAMPLE_RATE}:cl=mono",
+               "-t", f"{key}", "-c:a", "pcm_s16le", str(p))
+            silences[key] = p
+        return silences[key]
+
     wavs: list[Path] = []
     for p in seg_paths:
-        w = p.with_suffix(".wav")
+        raw = p.with_suffix(".raw.wav")
         # trim TTS leading/trailing near-silence so pauses are consistent
         ff("-i", str(p), "-af",
            "silenceremove=start_periods=1:start_threshold=-50dB,"
            "areverse,silenceremove=start_periods=1:start_threshold=-50dB,areverse",
+           "-ar", str(SAMPLE_RATE), "-ac", "1", "-c:a", "pcm_s16le", str(raw))
+        mv = mean_volume_db(raw)
+        gain = max(-6.0, min(6.0, LEVEL_TARGET_DB - mv)) if mv is not None else 0.0
+        w = p.with_suffix(".wav")
+        ff("-i", str(raw), "-af", f"volume={gain:.2f}dB,alimiter=limit=0.95",
            "-ar", str(SAMPLE_RATE), "-ac", "1", "-c:a", "pcm_s16le", str(w))
         wavs.append(w)
     lst = tmp / "concat.txt"
     lines: list[str] = []
     for i, w in enumerate(wavs):
-        if i:
-            lines.append(f"file '{silence}'")
         lines.append(f"file '{w}'")
+        pause = segs[i]["pause"]
+        if i < len(wavs) - 1 and pause > 0:
+            lines.append(f"file '{silence(pause)}'")
     lst.write_text("\n".join(lines) + "\n")
     voice = tmp / "voice.wav"
     ff("-f", "concat", "-safe", "0", "-i", str(lst), "-c:a", "pcm_s16le", str(voice))
@@ -314,11 +583,11 @@ def generate(briefing: dict) -> str:
     AUDIO_DIR.mkdir(parents=True, exist_ok=True)
     rel = f"audio/{bid}.mp3"
     out_path = ROOT / rel
-    print(f"Generating podcast for {bid} ({len(segs)} segments)…")
+    print(f"Generating podcast for {bid} ({len(segs)} clips)…")
     with tempfile.TemporaryDirectory(prefix="newsy-pod-") as tmpd:
         tmp = Path(tmpd)
         seg_paths = asyncio.run(synth_all(segs, tmp))
-        voice = build_voice_track(seg_paths, tmp)
+        voice = build_voice_track(seg_paths, segs, tmp)
         info = mix_episode(voice, tmp / "final.mp3")
         shutil.move(str(tmp / "final.mp3"), out_path)
     print(f"Wrote {rel} ({out_path.stat().st_size} bytes; voice {info['voice']:.1f}s, "
@@ -337,8 +606,8 @@ def main() -> None:
         b = by_id.get(args[1]) if len(args) > 1 else data[0]
         if not b:
             raise SystemExit("Briefing id not found")
-        for voice, text in build_segments(b):
-            print(f"[{voice}] {text}\n")
+        for s in build_segments(b):
+            print(f"[{s['kind']} | {s['voice']} | pause {s['pause']}s] {s['text']}\n")
         return
 
     if args and args[0] == "--all":
