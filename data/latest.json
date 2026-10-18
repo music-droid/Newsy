@@ -1,54 +1,64 @@
 {
-  "id": "2026-10-17-morning",
-  "label": "Saturday morning",
-  "generatedAt": "2026-10-17T08:30:00-04:00",
+  "id": "2026-10-17-evening",
+  "label": "Saturday evening",
+  "generatedAt": "2026-10-17T20:05:22-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope goes home today; Russia pounds Ukraine’s grid; Champi nears Guam.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-world.jpg"
+      "headline": "Pope home at the Vatican; super typhoon passes Guam; France erupts.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Russia waiver weighed; ultra-processed food definition pending; MAHA critics push back.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-promises.jpg"
+      "headline": "Record-low border crossings; Russia waiver debated; food definition pending.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Merger odds climb before earnings; Starshield fallout; SpaceXAI ships Grok Voice 3.0.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-musk.jpg"
+      "headline": "Roadster deposits open; Europe fast-tracks a Starlink rival; merger odds hold.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-musk.jpg"
     },
     {
       "title": "Space industry",
-      "headline": "Japan’s Phobos sample mission launches Monday; Boca Chica park sale shelved.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-space.jpg"
+      "headline": "Japan’s Phobos mission Monday; Blue Origin’s pads; Webb maps alien weather.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Artemis update set for Oct. 23; Cash takes Marshall Monday; MMX instruments.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-nasa.jpg"
+      "headline": "Roman telescope 30% sharper than required; Artemis briefing Friday.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Miami welcomes eight seminarians; Melkite Amman see filled; Mission Sunday turns 100.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-catholic.jpg"
+      "headline": "Pope home; Capuchin bishop for Chad; Košice archbishop; Mission Sunday.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown’s latest is Oct. 16; Sept. 25 message stands; campus revival spreads.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-signs.jpg"
+      "headline": "Countdown still Oct. 16; Sept. 25 message stands; Sokółka at 18.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-signs.jpg"
     },
     {
       "title": "Miami life",
-      "headline": "Free fall festival, bilingual book picnic, gospel musical, and the Gettys Sunday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-miami.jpg"
+      "headline": "Gettys Sunday; Zoo Boo next weekend; Crowder and Rend Collective Nov. 2.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat drop preseason finale; Giannis rested for Wednesday; Ahsoka comic coming.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-morning-pick-me-up.jpg"
+      "headline": "Heat open Wednesday; Filoni teases a supernatural Ahsoka Season 2.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-17-morning.mp3"
+  "newAtThisHour": [
+    "Pope Leo leaves Gemelli and is home at the Vatican",
+    "Champi becomes a super typhoon as it passes just south of Guam",
+    "France: 550,000 march; clashes, fires and about 400 arrests",
+    "Iran claims a second supertanker struck a mine in Hormuz",
+    "Zelenskyy: sanctions pause is a ‘reward’ for Putin",
+    "DHS reports the lowest border crossings in agency history",
+    "Roman Space Telescope beats its image-quality goal by nearly 30%",
+    "Missionary Rosary in 13 languages prays for the Pope and the missions"
+  ],
+  "audio": "audio/2026-10-17-evening.mp3"
 }
