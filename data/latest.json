@@ -1,64 +1,54 @@
 {
-  "id": "2026-10-17-evening",
-  "label": "Saturday evening",
-  "generatedAt": "2026-10-17T20:05:22-04:00",
+  "id": "2026-10-19-morning",
+  "label": "Monday morning",
+  "generatedAt": "2026-10-19T07:00:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope home at the Vatican; super typhoon passes Guam; France erupts.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-world.jpg"
+      "headline": "Pope back at his window; Kyiv struck overnight; France reels.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Record-low border crossings; Russia waiver debated; food definition pending.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-promises.jpg"
+      "headline": "Sanctions pause defended; prices mixed; rural EMS; border lows hold.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Roadster deposits open; Europe fast-tracks a Starlink rival; merger odds hold.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-musk.jpg"
+      "headline": "SpaceX and Tesla report this week; Starship eyes a double catch.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-musk.jpg"
     },
     {
       "title": "Space industry",
-      "headline": "Japan’s Phobos mission Monday; Blue Origin’s pads; Webb maps alien weather.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-space.jpg"
+      "headline": "Japan’s Phobos mission launches today; Neutron slips to 2027.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Roman telescope 30% sharper than required; Artemis briefing Friday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-nasa.jpg"
+      "headline": "SPHEREx reads brown-dwarf skies; new Marshall director starts today.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Pope home; Capuchin bishop for Chad; Košice archbishop; Mission Sunday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-catholic.jpg"
+      "headline": "Wenski on executions; Bishop Wang ordained; Mission Sunday centenary.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 16; Sept. 25 message stands; Sokółka at 18.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-signs.jpg"
+      "headline": "Countdown still Oct. 16; Medjugorje message Sunday; Maine invites returns.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-signs.jpg"
     },
     {
       "title": "Miami life",
-      "headline": "Gettys Sunday; Zoo Boo next weekend; Crowder and Rend Collective Nov. 2.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-miami.jpg"
+      "headline": "Worship nights, Haulover kites and Zoo Boo this weekend.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat open Wednesday; Filoni teases a supernatural Ahsoka Season 2.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-17-evening-pick-me-up.jpg"
+      "headline": "Bam expects to play Wednesday; Waititi’s Star Wars film on ice.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-morning-pick-me-up.jpg"
     }
   ],
-  "newAtThisHour": [
-    "Pope Leo leaves Gemelli and is home at the Vatican",
-    "Champi becomes a super typhoon as it passes just south of Guam",
-    "France: 550,000 march; clashes, fires and about 400 arrests",
-    "Iran claims a second supertanker struck a mine in Hormuz",
-    "Zelenskyy: sanctions pause is a ‘reward’ for Putin",
-    "DHS reports the lowest border crossings in agency history",
-    "Roman Space Telescope beats its image-quality goal by nearly 30%",
-    "Missionary Rosary in 13 languages prays for the Pope and the missions"
-  ],
-  "audio": "audio/2026-10-17-evening.mp3"
+  "audio": "audio/2026-10-19-morning.mp3"
 }
