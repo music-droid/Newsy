@@ -1,54 +1,64 @@
 {
-  "id": "2026-10-20-morning",
-  "label": "Tuesday morning",
-  "generatedAt": "2026-10-20T06:46:18-04:00",
+  "id": "2026-10-20-evening",
+  "label": "Tuesday evening",
+  "generatedAt": "2026-10-20T18:27:04-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Alberta stays; drones kill seven in Ukraine; Oslo talks begin.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-world.jpg"
+      "headline": "Oslo sends Witkoff to Putin; Sudan drones kill over 300.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "MAHA scorecard stings; Oslo peace push; gas steady near $4.28.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-promises.jpg"
+      "headline": "Peace plan heads to Putin; gas dips; Mexico deal “very close.”",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "SpaceX reports tonight; Tesla tomorrow; Starshield pressure from Kyiv.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-musk.jpg"
+      "headline": "SpaceX posts $4.4 billion profit; Musk confirms merger committees.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-musk.jpg"
     },
     {
-      "title": "Space industry",
-      "headline": "MMX confirmed on course; Bandwagon-5 aims for 7:04 a.m.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-space.jpg"
+      "title": "Space",
+      "headline": "Bandwagon-5 deploys all 32 payloads; Starship’s first paying flight.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Spacewalk preview at 2 p.m.; NASA’s MEGANE rides to Phobos.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-nasa.jpg"
+      "headline": "Final solar-array spacewalks set for Oct. 29 and Nov. 5.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Wenski rebukes the attorney general; Venice reshuffles priests.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-catholic.jpg"
+      "headline": "Wenski presses liberty case; bishops set Baltimore agenda.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 16; Shakahola verdict; Europe’s ID wallets.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-signs.jpg"
+      "headline": "Countdown still Oct. 16; Anguera message Oct. 17; Ohio State baptisms.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-signs.jpg"
     },
     {
-      "title": "Miami life",
-      "headline": "Doral Fall Festival, Kiddo-Ween and worship nights this week.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-miami.jpg"
+      "title": "Miami",
+      "headline": "Haulover Kite Festival and Miami Beach freebies this weekend.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat open tomorrow; Star Wars takes over the Super Bowl.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-pick-me-up.jpg"
+      "headline": "Bam cleared for the opener; Lucasfilm wants more Star Wars games.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-20-morning.mp3"
+  "newAtThisHour": [
+    "Witkoff meets Putin Wednesday after “constructive” Oslo talks",
+    "Sudan drone strikes kill more than 300, including 153 at an Abyei market",
+    "Nigeria confirms an Ebola case linked to East Africa",
+    "SpaceX earns $4.4 billion on $14.6 billion in revenue",
+    "Bandwagon-5 launches at 7:04 a.m. and deploys all 32 payloads",
+    "Spacewalks Oct. 29 and Nov. 5 will finish the station’s power upgrade",
+    "Newest Marian message, Oct. 17, through Pedro Regis calls for confession",
+    "Bam Adebayo is off the injury report for Wednesday’s opener"
+  ],
+  "audio": "audio/2026-10-20-evening.mp3"
 }
