@@ -1,64 +1,54 @@
 {
-  "id": "2026-10-19-evening",
-  "label": "Monday evening",
-  "generatedAt": "2026-10-19T18:35:12-04:00",
+  "id": "2026-10-20-morning",
+  "label": "Tuesday morning",
+  "generatedAt": "2026-10-20T06:46:18-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope sets Wednesday audience; Sudan drone toll climbs; France imposes curfews.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-world.jpg"
+      "headline": "Alberta stays; drones kill seven in Ukraine; Oslo talks begin.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Women’s health order signed; Ukraine talks strained; gas edges lower.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-promises.jpg"
+      "headline": "MAHA scorecard stings; Oslo peace push; gas steady near $4.28.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "A SpaceX share for every child; Tesla jumps before earnings.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-musk.jpg"
+      "headline": "SpaceX reports tonight; Tesla tomorrow; Starshield pressure from Kyiv.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-musk.jpg"
     },
     {
       "title": "Space industry",
-      "headline": "Japan’s MMX is on its way to Phobos.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-space.jpg"
+      "headline": "MMX confirmed on course; Bandwagon-5 aims for 7:04 a.m.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Mock Mars crew hits one year; spacewalk prep begins.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-nasa.jpg"
+      "headline": "Spacewalk preview at 2 p.m.; NASA’s MEGANE rides to Phobos.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Wenski on fearless priests; French bishops plead for peace.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-catholic.jpg"
+      "headline": "Wenski rebukes the attorney general; Venice reshuffles priests.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 16; Medjugorje Sunday; five campus revivals.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-signs.jpg"
+      "headline": "Countdown still Oct. 16; Shakahola verdict; Europe’s ID wallets.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-signs.jpg"
     },
     {
       "title": "Miami life",
-      "headline": "Kiddo-Ween, LauderBOO and worship nights fill the week.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-miami.jpg"
+      "headline": "Doral Fall Festival, Kiddo-Ween and worship nights this week.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Conwell eyes Heat minutes; a new Battlefront in talks.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-19-evening-pick-me-up.jpg"
+      "headline": "Heat open tomorrow; Star Wars takes over the Super Bowl.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-morning-pick-me-up.jpg"
     }
   ],
-  "newAtThisHour": [
-    "Pope Leo will hold Wednesday’s General Audience",
-    "Trump: “time for somebody else” to negotiate for Ukraine",
-    "Sudan: drone strikes kill more than 160 since Friday",
-    "France orders partial curfews after police “lost control”",
-    "Abiy warns Eritrea of “very, very, very severe consequences”",
-    "Trump signs an order creating an NIH women’s health division",
-    "Musk pledges a SpaceX share to every American child",
-    "Japan’s MMX launches toward Mars’s moon Phobos"
-  ],
-  "audio": "audio/2026-10-19-evening.mp3"
+  "audio": "audio/2026-10-20-morning.mp3"
 }
