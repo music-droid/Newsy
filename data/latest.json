@@ -1,64 +1,54 @@
 {
-  "id": "2026-10-20-evening",
-  "label": "Tuesday evening",
-  "generatedAt": "2026-10-20T18:27:04-04:00",
+  "id": "2026-10-21-morning",
+  "label": "Wednesday morning",
+  "generatedAt": "2026-10-21T06:48:09-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Oslo sends Witkoff to Putin; Sudan drones kill over 300.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-world.jpg"
+      "headline": "Pope back in the square; Witkoff meets Putin; Abyei toll 153.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Peace plan heads to Putin; gas dips; Mexico deal “very close.”",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-promises.jpg"
+      "headline": "Hubbard freed; kidney plan launched; chip plant promised.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "SpaceX posts $4.4 billion profit; Musk confirms merger committees.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-musk.jpg"
+      "headline": "SpaceX up 10% premarket; Tesla reports after the close.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-musk.jpg"
     },
     {
-      "title": "Space",
-      "headline": "Bandwagon-5 deploys all 32 payloads; Starship’s first paying flight.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-space.jpg"
+      "title": "Space industry",
+      "headline": "Starship will try to catch the ship itself.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Final solar-array spacewalks set for Oct. 29 and Nov. 5.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-nasa.jpg"
+      "headline": "Nuclear Mars craft advances; new Marshall director.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Wenski presses liberty case; bishops set Baltimore agenda.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-catholic.jpg"
+      "headline": "Little Flower’s new organ; a new Amazon bishop.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 16; Anguera message Oct. 17; Ohio State baptisms.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-signs.jpg"
+      "headline": "Countdown posts Oct. 20–21; newest Marian message Oct. 20.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-signs.jpg"
     },
     {
-      "title": "Miami",
-      "headline": "Haulover Kite Festival and Miami Beach freebies this weekend.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-miami.jpg"
+      "title": "Miami life",
+      "headline": "Organ premiere, kites and fall festivals this weekend.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Bam cleared for the opener; Lucasfilm wants more Star Wars games.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-20-evening-pick-me-up.jpg"
+      "headline": "Heat open tonight; Maul gets a teaser.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-pick-me-up.jpg"
     }
   ],
-  "newAtThisHour": [
-    "Witkoff meets Putin Wednesday after “constructive” Oslo talks",
-    "Sudan drone strikes kill more than 300, including 153 at an Abyei market",
-    "Nigeria confirms an Ebola case linked to East Africa",
-    "SpaceX earns $4.4 billion on $14.6 billion in revenue",
-    "Bandwagon-5 launches at 7:04 a.m. and deploys all 32 payloads",
-    "Spacewalks Oct. 29 and Nov. 5 will finish the station’s power upgrade",
-    "Newest Marian message, Oct. 17, through Pedro Regis calls for confession",
-    "Bam Adebayo is off the injury report for Wednesday’s opener"
-  ],
-  "audio": "audio/2026-10-20-evening.mp3"
+  "audio": "audio/2026-10-21-morning.mp3"
 }
