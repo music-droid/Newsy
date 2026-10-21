@@ -1,54 +1,63 @@
 {
-  "id": "2026-10-21-morning",
-  "label": "Wednesday morning",
-  "generatedAt": "2026-10-21T06:48:09-04:00",
+  "id": "2026-10-21-evening",
+  "label": "Wednesday evening",
+  "generatedAt": "2026-10-21T18:22:18-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope back in the square; Witkoff meets Putin; Abyei toll 153.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-world.jpg"
+      "headline": "Pope cancer-free; Kremlin agrees to talks; Sudan’s “drone war.”",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Hubbard freed; kidney plan launched; chip plant promised.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-promises.jpg"
+      "headline": "Prior-auth fix expands; Ukraine talks set; Big Bend appeal.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "SpaceX up 10% premarket; Tesla reports after the close.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-musk.jpg"
+      "headline": "Tesla beats on cash; SpaceX closes up 7.8%.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-musk.jpg"
     },
     {
       "title": "Space industry",
-      "headline": "Starship will try to catch the ship itself.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-space.jpg"
+      "headline": "Hansen named Canada’s space adviser; Starship catch ahead.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Nuclear Mars craft advances; new Marshall director.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-nasa.jpg"
+      "headline": "RS-25 engine test; JPL looks ahead at 90.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Little Flower’s new organ; a new Amazon bishop.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-catholic.jpg"
+      "headline": "Pope needs no more treatment; new bishop for Haimen.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown posts Oct. 20–21; newest Marian message Oct. 20.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-signs.jpg"
+      "headline": "Countdown latest Oct. 21; Marian message Oct. 20; Medjugorje study days.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-signs.jpg"
     },
     {
       "title": "Miami life",
-      "headline": "Organ premiere, kites and fall festivals this weekend.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-miami.jpg"
+      "headline": "PJ party, Family Fest, organ premiere this weekend.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat open tonight; Maul gets a teaser.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-morning-pick-me-up.jpg"
+      "headline": "Heat open at 7:30; Battlefront 3 rumored.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-21-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-21-morning.mp3"
+  "newAtThisHour": [
+    "Pope Leo’s doctors: cancer was localized; no further treatment needed",
+    "Kremlin agrees to U.S.–Russia–Ukraine talks after Nov. 10, likely in Abu Dhabi",
+    "Tesla beats on adjusted profit with $1.5 billion free cash flow",
+    "Netanyahu directs Israel’s military and Mossad to topple Iran’s regime",
+    "French unions leave Matignon disappointed and call a Nov. 5 strike",
+    "Canada and Ontario unveil an $8.7 billion tariff shield for steel and autos",
+    "Artemis II astronaut Jeremy Hansen named Carney’s special adviser on space"
+  ],
+  "audio": "audio/2026-10-21-evening.mp3"
 }
