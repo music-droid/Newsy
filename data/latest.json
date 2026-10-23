@@ -1,64 +1,54 @@
 {
-  "id": "2026-10-22-evening",
-  "label": "Thursday evening",
-  "generatedAt": "2026-10-22T18:30:00-04:00",
+  "id": "2026-10-23-morning",
+  "label": "Friday morning",
+  "generatedAt": "2026-10-23T06:50:56-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Honduras accord; cluster warheads on Kyiv; Venezuela marches.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-world.jpg"
+      "headline": "Pope skips Assisi; Champi lashes Taiwan; Ukraine loses power.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Housing-cost order signed; Alzheimer’s plan unveiled in Florida.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-promises.jpg"
+      "headline": "Defense Production Act for refineries; voter-ID win at Court.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Tesla closes down 3%; SpaceX gives back 9%.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-musk.jpg"
+      "headline": "Merger talk weighs; Grok partner network launches.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-musk.jpg"
     },
     {
       "title": "Space industry",
-      "headline": "Starlink flies tonight; Moon lander may need 22 flights.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-space.jpg"
+      "headline": "Starlink 15-15 tries again tonight after third scrub.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Safety panel flags Moon risks; Roman nears science.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-nasa.jpg"
+      "headline": "Artemis update at 2 p.m.; science missions get faster.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "John Paul II relic tonight; Holy See–Honduras accord.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-catholic.jpg"
+      "headline": "Little Flower organ Saturday; Raimo installed in Terni.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown latest Oct. 21; Marian message Oct. 20; Medjugorje opens.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-signs.jpg"
+      "headline": "Countdown latest Oct. 21; new Marian message Oct. 22.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-signs.jpg"
     },
     {
       "title": "Miami life",
-      "headline": "John Paul II relic Mass tonight; big family weekend ahead.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-miami.jpg"
+      "headline": "PJ party tonight; organ, kites and Zoo Boo this weekend.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Giannis preaches trust; Starfighter’s big budget.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-22-evening-pick-me-up.jpg"
+      "headline": "Heat vs. Pistons at 8; Battlefront 3 rumours.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-pick-me-up.jpg"
     }
   ],
-  "newAtThisHour": [
-    "Zelensky: Russia used cluster warheads on Kyiv; at least four dead",
-    "Iran says seven tankers hit in Hormuz; tankers keep moving under U.S. guard",
-    "Thousands march across Venezuela demanding an election date",
-    "Datafolha: Flávio Bolsonaro 47%, Lula 46% before Sunday’s runoff",
-    "Holy See and Honduras sign an agreement on the Church’s freedom",
-    "Trump signs an order to cut mortgage insurance and closing costs",
-    "Tesla closes down 3.1%; SpaceX falls 9% in the AI selloff",
-    "NASA safety panel: Starship Moon lander may need about 22 fueling flights"
-  ],
-  "audio": "audio/2026-10-22-evening.mp3"
+  "audio": "audio/2026-10-23-morning.mp3"
 }
