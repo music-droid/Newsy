@@ -1,54 +1,64 @@
 {
-  "id": "2026-10-23-morning",
-  "label": "Friday morning",
-  "generatedAt": "2026-10-23T06:50:56-04:00",
+  "id": "2026-10-23-evening",
+  "label": "Friday evening",
+  "generatedAt": "2026-10-23T18:22:46-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope skips Assisi; Champi lashes Taiwan; Ukraine loses power.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-world.jpg"
+      "headline": "Oleshky truce; Shevchuk sees Pope; Matolcsy detained; Brent $116.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Defense Production Act for refineries; voter-ID win at Court.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-promises.jpg"
+      "headline": "Oleshky truce, Russian diesel, Alaska suit, seafood labels.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Merger talk weighs; Grok partner network launches.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-musk.jpg"
+      "headline": "SpaceX up on double upgrade; Starlink limits linger in Ukraine.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-musk.jpg"
     },
     {
-      "title": "Space industry",
-      "headline": "Starlink 15-15 tries again tonight after third scrub.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-space.jpg"
+      "title": "Space",
+      "headline": "Starlink 15-15 tries again; Starship eyes November.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Artemis update at 2 p.m.; science missions get faster.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-nasa.jpg"
+      "headline": "Artemis III set for summer 2027; landing still 2028.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Little Flower organ Saturday; Raimo installed in Terni.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-catholic.jpg"
+      "headline": "Shevchuk at Vatican; Panama bishops; Illinois hospitals protected.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown latest Oct. 21; new Marian message Oct. 22.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-signs.jpg"
+      "headline": "Countdown posts Oct. 23; Marian message Oct. 22; Medjugorje mural.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-signs.jpg"
     },
     {
-      "title": "Miami life",
-      "headline": "PJ party tonight; organ, kites and Zoo Boo this weekend.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-miami.jpg"
+      "title": "Miami",
+      "headline": "Moonrise tonight; Kiddo-Ween and Spooktacular Saturday.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat vs. Pistons at 8; Battlefront 3 rumours.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-morning-pick-me-up.jpg"
+      "headline": "Heat–Pistons at 8; Waititi’s Star Wars film on ice.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-23-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-23-morning.mp3"
+  "newAtThisHour": [
+    "Russia and Ukraine agree a local ceasefire for occupied Oleshky",
+    "Shevchuk gives Pope Leo a list of Ukrainian prisoners of war",
+    "Court orders Hungary’s ex-central bank chief Matolcsy detained for a month",
+    "Brent settles at $116.72, highest since April",
+    "Justice Department sues to condition Alaska Senate certification",
+    "NASA: Artemis III on track for summer 2027",
+    "Countdown to the Kingdom posts two new reflections dated Oct. 23",
+    "Taika Waititi says his Star Wars film is on ice"
+  ],
+  "audio": "audio/2026-10-23-evening.mp3"
 }

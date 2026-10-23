@@ -1,5 +1,1173 @@
 [
   {
+    "id": "2026-10-23-evening",
+    "date": "2026-10-23",
+    "slot": "evening",
+    "label": "Friday evening",
+    "generatedAt": "2026-10-23T18:22:46-04:00",
+    "schema": 2,
+    "topLine": "A local truce for Oleshky and November peace talks; Ukraine’s Shevchuk brings prisoners’ names to Pope Leo; Artemis III holds for summer 2027; Brent closes at $116.72.",
+    "newAtThisHour": [
+      {
+        "beat": "world",
+        "headline": "Russia and Ukraine agree a local ceasefire for occupied Oleshky",
+        "body": "<p>Firing stops Oct. 27, with aid and evacuations from Oct. 29; trilateral talks are planned in Abu Dhabi in early November.</p>",
+        "sources": [
+          {
+            "name": "BBC News",
+            "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+          },
+          {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+          }
+        ]
+      },
+      {
+        "beat": "world",
+        "headline": "Shevchuk gives Pope Leo a list of Ukrainian prisoners of war",
+        "body": "<p>A papal charity mission to Ukraine follows Oct. 27–30.</p>",
+        "sources": [
+          {
+            "name": "Vatican News",
+            "url": "https://www.vaticannews.va/en/pope/news/2026-10/shevchuk-brings-ukraine-s-prayers-and-list-of-prisoner-to-pope.html"
+          }
+        ]
+      },
+      {
+        "beat": "world",
+        "headline": "Court orders Hungary’s ex-central bank chief Matolcsy detained for a month",
+        "body": "<p>The ruling is under appeal.</p>",
+        "sources": [
+          {
+            "name": "Telex English",
+            "url": "https://telex.hu/english/2026/10/23/former-head-of-hungarian-central-bank-placed-under-arrest"
+          }
+        ]
+      },
+      {
+        "beat": "world",
+        "headline": "Brent settles at $116.72, highest since April",
+        "body": "<p>Aramco sends Dhahran staff home after Houthi attacks.</p>",
+        "sources": [
+          {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+          }
+        ]
+      },
+      {
+        "beat": "promises",
+        "headline": "Justice Department sues to condition Alaska Senate certification",
+        "body": "<p>It cites a similarly named candidate on the ballot.</p>",
+        "sources": [
+          {
+            "name": "NBC News",
+            "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-byron-donalds-florida-live-updates-rcna605134"
+          }
+        ]
+      },
+      {
+        "beat": "nasa",
+        "headline": "NASA: Artemis III on track for summer 2027",
+        "body": "<p>Tanking test by year-end; Artemis IV landing still 2028.</p>",
+        "sources": [
+          {
+            "name": "Aerospace America",
+            "url": "https://aerospaceamerica.aiaa.org/nasa-eyeing-year-end-tanking-test-and-summer-2027-launch-for-artemis-iii/"
+          }
+        ]
+      },
+      {
+        "beat": "signs",
+        "headline": "Countdown to the Kingdom posts two new reflections dated Oct. 23",
+        "body": "<p>“The Suicide of the West” and “Defending Your Family.”</p>",
+        "sources": [
+          {
+            "name": "Countdown to the Kingdom",
+            "url": "https://www.countdowntothekingdom.com/"
+          }
+        ]
+      },
+      {
+        "beat": "pick-me-up",
+        "headline": "Taika Waititi says his Star Wars film is on ice",
+        "body": "<p>Starfighter remains on track for May 28, 2027.</p>",
+        "sources": [
+          {
+            "name": "The Guardian",
+            "url": "https://www.theguardian.com/film/2026/oct/23/taika-waititi-star-wars-lucasfilm"
+          }
+        ]
+      }
+    ],
+    "beats": [
+      {
+        "id": "world",
+        "title": "World",
+        "headline": "Oleshky truce; Shevchuk sees Pope; Matolcsy detained; Brent $116.",
+        "stories": [
+          {
+            "headline": "Vatican City: Ukraine’s Shevchuk hands Pope Leo a list of prisoners",
+            "body": "<p>Major Archbishop Sviatoslav Shevchuk, head of the Ukrainian Greek Catholic Church, met Pope Leo XIV this morning for the fifth time and handed him a list of hundreds of Ukrainian prisoners of war held in Russia. He thanked the Pope for his calls to Presidents Putin and Zelensky appealing for a truce in occupied Oleshky, where civilians lack food, water and medicine. The Papal Almoner, Archbishop Luis Marín de San Martín, will visit Ukraine Oct. 27 to 30 with food and medicine.</p>",
+            "sources": [
+              {
+                "name": "Vatican News",
+                "url": "https://www.vaticannews.va/en/pope/news/2026-10/shevchuk-brings-ukraine-s-prayers-and-list-of-prisoner-to-pope.html"
+              },
+              {
+                "name": "Holy See Press Office",
+                "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/23/261023b.html"
+              }
+            ],
+            "why": "Hours later, a local ceasefire for Oleshky was announced, the very truce the Pope had asked for."
+          },
+          {
+            "headline": "Vatican City: Pope receives Panama’s bishops; a sainthood cause opens",
+            "body": "<p>Pope Leo also received Panama’s bishops on their ad limina visit, urging them to build bridges of dialogue and stay close to migrants and families, and sending his prayers to areas hit by the recent earthquake. Archbishop José Domingo Ulloa said the Holy See granted the nihil obstat to open the sainthood cause of Fr. Guillermo Sosa. Earlier this week the Pope told an American Jewish Committee delegation that differences “must never give rise to prejudice and hostility.”</p>",
+            "sources": [
+              {
+                "name": "Vatican News (Spanish)",
+                "url": "https://www.vaticannews.va/es/papa/news/2026-10/mons-ulloa-llamado-papa-dialogo-solidaridad-visita-ad-limina.html"
+              },
+              {
+                "name": "OSV News via CNA",
+                "url": "https://catholics.news/meeting-us-jewish-leaders-pope-warns-differences-must-not-fuel-prejudice"
+              }
+            ]
+          },
+          {
+            "headline": "Vatican City: Assisi without the Pope; recovery “progressing very well”",
+            "body": "<p>The Sant’Egidio peace gathering in Assisi, Oct. 25 to 27, expects 384 religious and civic leaders from 53 countries for the 40th anniversary of St. John Paul II’s 1986 prayer for peace. Pope Leo will send a message instead of flying there, after doctors advised against a helicopter trip so soon after his Oct. 13 lung surgery; a follow-up chest X-ray shows his recovery is “progressing very well,” and he kept a full slate of audiences today.</p>",
+            "sources": [
+              {
+                "name": "Vatican News",
+                "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-cancels-october-27-visit-assisi.html"
+              },
+              {
+                "name": "Holy See Press Office",
+                "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/23/261023b.html"
+              }
+            ]
+          },
+          {
+            "headline": "Africa: Tigray’s caretaker government urges rebels to lay down arms",
+            "body": "<p>Redae Halefom, a senior official in Tigray’s new federally backed caretaker administration, urged rebel fighters to disarm. Hours earlier, Lt. Gen. Fisseha Kidanu, named as commander of the Tigray army, called on militias and volunteers to keep attacking government positions. Residents report a drone strike that killed four people loading goats on Tuesday, and the renewed fighting has effectively shattered the 2022 Pretoria peace deal.</p><p>Background: the 2020 to 2022 war is estimated to have caused about 500,000 civilian deaths through violence, famine and collapsed health care. Ethiopia accuses Eritrea of sending troops into Tigray, which Asmara denies; the International Crisis Group warns the standoff could become an interstate war. Watch whether Eritrea moves, and whether the caretaker government can bring displaced families home.</p>",
+            "sources": [
+              {
+                "name": "Al Jazeera / AP",
+                "url": "https://www.aljazeera.com/news/2026/10/23/tigray-official-urges-rebels-to-disarm"
+              },
+              {
+                "name": "International Crisis Group",
+                "url": "https://www.crisisgroup.org/alr/africa/ethiopia-eritrea/pulling-ethiopia-and-eritrea-back-war"
+              }
+            ]
+          },
+          {
+            "headline": "Africa: Ebola nears 9,800 cases as WHO warns against easing up",
+            "body": "<p>The WHO says Congo’s Bundibugyo Ebola outbreak has reached 9,765 cases and 4,727 deaths across eight provinces, the newest being Nord-Ubangi in the northwest; about 30,000 contacts are followed daily. “If we lift the foot off the pedal, the virus will resurge very quickly,” said the WHO’s Catherine Smallwood, noting some patients visit two to five clinics before reaching an Ebola centre. There is hope too: more than 2,000 of a planned 3,000 treatment beds are open, 2,600 people have survived, and in Kenya the first contacts finish their 21-day quarantine on Sunday.</p>",
+            "sources": [
+              {
+                "name": "UN News",
+                "url": "https://news.un.org/en/story/2026/10/1168655"
+              }
+            ],
+            "why": "Cases have also been confirmed in Kenya, Nigeria and France, so vigilance abroad matters too."
+          },
+          {
+            "headline": "Africa: A year after El Fasher fell, Amnesty describes a city of fear",
+            "body": "<p>Amnesty International published testimony from 25 people describing detention, torture and killings in El Fasher, a year after the Rapid Support Forces captured the North Darfur city; schools were used as detention sites, and fewer than 70,000 people remain of more than a million. Famine is considered highly likely in North Darfur in the coming months. Amnesty faulted both sides, the RSF for abuses and its UAE backing, and the army for opposing a wider arms embargo and ceasefire, as Geneva diplomacy this week produced calls for a truce but neither warring party attended.</p>",
+            "sources": [
+              {
+                "name": "Amnesty International",
+                "url": "https://www.amnesty.org/en/latest/news/2026/10/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-by-the-rsf-new-testimony/"
+              },
+              {
+                "name": "UN News",
+                "url": "https://news.un.org/en/story/2026/10/1168638"
+              }
+            ]
+          },
+          {
+            "headline": "Asia: Champi’s toll rises to 350 injured in Taiwan",
+            "body": "<p>Taiwan counted one dead, a man swept away off Liuqiu island, and 350 injured by Friday evening, as Champi brought winds near 96 mph toward Yilan around midnight. All domestic flights were cancelled, the American Institute in Taiwan closed, and 13 counties and cities are keeping offices and schools shut Saturday. President Lai monitored the response from the central emergency operations centre.</p>",
+            "sources": [
+              {
+                "name": "NTD",
+                "url": "https://www.ntd.com/typhoon-champi-leaves-1-dead-350-injured-in-taiwan-alters-us-japan-military-exercise_1181001.html"
+              },
+              {
+                "name": "Focus Taiwan",
+                "url": "https://focustaiwan.tw/society/202610230019"
+              }
+            ]
+          },
+          {
+            "headline": "Asia: Brent settles at $116.72 as Iran talks of “asymmetric warfare”",
+            "body": "<p>Brent crude rose 3.1% to settle at 116.72 dollars a barrel, its highest since April, and 6.2% for the week; U.S. crude settled at 103.27. Iran’s army chief said Tehran is ready for “asymmetric warfare,” and traders increasingly expect U.S. strikes to resume. Iran says seven tankers were damaged in Hormuz in a single day, the most yet.</p>",
+            "sources": [
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+              },
+              {
+                "name": "SBS News",
+                "url": "https://www.sbs.com.au/news/article/seven-oil-tankers-reported-damage-in-strait-of-hormuz-in-largest-single-day-record/by3xh73ou"
+              }
+            ]
+          },
+          {
+            "headline": "Asia: Aramco evacuates Dhahran headquarters after deadly drone attacks",
+            "body": "<p>Saudi Aramco evacuated its Dhahran headquarters after a run of drone attacks in the kingdom, and the State Department ordered all non-essential U.S. personnel out of Saudi Arabia. Recent strikes on the Shaybah oil field and Dammam’s airport killed four people.</p>",
+            "sources": [
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+              }
+            ]
+          },
+          {
+            "headline": "Europe: Oleshky truce agreed; Russia–Ukraine–U.S. talks set for Abu Dhabi",
+            "body": "<p>Russia and Ukraine both confirmed a local ceasefire in occupied Oleshky, on the Dnipro, with firing to stop at 02:00 GMT on Tuesday, Oct. 27, ahead of an aid and evacuation mission from Oct. 29; the White House credits First Lady Melania Trump. Residents there have been eating garden weeds to survive. The Kremlin also said trilateral talks are planned for the first half of November in Abu Dhabi, and Zelensky confirmed technical talks, saying Ukraine needs security guarantees and ten years of funding for its army.</p><p>The toll: Ukraine’s prosecutor general says more than 19,000 civilians, including 762 children, have been killed since 2022, 2,960 of them this year. Ukraine also says Starlink speed limits on its drones remain in place despite President Trump’s assurances.</p>",
+            "sources": [
+              {
+                "name": "BBC News",
+                "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+              },
+              {
+                "name": "AP News",
+                "url": "https://apnews.com/article/russia-ukraine-war-ceasefire-oleshky-melania-trump-60167627316e0e2f62fc359cf78f317d"
+              },
+              {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+              },
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html"
+              }
+            ],
+            "why": "The Church’s patient diplomacy, the Pope’s calls and the coming papal charity mission, is part of the Oleshky story."
+          },
+          {
+            "headline": "Europe: Hungary’s ex-central bank chief Matolcsy ordered detained",
+            "body": "<p>After a nine-hour hearing, a Budapest court ordered György Matolcsy, Hungary’s longtime former central bank governor, held for one month, along with two other suspects; all three appealed, so the ruling is not final. Prosecutors allege a sham securities-lending deal meant to keep control of the bank’s PADME foundation assets within his circle. His son Ádám remains abroad, and prosecutors seek an international arrest warrant.</p>",
+            "sources": [
+              {
+                "name": "Telex English",
+                "url": "https://telex.hu/english/2026/10/23/former-head-of-hungarian-central-bank-placed-under-arrest"
+              },
+              {
+                "name": "Euronews (Hungarian)",
+                "url": "https://hu.euronews.com/2026/10/23/a-birosag-elrendelte-matolcsy-gyorgy-letartoztatasat"
+              }
+            ]
+          },
+          {
+            "headline": "Europe: Europe uneasy as Russian diesel heads to New York",
+            "body": "<p>The first tanker carrying Russian diesel under the Trump–Putin deal, the Agioi Fanendes with about 40,000 tonnes, has left Primorsk for New York and is due around Nov. 7, after the midterms. European leaders say the arrangement gives Russia “hope” and makes peace harder.</p>",
+            "sources": [
+              {
+                "name": "NBC News",
+                "url": "https://www.nbcnews.com/business/energy/russian-diesel-tanker-heads-us-trump-deal-putin-ukraine-war-rcna605187"
+              },
+              {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+              }
+            ]
+          },
+          {
+            "headline": "North America: Trump rallies for Donalds in Fort Myers; votes early Saturday",
+            "body": "<p>President Trump rallied at Florida Gulf Coast University for Byron Donalds, the Republican nominee for governor, whose race against Democrat David Jolly Cook now rates “Lean R.” He told the crowd “we may do another little Epic Fury” in Iran unless Tehran agrees to a deal, and promised oil prices “will soon plummet.” He plans to vote early in Florida on Saturday.</p>",
+            "sources": [
+              {
+                "name": "NBC News",
+                "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-byron-donalds-florida-live-updates-rcna605134"
+              },
+              {
+                "name": "WSVN 7News",
+                "url": "https://wsvn.com/news/politics/trump-campaigning-byron-donalds/"
+              }
+            ]
+          },
+          {
+            "headline": "North America: Justice Department sues over Alaska’s Senate count",
+            "body": "<p>The Justice Department asked a federal court to block Alaska from certifying its Senate result unless Sen. Dan Sullivan wins, arguing a similarly named candidate, Daniel J. Sullivan Jr., could mislead his supporters. Separately, two former FBI officials, Nikki Floris and Bradley Benavides, were charged with lying to Congress.</p>",
+            "sources": [
+              {
+                "name": "NBC News",
+                "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-byron-donalds-florida-live-updates-rcna605134"
+              }
+            ]
+          },
+          {
+            "headline": "North America: Carney opens a Canada–Türkiye strategic partnership",
+            "body": "<p>Prime Minister Mark Carney and President Recep Tayyip Erdoğan launched a new strategic partnership between their countries during Carney’s visit to Türkiye. Carney said there is “no merit” to U.S. claims that Canada is meddling in the midterms.</p>",
+            "sources": [
+              {
+                "name": "AP",
+                "url": "https://apnews.com/article/turkey-canada-carney-erdogan-visit-e77f7f400c4ac4712ee28a221a0c3e69"
+              },
+              {
+                "name": "Prime Minister of Canada",
+                "url": "https://www.pm.gc.ca/en/news/readouts/2026/10/22/prime-minister-carney-meets-president-turkiye-recep-tayyip-erdogan"
+              }
+            ]
+          },
+          {
+            "headline": "South America: Lula and Flávio Bolsonaro meet in tonight’s final debate",
+            "body": "<p>President Lula and Sen. Flávio Bolsonaro face off tonight in TV Globo’s last debate before Sunday’s runoff, moderated by César Tralli. Undecided voters doubled to 14% in Wednesday’s Quaest poll, so the debate could matter.</p>",
+            "sources": [
+              {
+                "name": "O Globo",
+                "url": "https://oglobo.globo.com/politica/eleicoes-2026/noticia/2026/10/23/horario-do-debate-na-globo-hoje-veja-regras-e-onde-assistir-ao-embate-entre-lula-e-flavio-bolsonaro.ghtml"
+              },
+              {
+                "name": "g1",
+                "url": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/23/debate-estrategias-flavio-bolsonaro-e-lula.ghtml"
+              }
+            ]
+          },
+          {
+            "headline": "South America: Venezuela’s opposition awaits Machado’s return after marches",
+            "body": "<p>After Thursday’s nationwide marches for an election date, Reuters reports the opposition is looking ahead to a vote and to María Corina Machado’s return from exile. Interim President Delcy Rodríguez met chief negotiators from both sides of the dialogue, which excludes Machado’s movement.</p>",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/awaiting-machados-returnvenezuela-opposition-looks-ahead-to-elections-4968921"
+              },
+              {
+                "name": "El País",
+                "url": "https://elpais.com/america/2026-10-23/la-oposicion-sale-a-la-calle-en-venezuela-para-exigir-fecha-electoral-ante-la-paralisis-del-dialogo.html"
+              }
+            ]
+          },
+          {
+            "headline": "South America: Questions over the Pope’s November trip",
+            "body": "<p>After the Assisi cancellation, the Vatican has not said whether Pope Leo’s Nov. 6–17 visit to Uruguay, Argentina and Peru, his first to South America as Pope, will proceed. Doctors say his recovery is going very well, but the helicopter hop to Assisi was ruled out. Peru, where he served as a missionary and bishop for years, is watching closely.</p>",
+            "sources": [
+              {
+                "name": "Reuters via Investing.com",
+                "url": "https://www.investing.com/news/world-news/pope-leo-progressing-well-after-cancer-surgery-but-cancels-assisi-trip-4968248"
+              },
+              {
+                "name": "Vatican News",
+                "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-xiv-cancels-october-27-visit-assisi.html"
+              }
+            ]
+          },
+          {
+            "headline": "Oceania: Storms and record rain sweep eastern Australia this weekend",
+            "body": "<p>Nambour in Queensland has logged 401 millimetres, its wettest October since records began in 1896, and Coffs Harbour 339. Severe storms, possibly supercells, are forecast for New South Wales and Victoria on Sunday.</p>",
+            "sources": [
+              {
+                "name": "ABC News (Australia)",
+                "url": "https://www.abc.net.au/news/2026-10-24/storm-season-weather-intensifies-across-australia/107302350"
+              }
+            ]
+          },
+          {
+            "headline": "Oceania: Helen Haines “critical but stable” as vigils light Wangaratta",
+            "body": "<p>Independent MP Helen Haines remains in critical but stable condition at Melbourne’s Alfred hospital after losing both legs in last week’s alleged car attack outside her Wangaratta office. Candlelight vigils were held across her electorate, and a fundraiser in her name has passed 600,000 dollars. Police say inquiries continue into the alleged attacker.</p>",
+            "sources": [
+              {
+                "name": "ABC News",
+                "url": "https://www.abc.net.au/news/2026-10-23/helen-haines-candle-vigil-critical-injuries-hospital-update/107302886"
+              },
+              {
+                "name": "ABC News",
+                "url": "https://www.abc.net.au/news/2026-10-23/helen-haines-police-inquiries-commissioner/107299604"
+              }
+            ]
+          },
+          {
+            "headline": "Oceania: Papua New Guinea passes laws to unlock a $14.5 billion gas project",
+            "body": "<p>PNG’s Parliament passed four laws to release funds for the 14.5-billion-dollar Papua LNG project and is debating ratification of Bougainville’s independence referendum. A Pacific church group, meanwhile, is calling for a review of Israel’s role at the Pacific Islands Forum.</p>",
+            "sources": [
+              {
+                "name": "The National (PNG)",
+                "url": "https://www.thenational.com.pg/four-laws-passed-to-unlock-funds/"
+              },
+              {
+                "name": "PINA",
+                "url": "https://pina.com.fj/2026/10/23/test-of-regionalism-pacific-church-group-calls-for-review-of-israels-pif-role/"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-world.jpg",
+          "alt": "Vatican City: Ukraine’s Shevchuk hands Pope Leo a list of prisoners",
+          "credit": "Vatican News",
+          "sourceUrl": "https://www.vaticannews.va/en/pope/news/2026-10/shevchuk-brings-ukraine-s-prayers-and-list-of-prisoner-to-pope.html"
+        }
+      },
+      {
+        "id": "promises",
+        "title": "MAGA / MAHA promises kept",
+        "headline": "Oleshky truce, Russian diesel, Alaska suit, seafood labels.",
+        "stories": [
+          {
+            "headline": "Ending the war: an Oleshky truce and November talks",
+            "body": "<p>Promise: end the war in Ukraine. What was done: the White House says the First Lady brokered a local ceasefire in occupied Oleshky starting Oct. 27, with aid and evacuations from Oct. 29, and both Moscow and Kyiv confirm trilateral talks in Abu Dhabi in the first half of November. Real impact: trapped civilians may soon get food and a way out, while nationwide strikes and power cuts continue. Room for disagreement: supporters see momentum; critics, including European leaders, say sanctions relief and the diesel deal reward Russia, and Kyiv says Starlink limits persist.</p>",
+            "sources": [
+              {
+                "name": "BBC News",
+                "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+              },
+              {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/10/23/russia-ukraine-talks-planned-for-november-in-uae-kremlin"
+              },
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html"
+              }
+            ]
+          },
+          {
+            "headline": "Energy: Russian diesel sails as oil hits a six-month high",
+            "body": "<p>Promise: lower energy prices. What was done: the first 40,000-tonne cargo of Russian diesel under the President’s deal with Putin is bound for New York, arriving around Nov. 7, on top of Thursday’s Defense Production Act order for refining. Real impact: Brent settled at 116.72 dollars Friday, so relief at the pump has not arrived. Room for disagreement: the President says prices “will soon plummet”; skeptics note one cargo is small next to Hormuz disruption.</p>",
+            "sources": [
+              {
+                "name": "NBC News",
+                "url": "https://www.nbcnews.com/business/energy/russian-diesel-tanker-heads-us-trump-deal-putin-ukraine-war-rcna605187"
+              },
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+              },
+              {
+                "name": "NBC News",
+                "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-byron-donalds-florida-live-updates-rcna605134"
+              }
+            ]
+          },
+          {
+            "headline": "Election integrity: Alaska lawsuit tests a new approach",
+            "body": "<p>Promise: secure, trustworthy elections. What was done: the Justice Department sued to keep Alaska from certifying its Senate race unless Sen. Dan Sullivan wins, citing possible confusion with a similarly named candidate. Real impact: none yet; a federal court will decide. Room for disagreement: the department frames it as protecting voters from being misled; conditioning certification on one candidate’s victory is highly unusual and is drawing sharp criticism.</p>",
+            "sources": [
+              {
+                "name": "NBC News",
+                "url": "https://www.nbcnews.com/politics/trump-administration/live-blog/trump-rally-byron-donalds-florida-live-updates-rcna605134"
+              }
+            ]
+          },
+          {
+            "headline": "MAHA: “America First” seafood labels and a crackdown on short weights",
+            "body": "<p>Promise: honest, healthy food for American families. What was done: the FDA issued draft guidance for “U.S.-Caught” labels and flag graphics on qualifying seafood, and put 11 foreign firms on import alert after finding 46% of sampled imports overstated their weight, some by up to 32.8%, using ice glaze. Real impact: shoppers could soon spot U.S. seafood more easily; comments are invited by Dec. 13. Room for disagreement: fishermen welcome it; the labels are voluntary and still in draft.</p>",
+            "sources": [
+              {
+                "name": "HHS",
+                "url": "https://www.hhs.gov/press-room/fda-advances-america-first-seafood-strategy-us-origin-labeling.html"
+              }
+            ]
+          },
+          {
+            "headline": "Lower costs: the housing order moves to the regulators",
+            "body": "<p>Promise: make homeownership affordable. What was done: this week’s order directs the FHFA to pilot cancelling mortgage insurance for borrowers with enough equity and make title-insurance waivers on refinances permanent. Real impact: savings depend on how quickly Fannie Mae and Freddie Mac carry it out. Room for disagreement: builders welcome it; some economists say high rates still dominate costs.</p>",
+            "sources": [
+              {
+                "name": "HousingWire",
+                "url": "https://www.housingwire.com/articles/trump-order-mortgage-insurance/"
+              },
+              {
+                "name": "White House",
+                "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-president-donald-j-trump-decreases-housing-costs-for-americans/"
+              }
+            ]
+          },
+          {
+            "headline": "MAHA: the Alzheimer’s prevention plan, unveiled in Florida",
+            "body": "<p>Promise: prevent chronic disease, not just treat it. What was done: Secretary Kennedy and Dr. Oz unveiled the national Alzheimer’s plan at Broward Health, with an FDA prevention accelerator and up to 48.8 million dollars from ARPA-H for earlier detection. Real impact: research grants first, patient benefits later. Room for disagreement: advocates want more funding for caregivers now.</p>",
+            "sources": [
+              {
+                "name": "WLRN",
+                "url": "https://www.wlrn.org/health/2026-10-22/rfk-jr-dr-oz-visit-broward-health-to-outline-new-federal-alzheimers-initiative"
+              },
+              {
+                "name": "HHS",
+                "url": "https://www.hhs.gov/press-room/hhs-unveils-national-plan-alzheimers-dementia-prevention-care.html"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-promises.jpg",
+          "alt": "Ending the war: an Oleshky truce and November talks",
+          "credit": "BBC News",
+          "sourceUrl": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+        }
+      },
+      {
+        "id": "musk",
+        "title": "Musk world",
+        "headline": "SpaceX up on double upgrade; Starlink limits linger in Ukraine.",
+        "stories": [
+          {
+            "headline": "SpaceX rebounds 1.9% on a rare double upgrade",
+            "body": "<p>SpaceX shares closed at 147.49 dollars, up 1.89%, after Phillip Securities jumped from Sell to Buy and tripled its target from 75 to 250 dollars, citing the Super Intelligence unit’s 7.6 billion dollars in third-quarter sales. Reports that SpaceX is negotiating leases on at least 80,000 U.S. cell towers weighed on telecom stocks. Tesla slipped 0.6% to close at 372.22.</p>",
+            "sources": [
+              {
+                "name": "The Motley Fool",
+                "url": "https://www.fool.com/coverage/stock-market-today/2026/10/23/stock-market-today-oct-23-spacex-achieves-rare-double-upgrade-to-buy-on-ai-growth/"
+              },
+              {
+                "name": "StockAnalysis",
+                "url": "https://stockanalysis.com/stocks/tsla/history/"
+              }
+            ]
+          },
+          {
+            "headline": "Starlink in Ukraine: Kyiv says limits remain; lawmakers press the Pentagon",
+            "body": "<p>Ukrainian officials say Starshield terminals still drop drones moving faster than about 100 mph, despite President Trump’s assurances; on Friday Trump said he had not spoken to Musk: “I’ve heard it was fixed… if it’s not, I’ll speak to him.” A bipartisan group asked Defense Secretary Hegseth to expand Starshield support, and Ukraine signed letters of intent with Nokia and ICEYE on sovereign satellite links. SpaceX has not commented.</p>",
+            "sources": [
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/ukraine-says-starlink-restrictions-remain-despite-trump-assurances.html"
+              }
+            ],
+            "why": "A reputational and contract risk for SpaceX’s government business, and a sign customers are hedging."
+          },
+          {
+            "headline": "Merger math: what a Tesla–SpaceX deal would need",
+            "body": "<p>CNBC lays out the hurdles: Musk holds nearly 80% of SpaceX’s votes but about 19.8% of Tesla, where approval needs a majority of all shares, not just those voting. Analyst Steve Westly expects a proposal, possibly before the elections, and a Chinese security review is a risk given Tesla’s business there. William Blair called the push “all about control.”</p>",
+            "sources": [
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/spacex-tesla-merger-chatter-takes-center-stage-after-earnings.html"
+              }
+            ]
+          },
+          {
+            "headline": "SpaceX’s AI unit launches a Grok partner network with 130 companies",
+            "body": "<p>SpaceX Super Intelligence, built on xAI, launched a partner program for consultancies and software firms to deploy Grok in businesses; more than 130 companies joined early access, including Nvidia, Snowflake, Databricks, Bain and Booz Allen. The AI unit was SpaceX’s largest revenue line last quarter, at 7.56 billion dollars.</p>",
+            "sources": [
+              {
+                "name": "xAI",
+                "url": "https://x.ai/news/partnernetworkannouncement"
+              },
+              {
+                "name": "Bloomberg Law",
+                "url": "https://news.bloomberglaw.com/artificial-intelligence/spacex-works-with-apollo-nvidia-on-new-grok-partnership-program"
+              }
+            ]
+          },
+          {
+            "headline": "Tesla’s quarter: Megapacks nearly sold out, Optimus production begins",
+            "body": "<p>Tesla beat estimates with 28.05 billion dollars in revenue; Megapack orders are nearly sold out for 2027, and Optimus robot production has started in Fremont. Car revenue fell 3%, and NHTSA wants answers on the Cybercab by Oct. 30. Canaccord lifted its target to 442 dollars and Morgan Stanley to 410.</p>",
+            "sources": [
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/22/tesla-q3-2026-earnings-analysts.html"
+              },
+              {
+                "name": "Yahoo Finance",
+                "url": "https://finance.yahoo.com/markets/stocks/article/tesla-stock-slips-despite-q3-earnings-beat-better-than-expected-capex-spend-101521707.html"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-musk.jpg",
+          "alt": "SpaceX rebounds 1.9% on a rare double upgrade",
+          "credit": "The Motley Fool",
+          "sourceUrl": "https://www.fool.com/coverage/stock-market-today/2026/10/23/stock-market-today-oct-23-spacex-achieves-rare-double-upgrade-to-buy-on-ai-growth/"
+        }
+      },
+      {
+        "id": "space",
+        "title": "Space",
+        "headline": "Starlink 15-15 tries again; Starship eyes November.",
+        "stories": [
+          {
+            "headline": "Starlink 15-15: a fourth try at 6:48 p.m. Eastern",
+            "body": "<p>After scrubs on Tuesday, Wednesday and Thursday, SpaceX set a fourth attempt for 27 Starlink satellites from Vandenberg at 6:48 p.m. Eastern tonight. Booster B1063 would become only the second Falcon to fly 36 times, landing on the droneship A Shortfall of Gravitas.</p>",
+            "sources": [
+              {
+                "name": "Spaceflight Now",
+                "url": "https://spaceflightnow.com/2026/10/20/live-coverage-spacex-to-launch-27-starlink-satellites-on-falcon-9-rocket-from-vandenberg-sfb-5/"
+              }
+            ]
+          },
+          {
+            "headline": "Next Starship flight eyed for November; New Glenn aims to return",
+            "body": "<p>NASA’s Artemis manager Jeremy Parsons said SpaceX is targeting “the November time frame” for the next Starship flight, Blue Origin hopes to restart pad operations in November, with New Glenn’s return to flight soon after.</p>",
+            "sources": [
+              {
+                "name": "Aerospace America",
+                "url": "https://aerospaceamerica.aiaa.org/nasa-eyeing-year-end-tanking-test-and-summer-2027-launch-for-artemis-iii/"
+              }
+            ]
+          },
+          {
+            "headline": "How many Starship flights for a Moon landing? 22, or 6 to 8",
+            "body": "<p>NASA’s safety panel estimates about 22 refuelling flights for the Starship lunar lander; Musk says it will be “more like 6 to 8.” The gap matters, because orbital refuelling is the least-proven step on the path to a 2028 landing.</p>",
+            "sources": [
+              {
+                "name": "Ars Technica",
+                "url": "https://arstechnica.com/space/2026/10/latest-estimate-for-starship-launches-required-to-support-a-moon-landing-22/"
+              }
+            ]
+          },
+          {
+            "headline": "Blue Origin plans new Florida pads; Starbase seeks 456 launches a year",
+            "body": "<p>Blue Origin plans a 330-million-dollar Cape Canaveral expansion with two new pads by mid-2027, though New Glenn has not flown since a May test explosion. The FAA is reviewing SpaceX’s plan for up to 456 Starship launches a year from Texas, with comments due Nov. 30.</p>",
+            "sources": [
+              {
+                "name": "Space Foundation",
+                "url": "https://www.spacefoundation.org/2026/10/21/washington-updates-boosting-starship-cadence/"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-space.jpg",
+          "alt": "Starlink 15-15: a fourth try at 6:48 p.m. Eastern",
+          "credit": "Aerospace America",
+          "sourceUrl": "https://aerospaceamerica.aiaa.org/nasa-eyeing-year-end-tanking-test-and-summer-2027-launch-for-artemis-iii/"
+        }
+      },
+      {
+        "id": "nasa",
+        "title": "NASA",
+        "headline": "Artemis III set for summer 2027; landing still 2028.",
+        "stories": [
+          {
+            "headline": "Artemis III on track for summer 2027; Moon landing still 2028",
+            "body": "<p>Administrator Jared Isaacman said NASA will stack the SLS boosters with the core stage this month, run a tanking test by year’s end and launch Artemis III between about May and September 2027. The two-week Earth-orbit mission sends four astronauts to dock first with Blue Origin’s Blue Moon test lander, with two crew entering it, and then with a Starship test article for about two hours. Artemis IV, the first landing since Apollo, stays set for 2028, with the lander not yet chosen.</p>",
+            "sources": [
+              {
+                "name": "Aerospace America",
+                "url": "https://aerospaceamerica.aiaa.org/nasa-eyeing-year-end-tanking-test-and-summer-2027-launch-for-artemis-iii/"
+              },
+              {
+                "name": "AP News",
+                "url": "https://apnews.com/article/nasa-artemis-moon-astronauts-space-0a535368f718cb42f5b9c3378d3953c2"
+              },
+              {
+                "name": "NASA",
+                "url": "https://www.nasa.gov/blogs/missions/2026/10/23/nasa-shares-artemis-acceleration-plans-for-moon-missions/"
+              }
+            ],
+            "why": "The plan answers this week’s safety-panel worries with a step-by-step rehearsal before anyone lands."
+          },
+          {
+            "headline": "NASA moving fast toward a Moon base",
+            "body": "<p>AP reports the agency is moving fast on plans for a Moon base alongside the landings. Parsons said both lander providers, SpaceX and Blue Origin, plan Moon landings in 2028, and the Artemis III flight will also test the new lunar spacesuits.</p>",
+            "sources": [
+              {
+                "name": "AP News",
+                "url": "https://apnews.com/article/nasa-artemis-moon-astronauts-space-0a535368f718cb42f5b9c3378d3953c2"
+              },
+              {
+                "name": "Aerospace America",
+                "url": "https://aerospaceamerica.aiaa.org/nasa-eyeing-year-end-tanking-test-and-summer-2027-launch-for-artemis-iii/"
+              }
+            ]
+          },
+          {
+            "headline": "Safety panel warns NASA could lose crew access to orbit",
+            "body": "<p>NASA’s Aerospace Safety Advisory Panel warned the agency risks losing human access to low Earth orbit, given Crew Dragon’s expected retirement and uncertainty over commercial space stations. It also flagged “numerous firsts” in the Moon-landing plan.</p>",
+            "sources": [
+              {
+                "name": "SpaceNews",
+                "url": "https://spacenews.com/nasa-safety-advisers-warn-agency-risks-losing-crewed-access-to-leo/"
+              }
+            ]
+          },
+          {
+            "headline": "NASA Science overhauls how it picks missions",
+            "body": "<p>Science chief Nicola Fox announced “Competition Model 2.0,” which judges proposals on science first and cuts selection time by up to 45%, from about 35 months to 19.5. Goddard and JPL will lead implementation studies, and a town hall is set for Monday, Oct. 26, at 2 p.m. Eastern.</p>",
+            "sources": [
+              {
+                "name": "NASA Science",
+                "url": "https://science.nasa.gov/directorates/smd/faster-to-science-a-letter-to-the-science-community/"
+              }
+            ]
+          },
+          {
+            "headline": "Roman nears science; X-59 gets a new pilot",
+            "body": "<p>The Nancy Grace Roman Space Telescope has entered its final commissioning phase, and NASA pilot Mike Lippert flew the low-boom supersonic X-59 for the first time, reaching Mach 1.4 at 55,000 feet. Psyche is now thrusting steadily toward its metal asteroid, due in 2029.</p>",
+            "sources": [
+              {
+                "name": "NASA Science",
+                "url": "https://science.nasa.gov/blogs/roman/2026/10/22/nasas-roman-space-telescope-enters-final-commissioning-phase/"
+              },
+              {
+                "name": "NASA",
+                "url": "https://www.nasa.gov/blogs/quesst/2026/10/22/nasas-mike-lippert-takes-controls-of-x-59-for-first-time/"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-nasa.jpg",
+          "alt": "Artemis III on track for summer 2027; Moon landing still 2028",
+          "credit": "Aerospace America",
+          "sourceUrl": "https://aerospaceamerica.aiaa.org/nasa-eyeing-year-end-tanking-test-and-summer-2027-launch-for-artemis-iii/"
+        }
+      },
+      {
+        "id": "catholic",
+        "title": "Catholic",
+        "headline": "Shevchuk at Vatican; Panama bishops; Illinois hospitals protected.",
+        "stories": [
+          {
+            "headline": "Miami: Little Flower’s new pipe organ premieres Saturday",
+            "body": "<p>Organist Nathan Laube inaugurates the new French Romantic pipe organ at Church of the Little Flower in Coral Gables on Saturday, Oct. 24, at 7:30 p.m., free and open to all, as the parish marks its centennial. The instrument was a decade in the making.</p>",
+            "sources": [
+              {
+                "name": "Archdiocese of Miami",
+                "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_archdiocese-of-miami-around-the-archdiocese-coming-up-this-weekend-10-23-2026"
+              }
+            ]
+          },
+          {
+            "headline": "Miami: Emmaus retreats and a sixth-grade vocations rally",
+            "body": "<p>Emmaus retreats run this weekend across the archdiocese, including the men’s English Emmaus at Our Lady of Lourdes, and sixth-graders from archdiocesan schools gathered at St. Agatha for the FOCUS 11 vocations rally.</p>",
+            "sources": [
+              {
+                "name": "Archdiocese of Miami",
+                "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Events_Upcoming"
+              },
+              {
+                "name": "Archdiocese of Miami",
+                "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_179062443353179"
+              }
+            ]
+          },
+          {
+            "headline": "Europe: Shevchuk brings Ukraine’s prisoners to the Pope; papal aid mission next",
+            "body": "<p>Major Archbishop Sviatoslav Shevchuk, who leads the world’s largest Eastern Catholic church, gave Pope Leo a list of hundreds of Ukrainian prisoners of war. Who goes next: Archbishop Luis Marín de San Martín, the Papal Almoner and prefect of the Dicastery for the Service of Charity, visits Ukraine Oct. 27 to 30 with food and medicine.</p>",
+            "sources": [
+              {
+                "name": "Vatican News",
+                "url": "https://www.vaticannews.va/en/pope/news/2026-10/shevchuk-brings-ukraine-s-prayers-and-list-of-prisoner-to-pope.html"
+              }
+            ]
+          },
+          {
+            "headline": "Latin America: Panama’s bishops at the Vatican; two priests remembered",
+            "body": "<p>Archbishop José Domingo Ulloa of Panama, president of the bishops’ conference, said the Pope asked them to be bridges of dialogue and solidarity, close to migrants. Fr. Guillermo Sosa’s cause received the nihil obstat, and the bishops presented the life of Fr. Héctor Gallego, a Colombian-born priest who served farmworkers in Veraguas and disappeared in 1971.</p>",
+            "sources": [
+              {
+                "name": "Vatican News (Spanish)",
+                "url": "https://www.vaticannews.va/es/papa/news/2026-10/mons-ulloa-llamado-papa-dialogo-solidaridad-visita-ad-limina.html"
+              }
+            ]
+          },
+          {
+            "headline": "North America: Illinois Catholic hospitals shielded from assisted-suicide rules",
+            "body": "<p>A federal judge’s temporary order now covers the Illinois Catholic Health Association, which the Thomas More Society says protects 95% of the state’s Catholic health institutions from having to refer patients for assisted suicide.</p>",
+            "sources": [
+              {
+                "name": "OSV News via CNA",
+                "url": "https://catholics.news/most-catholic-health-institutions-in-illinois-temporarily-protected-from-assisted-suicide-law"
+              }
+            ]
+          },
+          {
+            "headline": "Africa: Angola’s bishops call the family a “school of faith”",
+            "body": "<p>Archbishop José Manuel Imbamba of Saurimo, president of the bishops of Angola and São Tomé, said after the Vatican’s Amoris Laetitia anniversary meeting that the Church must protect the family’s dignity and walk with families in crisis. His continent now has more Catholics than Europe.</p>",
+            "sources": [
+              {
+                "name": "Vatican News",
+                "url": "https://www.vaticannews.va/en/africa/news/2026-10/angola-archbishop-imbamba-highlights-the-family-s-role-in-nurtu.html"
+              }
+            ]
+          },
+          {
+            "headline": "Asia: 1,650 children in Myanmar keep the 100th Mission Sunday",
+            "body": "<p>In war-torn Myanmar, about 1,650 children gathered near Yangon for World Mission Sunday, where Cardinal Charles Maung Bo told them they “can be a missionary today” through small kindnesses.</p>",
+            "sources": [
+              {
+                "name": "Vatican News",
+                "url": "https://www.vaticannews.va/en/church/news/2026-10/nearly-2-000-children-celebrate-world-mission-sunday-in-myanmar.html"
+              }
+            ]
+          },
+          {
+            "headline": "Appointments calendar: installations through Oct. 31",
+            "body": "<p>No new bishop appointments appeared in today’s Vatican bulletin. Bishop Alfonso Raimo is installed in Terni-Narni-Amelia, Italy, on Saturday. Bishop Crispin Varquez is installed in Tagbilaran, Philippines, on Tuesday; who he is: a Filipino bishop appointed by Pope Leo in September. Archbishop Giorgio Ferretti of Foggia-Bovino takes Lucera-Troia on Oct. 29. On Oct. 31, Bishop Michele Di Tolve takes Chioggia, near Venice; Georgios Altouvas is installed as Bishop of Syros, Greece; and Fr. Jean Abou Charouche is ordained Melkite apostolic exarch for Argentina, shepherding Eastern Catholics there.</p>",
+            "sources": [
+              {
+                "name": "Holy See Press Office",
+                "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/23.html"
+              },
+              {
+                "name": "Catholic-Hierarchy",
+                "url": "https://catholic-hierarchy.org/events/b2026e.html"
+              }
+            ]
+          },
+          {
+            "headline": "North and South America: Metuchen’s new bishop; an Amazon diocese gets one",
+            "body": "<p>Bishop Michael Saporito, formerly an auxiliary of Newark, was installed Thursday as Bishop of Metuchen, New Jersey. In Brazil, Fr. Leandro Machado Silvestre, 48, a seminary rector and missionary priest from Mogi das Cruzes, was named bishop of Guajará-Mirim on the Bolivian border.</p>",
+            "sources": [
+              {
+                "name": "USCCB",
+                "url": "https://www.usccb.org/news/2026/pope-leo-xiv-appoints-most-reverend-michael-saporito-bishop-metuchen"
+              },
+              {
+                "name": "Holy See Press Office",
+                "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/21/261021d.html"
+              }
+            ]
+          },
+          {
+            "headline": "Oceania: Eucharistic miracles exhibit closes Sunday in Parramatta",
+            "body": "<p>The Diocese of Parramatta’s Eucharistic miracles exhibit runs through Sunday, Oct. 25, drawing pilgrims across western Sydney.</p>",
+            "sources": [
+              {
+                "name": "Diocese of Parramatta",
+                "url": "https://parracatholic.org/events/eucharistic-miracles-exhibit-11-25-october/"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-catholic.jpg",
+          "alt": "Miami: Little Flower’s new pipe organ premieres Saturday",
+          "credit": "Archdiocese of Miami",
+          "sourceUrl": "https://www.miamiarch.org/CatholicDiocese.php?op=Event_179062443353179"
+        }
+      },
+      {
+        "id": "signs",
+        "title": "Signs of the times",
+        "headline": "Countdown posts Oct. 23; Marian message Oct. 22; Medjugorje mural.",
+        "stories": [
+          {
+            "headline": "Countdown to the Kingdom: two new posts dated Oct. 23",
+            "body": "<p>Checked this evening: Countdown to the Kingdom’s newest posts are both dated Friday, Oct. 23. “The Suicide of the West” links Mark Mallett’s latest reflection at The Now Word on the state of Western civilization. “Defending Your Family” shares a reflection by Brian Kravec built on Fatima seer Sr. Lúcia’s letter to Cardinal Carlo Caffarra: “the decisive battle between the kingdom of Christ and Satan will be over marriage and the family… But do not be afraid, because Our Lady has already crushed his head.”</p><p>The thread this week runs from Pedro Regis’s warnings of “a great war” (Oct. 20) and of one “who opposes Christ” (Oct. 21) to these practical calls to guard the home. Read soberly, the counsel is concrete: family prayer, the sacraments, and fidelity in marriage.</p>",
+            "sources": [
+              {
+                "name": "Countdown to the Kingdom",
+                "url": "https://www.countdowntothekingdom.com/the-suicide-of-the-west/"
+              },
+              {
+                "name": "Countdown to the Kingdom",
+                "url": "https://www.countdowntothekingdom.com/defending-your-family/"
+              },
+              {
+                "name": "Countdown to the Kingdom",
+                "url": "https://www.countdowntothekingdom.com/"
+              }
+            ]
+          },
+          {
+            "headline": "Marian: latest message still Oct. 22, “God is in a hurry. Turn back.”",
+            "body": "<p>The most recent message attributed to Our Lady, Queen of Peace, through Pedro Regis in Anguera, Brazil, remains No. 5,993, dated Thursday, Oct. 22, 2026. In our translation: “Dear children, pray. Only through prayer can you achieve victory… Humanity has turned away from the Lord. God is in a hurry. Turn back.” It adds a promise: “After all the pain will come great joy.” Messages there usually come several times a week, so another may arrive this weekend; the Church has not ruled on Anguera, and it is offered for prayerful discernment.</p>",
+            "sources": [
+              {
+                "name": "Apelos Urgentes",
+                "url": "https://apelosurgentes.com.br/pt-br/mensagens/"
+              }
+            ]
+          },
+          {
+            "headline": "Medjugorje: a new mural of Mary after summer’s vandalism",
+            "body": "<p>Italian artist Andrea Brivio has finished his first large mural, Mary and St. John at the foot of the Cross, at the Face of Mary house of prayer, a sign of renewal after summer’s vandalism. Bosnia’s state court has confirmed charges against a Polish man, Bartłomiej Krakowiak, accused of the July 28 vandalism, including setting an altar on fire, with damage put at about 66,860 euros.</p><p>Meanwhile the first Mariological Days, opened by the Holy See’s apostolic visitor Archbishop Aldo Cavalli, continue through Sunday, when the monthly message to Marija is expected on Oct. 25.</p>",
+            "sources": [
+              {
+                "name": "Rome Reports",
+                "url": "https://www.romereports.com/en/2026/10/23/art-returns-to-medjugorje-after-vandalism/"
+              },
+              {
+                "name": "N1 Bosnia",
+                "url": "https://n1info.ba/english/news/court-of-bosnia-and-herzegovina-confirms-indictment-over-medjugorje-church-arson-and-vandalism/"
+              },
+              {
+                "name": "Medjugorje parish",
+                "url": "https://medjugorje.hr/en/news/mariological-days-medjugorje/460"
+              }
+            ]
+          },
+          {
+            "headline": "Revival: the fall’s campus baptisms add up",
+            "body": "<p>A WWJD roundup counts 19 students baptized at Pepperdine after Unite LA, 327 commitments at Alabama’s Cheaha Area Crusade among more than 7,000 attendees, 17 Howard Payne football players, 15 students at North Georgia, and 59 in one week at Pearl River Community College in Mississippi. Add this month’s 35 baptisms at Ohio State and about 100 at Appalachian State, and Fresno State’s Fields of Faith night on Sunday. The lasting fruit will show in how many of these young people join a church and stay.</p>",
+            "sources": [
+              {
+                "name": "WWJD.com",
+                "url": "https://wwjd.com/news/campus-baptisms-fall-2026/"
+              },
+              {
+                "name": "Central California FCA",
+                "url": "https://centralcalfca.org/fieldsoffaith"
+              },
+              {
+                "name": "CBN News",
+                "url": "https://cbn.com/news/us/700-students-choose-christ-100-get-baptized-revival-hits-appalachian-state"
+              }
+            ]
+          },
+          {
+            "headline": "Returns to the faith: a Panamanian missionary’s cause begins",
+            "body": "<p>The Vatican cleared the way to open the sainthood cause of Fr. Guillermo Sosa, a missionary to Panama’s rural poor, as the Fides figures show the Church grew by 16.69 million last year, with Africa now home to more Catholics than Europe.</p>",
+            "sources": [
+              {
+                "name": "Vatican News (Spanish)",
+                "url": "https://www.vaticannews.va/es/papa/news/2026-10/mons-ulloa-llamado-papa-dialogo-solidaridad-visita-ad-limina.html"
+              },
+              {
+                "name": "Vatican News",
+                "url": "https://www.vaticannews.va/en/church/news/2026-10/fides-agency-2026-annual-church-statistics.html"
+              }
+            ]
+          },
+          {
+            "headline": "Digital ID, soberly: Europe’s mobile driver’s licence by 2028",
+            "body": "<p>A new EU consortium, mDL4EU, with 24 member states and a budget near 10 million euros, starts Oct. 31 to make mobile driver’s licences in the EU Digital Identity Wallet work across borders by 2028. Banks told an ECB technical session the digital euro, eyed for 2029 if lawmakers act, should roll out in phases only as readiness is proven. Christians watch how such tools could tie identity to spending, but for now they are voluntary, still being legislated, and not prophecy fulfilled.</p>",
+            "sources": [
+              {
+                "name": "Biometric Update",
+                "url": "https://www.biometricupdate.com/202610/mdl4eu-consortium-launches-to-establish-cross-border-interoperability-by-2028"
+              },
+              {
+                "name": "Regxplora",
+                "url": "https://platform.regxplora.com/updates/113715/eacb-urges-phased-digital-euro-rollout-based-on-ecosystem-readiness"
+              }
+            ]
+          },
+          {
+            "headline": "Wars and rumours of wars: reading the Gulf soberly",
+            "body": "<p>Oil’s six-month high, Iran’s talk of “asymmetric warfare,” and a record seven tankers hit in a day have many readers recalling this week’s warnings of “a great war.” The Church’s counsel is the Gospel’s: “See that you are not alarmed” (Matthew 24:6), pray for peace, and help the suffering, which is exactly what Assisi’s gathering of 384 religious leaders will do on Tuesday.</p>",
+            "sources": [
+              {
+                "name": "CNBC",
+                "url": "https://www.cnbc.com/2026/10/23/oil-price-brent-wti-iran-war-saudi-arabia.html"
+              },
+              {
+                "name": "SBS News",
+                "url": "https://www.sbs.com.au/news/article/seven-oil-tankers-reported-damage-in-strait-of-hormuz-in-largest-single-day-record/by3xh73ou"
+              },
+              {
+                "name": "Countdown to the Kingdom",
+                "url": "https://www.countdowntothekingdom.com/"
+              }
+            ]
+          },
+          {
+            "headline": "Digital money, soberly: China upgrades its digital yuan",
+            "body": "<p>China’s central bank unveiled an upgraded digital-yuan system and a smart-contract framework, moving e-CNY toward programmable “digital deposit money”; transactions reached 4.3 billion by September. In Europe, payment rules for EU digital ID wallets and digital-euro legislation are both advancing. Programmable money can restrict how funds are spent, which is why many Christians watch it closely, but these remain tools, not prophecy fulfilled.</p>",
+            "sources": [
+              {
+                "name": "CGTN",
+                "url": "https://news.cgtn.com/news/2026-10-22/China-upgrades-digital-yuan-to-expand-payments-smart-contracts-1RrVufoO9Bm/p.html"
+              },
+              {
+                "name": "Biometric Update",
+                "url": "https://www.biometricupdate.com/202610/european-payments-council-launches-scarlet-framework-for-eudi-wallet-payments"
+              }
+            ]
+          },
+          {
+            "headline": "False prophecy, judged: Shakahola sentencing Nov. 6",
+            "body": "<p>Kenyan pastor Paul Mackenzie and 28 associates, convicted of murdering 191 people starved to “meet Jesus,” are sentenced Nov. 6. It is a sobering reminder of why the Church tests every claimed revelation.</p>",
+            "sources": [
+              {
+                "name": "Capital FM",
+                "url": "https://capitalfm.africa/court-convicts-all-29-shakahola-accused-of-murder-sets-sentencing-for-november-6/"
+              }
+            ]
+          },
+          {
+            "headline": "Eucharistic: Guatemala’s Cuilapa Host remains under study",
+            "body": "<p>The Diocese of Santa Rosa de Lima is still examining a consecrated Host at Cuilapa’s cathedral that did not dissolve and showed reddish stains; it is kept reserved, and the parish asks for prudence.</p>",
+            "sources": [
+              {
+                "name": "Perpetual Eucharistic Adoration",
+                "url": "https://perpetualeucharisticadoration.com/reported-eucharistic-miracle-guatemala-2026/"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-signs.jpg",
+          "alt": "Countdown to the Kingdom: two new posts dated Oct. 23",
+          "credit": "Countdown to the Kingdom",
+          "sourceUrl": "https://www.countdowntothekingdom.com/the-suicide-of-the-west/"
+        }
+      },
+      {
+        "id": "miami",
+        "title": "Miami",
+        "headline": "Moonrise tonight; Kiddo-Ween and Spooktacular Saturday.",
+        "stories": [
+          {
+            "headline": "Tonight: moonrise at Deering, PJ party, Heat at home",
+            "body": "<p>Deering Estate hosts Moon Viewing over Biscayne Bay until 8 p.m. ($10; bring a picnic and bug spray). The Children’s Museum PJ Party runs to 8:30, Holy House leads worship at La Otra in Wynwood until 10:30, and the Heat tip off at 8.</p>",
+            "sources": [
+              {
+                "name": "South Dade Spotlight",
+                "url": "https://southdadespotlight.com/2026/10/20/this-weekend-in-south-dade-october-23-25/"
+              },
+              {
+                "name": "Miami and the Beaches",
+                "url": "https://www.miamiandbeaches.com/event/not-so-scary-pj-party/43487"
+              }
+            ]
+          },
+          {
+            "headline": "Saturday: Kiddo-Ween, Cutler Bay Spooktacular, Palmetto Bay movie night",
+            "body": "<p>The Coral Gables Museum’s first Kiddo-Ween Festival runs 11 a.m. to 4 p.m., and the Gentle Trick-or-Treat for children with sensory needs is 1 to 3 at Ruth Bryan Owen Waterway Park. Cutler Bay’s Spooktacular at Cutler Ridge Park runs 5 to 9 with a golf-cart parade at 6, and Palmetto Bay’s trick-or-treat starts at 6 at Coral Reef Park with Minions &amp; Monsters on the big screen at 7. Little Flower’s free organ premiere is at 7:30.</p>",
+            "sources": [
+              {
+                "name": "City of Coral Gables",
+                "url": "https://www.coralgables.com/news/halloween-gables"
+              },
+              {
+                "name": "South Dade Spotlight",
+                "url": "https://southdadespotlight.com/2026/10/20/this-weekend-in-south-dade-october-23-25/"
+              }
+            ]
+          },
+          {
+            "headline": "Saturday: Gentle Trick-or-Treat, Doral Fall Festival, Lincoln Road pumpkins",
+            "body": "<p>Coral Gables’ Gentle Trick-or-Treat, built for children with sensory needs, runs 1 to 3 p.m. at Ruth Bryan Owen Waterway Park, free with registration. Doral Central Park’s free Fall Festival runs 5 to 9 p.m., and Lincoln Road offers free pumpkin decorating from 11 to 2 for the first 300 kids.</p>",
+            "sources": [
+              {
+                "name": "City of Coral Gables",
+                "url": "https://www.coralgables.com/events/gentle-trick-or-treat"
+              },
+              {
+                "name": "Gold Coast Wave",
+                "url": "https://goldcoastwave.com/news/doral-week-fall-festival-trunk-or-treat-alebrije-pickleball-oct-2026/"
+              },
+              {
+                "name": "Gold Coast Wave",
+                "url": "https://goldcoastwave.com/news/miami-beach-weekend-pumpkins-lincoln-road-bomba-y-plena-bandshell/"
+              }
+            ]
+          },
+          {
+            "headline": "All weekend: Zoo Boo and Haulover’s kite festival",
+            "body": "<p>Zoo Boo runs Saturday and Sunday from 10 a.m. to 3 p.m. at Zoo Miami, and Haulover Park’s 34th Kite Festival fills the sky noon to 5 both days.</p>",
+            "sources": [
+              {
+                "name": "Zoo Miami",
+                "url": "https://www.zoomiami.org/zoo-boo"
+              },
+              {
+                "name": "Eventbrite",
+                "url": "https://www.eventbrite.com/e/34th-annual-october-kite-festival-at-haulover-park-tickets-2000625282074"
+              }
+            ]
+          },
+          {
+            "headline": "Sunday: a Halloween family concert under the banyans",
+            "body": "<p>The Greater Miami Symphonic Band plays a Halloween family concert at 4 p.m. at Pinecrest Gardens ($20 adults, $5 students). The Bass, ICA Miami’s Family Fest and the Bomba y Plena festival also fill Sunday.</p>",
+            "sources": [
+              {
+                "name": "South Dade Spotlight",
+                "url": "https://southdadespotlight.com/2026/10/20/this-weekend-in-south-dade-october-23-25/"
+              },
+              {
+                "name": "Gold Coast Wave",
+                "url": "https://goldcoastwave.com/news/miami-beach-weekend-pumpkins-lincoln-road-bomba-y-plena-bandshell/"
+              }
+            ]
+          },
+          {
+            "headline": "Coming up: VOUS Worship, Crowder, Gilberto Daza",
+            "body": "<p>VOUS Worship plays Bayfront Park’s amphitheater Thursday, Oct. 29; Crowder and Rend Collective are at First Baptist Fort Lauderdale on Nov. 2; and Colombian worship leader Gilberto Daza brings a free concert to Hialeah on Nov. 14.</p>",
+            "sources": [
+              {
+                "name": "First Baptist Fort Lauderdale",
+                "url": "https://www.firstbaptistftl.com/events/2026/11/2/crowder-live"
+              },
+              {
+                "name": "Music of Our Desire",
+                "url": "https://events.musicofourdesire.com/event/zrrz-buenas-noticias-tour-gilberto-daza-concert-miami-united-states"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-miami.jpg",
+          "alt": "Tonight: moonrise at Deering, PJ party, Heat at home",
+          "credit": "South Dade Spotlight",
+          "sourceUrl": "https://southdadespotlight.com/2026/10/20/this-weekend-in-south-dade-october-23-25/"
+        }
+      },
+      {
+        "id": "pick-me-up",
+        "title": "Pick-me-up",
+        "headline": "Heat–Pistons at 8; Waititi’s Star Wars film on ice.",
+        "stories": [
+          {
+            "headline": "Heat host the Pistons at 8, then fly to Charlotte",
+            "body": "<p>Miami, 0–1, meets Detroit at 8 p.m. at Kaseya Center on Local 10, after Giannis Antetokounmpo’s 35-point debut came in a 131–106 loss to Minnesota. The Pistons arrive 1–0 after a 23–0 fourth-quarter run beat Boston, with Duncan Robinson scoring 21. After tonight the Heat play at Charlotte Saturday at 6, then host Dallas Monday.</p>",
+            "sources": [
+              {
+                "name": "NBA.com",
+                "url": "https://www.nba.com/game/det-vs-mia-0022600098"
+              },
+              {
+                "name": "Sporting News",
+                "url": "https://www.sportingnews.com/us/nba/news/watch-pistons-heat-channel-stream-time-schedule-nba/e11668b11d90d4dbdde26520"
+              }
+            ]
+          },
+          {
+            "headline": "Giannis: “It starts with me”",
+            "body": "<p>After scoring 35 in his Heat debut, the most ever in a Heat regular-season debut, Giannis Antetokounmpo said the fix is trust and effort: “My effort has to be better. It starts with me.”</p>",
+            "sources": [
+              {
+                "name": "ESPN",
+                "url": "https://www.espn.com/nba/story/_/id/50245072/giannis-antetokounmpo-says-heat-need-trust-other-more-blowout-ope"
+              }
+            ]
+          },
+          {
+            "headline": "Star Wars: Taika Waititi’s film “put on ice”",
+            "body": "<p>Director Taika Waititi says his Star Wars movie, announced six years ago, has been “put on ice,” the latest of several shelved Lucasfilm projects. The next film in theatres remains Star Wars: Starfighter with Ryan Gosling, on May 28, 2027.</p>",
+            "sources": [
+              {
+                "name": "The Guardian",
+                "url": "https://www.theguardian.com/film/2026/oct/23/taika-waititi-star-wars-lucasfilm"
+              }
+            ]
+          },
+          {
+            "headline": "Star Wars: Battlefront 3 reportedly in the works",
+            "body": "<p>Reports say EA’s DICE and Respawn are teaming up on a new Star Wars Battlefront, though EA has not announced it. Lucasfilm Games also says it will work with indie studios alongside big titles.</p>",
+            "sources": [
+              {
+                "name": "Geek Culture",
+                "url": "https://geekculture.co/star-wars-battlefront-3-reportedly-in-the-works-from-dice-and-respawn/"
+              },
+              {
+                "name": "Collider",
+                "url": "https://collider.com/star-wars-battlefront-3-dice-respawn-partnership/"
+              }
+            ]
+          },
+          {
+            "headline": "Star Wars Funday Football: Vader interviews start Monday",
+            "body": "<p>Starting Oct. 26, an animated Darth Vader interviews real players on Monday Night Football, building to an animated Star Wars telecast of the Super Bowl on Feb. 14, 2027.</p>",
+            "sources": [
+              {
+                "name": "StarWars.com",
+                "url": "https://www.starwars.com/news/star-wars-super-bowl-telecast"
+              }
+            ]
+          }
+        ],
+        "image": {
+          "src": "images/2026-10-23-evening-pick-me-up.jpg",
+          "alt": "Heat host the Pistons at 8, then fly to Charlotte",
+          "credit": "NBA.com",
+          "sourceUrl": "https://www.nba.com/game/det-vs-mia-0022600098"
+        }
+      }
+    ],
+    "audio": "audio/2026-10-23-evening.mp3"
+  },
+  {
     "id": "2026-10-23-morning",
     "date": "2026-10-23",
     "slot": "morning",
@@ -6465,907 +7633,5 @@
       }
     ],
     "audio": "audio/2026-10-20-evening.mp3"
-  },
-  {
-    "id": "2026-10-20-morning",
-    "date": "2026-10-20",
-    "slot": "morning",
-    "label": "Tuesday morning",
-    "generatedAt": "2026-10-20T06:46:18-04:00",
-    "schema": 2,
-    "topLine": "Alberta voted about 76% to stay in Canada; Russian drones killed seven around Kyiv as Zelenskyy meets Witkoff in Oslo; SpaceX reports tonight.",
-    "beats": [
-      {
-        "id": "world",
-        "title": "World",
-        "headline": "Alberta stays; drones kill seven in Ukraine; Oslo talks begin.",
-        "stories": [
-          {
-            "headline": "Vatican City: Pope rests at the Vatican before Wednesday’s first audience since surgery",
-            "body": "<p>Overnight Rome time, the Holy See Press Office confirmed that Pope Leo XIV is skipping his usual Tuesday at Castel Gandolfo to keep recovering in the Apostolic Palace, one week after surgery removed the lower lobe of his right lung for adenocarcinoma. He will still hold his General Audience in St. Peter’s Square tomorrow morning, his first since the operation, though the Vatican has not said whether he will tour the crowd in the popemobile. Still undecided is his Oct. 27 trip to Assisi to close Sant’Egidio’s gathering “Unarmed and Disarming Peace,” which marks 40 years since St. John Paul II’s first Spirit of Assisi meeting. His doctors have not yet disclosed the tumor’s size or whether nearby lymph nodes were involved, the facts that will shape his prognosis.</p>",
-            "sources": [
-              {
-                "name": "Vatican News: Pope continues recovery, General Audience confirmed",
-                "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-continues-recovery-at-vatican-general-audience-confirmed.html"
-              },
-              {
-                "name": "Catholic Culture: Pope will not visit Castel Gandolfo",
-                "url": "https://www.catholicculture.org/news/headlines/index.cfm?storyid=71001"
-              },
-              {
-                "name": "The Jerusalem Post (Reuters): Pope to resume Wednesday audience",
-                "url": "https://www.jpost.com/international/article-912237"
-              }
-            ]
-          },
-          {
-            "headline": "Vatican City: the Pope’s Oleshky appeal nears its test as talks reach “last details”",
-            "body": "<p>A day after Pope Leo pressed President Zelenskyy, as he had pressed Vladimir Putin, for a humanitarian ceasefire in occupied Oleshky, Ukraine’s ombudsman Dmytro Lubinets said Tuesday that the two sides are “agreeing the last details” of a local truce. About 2,000 people, children among them, remain in Oleshky itself, and roughly 6,000 civilians, including some 200 children, across it and nearby villages would be moved directly to Ukrainian-held territory. Lubinets says Russia has taken up everything Kyiv proposed and talks happen daily, but no date has been set. If it happens, it will be one of the clearest fruits so far of the Holy See’s patient, behind-the-scenes humanitarian diplomacy in this war.</p>",
-            "sources": [
-              {
-                "name": "Grivna: Lubinets says last details are being agreed",
-                "url": "https://grivna.ua/publikatsii/uzgodzhuyemo-ostanni-detali-lubinec-pro-gumanitarnu-evakuaciyu-z-oleshkiv"
-              },
-              {
-                "name": "Holy See Press Office: Call with the President of Ukraine",
-                "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/19/261019b.html"
-              },
-              {
-                "name": "Kyiv Independent: Ukraine, Russia nearing Oleshky deal",
-                "url": "https://kyivindependent.com/ukraine-russia-nearing-agreement-on-evacuation-of-civilians-from-occupied-oleshky-ombudsman-says/"
-              }
-            ]
-          },
-          {
-            "headline": "Vatican City: Uruguay says the papal visit is on schedule",
-            "body": "<p>Montevideo’s Cardinal Daniel Sturla says “everything continues as planned” for Pope Leo’s Nov. 6–17 journey to Uruguay, Argentina and Peru, after the surgeon said there is no clinical reason to cancel. Free registration for the three big Uruguayan events, in Paysandú, at the Estadio Centenario and at the national shrine of the Virgin of the Thirty-Three in Florida, opens Friday. Uruguay’s Church is also praying 3.5 million Hail Marys for his recovery, one for each Uruguayan, and has passed about two million. The Vatican itself has not issued a final confirmation, and organizers in all three countries are ready to shorten the program if needed.</p>",
-            "sources": [
-              {
-                "name": "Infobae: Uruguay’s Church prepares for Leo XIV as planned",
-                "url": "https://www.infobae.com/america/america-latina/2026/10/19/todo-sigue-como-esta-planificado-la-iglesia-de-uruguay-se-prepara-para-recibir-a-leon-xiv-en-la-fecha-prevista/"
-              },
-              {
-                "name": "ADN Celam: Bishops prioritize Leo XIV’s health",
-                "url": "https://www.celam.org/en/blog/cover-50/bishops-of-uruguay-argentina-and-peru-prioritize-the-health-of-leo-xiv-before-the-trip-to-south-america-10133"
-              }
-            ]
-          },
-          {
-            "headline": "Africa: Tigray rebels claim heavy federal losses as Abiy repeats his Eritrea warning",
-            "body": "<p>Overnight, a TPLF official, Negash Hiluf, claimed Tigrayan forces killed 1,511 federal soldiers and wounded 1,050 near Mirena in central Tigray on Oct. 17 and 18, as government troops pushed toward the town of Adet; Ethiopia has not responded and the figures cannot be verified. State television aired Prime Minister Abiy Ahmed’s warning that if Eritrea keeps “giving a deaf ear” to Ethiopia, the consequences will be “very, very, very severe,” while Asmara denies arming the rebels and accuses Addis Ababa of eyeing its Red Sea port of Assab. The war has drifted from the towns into the mountains: federal forces hold Mekelle, Adigrat and Aksum, but have reportedly pulled back from Adwa and Rama near the border. A six-month caretaker administration now runs Tigray, but other TPLF factions were left out, which is why analysts doubt a quick peace.</p>",
-            "sources": [
-              {
-                "name": "Anadolu Agency: Tigray rebels claim over 1,500 soldiers killed",
-                "url": "https://www.aa.com.tr/en/africa/tigray-rebels-claim-to-have-killed-over-1-500-ethiopian-soldiers-as-abiy-warns-eritrea/4094395"
-              },
-              {
-                "name": "Türkiye Today: Can Abiy secure peace in Tigray?",
-                "url": "https://www.turkiyetoday.com/opinion/can-abiy-secure-peace-in-tigray-while-avoiding-war-with-eritrea-3230674"
-              }
-            ],
-            "why": "Two neighbors with large armies and a history of war; any direct clash would shake the whole Horn of Africa."
-          },
-          {
-            "headline": "Africa: Sudan’s drone war reaches Khartoum’s airport district",
-            "body": "<p>Sudan’s army says its air defenses shot down two RSF suicide drones aimed at Khartoum International Airport on Monday, while another drone killed three children aged two to six and a man in the nearby Imtidad Nasir neighborhood. That comes on top of Sunday’s strike near the Al-Dibab market in West Kordofan that killed about 80 people, part of a weekend toll of more than 160 across the country. The airport only reopened in February after nearly three years out of service, so the attacks hit the capital’s fragile return to normal life. At the Security Council last week, the U.S. called for a humanitarian truce; Sudan’s government says any truce must include an RSF withdrawal and an end to foreign arms flows.</p>",
-            "sources": [
-              {
-                "name": "Xinhua: Drone attacks on Khartoum kill 4",
-                "url": "https://english.news.cn/africa/20261020/1eb3283a3feb4e16b088c3bb14a8539c/c.html"
-              },
-              {
-                "name": "UN News: UN condemns deadly wave of drone strikes",
-                "url": "https://news.un.org/en/story/2026/10/1168628"
-              },
-              {
-                "name": "Sudan Now: Truce must include RSF withdrawal",
-                "url": "https://en.sudannow.net/sudan-says-truce-must-include-rsf-withdrawal-and-halt-to-arms-flows/"
-              }
-            ]
-          },
-          {
-            "headline": "Africa: Congo’s Ebola outbreak passes 9,500 cases; the AU warns Kabila’s new front",
-            "body": "<p>The latest Congolese bulletin counts 9,552 confirmed Bundibugyo Ebola cases and 4,602 deaths, nearly half of those infected, with 97 new cases in a single day and North Kivu’s treatment centers over capacity at 450 patients for 410 beds. North Kivu’s military governor has barred entry from Ituri for a week, capped passengers on motorbikes and cars, and suspended concerts, sports and political rallies, while asking churches to keep distancing at services. On Tuesday the African Union’s Mahmoud Ali Youssouf, without naming him, reminded Joseph Kabila’s new Front for the Refoundation of the Nation that the African charter condemns seizing power by force, and urged everyone to keep the Doha and Washington peace commitments. The front, which absorbed the M23 rebels, says it inherits those commitments, even as fighting continues in the Kivus.</p>",
-            "sources": [
-              {
-                "name": "Ebola Tracker: DRC SitRep 157",
-                "url": "https://ebola-tracker.org/en/letter/157/"
-              },
-              {
-                "name": "Dépêche.cd: North Kivu tightens Ebola restrictions",
-                "url": "https://depeche.cd/2026/10/19/nord-kivu-motos-marches-cultes-somo-kakule-evariste-renforce-les-restrictions-contre-ebola/"
-              },
-              {
-                "name": "Actualite.cd: AU recalls charter against seizing power by force",
-                "url": "https://actualite.cd/2026/10/20/rdc-sans-citer-kabila-et-le-frn-mahmoud-ali-youssouf-rappelle-la-charte-africaine-de-la"
-              }
-            ]
-          },
-          {
-            "headline": "Asia: Brent hits a five-month high on Houthi claims; Lebanon talks open in Tampa",
-            "body": "<p>In Asian and European trading overnight, Brent crude touched $111.05 a barrel, its highest since May, after Yemen’s Houthis claimed strikes on a Saudi Aramco site in Yanbu, the Shaybah oilfield and two Saudi airports, which Riyadh has not confirmed. Kpler counts at least 18 vessels attacked in two weeks, and a Houthi strike on a government training camp in Shabwa killed 58. Lebanese and Israeli military delegations meet today at U.S. Central Command in Tampa; Lebanon wants Israeli strikes and demolitions in the south to stop, and refuses direct army-to-army coordination, after Israel struck near Tallouseh and Kfar Tibnit on Monday.</p>",
-            "sources": [
-              {
-                "name": "CNBC: Brent hits five-month high",
-                "url": "https://www.cnbc.com/2026/10/20/brent-crude-holds-near-five-month-high-middle-east-tension.html"
-              },
-              {
-                "name": "EconoTimes: Israeli strikes before Florida talks",
-                "url": "https://econotimes.com/Israeli-Strikes-Hit-Southern-Lebanon-Before-Military-Talks-in-Florida-1757504"
-              },
-              {
-                "name": "The National: Lebanon to reject direct coordination",
-                "url": "https://www.thenationalnews.com/news/mena/2026/10/19/lebanon-to-reject-direct-military-co-ordination-with-israel-at-florida-talks/"
-              }
-            ]
-          },
-          {
-            "headline": "Asia: Indonesia’s stocks rebound nearly 5% as Seoul slides",
-            "body": "<p>Jakarta’s benchmark rose about 4.8% Tuesday, clawing back part of a nearly 15% two-day plunge, after the exchange cut its daily limit-down in half and dropped stocks with highly concentrated ownership from the index, aiming at MSCI’s complaint about opaque shareholding. The rest of the region went the other way: South Korean shares fell 3.7% and the Taiwan dollar hovered near an 18-month low. In Beijing, the foreign ministry vowed to “resolutely safeguard” Chinese companies after Washington ordered federal civilian agencies to remove DeepSeek’s AI tools.</p>",
-            "sources": [
-              {
-                "name": "Investing.com: Indonesia stocks rebound 4.8%",
-                "url": "https://www.investing.com/news/stock-market-news/indonesia-stocks-rebound-48-after-new-market-measures-93CH-4959166"
-              },
-              {
-                "name": "The Jakarta Post: Markets inch up after authorities act",
-                "url": "https://www.thejakartapost.com/business/2026/10/20/indonesian-markets-inch-up-after-authorities-move-to-stem-rout-on-msci-expulsion-fears"
-              },
-              {
-                "name": "Xinhua: China slams U.S. ban on DeepSeek",
-                "url": "https://english.news.cn/20261020/7a7628d32bd74071b6e48280eece5221/c.html"
-              }
-            ]
-          },
-          {
-            "headline": "Asia: Japan and the U.S. open Keen Sword drills near Taiwan",
-            "body": "<p>About 45,000 Japanese and 12,000 American troops began Keen Sword, one of their largest joint exercises, focused on defending Japan’s southwestern islands and running through Oct. 29. For the first time, Japan has brought its long-range Type-25 anti-ship missile, with a range of about 620 miles, to Yonaguni, just 68 miles from Taiwan, alongside U.S. Marine NMESIS and MADIS systems, though no test-firing is planned. France, Germany, the Netherlands, New Zealand and the Philippines join for the first time, and Japan’s top officer says the drills target no specific country.</p>",
-            "sources": [
-              {
-                "name": "The Japan Times: Joint drill set to break new ground",
-                "url": "https://www.japantimes.co.jp/news/2026/10/18/japan/keen-sword-military-exercises/"
-              },
-              {
-                "name": "Islands Business (PACNEWS/AP): Japan and the U.S. kick off joint drills",
-                "url": "https://islandsbusiness.com/pacnews/pacnews-one-20-october-2026/"
-              }
-            ]
-          },
-          {
-            "headline": "Europe: Overnight drone waves kill seven around Kyiv and hit western power sites",
-            "body": "<p>From 6 p.m. Kyiv time Monday into Tuesday morning, Russia launched 165 drones, 105 of them jet-powered, and Ukraine’s air force says it downed 115, but hits were recorded at 30 locations. Three people died at a warehouse in Obukhiv south of Kyiv, three more when a drone struck cars on the Kyiv–Odesa highway, and one at a gas station in the capital during the morning rush; five were hurt in Izium. Drones also damaged energy sites in the Ternopil, Lviv and Volyn regions, cutting power to villages, while Russia says it downed 136 Ukrainian drones over 15 of its regions.</p>",
-            "sources": [
-              {
-                "name": "Hromadske: Drone attacks kill at least seven",
-                "url": "https://hromadske.ua/en/war/272840-russian-drone-attacks-kill-at-least-seven-across-ukraine-hit-energy-facilities-in-western-regions"
-              },
-              {
-                "name": "Kyiv Independent: Drone attack on Kyiv rush-hour traffic",
-                "url": "https://kyivindependent.com/russian-drone-attack-on-kyiv-rush-hour-traffic-kills-at-least-1-injures-6/"
-              },
-              {
-                "name": "TRT World: Russian strikes and Moscow’s claims",
-                "url": "https://www.trtworld.com/article/745d5151ace1/amp"
-              }
-            ]
-          },
-          {
-            "headline": "Europe: Zelenskyy meets Witkoff in Oslo as a peace proposal takes shape",
-            "body": "<p>Zelenskyy is in Oslo today for talks hosted by Norway’s Jonas Gahr Støre with Finland’s Alexander Stubb, U.S. envoy Steve Witkoff in person, Jared Kushner by video, and officials from Britain, France, Germany, Poland, the EU and NATO. A U.S. official says the goal is a joint proposal to put to Russia, built on two tracks: security guarantees and a postwar economic plan for Ukraine, and a new European security architecture; Witkoff then hopes to see Vladimir Putin in Russia. Kyiv arrives with grievances: the Washington Post reports Defense Secretary Pete Hegseth has not signed off on Patriot interceptor transfers, including some from allies, and Zelenskyy wants Starlink and Starshield service restored. A joint press conference with Støre and Stubb follows the talks.</p>",
-            "sources": [
-              {
-                "name": "Government of Norway: President Zelenskyy in Norway",
-                "url": "https://www.regjeringen.no/en/whats-new/president-zelenskyy-of-ukraine-to-visit-norway/id3178996/"
-              },
-              {
-                "name": "Axios: Witkoff heads to Oslo",
-                "url": "https://www.axios.com/2026/10/20/russia-ukraine-peace-talks-trump-witkoff-oslo"
-              },
-              {
-                "name": "The Washington Post: Washington holds up Patriots for Kyiv",
-                "url": "https://www.washingtonpost.com/politics/2026/10/19/amid-deteriorating-relations-washington-holds-up-patriots-kyiv/"
-              }
-            ]
-          },
-          {
-            "headline": "Europe: France’s first curfew night passes calmly; more curfews tonight",
-            "body": "<p>Prime Minister Sébastien Lecornu says targeted curfews “helped keep the night calm,” and police reported no major incidents across France overnight; prefects and mayors will decide tonight where new ones are needed. Bordeaux and Nice are keeping theirs for several days, and in Lyon about 500 people lit candles outside the burned tourism office to support looted shopkeepers. The business federation Medef says at least 3,000 businesses were hit, and the government meets social-media platforms today as it braces for new protests Saturday.</p>",
-            "sources": [
-              {
-                "name": "Euronews: France to impose new curfews where needed",
-                "url": "https://www.euronews.com/2026/10/20/france-to-impose-new-curfews-where-situation-requires-it-pm-lecornu-says"
-              },
-              {
-                "name": "France 24: After a calm night, new curfews",
-                "url": "https://www.france24.com/fr/info-en-continu/20261020-apr%C3%A8s-une-nuit-calme-lecornu-annonce-de-nouveaux-couvre-feux-pour-mardi-soir"
-              }
-            ]
-          },
-          {
-            "headline": "North America: Alberta votes about 76% to stay in Canada",
-            "body": "<p>Late last night, unofficial results showed about 76% of more than 1.5 million counted ballots backing “remain,” and close to 24% for starting the legal process toward a binding separation vote. Prime Minister Mark Carney, who grew up in Edmonton, said “Albertans chose Canada,” and Premier Danielle Smith called it a vote “for a stronger Alberta in a united Canada.” Separatist leader Keith Wilson says at least a quarter of Albertans want better treatment and the movement will go on. Delays at about 100 of 1,400 polling stations pushed results back more than two hours, and the other nine questions, on immigration, services and the constitution, may take days to count.</p>",
-            "sources": [
-              {
-                "name": "The Guardian: Alberta voters reject plan for referendum",
-                "url": "https://www.theguardian.com/world/2026/oct/20/canada-alberta-rejects-independence-succession-referendum"
-              },
-              {
-                "name": "AP: Alberta rejects a move toward independence",
-                "url": "https://apnews.com/article/alberta-canada-referendum-indepence-carney-ed0d58ef051859ce12052e75d2d6e8a0"
-              },
-              {
-                "name": "Elections Alberta: Unofficial results",
-                "url": "https://results.elections.ab.ca/8400"
-              }
-            ]
-          },
-          {
-            "headline": "North America: Trump rallies Kansas for Marshall in a neck-and-neck Senate race",
-            "body": "<p>In a roughly 90-minute speech near Wichita Monday night, President Trump urged Kansans to re-elect Sen. Roger Marshall over the Rev. Adam Hamilton, a Methodist megachurch pastor trying to become the state’s first Democratic senator in 94 years. Trump said Marshall “did nothing wrong” in suing hundreds of former patients for medical debt; the Kansas City Star’s fact-check rated his claim that the law required those suits false, and several other claims, on investment and car plants, false or needing context. Protesters interrupted several times, and Marshall told reporters, “We don’t win this race unless President Trump’s voters get out and vote.”</p>",
-            "sources": [
-              {
-                "name": "Wichita Eagle: Overflow crowds greet Trump",
-                "url": "https://www.kansas.com/news/politics-government/election/article317692502.html"
-              },
-              {
-                "name": "Kansas City Star: Fact-checking Trump in Kansas",
-                "url": "https://www.kansascity.com/news/politics-government/article317690521.html"
-              }
-            ]
-          },
-          {
-            "headline": "North America: Mexico’s social-security workers march again Wednesday",
-            "body": "<p>Workers and retirees of the Mexican Social Security Institute, from clerks to doctors, march again in Mexico City Wednesday at 3 p.m., starting at the Siglo XXI medical center. They rejected a 6.8% raise in an Oct. 14 vote, want 10% on base pay, more staff and an end to medicine shortages, and are demanding new union leadership. President Claudia Sheinbaum says the institute’s director stays and a new pay offer is being prepared with the Finance Ministry, and the institute says emergency, maternity and dialysis services are guaranteed.</p>",
-            "sources": [
-              {
-                "name": "El País México: What to know about the IMSS march",
-                "url": "https://elpais.com/mexico/2026-10-20/protestas-del-imss-lo-que-hay-que-saber-de-la-megamarcha-convocada-para-el-21-de-octubre.html"
-              }
-            ]
-          },
-          {
-            "headline": "South America: A new poll gives Flávio Bolsonaro 52% to Lula’s 48%",
-            "body": "<p>Five days before Sunday’s runoff, a Real Time Big Data poll released this morning shows Sen. Flávio Bolsonaro at 52% of valid votes and President Lula at 48%, at the edge of the 2-point margin, with 93% of voters saying their minds are made up. Lula leads among women, low-income voters and the Northeast, 62% to 31%, while Flávio leads among men, evangelicals, 56% to 39%, and the South and Center-West. The polls that matter most come next: Quaest on Wednesday and Datafolha on Thursday, the first to capture Sunday night’s bruising Band debate.</p>",
-            "sources": [
-              {
-                "name": "Exame: Post-debate poll, Flávio 52%, Lula 48%",
-                "url": "https://exame.com/brasil/pesquisa-apos-debate-da-band-mostra-flavio-bolsonaro-com-52-e-lula-com-48-no-2o-turno/"
-              },
-              {
-                "name": "Valor Econômico: Post-debate polls this week",
-                "url": "https://valor.globo.com/politica/eleicoes-2026/noticia/2026/10/20/pesquisas-apos-debate-da-band-entre-lula-e-flavio-bolsonaro-saem-nesta-semana-veja-as-datas.ghtml"
-              }
-            ]
-          },
-          {
-            "headline": "South America: Venezuela’s rival marches set for Thursday in Caracas",
-            "body": "<p>Machado’s party, Vente Venezuela, has called a national march for Thursday, Oct. 22, gathering at Plaza Venezuela at 4 p.m., to demand an electoral timetable, a presidential vote in 2027, the return of María Corina Machado from exile and freedom for political prisoners. The ruling PSUV has called its own women’s march in Caracas the same day, framed around breast-cancer awareness month. It is the first street test of the opposition’s new 14-point “Grand National Agreement” under interim President Delcy Rodríguez.</p>",
-            "sources": [
-              {
-                "name": "Infobae: Opposition calls a national march",
-                "url": "https://www.infobae.com/venezuela/2026/10/20/la-oposicion-venezolana-convoco-una-marcha-nacional-para-exigir-elecciones-presidenciales-en-2027/"
-              },
-              {
-                "name": "El Informador: PSUV calls its own march for Thursday",
-                "url": "https://elinformadorve.com/20/10/2026/destacada/contrapeso-a-la-de-la-oposicion-psuv-tambien-convoca-a-movilizacion-masiva-de-mujeres-para-este-jueves-22-de-octubre-en-caracas/"
-              }
-            ]
-          },
-          {
-            "headline": "South America: The Falklands oil row keeps Argentina’s OECD bid in doubt",
-            "body": "<p>Britain is weighing whether to block Argentina’s entry to the OECD and the trans-Pacific trade pact, where any member can veto, in retaliation for President Javier Milei’s sanctions on companies developing the Sea Lion oil field off the Falklands. Foreign Secretary Ed Miliband calls Buenos Aires’s moves “unacceptable,” and Chile is preparing a cargo route from Punta Arenas to the islands with a first sailing planned for early December. Milei, who wants OECD membership as a seal of approval for his reforms, now has to weigh a nationalist cause against an economic one.</p>",
-            "sources": [
-              {
-                "name": "La Nación: UK weighs blocking Argentina’s OECD and CPTPP entry",
-                "url": "https://www.lanacion.com.ar/politica/el-reino-unido-analiza-bloquear-el-ingreso-argentino-a-la-ocde-y-el-tipat-y-chile-avanza-con-la-ruta-nid18102026/"
-              }
-            ]
-          },
-          {
-            "headline": "Oceania: Helen Haines loses a leg; Brendan Nugent is charged",
-            "body": "<p>Independent MP Helen Haines, 65, a former nurse and grandmother, lost a leg after being pinned between two cars outside her Wangaratta office, and surgeons at Melbourne’s Alfred Hospital are fighting to save the other. Brendan Nugent, 43, has been charged with intentionally causing serious injury, dangerous driving causing serious injury, and harming a Commonwealth public official. Her husband Phil, with whom she marks 40 years of marriage next month, keeps a bedside vigil, and constituents are leaving handwritten letters and flowers at her office.</p>",
-            "sources": [
-              {
-                "name": "ABC News (Australia): Brendan Nugent charged",
-                "url": "https://www.abc.net.au/news/2026-10-20/brendan-nugent-charged-over-attack-against-helen-haines/107288126"
-              },
-              {
-                "name": "ABC News (Australia): A runner, nanna, nurse and trailblazing MP",
-                "url": "https://www.abc.net.au/news/2026-10-20/helen-haines-mp-grandmother-crash-leg-injuries/107286008"
-              }
-            ]
-          },
-          {
-            "headline": "Oceania: Pacific churches push back on a U.S. call to end UN decolonization work",
-            "body": "<p>The Pacific Conference of Churches rejected a U.S. call to end the mandate of the UN’s decolonization committee, which lists six Pacific territories, from American Samoa and Guam to New Caledonia and Tokelau. “Our people are not props, and our homes are not junkets,” said its general secretary, the Rev. James Bhagwan, after the U.S. and Israel voted against every decolonization resolution at the UN last week. The churches also pressed Washington on Guam, where a planned vote on political status was blocked by a federal court.</p>",
-            "sources": [
-              {
-                "name": "Islands Business (PACNEWS): Pacific churches reject U.S. call",
-                "url": "https://islandsbusiness.com/pacnews/pacnews-one-20-october-2026/"
-              }
-            ]
-          },
-          {
-            "headline": "Oceania: Australia unveils armed Ghost Shark drone subs; Fiji braces for drought",
-            "body": "<p>Australia says its Anduril-built Ghost Shark uncrewed submarines now carry payloads to strike, lay mines and gather intelligence, part of more than 1.5 billion Australian dollars in spending under AUKUS. In Fiji, Prime Minister Sitiveni Rabuka is defending a contested rewrite of the 2013 constitution, while Israel’s aid agency explores help with an El Niño drought expected within months, and Samoa has asked the Asian Development Bank for support.</p>",
-            "sources": [
-              {
-                "name": "Islands Business (PACNEWS): Ghost Sharks, Fiji and Samoa",
-                "url": "https://islandsbusiness.com/pacnews/pacnews-one-20-october-2026/"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-world.jpg",
-          "alt": "Vatican City: Pope rests at the Vatican before Wednesday’s first audience since surgery",
-          "credit": "Vatican News",
-          "sourceUrl": "https://www.vaticannews.va/en/pope/news/2026-10/pope-continues-recovery-at-vatican-general-audience-confirmed.html"
-        }
-      },
-      {
-        "id": "promises",
-        "title": "MAGA / MAHA promises kept",
-        "headline": "MAHA scorecard stings; Oslo peace push; gas steady near $4.28.",
-        "stories": [
-          {
-            "headline": "MAHA: former Kennedy allies grade the food promises mostly broken",
-            "body": "<p>Promise: make America healthy again by cleaning up food, farming and chemicals. What critics say: a scorecard by MAHA activists, including former advisers to Robert F. Kennedy Jr.’s 2024 campaign, rates more than 85% of the administration’s food, agriculture and environmental-health promises broken, citing new pesticide approvals, an order to boost glyphosate supply and only voluntary phase-outs of synthetic dyes. What the White House points to: overhauled dietary guidelines, cuts to artificial ingredients, investment in regenerative farming and, as of Monday, a new NIH women’s health division. Room for disagreement: many of the grades fall on the EPA and USDA, which Kennedy does not run, and the scorecard leaves out vaccine policy, where even some critics say he has done most of what he promised.</p>",
-            "sources": [
-              {
-                "name": "Genetic Literacy Project (NBC News): MAHA activists turn on RFK Jr.",
-                "url": "https://geneticliteracyproject.org/2026/10/19/blatant-slap-in-the-face-maha-activists-turn-on-rfk-jr-and-trump-administration/"
-              },
-              {
-                "name": "The White House: Advancing Women’s Health executive order",
-                "url": "https://www.whitehouse.gov/presidential-actions/2026/10/advancing-womens-health-to-improve-outcomes-in-all-phases-of-life/"
-              }
-            ]
-          },
-          {
-            "headline": "Ending the war: Witkoff carries a U.S.–European plan from Oslo toward Moscow",
-            "body": "<p>Promise: end the Russia–Ukraine war quickly. What was done: the White House says Trump ordered an “intensive process” with Ukraine and Europe to draft a comprehensive proposal, and Steve Witkoff is in Oslo today before a planned trip to see Vladimir Putin, also seeking the release of detained American teacher Stephen Hubbard. Impact so far: overnight Russian drones killed seven people around Kyiv, and the Washington Post reports Patriot interceptor transfers to Ukraine are stalled at the Pentagon. Supporters say only a deal both sides can sign will stop the killing; critics say withholding air defense while Russia keeps striking weakens Ukraine’s hand at the table.</p>",
-            "sources": [
-              {
-                "name": "Axios: Witkoff heads to Oslo",
-                "url": "https://www.axios.com/2026/10/20/russia-ukraine-peace-talks-trump-witkoff-oslo"
-              },
-              {
-                "name": "The Washington Post: Washington holds up Patriots for Kyiv",
-                "url": "https://www.washingtonpost.com/politics/2026/10/19/amid-deteriorating-relations-washington-holds-up-patriots-kyiv/"
-              }
-            ]
-          },
-          {
-            "headline": "Lowering prices: gas near $4.28 as Brent hits a five-month high",
-            "body": "<p>Promise: cheaper gas and groceries. Where it stands: AAA’s national average is about $4.28 a gallon this morning, roughly where it was Monday, but crude moved the other way overnight, with Brent touching $111, its highest since May, on Houthi claims of attacks on Saudi oil sites. What was done: Friday’s partial waiver of Russia energy sanctions aims to add supply before the midterms. Room for disagreement: analysts say Gulf shipping risk, not U.S. policy, is setting the price right now, and pump prices usually lag crude by a week or two.</p>",
-            "sources": [
-              {
-                "name": "AAA: Fuel prices",
-                "url": "https://gasprices.aaa.com/"
-              },
-              {
-                "name": "CNBC: Brent hits five-month high",
-                "url": "https://www.cnbc.com/2026/10/20/brent-crude-holds-near-five-month-high-middle-east-tension.html"
-              }
-            ]
-          },
-          {
-            "headline": "America First in tech: federal agencies ordered to remove DeepSeek",
-            "body": "<p>Promise: keep China from getting ahead in AI and out of sensitive U.S. data. What was done: the Department of Homeland Security made public Monday an order, in force since late July, barring federal civilian agencies such as Treasury, State and Justice from using DeepSeek’s AI models or anything built with them, and from buying them. Impact: Beijing vowed to defend its companies; American firms like Snowflake, Vercel and OpenRouter still offer DeepSeek to private customers, which the order does not touch. Room for disagreement: security hawks call it overdue, while some developers note DeepSeek’s open, low-cost models are widely used and argue the risk lies in data handling, not the model weights.</p>",
-            "sources": [
-              {
-                "name": "BBC: US bans China’s DeepSeek from government",
-                "url": "https://www.bbc.com/news/articles/cjkgeq0k1wevo"
-              },
-              {
-                "name": "Federal Register: Order on removal of DeepSeek products",
-                "url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive"
-              }
-            ]
-          },
-          {
-            "headline": "Securing the border: Trump’s “zero admitted” claim, checked",
-            "body": "<p>Promise: secure the southern border. Trump told Kansans Monday that “zero illegal immigrants have been admitted” in the past 17 months. The Kansas City Star rates it “needs context”: catch-and-release has ended, and Border Patrol apprehended about 86,000 people in Trump’s first year back versus 956,000 in Biden’s last, but some crossers still evade capture. The numbers are the clearest promise kept; the methods and costs remain the debate.</p>",
-            "sources": [
-              {
-                "name": "Kansas City Star: Fact-checking Trump in Kansas",
-                "url": "https://www.kansascity.com/news/politics-government/article317690521.html"
-              },
-              {
-                "name": "CBP: DHS announces lowest border numbers in history",
-                "url": "https://www.cbp.gov/newsroom/national-media-release/under-president-trump-and-secretary-mullin-dhs-announces-lowest"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-promises.jpg",
-          "alt": "MAHA: former Kennedy allies grade the food promises mostly broken",
-          "credit": "Genetic Literacy Project (NBC News)",
-          "sourceUrl": "https://geneticliteracyproject.org/2026/10/19/blatant-slap-in-the-face-maha-activists-turn-on-rfk-jr-and-trump-administration/"
-        }
-      },
-      {
-        "id": "musk",
-        "title": "Musk world",
-        "headline": "SpaceX reports tonight; Tesla tomorrow; Starshield pressure from Kyiv.",
-        "stories": [
-          {
-            "headline": "SpaceX reports its third quarter after the bell; AI spending is the test",
-            "body": "<p>SpaceX posts third-quarter results after Tuesday’s close with a 4:30 p.m. Eastern webcast, and the stock was down about 0.9% before the open at $146.61. Wall Street expects about $12.89 billion in revenue, up 65% from a year ago, and roughly 14 cents a share, after a second quarter in which it spent $18.4 billion on capital projects, $15.83 billion of it on AI infrastructure. Watch three things: computing capacity, which Evercore expects at 2.3 gigawatts by year-end; the Starlink Mobile buildout, with a pending $19.6 billion EchoStar spectrum deal and an $8 billion Grain Management purchase; and any word on Musk’s pledge of a share to every American child or a Tesla tie-up.</p>",
-            "sources": [
-              {
-                "name": "SpaceX Investor Relations: Third-quarter results and webcast",
-                "url": "https://ir.spacex.com/updates/releases-details/2026/SpaceX-to-Post-Third-Quarter-2026-Results-and-Host-Webcast-on-October-20-2026-2026-QssQGye3im/default.aspx"
-              },
-              {
-                "name": "TipRanks: What analysts expect",
-                "url": "https://www.tipranks.com/news/spacex-stock-forecast-what-analysts-expect-ahead-of-october-20-earnings"
-              },
-              {
-                "name": "StockMarketWatch: SPCX premarket",
-                "url": "https://stockmarketwatch.com/stock/SPCX/premarket"
-              }
-            ]
-          },
-          {
-            "headline": "Tesla reports Wednesday as the flying Roadster draws awe and doubt",
-            "body": "<p>Tesla reports Wednesday, with consensus near 43 cents a share on $27.88 billion in revenue and negative free cash flow expected from heavy AI and robotaxi spending. Last week’s Roadster unveiling at SpaceX’s Texas test site showed cold-gas thrusters lifting and flipping the car, with production promised for 2028, but legal experts doubt it will ever be allowed to fly on public roads, and the reservation fine print guarantees no delivery date. Overnight Musk also floated “universal high income” from AI abundance, a vision critics on the right and left alike call unrealistic.</p>",
-            "sources": [
-              {
-                "name": "Philadelphia Tribune (AP): Tesla car can thrust itself in the air",
-                "url": "https://www.phillytrib.com/news/business/tesla-car-can-thrust-itself-in-the-air-but-dont-expect-to-drive-it-soon/article_a5e29981-0e23-4534-81fe-1ccdd81bbb07.html"
-              },
-              {
-                "name": "Investing.com (Reuters): SpaceX, Tesla earnings to test AI spending",
-                "url": "https://www.investing.com/news/stock-market-news/spacex-tesla-earnings-to-test-musks-ai-spending-ambitions-as-merger-talk-grows-4957046"
-              }
-            ]
-          },
-          {
-            "headline": "Starlink in Ukraine: Zelenskyy presses Washington to restore Starshield",
-            "body": "<p>Ahead of today’s Oslo talks, Zelenskyy said he raised with Secretary of State Marco Rubio “the situation with Starlink/Starshield, which needs to be restored,” after Kyiv said U.S. links that guide its drones were throttled. Republican Rep. Brian Fitzpatrick has vowed to investigate anyone limiting the service. For shareholders, it is a reminder that SpaceX’s government business, now a big part of the story, carries political risk on both sides.</p>",
-            "sources": [
-              {
-                "name": "Investing.com (Reuters): Zelenskiy to meet Witkoff",
-                "url": "https://www.investing.com/news/world-news/zelenskiy-to-meet-witkoff-after-trump-says-russia-has-been-fine-on-ukraine-4959038"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-musk.jpg",
-          "alt": "SpaceX reports its third quarter after the bell; AI spending is the test",
-          "credit": "www.spacex.com",
-          "sourceUrl": ""
-        }
-      },
-      {
-        "id": "space",
-        "title": "Space industry",
-        "headline": "MMX confirmed on course; Bandwagon-5 aims for 7:04 a.m.",
-        "stories": [
-          {
-            "headline": "Japan’s MMX is safely on its way to Mars’s moon Phobos",
-            "body": "<p>JAXA confirmed overnight that the H3 rocket flew as planned and the Martian Moons eXploration spacecraft separated 71 minutes after its 4:41 a.m. Japan-time liftoff, entering its planned orbit toward Mars. It is due at Mars in August 2027, will release the French-German IDEFIX rover in late 2028 or early 2029, and will touch down twice on Phobos to scoop at least 10 grams of soil for return to Earth in 2031. The big question it should settle: is Phobos a captured asteroid, or debris from an ancient impact on Mars?</p>",
-            "sources": [
-              {
-                "name": "JAXA: Launch result of MMX on H3 flight No. 10",
-                "url": "https://global.jaxa.jp/press/2026/10/20261020-1_e.html"
-              },
-              {
-                "name": "Space.com: Japan launches historic MMX mission",
-                "url": "https://www.space.com/space-exploration/launches-spacecraft/japan-launches-historic-mmx-sample-return-mission-to-mars-moon-phobos"
-              }
-            ]
-          },
-          {
-            "headline": "Bandwagon-5 targets 7:04 a.m. with SpaceX’s second Starfall capsule",
-            "body": "<p>After Monday’s weather scrub, Falcon 9 was set to lift off this morning from Cape Canaveral, now aiming for 7:04 a.m. Eastern, on booster B1085’s 19th flight. Among its 32 payloads are Varda’s W-7 capsule, testing whether microgravity can improve a cancer drug, Xona’s first navigation satellites for a commercial alternative to GPS, and radar satellites from ICEYE, Capella and Umbra. SpaceX’s own disk-shaped Starfall capsule deploys last, nearly three hours after launch, to practice returning cargo from orbit.</p>",
-            "sources": [
-              {
-                "name": "NASASpaceFlight: Falcon 9 set to launch Bandwagon-5",
-                "url": "https://www.nasaspaceflight.com/2026/10/bandwagon-5/"
-              },
-              {
-                "name": "SpaceX: Bandwagon-5 mission",
-                "url": "https://www.spacex.com/launches/bandwagon5"
-              }
-            ]
-          },
-          {
-            "headline": "Rocket Lab shows a robot building Neutron’s carbon dome",
-            "body": "<p>Rocket Lab released video of its automated fiber-placement machine in Maryland laying carbon strands for Neutron’s first-stage forward dome, after a flawed hand-built dome helped push the rocket’s debut to 2027. Neutron, meant to carry 13,000 kilograms to orbit and land its booster, is one of the few medium-lift challengers to Falcon 9, alongside Blue Origin’s New Glenn, which is building out Florida for faster launches.</p>",
-            "sources": [
-              {
-                "name": "Space.com: Neutron pushed to 2027",
-                "url": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-pushes-1st-launch-of-next-gen-neutron-rocket-to-2027"
-              },
-              {
-                "name": "Blue Origin: News",
-                "url": "https://www.blueorigin.com/news"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-space.jpg",
-          "alt": "Japan’s MMX is safely on its way to Mars’s moon Phobos",
-          "credit": "Space.com",
-          "sourceUrl": "https://www.space.com/space-exploration/launches-spacecraft/japan-launches-historic-mmx-sample-return-mission-to-mars-moon-phobos"
-        }
-      },
-      {
-        "id": "nasa",
-        "title": "NASA",
-        "headline": "Spacewalk preview at 2 p.m.; NASA’s MEGANE rides to Phobos.",
-        "stories": [
-          {
-            "headline": "NASA previews spacewalks 100 and 101 at 2 p.m. today",
-            "body": "<p>NASA briefs from Johnson Space Center at 2 p.m. Eastern on the 100th and 101st U.S. spacewalks, on Oct. 29 and Nov. 5, which will install the station’s last two roll-out solar arrays. NASA’s Anil Menon, on his fourth spacewalk, and the Canadian Space Agency’s Joshua Kutryk, on his first, began spacesuit work Monday. The flexible arrays unroll like a carpet over the station’s aging original panels to keep power up through the station’s final years.</p>",
-            "sources": [
-              {
-                "name": "NASA: News conference previewing spacewalks 100, 101",
-                "url": "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/"
-              },
-              {
-                "name": "NASA Space Station blog: Spacewalk preps begin week",
-                "url": "https://www.nasa.gov/blogs/spacestation/2026/10/19/spacewalk-preps-and-advanced-biomedical-research-begin-week/"
-              }
-            ]
-          },
-          {
-            "headline": "NASA’s instrument rides to Phobos aboard Japan’s MMX",
-            "body": "<p>NASA’s main contribution to MMX is MEGANE, a gamma-ray and neutron spectrometer built by Johns Hopkins APL that will map what Phobos is made of and help choose where to sample. It gives NASA a share in the first sample ever returned from a Martian moon, while its own Mars Sample Return plans remain unsettled.</p>",
-            "sources": [
-              {
-                "name": "NASA Science: Unlocking mysteries of Mars’ moons",
-                "url": "https://science.nasa.gov/directorates/smd/planetary-science-division/nasa-to-help-unlock-mysteries-of-mars-moons-in-upcoming-mission/"
-              },
-              {
-                "name": "Johns Hopkins APL: MEGANE heads to Mars",
-                "url": "https://www.jhuapl.edu/news/news-releases/261019-megane-instrument-to-mars"
-              }
-            ]
-          },
-          {
-            "headline": "Artemis update Friday; the mock Mars crew counts down to Oct. 31",
-            "body": "<p>Administrator Jared Isaacman and Artemis leaders brief at Kennedy on Friday at 2 p.m. on speeding toward a crewed Moon landing by 2028, with Artemis III, now a 2027 docking test in Earth orbit, already stacked on its twin boosters. In Houston, the four-person CHAPEA crew, a year into its simulated Mars mission, walks out of its 3D-printed habitat on Oct. 31 after 378 days.</p>",
-            "sources": [
-              {
-                "name": "The Florida Press: NASA leaders to update Artemis plan",
-                "url": "https://www.thefloridapress.com/news/nasa-leaders-to-update-artemis-acceleration-and-2028-moon-landing-plan-at-kenned"
-              },
-              {
-                "name": "NASA: Simulated Mars crew marks one year",
-                "url": "https://www.nasa.gov/humans-in-space/nasas-simulated-mars-crew-marks-one-year-inside-habitat/"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-nasa.jpg",
-          "alt": "NASA previews spacewalks 100 and 101 at 2 p.m. today",
-          "credit": "NASA",
-          "sourceUrl": "https://www.nasa.gov/news-release/nasa-to-host-news-conference-previewing-us-spacewalks-100-101/"
-        }
-      },
-      {
-        "id": "catholic",
-        "title": "Catholic",
-        "headline": "Wenski rebukes the attorney general; Venice reshuffles priests.",
-        "stories": [
-          {
-            "headline": "Miami: Wenski calls the attorney general’s vaccine threat “classic bullying”",
-            "body": "<p>Archbishop Thomas Wenski says Florida Attorney General James Uthmeier, a self-described practicing Catholic, tried to dictate Church teaching when he warned in July that Catholic schools could lose state scholarship money unless they grant religious exemptions from required vaccines. The Church does not consider these vaccines morally objectionable, Wenski said Monday, so its schools offer medical exemptions only, and families who disagree can choose homeschooling. “Somebody going to a Catholic school expects the Catholic school to be Catholic,” he said, calling vaccination part of the common good as measles returns, and adding, “In the past we’ve been expecting attacks from the left, and now we get, out of left field, this attack from the right.”</p>",
-            "sources": [
-              {
-                "name": "WLRN (State Affairs): Wenski hits back at Uthmeier",
-                "url": "https://www.wlrn.org/government-politics/2026-10-19/classic-bullying-archbishop-wenski-hits-back-at-uthmeier-over-catholic-school-vaccine-rules"
-              },
-              {
-                "name": "Archdiocese of Miami: Wenski responds to the attorney general",
-                "url": "https://www.miamiarch.org/CatholicDiocese.php?op=Article_archdiocese-of-miami-archbishop-wenski-responds-to-fla-ag-over-vaccine-exemptions"
-              }
-            ],
-            "why": "It affects every Catholic school family in the archdiocese that relies on state scholarships."
-          },
-          {
-            "headline": "Appointments: Venice, Fla., reshuffles priests; Saporito installs Thursday in Metuchen",
-            "body": "<p>Diocese of Venice in Florida, effective Monday: Fr. David Vidal, longtime pastor of Ave Maria Parish, becomes full-time vicar general living at Epiphany Cathedral; Fr. Shawn Roser, a parochial vicar at Resurrection in Fort Myers, takes over Ave Maria Parish as administrator; Fr. Daniel Scanlan moves from St. Thomas More in Sarasota to lead Ss. Peter and Paul in Bradenton while its pastor, Fr. Gordon Zanetti, takes medical leave; and Fr. Alexander Pince, the vocations director, gives up his chaplaincy at Cardinal Mooney High School to focus on seminarians. Palm Beach: Fr. Brian King, Bishop Barbarito’s secretary for 23 years and a school chaplain at Rosarian Academy, is now rector of the Cathedral of St. Ignatius Loyola. Metuchen, N.J.: Bishop Michael Saporito, until now an auxiliary bishop of Newark, is installed Thursday at 2 p.m. at Sacred Heart Church in South Plainfield.</p>",
-            "sources": [
-              {
-                "name": "Diocese of Venice: Clergy appointments",
-                "url": "https://dioceseofvenice.org/tag/appointments/"
-              },
-              {
-                "name": "Florida Catholic: New cathedral rector installed",
-                "url": "https://www.thefloridacatholic.org/dioceses/palm-beach/new-cathedral-rector-installed/article_2ca76f34-b829-4a8f-afb4-4d2c8179656c.html"
-              },
-              {
-                "name": "Diocese of Metuchen: Episcopal liturgies",
-                "url": "https://diometuchen.org/episcopal-liturgies"
-              }
-            ]
-          },
-          {
-            "headline": "Europe: France’s bishops say the riots reveal a crisis of meaning",
-            "body": "<p>Archbishop Vincent Jordy of Tours, a vice president of the French bishops’ conference, says young protesters have real grievances about crumbling schools, but describe a society so anxious that many ask “why get up in the morning,” and he urges rebuilding unions and associations as places of dialogue. Lyon’s Archbishop Olivier de Germay says plainly, “The solution is God,” and hopes Jewish, Christian and Muslim leaders will lead a march for peace before next spring’s presidential election. He points to teenagers transformed by caring for the sick at Lourdes as proof that young people hunger to serve.</p>",
-            "sources": [
-              {
-                "name": "Vatican News: Church in France seeks to restore a sense of meaning",
-                "url": "https://www.vaticannews.va/en/world/news/2026-10/church-in-france-seeks-to-help-restore-a-sense-of-meaning.html"
-              },
-              {
-                "name": "UCA News: French bishops condemn ‘unacceptable violence’",
-                "url": "https://www.ucanews.com/news/french-bishops-condemn-unacceptable-violence-as-riots-sweep-nation/115838"
-              }
-            ]
-          },
-          {
-            "headline": "Africa: Malawi’s Archbishop Msusa tells Catholics, “Every baptised Christian has the gift of prophecy”",
-            "body": "<p>Archbishop Thomas Luke Msusa of Blantyre rejected claims that Malawi’s bishops have been paid to keep silent on the economy and promised a pastoral letter “at the right time.” In a Mission Sunday homily he asked why foreign currency can be found to import cars but not fuel, and why private hospitals have medicines that public ones lack. Malawi’s bishops carry weight: their 1992 letter “Living Our Faith” helped end one-party rule. In Ethiopia, meanwhile, the bishops’ call to prayer and fasting for peace continues as the Tigray fighting grinds on.</p>",
-            "sources": [
-              {
-                "name": "Nyasa Times: Top Catholic cleric speaks out on the economy",
-                "url": "https://www.nyasatimes.com/top-catholic-cleric-speaks-out-on-economic-crisis-and-promises-pastoral-letter/"
-              },
-              {
-                "name": "Vatican News: Ethiopia bishops’ pastoral appeal",
-                "url": "https://www.vaticannews.va/en/church/news/2026-10/ethiopia-bishops-issue-pastoral-appeal-for-peace-reconciliation.html"
-              }
-            ]
-          },
-          {
-            "headline": "Asia and Latin America: Cebu warns of a values crisis; Uruguay prays 3.5 million Hail Marys",
-            "body": "<p>Asia: Archbishop Alberto Uy of Cebu told some 160 spiritual directors at a Charismatic Renewal conference that people today are “not lacking in information but very much lacking in value formation,” urging directors to help people recognize God’s voice rather than replace it. Latin America: Cardinal Daniel Sturla says Uruguay’s Church is nearing two million of its 3.5 million Hail Marys for the Pope’s recovery, one for every Uruguayan, as it prepares for his Nov. 6 arrival.</p>",
-            "sources": [
-              {
-                "name": "CBCP News: Cebu archbishop warns of values crisis",
-                "url": "https://cbcpnews.net/cbcpnews/cebu-archbishop-warns-of-values-crisis-urges-conscience-formation/"
-              },
-              {
-                "name": "Infobae: Uruguay’s Church prepares for Leo XIV",
-                "url": "https://www.infobae.com/america/america-latina/2026/10/19/todo-sigue-como-esta-planificado-la-iglesia-de-uruguay-se-prepara-para-recibir-a-leon-xiv-en-la-fecha-prevista/"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-catholic.jpg",
-          "alt": "Miami: Wenski calls the attorney general’s vaccine threat “classic bullying”",
-          "credit": "WLRN (State Affairs)",
-          "sourceUrl": "https://www.wlrn.org/government-politics/2026-10-19/classic-bullying-archbishop-wenski-hits-back-at-uthmeier-over-catholic-school-vaccine-rules"
-        }
-      },
-      {
-        "id": "signs",
-        "title": "Signs of the times",
-        "headline": "Countdown still Oct. 16; Shakahola verdict; Europe’s ID wallets.",
-        "stories": [
-          {
-            "headline": "Countdown to the Kingdom: checked this morning; newest posts still dated Oct. 16",
-            "body": "<p>Checked at dawn Tuesday: the newest posts on Countdown to the Kingdom remain the four dated Oct. 16, so here is a closer look at what they carry. In a Sept. 8 message attributed to Our Lady, Angela of Zaro di Ischia describes Mary with a face “worried” yet smiling, asking for prayer “for the gift of peace for this world, which is so threatened today,” for silence before the Blessed Sacrament, and saying, “Do not be afraid of the cross… your little cross becomes love that saves.” Simona’s message the same day describes Mary’s mantle covering a globe of war scenes until they stop, and calls for “the weapon of the Holy Rosary grasped tightly,” adding, “I tell you all this not to frighten you but to warn you and prepare you.” Mark Mallett’s companion essay asks what the long-promised “period of peace” of the Triumph of the Immaculate Heart actually is; these are private revelations the Church has not approved, best read as invitations to prayer rather than predictions.</p>",
-            "sources": [
-              {
-                "name": "Countdown to the Kingdom: Home",
-                "url": "https://www.countdowntothekingdom.com/"
-              },
-              {
-                "name": "Countdown to the Kingdom: Angela, Implore Jesus for the Gift of Peace",
-                "url": "https://www.countdowntothekingdom.com/angela-implore-jesus-for-the-gift-of-peace-for-this-world/"
-              },
-              {
-                "name": "Countdown to the Kingdom: Simona, Pray for Peace in the World",
-                "url": "https://www.countdowntothekingdom.com/simona-pray-for-peace-in-the-world/"
-              }
-            ]
-          },
-          {
-            "headline": "Marian: latest dated message Oct. 3; Medjugorje’s next is Sunday",
-            "body": "<p>The latest dated Marian message on Countdown to the Kingdom is Oct. 3, 2026, attributed to Our Lady through Pedro Regis of Anguera, Brazil: “Even in the midst of tribulations, do not lose your hope. God is in control of everything… I have come from Heaven to help you, but what I do depends on you.” Two days earlier the same source warned that “humanity is heading toward the abyss of self-destruction that men have prepared with their own hands.” The latest Medjugorje monthly message, given to Marija on Sept. 25, calls families to renew the Rosary “for peace,” and the next is due this Sunday, Oct. 25; the Vatican has approved devotion at Medjugorje since 2024 without ruling on the apparitions themselves.</p>",
-            "sources": [
-              {
-                "name": "Countdown to the Kingdom: Pedro, What I Do Depends on You",
-                "url": "https://www.countdowntothekingdom.com/pedro-what-i-do-depends-on-you/"
-              },
-              {
-                "name": "Medjugorje.org: Monthly message",
-                "url": "https://www.medjugorje.org/olmmsg.htm"
-              }
-            ]
-          },
-          {
-            "headline": "False prophecy, judged: Kenya convicts the Shakahola cult leader of 191 murders",
-            "body": "<p>In an eight-hour judgment in Mombasa, Justice Diana Mochache found self-styled pastor Paul Mackenzie and 28 associates guilty of murdering 191 people, 190 of them children, whom he told to starve so they could “meet Jesus”; sentencing is Nov. 6. His “End Days” sermons called schools and medicine evil and digital ID cards “the mark of the devil,” and more than 400 bodies were found in the Shakahola forest. It is a sober lesson for anyone watching the signs of the times: true prophecy in the Church never commands harm, never isolates people from the sacraments and the community, and is always submitted to the Church’s judgment. A father who lost all six children said simply, “I’m a happy man, that all persons have been convicted.”</p>",
-            "sources": [
-              {
-                "name": "BBC: Kenya cult leader guilty of 191 murders",
-                "url": "https://www.bbc.com/news/articles/ckd6d2l3dz4xo"
-              },
-              {
-                "name": "Capital FM: Court convicts all 29 Shakahola accused",
-                "url": "https://capitalfm.africa/court-convicts-all-29-shakahola-accused-of-murder-sets-sentencing-for-november-6/"
-              }
-            ],
-            "why": "The case shows how end-times fear, including fear of digital ID, can be twisted by a false shepherd."
-          },
-          {
-            "headline": "Digital ID and money, soberly: Europe wires ID wallets into payments",
-            "body": "<p>The European Payments Council approved work on SCARLET, a rulebook so that the 3,000-plus payment providers in the EU can accept the coming EU Digital Identity Wallets to log in and approve payments, with version 1.0 due in December 2027. Separately, digital-euro negotiations now turn on holding limits and merchant fees, with a pilot eyed for 2027 and possible issuance in 2029, and the European Central Bank insists it will complement cash, not replace it. The sober watch-points are whether wallet use stays optional and whether cash stays protected in law.</p>",
-            "sources": [
-              {
-                "name": "Finextra: EPC to create EU Digital Identity Wallet framework",
-                "url": "https://www.finextra.com/newsarticle/48606/epc-to-create-eu-digital-identity-wallet-framework-for-psps"
-              },
-              {
-                "name": "The European Post: Digital euro negotiations",
-                "url": "https://theeuropeanpost.eu/research-analysis/digital-euro-negotiations-turn-on-holding-limits-and-fees/"
-              }
-            ]
-          },
-          {
-            "headline": "Revival: the App State truck-bed baptisms, and what keeps a revival going",
-            "body": "<p>Billy Graham’s Decision magazine describes the UniteUs rally at Appalachian State on Oct. 13, where about 100 students were baptized in plastic-lined pickup-truck beds after more than 700 made decisions for Christ. The fall’s pattern repeats from Pepperdine to Pearl River Community College, and the lasting fruit depends on local churches and campus ministries following up with each name. Catholic campus ministries report the same hunger in record numbers entering the Church through OCIA.</p>",
-            "sources": [
-              {
-                "name": "Decision Magazine: Spirit movement at Appalachian State",
-                "url": "https://billygraham.org/decision-magazine/articles/spirit-movement-at-appalachian-state-university-worship-rally-includes-100-baptisms-in-plastic-lined-truck-beds"
-              },
-              {
-                "name": "WWJD.COM: Five campus revivals",
-                "url": "https://wwjd.com/news/campus-baptisms-fall-2026/"
-              }
-            ]
-          },
-          {
-            "headline": "Eucharistic: the Cuilapa Host remains under the bishop’s study",
-            "body": "<p>In Guatemala, the Diocese of Santa Rosa de Lima is still studying the consecrated Host at Cuilapa’s cathedral that did not dissolve in water and showed reddish stains; the parish asks for “prudence and moderation” and keeps it reserved, not displayed, until a full investigation is done. Eucharistic-miracle exhibitions continue this month in Como, Italy, and Parramatta, Australia.</p>",
-            "sources": [
-              {
-                "name": "Apostolate of Eucharistic Adoration: Reported Eucharistic miracle, Guatemala",
-                "url": "https://perpetualeucharisticadoration.com/reported-eucharistic-miracle-guatemala-2026/"
-              },
-              {
-                "name": "Diocese of Parramatta: Eucharistic Miracles Exhibit",
-                "url": "https://parracatholic.org/events/eucharistic-miracles-exhibit-11-25-october/"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-signs.jpg",
-          "alt": "Countdown to the Kingdom: checked this morning; newest posts still dated Oct. 16",
-          "credit": "Countdown to the Kingdom",
-          "sourceUrl": "https://www.countdowntothekingdom.com/"
-        }
-      },
-      {
-        "id": "miami",
-        "title": "Miami life",
-        "headline": "Doral Fall Festival, Kiddo-Ween and worship nights this week.",
-        "stories": [
-          {
-            "headline": "Saturday: Doral’s free Fall Festival and Trunk-or-Treat",
-            "body": "<p>Doral Central Park, 3005 NW 92nd Ave., hosts a free Fall Festival on Saturday, Oct. 24, from 5 to 9 p.m., with a pumpkin patch, a Trunk-or-Treat from 5:30 to 7 and a screening of Minions & Monsters. Earlier that day, the park’s farmers market runs 9 a.m. to 2 p.m., and on Thursday, Oct. 22, families can paint alebrijes, colorful Mexican folk-art figures, for $15 at the Doral Cultural Arts Center, 6–8 p.m.</p>",
-            "sources": [
-              {
-                "name": "Gold Coast Wave: This week in Doral",
-                "url": "https://goldcoastwave.com/news/doral-week-fall-festival-trunk-or-treat-alebrije-pickleball-oct-2026/"
-              }
-            ]
-          },
-          {
-            "headline": "This weekend: Kiddo-Ween in the Gables, LauderBOO and Zoo Boo",
-            "body": "<p>Saturday, Oct. 24: the Coral Gables Museum’s Kiddo-Ween Festival, 11 a.m.–4 p.m., with a Gentle Trick or Treat for children with sensory needs, 1–3 p.m., and Fort Lauderdale’s LauderBOO, 1–4 p.m. at Snyder Park. Zoo Boo runs at Zoo Miami both weekend days, 10 a.m.–3 p.m., and on Sunday ICA Miami holds its Family Fest, 1–4 p.m.</p>",
-            "sources": [
-              {
-                "name": "City of Coral Gables: Halloween in the Gables",
-                "url": "https://www.coralgables.com/news/halloween-gables"
-              },
-              {
-                "name": "Zoo Miami: Zoo Boo",
-                "url": "https://www.zoomiami.org/zoo-boo"
-              },
-              {
-                "name": "ICA Miami: Family Fest 2026",
-                "url": "https://icamiami.org/calendar/family-fest-2026-we-are-miami/"
-              }
-            ]
-          },
-          {
-            "headline": "The Redland: Harvest Festival stays open late Friday and Sunday",
-            "body": "<p>The Berry Farm’s Harvest Festival, 13720 SW 216th St., with South Florida’s only five-acre corn maze, hayrides, sunflower fields and a pumpkin patch, stays open until 9 p.m. this Friday and Sunday. Its “Boo at the Patch” costume days are Oct. 30 and 31, and the festival runs through Nov. 15.</p>",
-            "sources": [
-              {
-                "name": "The Berry Farm: Harvest Festival",
-                "url": "https://www.visittheberryfarm.com/festivals-events/harvest-festival"
-              }
-            ]
-          },
-          {
-            "headline": "Worship nights: Holy House Friday, VOUS Worship Oct. 29, Crowder Nov. 2",
-            "body": "<p>Friday, Oct. 23: Holy House at La Otra in Wynwood, 7–10:30 p.m. Saturday, Oct. 24: Miami Encounter Night at The Move Miami, 6–10 p.m., with worship, prayer and baptisms. Thursday, Oct. 29: VOUS Worship at Bayfront Park’s amphitheater, 7 p.m.; then Crowder with Rend Collective at First Baptist Fort Lauderdale on Nov. 2 and Brandon Lake at the Hard Rock in Hollywood on Nov. 12.</p>",
-            "sources": [
-              {
-                "name": "Eventbrite: Miami Encounter Night",
-                "url": "https://www.eventbrite.com/e/miami-encounter-night-tickets-2000525504637"
-              },
-              {
-                "name": "First Baptist Fort Lauderdale: Crowder LIVE!",
-                "url": "https://www.firstbaptistftl.com/events/2026/11/2/crowder-live"
-              },
-              {
-                "name": "Bandsintown: Christian and gospel concerts in Miami",
-                "url": "https://www.bandsintown.com/c/miami-fl/all-dates/genre/christian-gospel"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-miami.jpg",
-          "alt": "Saturday: Doral’s free Fall Festival and Trunk-or-Treat",
-          "credit": "Gold Coast Wave",
-          "sourceUrl": "https://goldcoastwave.com/news/doral-week-fall-festival-trunk-or-treat-alebrije-pickleball-oct-2026/"
-        }
-      },
-      {
-        "id": "pick-me-up",
-        "title": "Pick-me-up",
-        "headline": "Heat open tomorrow; Star Wars takes over the Super Bowl.",
-        "stories": [
-          {
-            "headline": "Heat: every player practiced; the opening-night report comes at 5:30 today",
-            "body": "<p>The Heat open the season tomorrow at 7:30 p.m. against Minnesota at Kaseya Center, and every player practiced Monday, including Bam Adebayo after his groin issue. Pelle Larsson says the team is “slow tracking” his return from a lingering illness, and Dru Smith, who missed the preseason with a calf strain, is close, which shapes who backs up Davion Mitchell at the point. Rookie Ryan Conwell has made his case, and Erik Spoelstra’s first official injury report lands at 5:30 this evening.</p>",
-            "sources": [
-              {
-                "name": "Heat Nation: Larsson explains slower recovery",
-                "url": "https://heatnation.com/team-news/pelle-larsson-explains-slower-recovery-ahead-of-miami-heats-season-opener/"
-              },
-              {
-                "name": "AP: Heat open season at home against the Timberwolves",
-                "url": "https://apnews.com/article/miami-heat-minnesota-timberwolves-8f8d6ed05fbe46a7b7d8f91b4ebbaa76"
-              }
-            ]
-          },
-          {
-            "headline": "Star Wars takes over the Super Bowl with a live animated telecast",
-            "body": "<p>ESPN, Lucasfilm and the NFL will air Star Wars Funday Football on Feb. 14, 2027, recreating every play of Super Bowl LXI in real time with animated avatars and Star Wars characters, on Disney+, the ESPN app, Disney Channel and Disney XD. Today’s teaser has C-3PO and R2-D2 crash-landing at the game, with Anthony Daniels back as 3PO. Five days later the original 1977 film returns to theaters for its 50th anniversary, including its first IMAX 70mm showings, ahead of Star Wars Celebration in Los Angeles April 1–4 and Starfighter on May 28.</p>",
-            "sources": [
-              {
-                "name": "StarWars.com: Star Wars Super Bowl LXI telecast",
-                "url": "https://www.starwars.com/news/star-wars-super-bowl-telecast"
-              },
-              {
-                "name": "Disney+ Press: Star Wars Funday Football",
-                "url": "https://press.disneyplus.com/news/star-wars-funday-football"
-              }
-            ]
-          },
-          {
-            "headline": "Star Wars: Darth Vader interviews Monday Night Football players from Oct. 26",
-            "body": "<p>As a warm-up, an animated Darth Vader will interview real players on Monday Night Football each week starting Oct. 26. Meanwhile Disney is reportedly talking with DICE and Bungie about a new Battlefront game, and Ahsoka Season 2 arrives Jan. 20.</p>",
-            "sources": [
-              {
-                "name": "ComicBook.com: Darth Vader to interview NFL players",
-                "url": "https://comicbook.com/tv-shows/news/nfl-announces-wild-star-wars-crossover-that-will-see-darth-vader-interview-real-football-players-every-week/"
-              },
-              {
-                "name": "Star Wars News Net: Disney in talks for a new Battlefront",
-                "url": "https://www.starwarsnewsnet.com/2026/10/disney-reportedly-in-talks-with-bungie-and-dice-to-develop-a-new-star-wars-battlefront-game.html"
-              }
-            ]
-          }
-        ],
-        "image": {
-          "src": "images/2026-10-20-morning-pick-me-up.jpg",
-          "alt": "Heat: every player practiced; the opening-night report comes at 5:30 today",
-          "credit": "Heat Nation",
-          "sourceUrl": "https://heatnation.com/team-news/pelle-larsson-explains-slower-recovery-ahead-of-miami-heats-season-opener/"
-        }
-      }
-    ],
-    "audio": "audio/2026-10-20-morning.mp3"
   }
 ]
