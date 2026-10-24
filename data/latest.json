@@ -1,54 +1,64 @@
 {
-  "id": "2026-10-24-morning",
-  "label": "Saturday morning",
-  "generatedAt": "2026-10-24T06:50:23-04:00",
+  "id": "2026-10-24-evening",
+  "label": "Saturday evening",
+  "generatedAt": "2026-10-24T18:45:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Champi loops off Taiwan; Gulf mines; Pope meets Jesus Youth.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-world.jpg"
+      "headline": "France arrests; Houthi strikes; Brazil votes Sunday; Pope meets Bartholomew.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Oleshky truce nears; Iran warned; Canada tariffs; early vote.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-promises.jpg"
+      "headline": "Starlink restored; Iran’s Hormuz offer; the President votes in person.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Merger needs Musk's OK; SpaceX ends week higher.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-musk.jpg"
+      "headline": "Starlink restored in Ukraine; Musk says terms were violated.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-musk.jpg"
     },
     {
       "title": "Space",
       "headline": "Starlink 15-15 flies; three launches; Starship eyes November.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-space.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-space.jpg"
     },
     {
       "title": "NASA",
       "headline": "Spacewalk Thursday; Dragonfly simulated flight; Artemis III 2027.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-nasa.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Little Flower organ tonight; Jesus Youth; Liechtenstein veto; Detroit.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-catholic.jpg"
+      "headline": "Little Flower organ tonight; six Venerables; Liechtenstein veto holds.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown Oct. 23; Marian message Oct. 22; Medjugorje discernment.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-signs.jpg"
+      "headline": "Countdown Oct. 23; Marian message Oct. 22; Medjugorje’s due Sunday.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-signs.jpg"
     },
     {
       "title": "Miami",
       "headline": "Kiddo-Ween, worship night, Zoo Boo, kites this weekend.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-miami.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat 0–2, at Charlotte at 6; the Force gets names.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-morning-pick-me-up.jpg"
+      "headline": "Heat at Charlotte tonight; the Force gets new names.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-24-morning.mp3"
+  "newAtThisHour": [
+    "Nearly 1,000 arrested as 410,000 march across France",
+    "Houthis claim strikes on Saudi oil sites; debris falls near Mecca",
+    "Russian drone kills three in Synelnykove; Ukraine hits Togliatti and Omsk",
+    "Brazil votes Sunday with Flávio and Lula statistically tied",
+    "President and First Lady vote in person in West Palm Beach",
+    "Ukraine says Starlink speeds restored; Musk alleges terms were violated",
+    "Pope Leo receives Patriarch Bartholomew and names six new Venerables",
+    "Kenya reports a second Ebola death; Uganda closes transit to travellers from Congo"
+  ],
+  "audio": "audio/2026-10-24-evening.mp3"
 }
