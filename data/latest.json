@@ -1,54 +1,63 @@
 {
-  "id": "2026-10-26-morning",
-  "label": "Monday morning",
-  "generatedAt": "2026-10-26T06:43:57-04:00",
+  "id": "2026-10-26-evening",
+  "label": "Monday evening",
+  "generatedAt": "2026-10-26T18:45:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Lula wins a fourth term; Jordan arrests; Ebola crosses borders.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-world.jpg"
+      "headline": "Pope cleared to travel; Tehran talks; Ukraine talks in November.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Gas-price pledge; $5,000 checks; RFK Jr. in Grand Rapids.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-promises.jpg"
+      "headline": "250 hospitals sign food pledge; Iran decision looms; new plants.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Tesla up overnight on Cybercab crowds; Starlink dispute lingers.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-musk.jpg"
+      "headline": "Tesla jumps 5% on Barclays upgrade; SpaceX’s $40B chip deal.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-musk.jpg"
     },
     {
       "title": "Space",
-      "headline": "China launches Guowang batch; Starlink 15-16 tonight.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-space.jpg"
+      "headline": "Starlink 15-16 tonight; China’s Guowang batch; Starship eyes November.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "NASA borrows Apollo’s urgency; science town hall today at 2.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-nasa.jpg"
+      "headline": "Spacewalk prep; USDA pact; Perseverance studies Mars dust.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Wenski dedicates La Merced altar; New York settlement; Madagascar succession.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-catholic.jpg"
+      "headline": "Wenski on Haitian families; Pope’s trip confirmed; Tagbilaran bishop.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown Oct. 25; Medjugorje Oct. 25: “a fire of hatred.”",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-signs.jpg"
+      "headline": "Countdown Oct. 25; Medjugorje Oct. 25; beach baptisms spread.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-signs.jpg"
     },
     {
       "title": "Miami",
-      "headline": "Mini Monster Monday; VOUS at Bayfront Thursday; Halloween week.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-miami.jpg"
+      "headline": "Halloween week; VOUS at Bayfront Thursday; Crowder ahead.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat host Dallas tonight; Maul’s teaser; Vader on Monday Night Football.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-pick-me-up.jpg"
+      "headline": "Heat host Dallas at 7:30; a Mandalorian art book.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-26-morning.mp3"
+  "newAtThisHour": [
+    "Doctors clear Pope Leo for his Nov. 6–17 South America trip",
+    "Saudi, Turkish and Pakistani envoys meet Iran’s leaders in Tehran",
+    "Zelenskyy says three-way peace talks restart in November",
+    "Kenya releases 20 Ebola contacts; Uganda tightens Congo border",
+    "The President calls Brazil’s vote “rigged,” without evidence",
+    "Tesla closes up 5.2 percent after a Barclays upgrade",
+    "More than 250 hospitals sign the MAHA hospital food pledge"
+  ],
+  "audio": "audio/2026-10-26-evening.mp3"
 }
