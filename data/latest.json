@@ -1,64 +1,54 @@
 {
-  "id": "2026-10-24-evening",
-  "label": "Saturday evening",
-  "generatedAt": "2026-10-24T18:45:00-04:00",
+  "id": "2026-10-26-morning",
+  "label": "Monday morning",
+  "generatedAt": "2026-10-26T06:43:57-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "France arrests; Houthi strikes; Brazil votes Sunday; Pope meets Bartholomew.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-world.jpg"
+      "headline": "Lula wins a fourth term; Jordan arrests; Ebola crosses borders.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Starlink restored; Iran’s Hormuz offer; the President votes in person.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-promises.jpg"
+      "headline": "Gas-price pledge; $5,000 checks; RFK Jr. in Grand Rapids.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Starlink restored in Ukraine; Musk says terms were violated.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-musk.jpg"
+      "headline": "Tesla up overnight on Cybercab crowds; Starlink dispute lingers.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-musk.jpg"
     },
     {
       "title": "Space",
-      "headline": "Starlink 15-15 flies; three launches; Starship eyes November.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-space.jpg"
+      "headline": "China launches Guowang batch; Starlink 15-16 tonight.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Spacewalk Thursday; Dragonfly simulated flight; Artemis III 2027.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-nasa.jpg"
+      "headline": "NASA borrows Apollo’s urgency; science town hall today at 2.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Little Flower organ tonight; six Venerables; Liechtenstein veto holds.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-catholic.jpg"
+      "headline": "Wenski dedicates La Merced altar; New York settlement; Madagascar succession.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown Oct. 23; Marian message Oct. 22; Medjugorje’s due Sunday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-signs.jpg"
+      "headline": "Countdown Oct. 25; Medjugorje Oct. 25: “a fire of hatred.”",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-signs.jpg"
     },
     {
       "title": "Miami",
-      "headline": "Kiddo-Ween, worship night, Zoo Boo, kites this weekend.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-miami.jpg"
+      "headline": "Mini Monster Monday; VOUS at Bayfront Thursday; Halloween week.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat at Charlotte tonight; the Force gets new names.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-24-evening-pick-me-up.jpg"
+      "headline": "Heat host Dallas tonight; Maul’s teaser; Vader on Monday Night Football.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-26-morning-pick-me-up.jpg"
     }
   ],
-  "newAtThisHour": [
-    "Nearly 1,000 arrested as 410,000 march across France",
-    "Houthis claim strikes on Saudi oil sites; debris falls near Mecca",
-    "Russian drone kills three in Synelnykove; Ukraine hits Togliatti and Omsk",
-    "Brazil votes Sunday with Flávio and Lula statistically tied",
-    "President and First Lady vote in person in West Palm Beach",
-    "Ukraine says Starlink speeds restored; Musk alleges terms were violated",
-    "Pope Leo receives Patriarch Bartholomew and names six new Venerables",
-    "Kenya reports a second Ebola death; Uganda closes transit to travellers from Congo"
-  ],
-  "audio": "audio/2026-10-24-evening.mp3"
+  "audio": "audio/2026-10-26-morning.mp3"
 }
