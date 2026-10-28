@@ -1,54 +1,62 @@
 {
-  "id": "2026-10-28-morning",
-  "label": "Wednesday morning",
-  "generatedAt": "2026-10-28T07:40:00-04:00",
+  "id": "2026-10-28-evening",
+  "label": "Wednesday evening",
+  "generatedAt": "2026-10-28T18:45:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope back in square; Israel count; Abiy, Isaias in Moscow.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-world.jpg"
+      "headline": "Pope greets migrant ministers; Israel 53–48; Putin meets Abiy.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Methane rule ended; Oleshky holds; Iran strikes weighed.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-promises.jpg"
+      "headline": "Iran: deal or strikes; Oleshky truce widens.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Robotaxi fleet tops 1,000; Musk promises Miami beaches.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-musk.jpg"
+      "headline": "Tesla $404.22; SPCX dips; xAI home buyouts in Mississippi.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-musk.jpg"
     },
     {
       "title": "Space",
       "headline": "Electron’s 98th flight; Starship Flight 15 eyes Nov. 8.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-space.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-space.jpg"
     },
     {
       "title": "NASA",
       "headline": "Solar-array spacewalk Thursday; SLS core stage stacks.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-nasa.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Pope on faith and culture; Africa passes Europe.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-catholic.jpg"
+      "headline": "Wenski’s Red Mass; Pope thanks Chicago migrant ministers."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown Oct. 27; Medjugorje Oct. 25; Africa’s Church rising.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-signs.jpg"
+      "headline": "Countdown still Oct. 27; Medjugorje Oct. 25; Moscow and Abu Dhabi.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-signs.jpg"
     },
     {
       "title": "Miami",
       "headline": "Trunk-or-treats tonight; VOUS free Thursday; Crowder Monday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-miami.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat at Atlanta tonight; Eva Mendes joins Starfighter.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-pick-me-up.jpg"
+      "headline": "Heat at Atlanta now; Eva Mendes joins Starfighter.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-28-morning.mp3"
+  "newAtThisHour": [
+    "Israel: Netanyahu bloc 53, Eisenkot bloc 48, Arab parties 19",
+    "CDC to bar U.S.-bound travelers who were in Congo within 21 days",
+    "Qatar-led mediators press Iran to readmit UN inspectors",
+    "Putin meets Abiy in the Kremlin; Isaias is Friday",
+    "Zelenskyy secures Dutch and British aid; talks eyed by Nov. 10",
+    "Tesla closes at $404.22; xAI home buyouts draw scrutiny",
+    "Archbishop Wenski defends religious liberty at the Red Mass"
+  ],
+  "audio": "audio/2026-10-28-evening.mp3"
 }
