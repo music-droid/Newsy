@@ -1,64 +1,54 @@
 {
-  "id": "2026-10-27-evening",
-  "label": "Tuesday evening",
-  "generatedAt": "2026-10-27T18:50:00-04:00",
+  "id": "2026-10-28-morning",
+  "label": "Wednesday morning",
+  "generatedAt": "2026-10-28T07:40:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope: no holy war; Israel exit polls split; Oleshky truce holds.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-world.jpg"
+      "headline": "Pope back in square; Israel count; Abiy, Isaias in Moscow.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Breast cancer screening push; Oleshky truce holds; “honest” elections.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-promises.jpg"
+      "headline": "Methane rule ended; Oleshky holds; Iran strikes weighed.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Tesla tops $400 again; merger committees face scrutiny.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-musk.jpg"
+      "headline": "Robotaxi fleet tops 1,000; Musk promises Miami beaches.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-musk.jpg"
     },
     {
       "title": "Space",
-      "headline": "Starship Flight 15 eyes Nov. 8; Starlink launch overnight.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-space.jpg"
+      "headline": "Electron’s 98th flight; Starship Flight 15 eyes Nov. 8.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "UVEX telescope approved; Mars-sim crew exits Halloween.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-nasa.jpg"
+      "headline": "Solar-array spacewalk Thursday; SLS core stage stacks.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Pope: “only peace is holy”; survivors’ meeting set for trip.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-catholic.jpg"
+      "headline": "Pope on faith and culture; Africa passes Europe.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown Oct. 27; Medjugorje Oct. 25; Assisi says pray.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-signs.jpg"
+      "headline": "Countdown Oct. 27; Medjugorje Oct. 25; Africa’s Church rising.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-signs.jpg"
     },
     {
       "title": "Miami",
-      "headline": "Halloween week; VOUS free Thursday; Crowder next Monday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-miami.jpg"
+      "headline": "Trunk-or-treats tonight; VOUS free Thursday; Crowder Monday.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat at Atlanta Wednesday; Episode X casting reports.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-27-evening-pick-me-up.jpg"
+      "headline": "Heat at Atlanta tonight; Eva Mendes joins Starfighter.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-morning-pick-me-up.jpg"
     }
   ],
-  "newAtThisHour": [
-    "Pope Leo to Assisi: “There is no such thing as a holy war”",
-    "Israel’s exit polls: opposition 52, Netanyahu bloc 50, no majority",
-    "Oleshky truce holds and runs until Sunday night",
-    "Houthi missiles explode over Riyadh; Tehran talks end without a deal",
-    "Pope will meet abuse survivors on his South America trip",
-    "Tesla closes up about 4 percent, back above $400",
-    "NASA approves the UVEX ultraviolet sky-mapping telescope",
-    "Countdown to the Kingdom posts on offering ordinary acts"
-  ],
-  "audio": "audio/2026-10-27-evening.mp3"
+  "audio": "audio/2026-10-28-morning.mp3"
 }
