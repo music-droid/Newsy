@@ -1,33 +1,33 @@
 {
-  "id": "2026-10-29-morning",
-  "label": "Thursday morning",
-  "generatedAt": "2026-10-29T10:10:00-04:00",
+  "id": "2026-10-29-evening",
+  "label": "Thursday evening",
+  "generatedAt": "2026-10-29T18:40:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope mourns Spain crash; Russia–Africa deals; Dnipro hit; Israel count.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-world.jpg"
+      "headline": "Israel count done, 53–48; Hormuz mines; Spain probe; Dnipro toll 14.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-evening-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
       "headline": "Iran plan delivered; robot import order; peptide access opens.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-promises.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-evening-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Neuralink speech at 75 words a minute; SpaceX eyes phones.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-musk.jpg"
+      "headline": "Tesla $403.30; merger needs 1.98 billion votes; Neuralink speech.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-evening-musk.jpg"
     },
     {
       "title": "Space",
       "headline": "Starship stages fired; China’s Qianfan grows; Starlink tonight.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-space.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-evening-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Spacewalk under way for a new solar array.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-nasa.jpg"
+      "headline": "Flawless spacewalk unrolls the seventh new solar array.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-evening-nasa.jpg"
     },
     {
       "title": "Catholic",
@@ -36,18 +36,28 @@
     {
       "title": "Signs of the times",
       "headline": "Countdown still Oct. 27; Medjugorje Oct. 25; 596 in Mobile.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-signs.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-evening-signs.jpg"
     },
     {
       "title": "Miami",
       "headline": "VOUS free tonight; PAMM opens Picasso; Flugtag Saturday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-miami.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-evening-miami.jpg"
     },
     {
       "title": "Pick-me-up",
       "headline": "Heat win! Giannis 24 and 18; Bam passes Haslem.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-pick-me-up.jpg"
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-evening-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-10-29-morning.mp3"
+  "newAtThisHour": [
+    "Israel’s count is complete: Netanyahu bloc 53, opposition 48, Arab lists 19",
+    "Iran says four tankers hit mines in and near Hormuz",
+    "Spain’s investigators: collision at 160 to 200 km/h after a signal failure",
+    "Dnipro station strike toll rises to 14",
+    "Hegseth fires the Pentagon’s top military planner over alleged leaks",
+    "Spacewalk ends “essentially flawless” after 7 hours, 11 minutes",
+    "The Pope’s almoner carries his closeness to Kyiv, Zaporizhzhia and Dnipro",
+    "Tesla closes at $403.30, down 0.2 percent"
+  ],
+  "audio": "audio/2026-10-29-evening.mp3"
 }
