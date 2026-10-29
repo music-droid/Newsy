@@ -1,62 +1,53 @@
 {
-  "id": "2026-10-28-evening",
-  "label": "Wednesday evening",
-  "generatedAt": "2026-10-28T18:45:00-04:00",
+  "id": "2026-10-29-morning",
+  "label": "Thursday morning",
+  "generatedAt": "2026-10-29T10:10:00-04:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope greets migrant ministers; Israel 53–48; Putin meets Abiy.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-world.jpg"
+      "headline": "Pope mourns Spain crash; Russia–Africa deals; Dnipro hit; Israel count.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Iran: deal or strikes; Oleshky truce widens.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-promises.jpg"
+      "headline": "Iran plan delivered; robot import order; peptide access opens.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Tesla $404.22; SPCX dips; xAI home buyouts in Mississippi.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-musk.jpg"
+      "headline": "Neuralink speech at 75 words a minute; SpaceX eyes phones.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-musk.jpg"
     },
     {
       "title": "Space",
-      "headline": "Electron’s 98th flight; Starship Flight 15 eyes Nov. 8.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-space.jpg"
+      "headline": "Starship stages fired; China’s Qianfan grows; Starlink tonight.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Solar-array spacewalk Thursday; SLS core stage stacks.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-nasa.jpg"
+      "headline": "Spacewalk under way for a new solar array.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Wenski’s Red Mass; Pope thanks Chicago migrant ministers."
+      "headline": "Miami mourns Father Nguyen; Pope receives Gomez, Costa Rica."
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown still Oct. 27; Medjugorje Oct. 25; Moscow and Abu Dhabi.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-signs.jpg"
+      "headline": "Countdown still Oct. 27; Medjugorje Oct. 25; 596 in Mobile.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-signs.jpg"
     },
     {
       "title": "Miami",
-      "headline": "Trunk-or-treats tonight; VOUS free Thursday; Crowder Monday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-miami.jpg"
+      "headline": "VOUS free tonight; PAMM opens Picasso; Flugtag Saturday.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat at Atlanta now; Eva Mendes joins Starfighter.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-10-28-evening-pick-me-up.jpg"
+      "headline": "Heat win! Giannis 24 and 18; Bam passes Haslem.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-10-29-morning-pick-me-up.jpg"
     }
   ],
-  "newAtThisHour": [
-    "Israel: Netanyahu bloc 53, Eisenkot bloc 48, Arab parties 19",
-    "CDC to bar U.S.-bound travelers who were in Congo within 21 days",
-    "Qatar-led mediators press Iran to readmit UN inspectors",
-    "Putin meets Abiy in the Kremlin; Isaias is Friday",
-    "Zelenskyy secures Dutch and British aid; talks eyed by Nov. 10",
-    "Tesla closes at $404.22; xAI home buyouts draw scrutiny",
-    "Archbishop Wenski defends religious liberty at the Red Mass"
-  ],
-  "audio": "audio/2026-10-28-evening.mp3"
+  "audio": "audio/2026-10-29-morning.mp3"
 }
