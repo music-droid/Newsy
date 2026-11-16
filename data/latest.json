@@ -1,54 +1,54 @@
 {
-  "id": "2026-11-10-morning",
-  "label": "Tuesday morning",
-  "generatedAt": "2026-11-10T06:50:00-05:00",
+  "id": "2026-11-16-morning",
+  "label": "Monday",
+  "generatedAt": "2026-11-16T06:45:00-05:00",
   "url": "https://music-droid.github.io/Newsy/",
   "beats": [
     {
       "title": "World",
-      "headline": "Pope draws 2.5 million; Abu Dhabi talks open; Hormuz tankers burn.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-world.jpg"
+      "headline": "Pope ends Peru tour; Ebola spreads; Badme flares; Hormuz tanker sinks.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-world.jpg"
     },
     {
       "title": "MAGA / MAHA promises kept",
-      "headline": "Ukraine talks open; oil under $90; border low; MAHA feud.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-promises.jpg"
+      "headline": "Prisoner swap, oil down, record deportations, MAHA setback.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-promises.jpg"
     },
     {
       "title": "Musk world",
-      "headline": "Tesla up 5.5% to $378; Cybertruck line to end.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-musk.jpg"
+      "headline": "Tesla up 16% in a week; merger could come December.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-musk.jpg"
     },
     {
       "title": "Space",
-      "headline": "Starship double-catch try Friday; Vulcan returns; Electron’s 100th.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-space.jpg"
+      "headline": "Starship ship caught; Vulcan lost with 40 Amazon satellites.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-space.jpg"
     },
     {
       "title": "NASA",
-      "headline": "Moon base contracts, nuclear rover; ESCAPADE heads to Mars.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-nasa.jpg"
+      "headline": "Voyager 1 hits one light-day Wednesday; Artemis eyes Starship.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-nasa.jpg"
     },
     {
       "title": "Catholic",
-      "headline": "Pope in Argentina; Catholic Charities 95; new Santiago de Cuba archbishop.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-catholic.jpg"
+      "headline": "Bishops meet in Baltimore; new Kenyan archdiocese; Austria’s AI rules.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-catholic.jpg"
     },
     {
       "title": "Signs of the times",
-      "headline": "Countdown posted Nov. 9; latest message Nov. 7; Liberia revival.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-signs.jpg"
+      "headline": "Countdown posted Nov. 14; latest message Nov. 14; Belmont revival.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-signs.jpg"
     },
     {
       "title": "Miami",
-      "headline": "Miami-Dade voted blue; Amendment 3 passed; NightGarden opens Thursday.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-miami.jpg"
+      "headline": "Book Fair this weekend; Evan Craft Dec. 10; Salazar wins.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-miami.jpg"
     },
     {
       "title": "Pick-me-up",
-      "headline": "Heat beat Kings 114–108; at Utah tonight; Ahsoka press begins.",
-      "image": "https://music-droid.github.io/Newsy/images/2026-11-10-morning-pick-me-up.jpg"
+      "headline": "Heat win four straight; A New Hope back Feb. 19.",
+      "image": "https://music-droid.github.io/Newsy/images/2026-11-16-morning-pick-me-up.jpg"
     }
   ],
-  "audio": "audio/2026-11-10-morning.mp3"
+  "audio": "audio/2026-11-16-morning.mp3"
 }
